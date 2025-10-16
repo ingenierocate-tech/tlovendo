@@ -1,0 +1,853 @@
+[
+  {
+    "id": 2,
+    "slug": "kia-morning-2024-full",
+    "brand": "Kia",
+    "model": "Morning",
+    "version": "Full",
+    "year": 2024,
+    "owners": 1,
+    "kilometers": 17000,
+    "color": "Blanco",
+    "transmission": "Automático",
+    "price": 10350000,
+    "fuel": "Bencina",
+    "region": "Santiago",
+    "state": "En venta",
+    "engine": "45689",
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": false,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/kia-morning-2024-full/01_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/kia-morning-2024-full/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/01_frontal.jpg",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/01_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/01_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/01_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.48 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.07.48 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.48.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.07.48",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.49 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.07.49 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.49.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.07.49",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.50 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.07.50 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.50.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.07.50",
+        "isPrimary": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "kia-sonet-2024-full",
+    "brand": "Kia",
+    "model": "Sonet",
+    "version": "Full",
+    "year": 2024,
+    "owners": 1,
+    "kilometers": 21000,
+    "color": "Blanco",
+    "transmission": "Automático",
+    "price": 12990000,
+    "fuel": "Bencina",
+    "region": "Santiago",
+    "state": "En venta",
+    "engine": "",
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": false,
+    "powerSteering": false,
+    "electricWindows": false,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": true,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/kia-sonet-2024-full/02_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/kia-sonet-2024-full/02_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/kia-sonet-2024-full/02_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-sonet-2024-full/02_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-sonet-2024-full/02_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-sonet-2024-full/02_interior.jpg",
+        "alt": "02_interior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-sonet-2024-full/WhatsApp Image 2025-09-16 at 08.08.32.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.08.32",
+        "isPrimary": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "suzuki-alto-2022-800",
+    "brand": "Suzuki",
+    "model": "Alto",
+    "version": "800",
+    "year": 2022,
+    "owners": 1,
+    "kilometers": 20000,
+    "color": "Palatedo",
+    "transmission": "Mecánico",
+    "price": 5190000,
+    "fuel": "Bencina",
+    "region": "Santiago",
+    "state": "En venta",
+    "engine": "",
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": false,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/suzuki-alto-2022-800/03_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/suzuki-alto-2022-800/03_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/suzuki-alto-2022-800/03_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/suzuki-alto-2022-800/03_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/suzuki-alto-2022-800/03_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/suzuki-alto-2022-800/03_interior.jpg",
+        "alt": "03_interior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/suzuki-alto-2022-800/WhatsApp Image 2025-09-16 at 08.09.16 (3).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.09.16 (3)",
+        "isPrimary": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "hyundai-tucson-2018-full",
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "version": "Full",
+    "year": 2018,
+    "owners": 1,
+    "kilometers": 173000,
+    "color": "Burdeo",
+    "transmission": "Mecánico",
+    "price": 11750000,
+    "fuel": "",
+    "region": "Las Condes",
+    "state": "En venta",
+    "engine": "",
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/hyundai-tucson-2018-full/04_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/hyundai-tucson-2018-full/04_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/hyundai-tucson-2018-full/04_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/hyundai-tucson-2018-full/04_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/hyundai-tucson-2018-full/04_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/hyundai-tucson-2018-full/04_interior.jpg",
+        "alt": "04_interior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/hyundai-tucson-2018-full/WhatsApp Image 2025-09-16 at 08.09.50.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.09.50",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/hyundai-tucson-2018-full/WhatsApp Image 2025-09-16 at 08.09.51.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.09.51",
+        "isPrimary": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "mercedes-benz-glc-2016-220d",
+    "brand": "Mercedes Benz",
+    "model": "GLC",
+    "version": "220d",
+    "year": 2016,
+    "owners": 2,
+    "kilometers": 175000,
+    "color": "",
+    "transmission": "Automático",
+    "price": 17890000,
+    "fuel": "Diesel",
+    "region": "Las Condes",
+    "state": "En venta",
+    "engine": "45690",
+    "power": 170,
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/mercedes-benz-glc-2016-220d/05_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/05_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/05_frontal.jpg",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/05_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/05_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/05_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.43.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.10.43",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.44 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.10.44 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.44 (2).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.10.44 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.45 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.10.45 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.45 (3).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.10.45 (3)",
+        "isPrimary": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "toyota-avensis-2013",
+    "brand": "Toyota",
+    "model": "Avensis",
+    "version": "",
+    "year": 2013,
+    "owners": 1,
+    "kilometers": 222000,
+    "color": "Blanco",
+    "transmission": "Automático",
+    "price": 6490000,
+    "fuel": "Bencina",
+    "region": "Las Condes",
+    "state": "En venta",
+    "engine": "2.0",
+    "power": 150,
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/toyota-avensis-2013/06_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/toyota-avensis-2013/06_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/toyota-avensis-2013/06_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/toyota-avensis-2013/06_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/toyota-avensis-2013/06_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/toyota-avensis-2013/06_interior.jpg",
+        "alt": "06_interior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/toyota-avensis-2013/WhatsApp Image 2025-09-16 at 08.11.17.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.17",
+        "isPrimary": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "chevrolet-tahoe-2018-full",
+    "brand": "Chevrolet",
+    "model": "Tahoe",
+    "version": "Full",
+    "year": 2018,
+    "owners": 2,
+    "kilometers": 150000,
+    "color": "Blanco",
+    "transmission": "Automático",
+    "price": 23990000,
+    "fuel": "",
+    "region": "Las Condes",
+    "state": "En venta",
+    "engine": "",
+    "power": 355,
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/chevrolet-tahoe-2018-lt/07_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_frontal.jpg",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.52 (2).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.52 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.52.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.52",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.53 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53 (2).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.53 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.53",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.54 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.54 (1)",
+        "isPrimary": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "nissan-pathfinder-2018-full",
+    "brand": "Nissan",
+    "model": "Pathfinder",
+    "version": "Full",
+    "year": 2018,
+    "owners": 2,
+    "color": "Azul metálico",
+    "transmission": "Automático",
+    "price": 17550000,
+    "fuel": "",
+    "region": "Santiago",
+    "state": "En venta",
+    "engine": "",
+    "power": 284,
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": false,
+    "powerSteering": false,
+    "electricWindows": false,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/nissan-pathfinder-2018-advance/08_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/08_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/08_frontal.jpg",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/08_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/08_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/08_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.21 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.21 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.21 (2).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.21 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.22 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22 (2).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.22 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.22",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23 (3).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.23 (3)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23 (4).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.23 (4)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.23",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.24 (2).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.24 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.24 (3).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.24 (3)",
+        "isPrimary": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "ford-f150-xlt-2016-full",
+    "brand": "Ford",
+    "model": "F150 XLT",
+    "version": "Full",
+    "year": 2016,
+    "owners": 2,
+    "color": "",
+    "transmission": "Automático",
+    "price": 17990000,
+    "fuel": "",
+    "region": "Las Condes",
+    "state": "En venta",
+    "engine": "",
+    "power": 385,
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": false,
+    "powerSteering": false,
+    "electricWindows": false,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/ford-f150-xlt-2016/09_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/ford-f150-xlt-2016/09_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/09_frontal.jpg",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/09_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/09_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/09_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/WhatsApp Image 2025-09-16 at 08.12.50 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.50 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/WhatsApp Image 2025-09-16 at 08.12.50 (2).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.50 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/WhatsApp Image 2025-09-16 at 08.12.50 (3).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.50 (3)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/WhatsApp Image 2025-09-16 at 08.12.50.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.50",
+        "isPrimary": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "ford-fusion-2020-hibrido",
+    "brand": "Ford",
+    "model": "Fusion",
+    "version": "Híbrido",
+    "year": 2020,
+    "owners": 1,
+    "color": "",
+    "transmission": "Automático",
+    "price": 15550000,
+    "fuel": "Eléctrico",
+    "region": "Colina",
+    "state": "En venta",
+    "engine": "2.0",
+    "power": 188,
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": false,
+    "powerSteering": false,
+    "electricWindows": false,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/ford-fusion-2020-se/10_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/ford-fusion-2020-se/10_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/10_frontal.jpg",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/10_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/10_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/10_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/WhatsApp Image 2025-09-16 at 08.13.15.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.13.15",
+        "isPrimary": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "kia-soluto-2022-full",
+    "brand": "Kia",
+    "model": "Soluto",
+    "version": "Full",
+    "year": 2022,
+    "owners": 2,
+    "kilometers": 43000,
+    "color": "",
+    "transmission": "Mecánico",
+    "price": 8390000,
+    "fuel": "Bencina",
+    "region": "Las Condes",
+    "state": "En venta",
+    "engine": "",
+    "consumption": "",
+    "emissions": "",
+    "abs": true,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": false,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/kia-soluto-2024-lx/11_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/kia-soluto-2024-lx/11_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/kia-soluto-2024-lx/11_frontal.jpg",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-soluto-2024-lx/11_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-soluto-2024-lx/11_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-soluto-2024-lx/11_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-soluto-2024-lx/WhatsApp Image 2025-09-16 at 17.13.10 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 17.13.10 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-soluto-2024-lx/WhatsApp Image 2025-09-16 at 17.13.10.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 17.13.10",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-soluto-2024-lx/WhatsApp Image 2025-09-16 at 17.15.41 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 17.15.41 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-soluto-2024-lx/WhatsApp Image 2025-09-16 at 17.15.41 (2).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 17.15.41 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-soluto-2024-lx/WhatsApp Image 2025-09-16 at 17.15.41.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 17.15.41",
+        "isPrimary": false
+      }
+    ]
+  }
+]

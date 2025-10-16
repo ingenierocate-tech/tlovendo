@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500&display=swap');
+
+:root {
+  --brand-red: #E53935;
+  --brand-red-hover: #D32F2F;
+  --brand-red-light: #FFEBEE;
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --border-radius: 0.5rem;
+  --transition: all 0.3s ease;
+  --header-h: 80px;
+}
+
+/* Asegurar que el contenido principal comience inmediatamente después del header */
+main {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+/* Eliminar cualquier padding superior en secciones principales */
+section:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Comentar o eliminar estas reglas que agregan padding automático */
+/*
+.page-content {
+  padding-top: var(--header-h);
+}
+
+@supports (padding: max(0px)) {
+  main { 
+    padding-top: max(var(--header-h), env(safe-area-inset-top)); 
+  }
+}
+*/
+
+/* tu CSS extra debajo (si tienes) */

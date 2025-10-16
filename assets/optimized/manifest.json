@@ -1,0 +1,168 @@
+{
+  "autos/Honda_civic_lateral.png": {
+    "sizes": [
+      800
+    ],
+    "avif": [
+      "autos/Honda_civic_lateral-800w.avif"
+    ],
+    "webp": [
+      "autos/Honda_civic_lateral-800w.webp"
+    ],
+    "jpeg": [
+      "autos/Honda_civic_lateral-800w.jpg"
+    ],
+    "hash": "2669ccb10527cef3f019eb13c8b4483e",
+    "originalSize": 1404108,
+    "optimizedSize": 241095,
+    "reduction_pct": 83
+  },
+  "autos/Nissan_sentra_lateral.jpeg": {
+    "sizes": [],
+    "avif": [],
+    "webp": [],
+    "jpeg": [],
+    "hash": "1b6e736eee4f5d4f9d50abbb82d4dd4a",
+    "originalSize": 12129,
+    "optimizedSize": 0,
+    "reduction_pct": 100
+  },
+  "autos/Toyota_Corolla_frontal.png": {
+    "sizes": [
+      1600,
+      1200,
+      800
+    ],
+    "avif": [
+      "autos/Toyota_Corolla_frontal-1600w.avif",
+      "autos/Toyota_Corolla_frontal-1200w.avif",
+      "autos/Toyota_Corolla_frontal-800w.avif"
+    ],
+    "webp": [
+      "autos/Toyota_Corolla_frontal-1600w.webp",
+      "autos/Toyota_Corolla_frontal-1200w.webp",
+      "autos/Toyota_Corolla_frontal-800w.webp"
+    ],
+    "jpeg": [
+      "autos/Toyota_Corolla_frontal-1600w.jpg",
+      "autos/Toyota_Corolla_frontal-1200w.jpg",
+      "autos/Toyota_Corolla_frontal-800w.jpg"
+    ],
+    "hash": "309d4cd36885de3c069872dc15d9c9b3",
+    "originalSize": 1806487,
+    "optimizedSize": 492864,
+    "reduction_pct": 73
+  },
+  "autos/Toyota_Corolla_interior.png": {
+    "sizes": [
+      800
+    ],
+    "avif": [
+      "autos/Toyota_Corolla_interior-800w.avif"
+    ],
+    "webp": [
+      "autos/Toyota_Corolla_interior-800w.webp"
+    ],
+    "jpeg": [
+      "autos/Toyota_Corolla_interior-800w.jpg"
+    ],
+    "hash": "cb86b6c019bd54a3ff5a1a8d91839f43",
+    "originalSize": 54696,
+    "optimizedSize": 92188,
+    "reduction_pct": -69
+  },
+  "autos/Toyota_Corolla_lateral.png": {
+    "sizes": [
+      800
+    ],
+    "avif": [
+      "autos/Toyota_Corolla_lateral-800w.avif"
+    ],
+    "webp": [
+      "autos/Toyota_Corolla_lateral-800w.webp"
+    ],
+    "jpeg": [
+      "autos/Toyota_Corolla_lateral-800w.jpg"
+    ],
+    "hash": "63162d5fcba3cd2f3607671bdbe40b0d",
+    "originalSize": 27649,
+    "optimizedSize": 29928,
+    "reduction_pct": -8
+  },
+  "autos/Toyota_Corolla_motor.png": {
+    "sizes": [
+      1600,
+      1200,
+      800
+    ],
+    "avif": [
+      "autos/Toyota_Corolla_motor-1600w.avif",
+      "autos/Toyota_Corolla_motor-1200w.avif",
+      "autos/Toyota_Corolla_motor-800w.avif"
+    ],
+    "webp": [
+      "autos/Toyota_Corolla_motor-1600w.webp",
+      "autos/Toyota_Corolla_motor-1200w.webp",
+      "autos/Toyota_Corolla_motor-800w.webp"
+    ],
+    "jpeg": [
+      "autos/Toyota_Corolla_motor-1600w.jpg",
+      "autos/Toyota_Corolla_motor-1200w.jpg",
+      "autos/Toyota_Corolla_motor-800w.jpg"
+    ],
+    "hash": "8d50f86e4c893b596d4e6c832678af6f",
+    "originalSize": 500212,
+    "optimizedSize": 1620400,
+    "reduction_pct": -224
+  },
+  "autos/Toyota_Corolla_trasero.png": {
+    "sizes": [],
+    "avif": [],
+    "webp": [],
+    "jpeg": [],
+    "hash": "0f73edba2749d779d3f190101bf5f35e",
+    "originalSize": 15930,
+    "optimizedSize": 0,
+    "reduction_pct": 100
+  },
+  "logos/Logo_Tlovendo.png": {
+    "sizes": [],
+    "avif": [],
+    "webp": [],
+    "jpeg": [],
+    "hash": "5f627aa803c11e069455f5c7fdd563bc",
+    "originalSize": 34727,
+    "optimizedSize": 0,
+    "reduction_pct": 100
+  },
+  "logos/logo_Tasesoro.jpg": {
+    "sizes": [],
+    "avif": [],
+    "webp": [],
+    "jpeg": [],
+    "hash": "b9602c7b4438a8ffd07806cf588762a7",
+    "originalSize": 19165,
+    "optimizedSize": 0,
+    "reduction_pct": 100
+  },
+  "logos/logo_Tlopinto.jpg": {
+    "sizes": [],
+    "avif": [],
+    "webp": [],
+    "jpeg": [],
+    "hash": "e37d8160475c37b2689e851302470179",
+    "originalSize": 18986,
+    "optimizedSize": 0,
+    "reduction_pct": 100
+  },
+  "logos/logo_Tlopreparo.jpg": {
+    "sizes": [],
+    "avif": [],
+    "webp": [],
+    "jpeg": [],
+    "hash": "df54726f39d8d135b4cd8b17a6099e1e",
+    "originalSize": 19543,
+    "optimizedSize": 0,
+    "reduction_pct": 100
+  }
+}
