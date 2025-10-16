@@ -1,7 +1,0 @@
-{
-  "/reparaciones/page": "app/reparaciones/page.js",
-  "/auto/[slug]/page": "app/auto/[slug]/page.js",
-  "/financiamiento/page": "app/financiamiento/page.js",
-  "/compra/page": "app/compra/page.js",
-  "/vender/page": "app/vender/page.js"
-}
