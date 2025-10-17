@@ -50,7 +50,7 @@ export default function FinancingSection() {
         <p className="text-sm text-gray-500 mt-4">
           O si prefieres, completa el formulario de contacto y te llamamos.
         </p>
-        <a href="/contacto" className="mt-2 inline-block text-blue-600 hover:underline">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZ0I2czmCYUFYej8L4t7Do8hqP62Yrym2SKyafwY6di8xP6w/viewform" className="mt-2 inline-block text-blue-600 hover:underline">
           Ir al formulario
         </a>
       </div>
