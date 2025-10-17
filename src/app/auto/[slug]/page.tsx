@@ -97,9 +97,11 @@ export default async function Auto({ params }: { params: { slug: string } }) {
             <div className="p-6 space-y-4">
               {/* Precio */}
               <div className="text-center lg:text-left">
-                <div className="text-3xl font-bold text-gray-900 mb-2">
-                  {formatPrice(vehicle.price)}
-                </div>
+                {typeof vehicle.price === 'number' && (
+                  <div className="text-3xl font-bold text-gray-900 mb-2">
+                    {formatPrice(vehicle.price)}
+                  </div>
+                )}
                 <div className="text-sm text-green-600 font-medium flex items-center justify-center lg:justify-start">
                   <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
                   Precio final sin cargos ocultos
