@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    appDir: true, // Habilita soporte para la carpeta /app
+  },
   images: {
-    // Solo imágenes locales - eliminados dominios externos (drive.google.com, etc.)
     formats: ['image/avif', 'image/webp'],
   },
   webpack: (config, { dev }) => {
