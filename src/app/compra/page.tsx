@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { getVehicles } from '@/data/vehicles'
 import type { Vehicle } from '@/types/vehicle'
 import CatalogClient from './CatalogClient'
+import { Suspense } from 'react'
 
 export const metadata: Metadata = {
   title: 'Catálogo de Autos | TLoVendo',
@@ -43,5 +44,9 @@ export default async function CompraPage() {
     )
   }
 
-  return <CatalogClient vehicles={vehicles} />
+  return (
+    <Suspense fallback={<div>Cargando catálogo...</div>}>
+      <CatalogClient vehicles={vehicles} />
+    </Suspense>
+  )
 }
