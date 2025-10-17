@@ -8,7 +8,7 @@ import { Suspense } from 'react'
 export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
-  title: 'Catálogo de Autos | TLoVendo',
+  title: 'Catálogo de Autos | TLoVendo 🚘',
   description: 'Encuentra autos usados verificados sin cargos ocultos.',
 }
 
