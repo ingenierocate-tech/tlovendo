@@ -30,6 +30,12 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
     setSortBy(value)
   }
 
+  // Detectar vendidos por slugs específicos (Kia Sonet y Suzuki Alto)
+  const soldSlugs = ['kia-sonet-2024-full', 'suzuki-alto-2022-800'];
+
+  // Construir la lista de vendidos para la sección al final
+  const soldVehicles = vehicles.filter((v) => soldSlugs.includes(v.slug));
+
   useEffect(() => {
     let filtered = [...vehicles]
     
@@ -41,7 +47,7 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
           .includes(searchQuery.toLowerCase())
       )
     }
-    
+
     // Aplicar ordenamiento
     switch (sortBy) {
       case 'price-asc':
@@ -80,7 +86,6 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
         break
       case 'recent':
       default:
-        // Ordenar por publishedAt o por id descendente
         filtered.sort((a, b) => {
           if (a.publishedAt && b.publishedAt) {
             return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
@@ -89,7 +94,9 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
         })
         break
     }
-    
+
+    // Excluir vendidos del catálogo
+    filtered = filtered.filter(v => !soldSlugs.includes(v.slug))
     setFilteredVehicles(filtered)
   }, [vehicles, searchQuery, sortBy])
 
@@ -180,6 +187,27 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
               </div>
             )}
           </div>
+        </section>
+
+        {/* Nueva sección: Autos vendidos */}
+        <section className="border-t border-gray-200 pt-10 mt-16 pb-24">
+          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900 font-heading">
+            Autos vendidos
+          </h2>
+          <p className="text-gray-600 mb-6">
+            Estos vehículos ya encontraron un nuevo dueño.
+          </p>
+          {soldVehicles.length > 0 ? (
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {soldVehicles.map((vehicle) => (
+                <VehicleCard key={`sold-${vehicle.id}`} vehicle={vehicle} hideDetailsCTA />
+              ))}
+            </div>
+          ) : (
+            <div className="text-sm text-gray-500">
+              Aún no hay autos vendidos publicados.
+            </div>
+          )}
         </section>
       </div>
     </div>
