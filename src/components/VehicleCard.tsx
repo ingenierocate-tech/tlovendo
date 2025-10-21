@@ -10,6 +10,7 @@ import { getVehiclePrimaryImage, getVehicleImageAlt } from '@/lib/vehicleImage';
 interface VehicleCardProps {
   vehicle: Vehicle;
   variant?: 'catalog' | 'home';
+  hideDetailsCTA?: boolean;
 }
 
 // Formateador seguro para precios en CLP
@@ -50,7 +51,7 @@ function buildDetailsHref(v: Vehicle) {
   return `/auto/${v.slug}`;
 }
 
-export default function VehicleCard({ vehicle, variant = 'catalog' }: VehicleCardProps) {
+export default function VehicleCard({ vehicle, variant = 'catalog', hideDetailsCTA = false }: VehicleCardProps) {
   // Fallbacks robustos para todos los campos
   const title = `${vehicle.brand || 'Marca'} ${vehicle.model || 'Modelo'} ${vehicle.year || 'Año'}`;
   const price = fmtCLP(vehicle.price);
@@ -113,12 +114,14 @@ export default function VehicleCard({ vehicle, variant = 'catalog' }: VehicleCar
             </div>
             
             {/* CTA */}
-            <button className="mt-5 inline-flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-red-600 to-red-700 px-4 py-3 font-semibold text-white shadow-lg hover:from-red-700 hover:to-red-800 hover:shadow-xl transform hover:scale-[1.02] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">
-              <span>Ver detalles</span>
-              <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </button>
+            {!hideDetailsCTA && (
+              <button className="mt-5 inline-flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-red-600 to-red-700 px-4 py-3 font-semibold text-white shadow-lg hover:from-red-700 hover:to-red-800 hover:shadow-xl transform hover:scale-[1.02] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">
+                <span>Ver detalles</span>
+                <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            )}
           </div>
         </div>
       </Link>
@@ -168,17 +171,19 @@ export default function VehicleCard({ vehicle, variant = 'catalog' }: VehicleCar
           </span>
         </div>
 
-        <Link
-          href={href}
-          className="block w-full rounded-lg bg-gradient-to-r from-red-600 to-red-700 px-4 py-3 text-center text-sm font-semibold text-white shadow-lg hover:from-red-700 hover:to-red-800 hover:shadow-xl transform hover:scale-[1.02] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
-        >
-          <span className="inline-flex items-center">
-            Ver detalles
-            <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </span>
-        </Link>
+        {!hideDetailsCTA && (
+          <Link
+            href={href}
+            className="block w-full rounded-lg bg-gradient-to-r from-red-600 to-red-700 px-4 py-3 text-center text-sm font-semibold text-white shadow-lg hover:from-red-700 hover:to-red-800 hover:shadow-xl transform hover:scale-[1.02] transition-all duración-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
+          >
+            <span className="inline-flex items-center">
+              Ver detalles
+              <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          </Link>
+        )}
       </div>
     </div>
   );
