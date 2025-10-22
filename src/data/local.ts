@@ -12,6 +12,7 @@ const SLUGS_LOCAL_PATH = path.join(process.cwd(), 'src/data/vehicles.slugs.local
 export async function getLocalVehicles(): Promise<Vehicle[]> {
     const staticVehicles = Array.isArray(vehiclesLocal) ? (vehiclesLocal as Vehicle[]) : [];
     if (staticVehicles.length > 0) {
+        console.log(`✅ Cargados ${staticVehicles.length} vehículos desde import estático`);
         return staticVehicles;
     }
     try {
