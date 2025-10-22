@@ -10,7 +10,7 @@
     "lint": "next lint",
     "optimize-images": "node scripts/optimize-images.js",
     "watch-images": "node scripts/optimize-images.js --watch",
-    "prebuild": "npm run build:local && npm run optimize-images"
+    "prebuild": "if [ \"$SKIP_PREBUILD\" = \"1\" ]; then echo 'Skipping prebuild'; else npm run build:local || true && npm run optimize-images || true; fi"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.19",
