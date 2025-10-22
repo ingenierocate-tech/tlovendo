@@ -10,29 +10,34 @@ const SLUGS_LOCAL_PATH = path.join(process.cwd(), 'src/data/vehicles.slugs.local
  * @returns Array de vehículos o array vacío si no existe o está vacío
  */
 export async function getLocalVehicles(): Promise<Vehicle[]> {
+  // 1) Import estático: se incluye en el bundle de producción
   try {
-    // Verificar si el archivo existe
-    if (!await fs.pathExists(VEHICLES_LOCAL_PATH)) {
+    const mod = await import('@/data/vehicles.local.json');
+    const vehicles = Array.isArray(mod.default) ? (mod.default as Vehicle[]) : [];
+    if (vehicles.length > 0) {
+      console.log(`✅ Cargados ${vehicles.length} vehículos desde import estático`);
+      return vehicles;
+    }
+  } catch (_) {
+    // Silenciar: si falla el import, seguimos con fs
+  }
+
+  // 2) Fallback: leer desde filesystem (útil en dev)
+  try {
+    const exists = await fs.pathExists(VEHICLES_LOCAL_PATH);
+    if (!exists) {
       console.log('📁 Archivo vehicles.local.json no encontrado');
       return [];
     }
-
-    // Leer el archivo
     const fileContent = await fs.readFile(VEHICLES_LOCAL_PATH, 'utf8');
     const data = JSON.parse(fileContent);
-
-    // El archivo contiene directamente un array de vehículos
-    const vehicles: Vehicle[] = Array.isArray(data) ? data : [];
-
-    // Verificar que no esté vacío
+    const vehicles = Array.isArray(data) ? (data as Vehicle[]) : [];
     if (vehicles.length === 0) {
       console.log('📁 Archivo vehicles.local.json está vacío');
       return [];
     }
-
-    console.log(`✅ Cargados ${vehicles.length} vehículos desde archivo local`);
+    console.log(`✅ Cargados ${vehicles.length} vehículos desde filesystem`);
     return vehicles;
-
   } catch (error) {
     console.error('❌ Error leyendo vehicles.local.json:', error);
     return [];
@@ -44,26 +49,33 @@ export async function getLocalVehicles(): Promise<Vehicle[]> {
  * @returns Array de slugs o array vacío si no existe o está vacío
  */
 export async function getLocalSlugs(): Promise<string[]> {
+  // 1) Import estático primero
   try {
-    // Verificar si el archivo existe
-    if (!await fs.pathExists(SLUGS_LOCAL_PATH)) {
+    const mod = await import('@/data/vehicles.slugs.local.json');
+    const slugs = Array.isArray(mod.default) ? (mod.default as string[]) : [];
+    if (slugs.length > 0) {
+      console.log(`✅ Cargados ${slugs.length} slugs desde import estático`);
+      return slugs;
+    }
+  } catch (_) {
+    // Silenciar y seguir con fs
+  }
+
+  // 2) Fallback: filesystem
+  try {
+    const exists = await fs.pathExists(SLUGS_LOCAL_PATH);
+    if (!exists) {
       console.log('📁 Archivo vehicles.slugs.local.json no encontrado');
       return [];
     }
-
-    // Leer el archivo
     const fileContent = await fs.readFile(SLUGS_LOCAL_PATH, 'utf8');
     const slugs: string[] = JSON.parse(fileContent);
-
-    // Verificar que no esté vacío
     if (!Array.isArray(slugs) || slugs.length === 0) {
       console.log('📁 Archivo vehicles.slugs.local.json está vacío');
       return [];
     }
-
-    console.log(`✅ Cargados ${slugs.length} slugs desde archivo local`);
+    console.log(`✅ Cargados ${slugs.length} slugs desde filesystem`);
     return slugs;
-
   } catch (error) {
     console.error('❌ Error leyendo vehicles.slugs.local.json:', error);
     return [];
