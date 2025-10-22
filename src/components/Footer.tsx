@@ -49,18 +49,43 @@ export default function Footer() {
           {/* Services */}
           <div>
             <h3 className="font-semibold text-lg mb-4">Otros servicios</h3>
-            <div className="flex flex-col gap-4">
-              <div className="flex gap-6 items-center">
-                <a href="/servicios-adicionales" className="hover:opacity-80 transition">
-                  <img src="/icons/te-lo-preparo.svg" alt="Te lo preparo" className="w-12 h-12" />
-                </a>
-                <a href="/servicios-adicionales" className="hover:opacity-80 transition">
-                  <img src="/icons/te-lo-pinto.svg" alt="Te lo pinto" className="w-12 h-12" />
-                </a>
-                <a href="/financiamiento" className="hover:opacity-80 transition">
-                  <img src="/icons/te-asesoro.svg" alt="Te asesoro" className="w-12 h-12" />
-                </a>
-              </div>
+            <div className="space-y-6">
+              <Link href="/servicios-adicionales" className="block group">
+                <Image
+                  src="/logo_Tlopreparo.jpg"
+                  alt="TLoPreparo"
+                  width={200}
+                  height={60}
+                  className="h-12 w-auto mb-1"
+                />
+                <p className="text-gray-400 text-sm group-hover:text-gray-300 transition-colors">
+                  Preparación y acondicionamiento de vehículos
+                </p>
+              </Link>
+              <Link href="/servicios-adicionales" className="block group">
+                <Image
+                  src="/logo_Tlopinto.jpg"
+                  alt="TLoPinto"
+                  width={200}
+                  height={60}
+                  className="h-12 w-auto mb-1"
+                />
+                <p className="text-gray-400 text-sm group-hover:text-gray-300 transition-colors">
+                  Servicios de pintura y carrocería
+                </p>
+              </Link>
+              <Link href="/financiamiento" className="block group">
+                <Image
+                  src="/logo_Tasesoro.jpg"
+                  alt="Tasesoro"
+                  width={200}
+                  height={60}
+                  className="h-12 w-auto mb-1"
+                />
+                <p className="text-gray-400 text-sm group-hover:text-gray-300 transition-colors">
+                  Tasaciones y evaluaciones vehiculares
+                </p>
+              </Link>
             </div>
           </div>
 
