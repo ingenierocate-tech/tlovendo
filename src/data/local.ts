@@ -10,42 +10,38 @@ const SLUGS_LOCAL_PATH = path.join(process.cwd(), 'src/data/vehicles.slugs.local
  * @returns Array de vehículos o array vacío si no existe o está vacío
  */
 export async function getLocalVehicles(): Promise<Vehicle[]> {
-    const staticVehicles = Array.isArray(vehiclesLocal) ? (vehiclesLocal as Vehicle[]) : [];
-    if (staticVehicles.length > 0) {
-        console.log(`✅ Cargados ${staticVehicles.length} vehículos desde import estático`);
-        return staticVehicles;
+  // 1) Import estático: se incluye en el bundle de producción
+  try {
+    const mod = await import('@/data/vehicles.local.json');
+    const vehicles = Array.isArray(mod.default) ? (mod.default as Vehicle[]) : [];
+    if (vehicles.length > 0) {
+      console.log(`✅ Cargados ${vehicles.length} vehículos desde import estático`);
+      return vehicles;
     }
-    try {
-        const mod = await import('@/data/vehicles.local.json');
-        const vehicles = Array.isArray(mod.default) ? (mod.default as Vehicle[]) : [];
-        if (vehicles.length > 0) {
-            console.log(`✅ Cargados ${vehicles.length} vehículos desde import estático`);
-            return vehicles;
-        }
-    } catch (_) {
-        // Silenciar: si falla el import, seguimos con fs
-    }
+  } catch (_) {
+    // Silenciar: si falla el import, seguimos con fs
+  }
 
-    // 2) Fallback: leer desde filesystem (útil en dev)
-    try {
-        const exists = await fs.pathExists(VEHICLES_LOCAL_PATH);
-        if (!exists) {
-            console.log('📁 Archivo vehicles.local.json no encontrado');
-            return [];
-        }
-        const fileContent = await fs.readFile(VEHICLES_LOCAL_PATH, 'utf8');
-        const data = JSON.parse(fileContent);
-        const vehicles = Array.isArray(data) ? (data as Vehicle[]) : [];
-        if (vehicles.length === 0) {
-            console.log('📁 Archivo vehicles.local.json está vacío');
-            return [];
-        }
-        console.log(`✅ Cargados ${vehicles.length} vehículos desde filesystem`);
-        return vehicles;
-    } catch (error) {
-        console.error('❌ Error leyendo vehicles.local.json:', error);
-        return [];
+  // 2) Fallback: leer desde filesystem (útil en dev)
+  try {
+    const exists = await fs.pathExists(VEHICLES_LOCAL_PATH);
+    if (!exists) {
+      console.log('📁 Archivo vehicles.local.json no encontrado');
+      return [];
     }
+    const fileContent = await fs.readFile(VEHICLES_LOCAL_PATH, 'utf8');
+    const data = JSON.parse(fileContent);
+    const vehicles = Array.isArray(data) ? (data as Vehicle[]) : [];
+    if (vehicles.length === 0) {
+      console.log('📁 Archivo vehicles.local.json está vacío');
+      return [];
+    }
+    console.log(`✅ Cargados ${vehicles.length} vehículos desde filesystem`);
+    return vehicles;
+  } catch (error) {
+    console.error('❌ Error leyendo vehicles.local.json:', error);
+    return [];
+  }
 }
 
 /**
