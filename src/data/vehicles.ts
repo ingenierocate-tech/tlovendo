@@ -141,9 +141,9 @@ export async function getVehicles(): Promise<Vehicle[]> {
   // 1. Intentar cargar datos locales primero
   console.log('🔍 getVehicles: Intentando cargar datos locales...');
   const localVehicles = await getLocalVehicles();
-  // En producción o con FORCE_LOCAL, usar siempre los locales
   const forceLocal = process.env.FORCE_LOCAL === '1';
   if (process.env.NODE_ENV === 'production' || forceLocal) {
+    console.log(`✅ getVehicles: producción usa locales (${localVehicles.length})`);
     return localVehicles;
   }
   console.log(`🔍 getVehicles: Datos locales cargados: ${localVehicles.length} vehículos`);
