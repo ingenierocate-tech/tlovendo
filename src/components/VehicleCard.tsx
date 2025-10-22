@@ -130,7 +130,7 @@ export default function VehicleCard({ vehicle, variant = 'catalog', hideDetailsC
 
   // Variant 'catalog' (estilo original)
   return (
-    <div className="group relative bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
+    <div className="group relative bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duración-300">
       <div className="aspect-w-16 aspect-h-9 bg-gray-200 overflow-hidden">
         <VehicleCardImage
           src={imageUrl}
@@ -174,7 +174,7 @@ export default function VehicleCard({ vehicle, variant = 'catalog', hideDetailsC
         {!hideDetailsCTA && (
           <Link
             href={href}
-            className="block w-full rounded-lg bg-gradient-to-r from-red-600 to-red-700 px-4 py-3 text-center text-sm font-semibold text-white shadow-lg hover:from-red-700 hover:to-red-800 hover:shadow-xl transform hover:scale-[1.02] transition-all duración-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
+            className="block w-full rounded-lg bg-gradient-to-r from-red-600 to-red-700 px-4 py-3 text-center text-sm font-semibold text-white shadow-lg hover:from-red-700 hover:to-red-800 hover:shadow-xl transform hover:scale-[1.02] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
           >
             <span className="inline-flex items-center">
               Ver detalles
