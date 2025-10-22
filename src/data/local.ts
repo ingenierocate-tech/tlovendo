@@ -10,7 +10,6 @@ const SLUGS_LOCAL_PATH = path.join(process.cwd(), 'src/data/vehicles.slugs.local
  * @returns Array de vehículos o array vacío si no existe o está vacío
  */
 export async function getLocalVehicles(): Promise<Vehicle[]> {
-    // Preferir el import estático embebido en el bundle
     const staticVehicles = Array.isArray(vehiclesLocal) ? (vehiclesLocal as Vehicle[]) : [];
     if (staticVehicles.length > 0) {
         return staticVehicles;
