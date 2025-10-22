@@ -49,6 +49,7 @@ export async function getLocalVehicles(): Promise<Vehicle[]> {
  * @returns Array de slugs o array vacío si no existe o está vacío
  */
 export async function getLocalSlugs(): Promise<string[]> {
+    const { default: slugsLocalJson } = await import('@/data/vehicles.slugs.local.json');
     const staticSlugs = Array.isArray(slugsLocalJson) ? (slugsLocalJson as string[]) : [];
     if (staticSlugs.length > 0) {
         return staticSlugs;
