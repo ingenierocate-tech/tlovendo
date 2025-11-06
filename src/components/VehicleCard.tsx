@@ -51,7 +51,7 @@ function buildDetailsHref(v: Vehicle) {
   return `/auto/${v.slug}`;
 }
 
-export default function VehicleCard({ vehicle, variant = 'catalog', hideDetailsCTA = false }: VehicleCardProps) {
+export default function VehicleCard({ vehicle, variant = 'catalog', hideDetailsCTA = false, sold = false }: VehicleCardProps) {
   // Fallbacks robustos para todos los campos
   const title = `${vehicle.brand || 'Marca'} ${vehicle.model || 'Modelo'} ${vehicle.year || 'Año'}`;
   const price = fmtCLP(vehicle.price);
@@ -87,15 +87,17 @@ export default function VehicleCard({ vehicle, variant = 'catalog', hideDetailsC
               {title}
             </h3>
             
-            {/* Precio */}
-            <p className="mt-2 text-2xl sm:text-3xl font-extrabold tracking-tight text-black">
-              {price}
+            {/* Precio/Vendido */}
+            <p className={`mt-2 text-2xl sm:text-3xl font-extrabold tracking-tight ${sold ? 'text-red-600' : 'text-black'}`}>
+              {sold ? 'Vendido' : price}
             </p>
             
-            {/* Frase verde */}
-            <p className="mt-1 text-sm font-medium text-green-600">
-              Precio final sin cargos ocultos
-            </p>
+            {/* Frase verde (solo si no está vendido) */}
+            {!sold && (
+              <p className="mt-1 text-sm font-medium text-green-600">
+                Precio final sin cargos ocultos
+              </p>
+            )}
             
             {/* Badges */}
             <div className="mt-4 flex flex-wrap gap-2 flex-grow">
@@ -128,7 +130,7 @@ export default function VehicleCard({ vehicle, variant = 'catalog', hideDetailsC
     );
   }
 
-  // Variant 'catalog' (estilo original)
+  // Variant 'catalog'
   return (
     <div className="group relative bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duración-300">
       <div className="aspect-w-16 aspect-h-9 bg-gray-200 overflow-hidden">
@@ -145,12 +147,16 @@ export default function VehicleCard({ vehicle, variant = 'catalog', hideDetailsC
         </h3>
         
         <div className="mb-3">
-          <p className="text-2xl font-bold text-black">
-            {price}
+          {/* Precio/Vendido */}
+          <p className={`text-2xl font-bold ${sold ? 'text-red-600' : 'text-black'}`}>
+            {sold ? 'Vendido' : price}
           </p>
-          <p className="text-sm font-medium text-green-600">
-            Precio final sin cargos ocultos
-          </p>
+          {/* Frase verde (solo si no está vendido) */}
+          {!sold && (
+            <p className="text-sm font-medium text-green-600">
+              Precio final sin cargos ocultos
+            </p>
+          )}
         </div>
 
         <div className="flex flex-wrap gap-2 mb-4">
