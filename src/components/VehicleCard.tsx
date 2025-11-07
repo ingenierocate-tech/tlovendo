@@ -7,10 +7,12 @@ import VehicleCardImage from "@/components/VehicleCardImage";
 import type { Vehicle } from '@/types/vehicle';
 import { getVehiclePrimaryImage, getVehicleImageAlt } from '@/lib/vehicleImage';
 
+// 🧱 Interfaz corregida: se agrega `sold`
 interface VehicleCardProps {
   vehicle: Vehicle;
   variant?: 'catalog' | 'home';
   hideDetailsCTA?: boolean;
+  sold?: boolean; // ✅ agregada
 }
 
 // Formateador seguro para precios en CLP
@@ -51,7 +53,13 @@ function buildDetailsHref(v: Vehicle) {
   return `/auto/${v.slug}`;
 }
 
-export default function VehicleCard({ vehicle, variant = 'catalog', hideDetailsCTA = false, sold = false }: VehicleCardProps) {
+export default function VehicleCard({
+  vehicle,
+  variant = 'catalog',
+  hideDetailsCTA = false,
+  sold = false
+}: VehicleCardProps) {
+
   // Fallbacks robustos para todos los campos
   const title = `${vehicle.brand || 'Marca'} ${vehicle.model || 'Modelo'} ${vehicle.year || 'Año'}`;
   const price = fmtCLP(vehicle.price);
@@ -61,14 +69,16 @@ export default function VehicleCard({ vehicle, variant = 'catalog', hideDetailsC
   const kilometers = fmtKM(vehicle.kilometers);
   const href = buildDetailsHref(vehicle);
 
-  // Usar función segura para obtener imagen principal
+  // Imagen principal y texto alternativo
   const imageUrl = getVehiclePrimaryImage(vehicle, '/placeholder-car.webp');
   const imageAlt = getVehicleImageAlt(vehicle);
 
+  // Variante "home"
   if (variant === 'home') {
     return (
       <Link href={href} className="block h-full">
         <div className="rounded-2xl overflow-hidden border border-neutral-200 bg-white shadow-sm hover:shadow-md transition-shadow h-full flex flex-col">
+          
           {/* Imagen 16:9 */}
           <div className="relative aspect-[16/9] w-full">
             <Image
@@ -78,21 +88,21 @@ export default function VehicleCard({ vehicle, variant = 'catalog', hideDetailsC
               className="object-cover"
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
             />
+            {sold && (
+              <div className="absolute top-2 left-2 bg-red-600/90 text-white text-xs sm:text-sm font-bold uppercase tracking-wide px-3 py-1 rounded-md shadow-sm">
+                Vendido
+              </div>
+            )}
           </div>
-          
+        
           {/* Contenido */}
           <div className="p-5 sm:p-6 flex flex-col flex-grow">
-            {/* Título */}
-            <h3 className="text-xl sm:text-2xl font-semibold text-neutral-900">
-              {title}
-            </h3>
+            <h3 className="text-xl sm:text-2xl font-semibold text-neutral-900">{title}</h3>
             
-            {/* Precio/Vendido */}
             <p className={`mt-2 text-2xl sm:text-3xl font-extrabold tracking-tight ${sold ? 'text-red-600' : 'text-black'}`}>
               {sold ? 'Vendido' : price}
             </p>
             
-            {/* Frase verde (solo si no está vendido) */}
             {!sold && (
               <p className="mt-1 text-sm font-medium text-green-600">
                 Precio final sin cargos ocultos
@@ -114,7 +124,7 @@ export default function VehicleCard({ vehicle, variant = 'catalog', hideDetailsC
                 {region}
               </span>
             </div>
-            
+
             {/* CTA */}
             {!hideDetailsCTA && (
               <button className="mt-5 inline-flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-red-600 to-red-700 px-4 py-3 font-semibold text-white shadow-lg hover:from-red-700 hover:to-red-800 hover:shadow-xl transform hover:scale-[1.02] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">
@@ -130,15 +140,20 @@ export default function VehicleCard({ vehicle, variant = 'catalog', hideDetailsC
     );
   }
 
-  // Variant 'catalog'
+  // Variante "catalog"
   return (
-    <div className="group relative bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duración-300">
-      <div className="aspect-w-16 aspect-h-9 bg-gray-200 overflow-hidden">
+    <div className="group relative bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      <div className="aspect-w-16 aspect-h-9 bg-gray-200 overflow-hidden relative">
         <VehicleCardImage
           src={imageUrl}
           alt={imageAlt}
           className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
         />
+        {sold && (
+          <div className="absolute top-2 left-2 bg-red-600/90 text-white text-xs sm:text-sm font-bold uppercase tracking-wide px-3 py-1 rounded-md shadow-sm">
+            Vendido
+          </div>
+        )}
       </div>
       
       <div className="p-4">
@@ -147,11 +162,9 @@ export default function VehicleCard({ vehicle, variant = 'catalog', hideDetailsC
         </h3>
         
         <div className="mb-3">
-          {/* Precio/Vendido */}
           <p className={`text-2xl font-bold ${sold ? 'text-red-600' : 'text-black'}`}>
             {sold ? 'Vendido' : price}
           </p>
-          {/* Frase verde (solo si no está vendido) */}
           {!sold && (
             <p className="text-sm font-medium text-green-600">
               Precio final sin cargos ocultos
