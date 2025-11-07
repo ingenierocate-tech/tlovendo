@@ -26,6 +26,7 @@ export default async function Auto({ params }: { params: { slug: string } }) {
 
   // Obtener vehículos relacionados (excluyendo el actual)
   const allVehicles = await getVehicles();
+  // ... existing code ...
   const relatedItems: RelatedItem[] = (allVehicles ?? [])
     .filter(v => v.id !== vehicle.id)
     .filter(v => v.brand && v.model && v.year) // Filtrar vehículos con datos completos
@@ -45,7 +46,10 @@ export default async function Auto({ params }: { params: { slug: string } }) {
       minimumFractionDigits: 0
     }).format(price)
   }
-  
+
+  // Detectar vendido si price es null/undefined
+  const isSold = vehicle.price == null;
+
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-8">
@@ -97,15 +101,19 @@ export default async function Auto({ params }: { params: { slug: string } }) {
             <div className="p-6 space-y-4">
               {/* Precio */}
               <div className="text-center lg:text-left">
-                {typeof vehicle.price === 'number' && (
-                  <div className="text-3xl font-bold text-gray-900 mb-2">
-                    {formatPrice(vehicle.price)}
+                <div className="text-3xl font-bold mb-2">
+                  {isSold
+                    ? <span className="text-red-600">Vendido</span>
+                    : (typeof vehicle.price === 'number'
+                        ? formatPrice(vehicle.price)
+                        : 'Consultar')}
+                </div>
+                {!isSold && (
+                  <div className="text-sm text-green-600 font-medium flex items-center justify-center lg:justify-start">
+                    <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                    Precio final sin cargos ocultos
                   </div>
                 )}
-                <div className="text-sm text-green-600 font-medium flex items-center justify-center lg:justify-start">
-                  <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
-                  Precio final sin cargos ocultos
-                </div>
               </div>
 
               {/* Información básica */}
