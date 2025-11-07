@@ -31,11 +31,38 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
   }
 
   // Detectar vendidos por slugs específicos (Kia Sonet y Suzuki Alto)
-  const soldSlugs = ['kia-sonet-2024-full', 'suzuki-alto-2022-800'];
+  const soldSlugs = ['kia-sonet-2024-full', 'suzuki-alto-2022-800', 'kia-rio-5-2018'];
 
   // Construir la lista de vendidos para la sección al final
   const soldVehicles = vehicles.filter((v) => soldSlugs.includes(v.slug));
 
+  // Fallback: inyectar tarjeta Kia Rio 5 2018 replicando datos del Sonet si no existe en datos
+  {
+    const rioSlug = 'kia-rio-5-2018';
+    const hasRio = soldVehicles.some(v => v.slug === rioSlug);
+    if (!hasRio) {
+      const sonet = vehicles.find(v => v.slug === 'kia-sonet-2024-full');
+      const newId = (sonet?.id ?? 0) + 1000;
+      soldVehicles.push({
+        ...(sonet ?? {}),
+        id: newId,
+        slug: rioSlug,
+        brand: 'Kia',
+        model: 'Rio 5',
+        year: 2018,
+        price: null, // fuerza la leyenda “Vendido”
+        image: '/autos/kia-rio-5-2018/01_lateral.jpg',
+        images: [
+          { url: '/autos/kia-rio-5-2018/01_lateral.jpg', alt: 'lateral', isPrimary: true },
+          ...(Array.isArray(sonet?.images) ? sonet.images.slice(1) : [])
+        ],
+        fuel: sonet?.fuel ?? 'Bencina',
+        transmission: sonet?.transmission ?? 'Automático',
+        region: sonet?.region ?? 'Santiago',
+        kilometers: sonet?.kilometers ?? 21000,
+      } as Vehicle);
+    }
+  }
   useEffect(() => {
     let filtered = [...vehicles]
     
