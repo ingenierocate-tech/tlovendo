@@ -16,6 +16,8 @@ const sortOptions = [
   { name: 'Kilómetros: Mayor', value: 'km-desc' }
 ]
 
+import SoldVehicleCard from '@/components/SoldVehicleCard';
+
 interface CatalogClientProps {
   vehicles: Vehicle[]
 }
@@ -31,10 +33,10 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
   }
 
   // Detectar vendidos por slugs específicos (Kia Sonet y Suzuki Alto)
-  const soldSlugs = ['kia-sonet-2024-full', 'suzuki-alto-2022-800', 'kia-rio-5-2018'];
+  const soldSlugs = ['kia-sonet-2024-full', 'suzuki-alto-2022-800', 'kia-rio-5-2018', 'bmw-320i-m-sport-2024', 'porsche-panamera-gts-2017'];
 
   // Construir la lista de vendidos para la sección al final
-  const soldVehicles = vehicles.filter((v) => soldSlugs.includes(v.slug));
+  let soldVehicles = vehicles.filter((v) => soldSlugs.includes(v.slug));
 
   // Fallback: inyectar tarjeta Kia Rio 5 2018 replicando datos del Sonet si no existe en datos
   {
@@ -50,7 +52,7 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
         brand: 'Kia',
         model: 'Rio 5',
         year: 2018,
-        price: null, // fuerza la leyenda “Vendido”
+        price: null,
         image: '/autos/kia-rio-5-2018/01_lateral.jpg',
         images: [
           { url: '/autos/kia-rio-5-2018/01_lateral.jpg', alt: 'lateral', isPrimary: true },
@@ -63,6 +65,98 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
       } as Vehicle);
     }
   }
+
+  // Inyección del BMW como vendido (si no existe en datos)
+  {
+    const bmwSlug = 'bmw-320i-m-sport-2024';
+    const hasBMW = soldVehicles.some(v => v.slug === bmwSlug);
+    if (!hasBMW) {
+      const newId = Math.max(0, ...vehicles.map(v => v.id)) + 2000;
+      soldVehicles.push({
+        id: newId,
+        slug: bmwSlug,
+        brand: 'BMW',
+        model: '320i M Sport',
+        year: 2024,
+        price: null,
+        image: '/autos/Bmw_320iM_sport_2024/bmw_portada.jpg',
+        images: [
+          { url: '/autos/Bmw_320iM_sport_2024/bmw_portada.jpg', alt: 'frontal', isPrimary: true },
+          { url: '/autos/Bmw_320iM_sport_2024/IMG_20251001_140222.jpg', alt: '3/4' }
+        ],
+        fuel: 'Bencina',
+        transmission: 'Automático',
+        engine: '2.0 TwinPower Turbo',
+        power: '184 HP',
+        consumption: '5,9 – 5,5 L/100 km (mixto aprox)',
+        region: 'Vitacura',
+        kilometers: 17000,
+        owners: 1
+      } as Vehicle);
+    }
+  }
+
+  // Nueva inyección: Porsche Panamera GTS 2017 (V8 Biturbo, 40.000 km, Impecable)
+  {
+    const porscheSlug = 'porsche-panamera-gts-2017';
+    const hasPorsche = soldVehicles.some(v => v.slug === porscheSlug);
+    if (!hasPorsche) {
+      const newId = Math.max(0, ...vehicles.map(v => v.id)) + 3002;
+      soldVehicles.push({
+        id: newId,
+        slug: porscheSlug,
+        brand: 'Porsche',
+        model: 'Panamera GTS',
+        year: 2017,
+        price: null,
+        image: '/autos/Porsche_Panamera_GTS_2017/portada.jpg',
+        images: [
+          { url: '/autos/Porsche_Panamera_GTS_2017/portada.jpg', alt: 'portada', isPrimary: true },
+        ],
+        fuel: 'Bencina',
+        transmission: 'Automático',
+        engine: 'V8 Biturbo',
+        region: 'Santiago',
+        kilometers: 40000,
+        owners: 1,
+        description: 'Impecable'
+      } as Vehicle);
+    }
+  }
+
+  // Normalizar SIEMPRE el BMW aunque venga en datos (kilómetros, transmisión, región e imagen)
+  {
+    const bmwSlug = 'bmw-320i-m-sport-2024';
+    const portada = '/autos/Bmw_320iM_sport_2024/bmw_portada.jpg';
+
+    soldVehicles = soldVehicles.map(v => {
+      if (v.slug !== bmwSlug) return v;
+      const existingImages = Array.isArray(v.images) ? v.images : [];
+      const withoutPortada = existingImages.filter(img => (img?.url || '') !== portada);
+      return {
+        ...v,
+        kilometers: 17000,
+        transmission: 'Automático',
+        region: 'Vitacura',
+        image: portada,
+        images: [
+          { url: portada, alt: 'portada', isPrimary: true },
+          ...withoutPortada,
+        ],
+      };
+    });
+
+    soldVehicles.sort((a, b) => {
+      const order = ['bmw-320i-m-sport-2024', 'porsche-panamera-gts-2017'];
+      const ia = order.indexOf(a.slug);
+      const ib = order.indexOf(b.slug);
+      if (ia === -1 && ib === -1) return 0;
+      if (ia === -1) return 1;
+      if (ib === -1) return -1;
+      return ia - ib;
+    });
+  }
+
   useEffect(() => {
     let filtered = [...vehicles]
     
@@ -227,13 +321,11 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
           {soldVehicles.length > 0 ? (
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {soldVehicles.map((vehicle) => (
-                <VehicleCard key={`sold-${vehicle.id}`} vehicle={vehicle} hideDetailsCTA sold />
+                <SoldVehicleCard key={`sold-${vehicle.id}`} vehicle={vehicle} />
               ))}
             </div>
           ) : (
-            <div className="text-sm text-gray-500">
-              Aún no hay autos vendidos publicados.
-            </div>
+            <div className="text-sm text-gray-500">Aún no hay autos vendidos publicados.</div>
           )}
         </section>
       </div>

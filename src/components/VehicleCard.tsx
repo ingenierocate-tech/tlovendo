@@ -78,18 +78,16 @@ export default function VehicleCard({
     return (
       <Link href={href} className="block h-full">
         <div className="rounded-2xl overflow-hidden border border-neutral-200 bg-white shadow-sm hover:shadow-md transition-shadow h-full flex flex-col">
-          
-          {/* Imagen 16:9 */}
-          <div className="relative aspect-[16/9] w-full">
+          <div className="relative isolate aspect-[16/9] w-full">
             <Image
               src={imageUrl}
               alt={imageAlt}
               fill
-              className="object-cover"
+              className="object-cover z-0"
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
             />
             {sold && (
-              <div className="absolute top-2 left-2 bg-red-600/90 text-white text-xs sm:text-sm font-bold uppercase tracking-wide px-3 py-1 rounded-md shadow-sm">
+              <div className="absolute top-2 left-2 z-10 pointer-events-none bg-red-600 text-white text-xs sm:text-sm font-bold uppercase tracking-wide px-3 py-1 rounded-md shadow-sm w-fit">
                 Vendido
               </div>
             )}
@@ -143,14 +141,14 @@ export default function VehicleCard({
   // Variante "catalog"
   return (
     <div className="group relative bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
-      <div className="aspect-w-16 aspect-h-9 bg-gray-200 overflow-hidden relative">
+      <div className="relative isolate aspect-[16/9] bg-gray-200 overflow-hidden">
         <VehicleCardImage
           src={imageUrl}
           alt={imageAlt}
-          className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+          className="w-full h-48 object-cover"
         />
         {sold && (
-          <div className="absolute top-2 left-2 bg-red-600/90 text-white text-xs sm:text-sm font-bold uppercase tracking-wide px-3 py-1 rounded-md shadow-sm">
+          <div className="absolute top-2 left-2 z-10 pointer-events-none bg-red-600 text-white text-xs sm:text-sm font-bold uppercase tracking-wide px-3 py-1 rounded-md shadow-sm w-fit">
             Vendido
           </div>
         )}

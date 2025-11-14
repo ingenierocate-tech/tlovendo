@@ -1,8 +1,8 @@
 module.exports = {
   content: [
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",  // ✅ Ya presente
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",  // ✅ Ya presente
-    "./src/**/*.{js,ts,jsx,tsx,mdx}"  // ✅ Incluido implícitamente
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
     extend: {
@@ -20,5 +20,8 @@ module.exports = {
       },
       // ... animaciones y más
     }
-  }
+  },
+  plugins: [
+    require('@tailwindcss/aspect-ratio')
+  ]
 }
