@@ -5,9 +5,13 @@ import WhatsAppFloat from './WhatsAppFloat'
 
 export default function WhatsAppFloatWrapper() {
   const pathname = usePathname()
-  
+
+  if (pathname?.startsWith('/auto/')) {
+    return null
+  }
+
   const getMessageByPath = () => {
-    if (pathname?.startsWith('/compra') || pathname?.startsWith('/auto/')) {
+    if (pathname?.startsWith('/compra')) {
       return "Hola, vengo desde la web de tlovendo.cl y necesito más información sobre los autos en venta, por favor"
     }
     if (pathname?.startsWith('/vender')) {
@@ -18,7 +22,7 @@ export default function WhatsAppFloatWrapper() {
     }
     return "Hola, vengo desde la web de tlovendo.cl y necesito más información, por favor"
   }
-  
+
   return (
     <WhatsAppFloat 
       phone="+56971087126" 
