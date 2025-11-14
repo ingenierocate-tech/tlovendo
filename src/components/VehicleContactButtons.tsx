@@ -19,11 +19,12 @@ export default function VehicleContactButtons({ vehicle }: VehicleContactButtons
   const contactMessage = hasVehicleData
     ? `Hola, vi el ${vehicleTitle} publicado en tlovendo.cl y me gustaría tener más información. ¿Está disponible?`
     : 'Hola, vengo desde la web de tlovendo.cl y necesito más información, por favor.';
-  const phoneNumber = '56971087126';
+  const phoneNumber = '+56971087126';
 
   const handleWhatsApp = () => {
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(contactMessage)}`;
-    window.open(whatsappUrl, '_blank');
+    const whatsappNumber = phoneNumber.replace(/[^0-9]/g, '');
+    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(contactMessage)}`;
+    window.open(url, '_blank');
   };
 
   return (
