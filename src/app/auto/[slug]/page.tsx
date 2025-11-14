@@ -7,6 +7,7 @@ import VehicleContactButtonsWrapper from '@/components/VehicleContactButtonsWrap
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ChevronRightIcon } from '@heroicons/react/24/outline';
+import { CheckCircleIcon } from '@heroicons/react/24/outline';
 import { getVehicleBySlug, getVehicles } from '@/data/vehicles';
 
 interface RelatedItem {
@@ -26,7 +27,6 @@ export default async function Auto({ params }: { params: { slug: string } }) {
 
   // Obtener vehículos relacionados (excluyendo el actual)
   const allVehicles = await getVehicles();
-  // ... existing code ...
   const relatedItems: RelatedItem[] = (allVehicles ?? [])
     .filter(v => v.id !== vehicle.id)
     .filter(v => v.brand && v.model && v.year) // Filtrar vehículos con datos completos
@@ -165,10 +165,51 @@ export default async function Auto({ params }: { params: { slug: string } }) {
         <div className="mt-8 bg-white rounded-lg shadow-sm p-6">
           <h3 className="text-lg font-semibold text-gray-900 mb-3">Descripción</h3>
           <p className="text-gray-600 leading-relaxed">
-            Excelente estado, mantenciones al día, único dueño.
+            {vehicle.description || 'Excelente estado, mantenciones al día, único dueño.'}
           </p>
         </div>
 
+        {/* Secciones personalizadas para Nissan Pathfinder 3.5 2003 */}
+        {vehicle.slug === 'nissan-pathfinder-35-2003' && (
+          <>
+            <div className="mt-8 bg-white rounded-lg shadow-sm p-6">
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Características destacadas</h3>
+              <div className="space-y-2">
+                {[
+                  'Tren delantero nuevo (recién hecho).',
+                  'Levante de 2.5” — presencia más robusta y mejor despeje.',
+                  'Neumáticos nuevos',
+                  'Llantas nuevas',
+                  'Interior de cuero — cómodo y acogedor.',
+                  'Automática — suave y fácil de manejar.',
+                  'Techo eléctrico / sunroof',
+                  'Motor 3.5 V6 confiable y con muy buen desempeño.',
+                  'Carrocería e interior en excelente estado para su año.'
+                ].map((item, idx) => (
+                  <div key={idx} className="flex items-center gap-2 text-gray-700">
+                    <CheckCircleIcon className="w-5 h-5 text-green-600" />
+                    <span className="text-sm">{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="mt-8 bg-white rounded-lg shadow-sm p-6">
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Ideal para</h3>
+              <div className="space-y-2">
+                {[
+                  'Quien busca un SUV amplio, potente y cómodo.',
+                  'Viajes, ciudad, familia o escapadas fuera del camino.'
+                ].map((item, idx) => (
+                  <div key={idx} className="flex items-center gap-2 text-gray-700">
+                    <CheckCircleIcon className="w-5 h-5 text-green-600" />
+                    <span className="text-sm">{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </>
+        )}
         {/* Especificaciones técnicas detalladas */}
         <div className="mt-8 bg-white rounded-lg shadow-sm p-6">
           <VehicleSpecs vehicle={vehicle} />
