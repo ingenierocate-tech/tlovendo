@@ -33,12 +33,11 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
   }
 
   // Detectar vendidos por slugs específicos (Kia Sonet y Suzuki Alto)
-  const soldSlugs = ['kia-sonet-2024-full', 'suzuki-alto-2022-800', 'kia-rio-5-2018', 'bmw-320i-m-sport-2024', 'porsche-panamera-gts-2017'];
+  const soldSlugs = ['kia-sonet-2024-full', 'suzuki-alto-2022-800', 'kia-rio-5-2018', 'bmw-320i-m-sport-2024'];
 
   // Construir la lista de vendidos para la sección al final
   let soldVehicles = vehicles.filter((v) => soldSlugs.includes(v.slug));
-
-  // Fallback: inyectar tarjeta Kia Rio 5 2018 replicando datos del Sonet si no existe en datos
+  // Se elimina la inyección de `extraVehicles`; los 4 vehículos nuevos están en vehicles.local.json
   {
     const rioSlug = 'kia-rio-5-2018';
     const hasRio = soldVehicles.some(v => v.slug === rioSlug);
