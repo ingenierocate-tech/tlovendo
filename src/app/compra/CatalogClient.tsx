@@ -32,8 +32,17 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
     setSortBy(value)
   }
 
-  // Detectar vendidos por slugs específicos (Kia Sonet y Suzuki Alto)
-  const soldSlugs = ['kia-sonet-2024-full', 'suzuki-alto-2022-800', 'kia-rio-5-2018', 'bmw-320i-m-sport-2024'];
+  // Detectar vendidos por slugs específicos
+  const soldSlugs = [
+    'kia-sonet-2024-full',
+    'suzuki-alto-2022-800',
+    'kia-rio-5-2018',
+    'bmw-320i-m-sport-2024',
+    // Nuevos vendidos
+    'citroen-c3-picasso-2011',
+    'kia-soluto-2022-full',
+    'hyundai-tucson-2018-full',
+  ];
 
   // Construir la lista de vendidos para la sección al final
   let soldVehicles = vehicles.filter((v) => soldSlugs.includes(v.slug));
