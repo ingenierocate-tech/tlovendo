@@ -4,7 +4,7 @@ export type Vehicle = {
   brand: string;
   model: string;
   version?: string;
-  year: number;
+  year: number | null;
   price?: number | null;
   kilometers?: number | null;
   transmission: 'Manual' | 'Automática' | string;

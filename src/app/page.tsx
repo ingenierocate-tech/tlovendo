@@ -14,22 +14,28 @@ export default async function Home() {
     console.error('🏠 Error cargando vehículos en página principal:', error);
     vehicles = [];
   }
-  
-  // Slugs de vehículos destacados específicos (excluyendo vendidos)
-  const featuredSlugs = [
+  // Destacados explícitos por slug (en orden solicitado)
+  const desiredFeaturedSlugs = [
+    'chevrolet-silverado-zr2-2024',
+    'bmw-x1-2019',
     'mercedes-benz-glc-2016-220d',
-    'nissan-pathfinder-2018-full',
-    'hyundai-tucson-2018-full',
   ];
-  
-  // Filtrar vehículos destacados específicos
-  const featuredVehicles = vehicles.filter(v => featuredSlugs.includes(v.slug));
-  
-  // Si no encontramos los específicos, usar otros vehículos disponibles (excluyendo vendidos)
-  const soldSlugs = ['kia-sonet-2024-full', 'suzuki-alto-2022-800'];
-  const fallbackVehicles = vehicles.filter(v => !soldSlugs.includes(v.slug));
-  
-  const featured = featuredVehicles.length >= 3 ? featuredVehicles.slice(0, 3) : fallbackVehicles.slice(0, 3);
+
+  const normalize = (s?: string) => (s || '').toLowerCase().trim();
+  const isForSale = (v: Vehicle) => normalize(v.state) === 'en venta';
+
+  let featured: Vehicle[] = desiredFeaturedSlugs
+    .map((slug) => vehicles.find((v) => v.slug === slug))
+    .filter(Boolean) as Vehicle[];
+
+  // Fallback: completar hasta 3 con otros “en venta” si falta alguno
+  if (featured.length < 3) {
+    const selected = new Set(featured.map((v) => v.slug));
+    const extras = vehicles
+      .filter((v) => isForSale(v) && !selected.has(v.slug))
+      .slice(0, 3 - featured.length);
+    featured = [...featured, ...extras];
+  }
 
   return (
     <Suspense fallback={

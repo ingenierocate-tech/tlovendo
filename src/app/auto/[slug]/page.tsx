@@ -7,7 +7,6 @@ import VehicleContactButtonsWrapper from '@/components/VehicleContactButtonsWrap
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ChevronRightIcon } from '@heroicons/react/24/outline';
-import { CheckCircleIcon } from '@heroicons/react/24/outline';
 import { getVehicleBySlug, getVehicles } from '@/data/vehicles';
 
 interface RelatedItem {
@@ -25,18 +24,35 @@ export default async function Auto({ params }: { params: { slug: string } }) {
     notFound();
   }
 
-  // Obtener vehículos relacionados (excluyendo el actual)
+  // Obtener vehículos relacionados (excluyendo el actual y SOLO "en venta", prioriza marca/año)
   const allVehicles = await getVehicles();
-  const relatedItems: RelatedItem[] = (allVehicles ?? [])
+
+  const normalize = (s?: string) => (s ?? '').toLowerCase().trim();
+  const normalizeState = (s?: string) => normalize(s);
+  const isForSale = (v: { state?: string }) => normalizeState(v.state) === 'en venta';
+
+  const score = (v: { brand?: string; year?: number }) => {
+    let s = 0;
+    if (normalize(v.brand) === normalize(vehicle.brand)) s += 2; // misma marca
+    if (v.year === vehicle.year) s += 1;                         // mismo año
+    return s;
+  };
+
+  const candidates = (allVehicles ?? [])
     .filter(v => v.id !== vehicle.id)
-    .filter(v => v.brand && v.model && v.year) // Filtrar vehículos con datos completos
+    .filter(v => v.brand && v.model && v.year) // datos completos
+    .filter(isForSale);
+
+  const ordered = candidates.sort((a, b) => score(b) - score(a));
+
+  const relatedItems: RelatedItem[] = ordered
     .slice(0, 6)
     .map(v => ({
       id: v.id,
       slug: v.slug,
       title: `${v.brand || 'Marca'} ${v.model || 'Modelo'} ${v.year || 'Año'}`,
       image: v.image ?? '/placeholder-car.webp',
-      price: v.price ?? null, // manejar nulo → "Consultar" en card
+      price: v.price ?? null,
     }));
   
   const formatPrice = (price: number) => {
@@ -46,10 +62,7 @@ export default async function Auto({ params }: { params: { slug: string } }) {
       minimumFractionDigits: 0
     }).format(price)
   }
-
-  // Detectar vendido si price es null/undefined
-  const isSold = vehicle.price == null;
-
+  
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-8">
@@ -101,14 +114,17 @@ export default async function Auto({ params }: { params: { slug: string } }) {
             <div className="p-6 space-y-4">
               {/* Precio */}
               <div className="text-center lg:text-left">
-                <div className="text-3xl font-bold mb-2">
-                  {isSold
-                    ? <span className="text-red-600">Vendido</span>
-                    : (typeof vehicle.price === 'number'
-                        ? formatPrice(vehicle.price)
-                        : 'Consultar')}
+                <div className="text-3xl font-bold text-gray-900 mb-2">
+                  {isForSale(vehicle) ? (
+                    typeof vehicle.price === 'number'
+                      ? formatPrice(vehicle.price)
+                      : <span className="text-gray-700">Consultar precio</span>
+                  ) : (
+                    <span className="text-red-600">Vendido</span>
+                  )}
                 </div>
-                {!isSold && (
+                {/* Mostrar la leyenda verde siempre que esté "En venta" */}
+                {isForSale(vehicle) && (
                   <div className="text-sm text-green-600 font-medium flex items-center justify-center lg:justify-start">
                     <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
                     Precio final sin cargos ocultos
@@ -165,51 +181,10 @@ export default async function Auto({ params }: { params: { slug: string } }) {
         <div className="mt-8 bg-white rounded-lg shadow-sm p-6">
           <h3 className="text-lg font-semibold text-gray-900 mb-3">Descripción</h3>
           <p className="text-gray-600 leading-relaxed">
-            {vehicle.description || 'Excelente estado, mantenciones al día, único dueño.'}
+            Excelente estado, mantenciones al día, único dueño.
           </p>
         </div>
 
-        {/* Secciones personalizadas para Nissan Pathfinder 3.5 2003 */}
-        {vehicle.slug === 'nissan-pathfinder-35-2003' && (
-          <>
-            <div className="mt-8 bg-white rounded-lg shadow-sm p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Características destacadas</h3>
-              <div className="space-y-2">
-                {[
-                  'Tren delantero nuevo (recién hecho).',
-                  'Levante de 2.5” — presencia más robusta y mejor despeje.',
-                  'Neumáticos nuevos',
-                  'Llantas nuevas',
-                  'Interior de cuero — cómodo y acogedor.',
-                  'Automática — suave y fácil de manejar.',
-                  'Techo eléctrico / sunroof',
-                  'Motor 3.5 V6 confiable y con muy buen desempeño.',
-                  'Carrocería e interior en excelente estado para su año.'
-                ].map((item, idx) => (
-                  <div key={idx} className="flex items-center gap-2 text-gray-700">
-                    <CheckCircleIcon className="w-5 h-5 text-green-600" />
-                    <span className="text-sm">{item}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="mt-8 bg-white rounded-lg shadow-sm p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Ideal para</h3>
-              <div className="space-y-2">
-                {[
-                  'Quien busca un SUV amplio, potente y cómodo.',
-                  'Viajes, ciudad, familia o escapadas fuera del camino.'
-                ].map((item, idx) => (
-                  <div key={idx} className="flex items-center gap-2 text-gray-700">
-                    <CheckCircleIcon className="w-5 h-5 text-green-600" />
-                    <span className="text-sm">{item}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </>
-        )}
         {/* Especificaciones técnicas detalladas */}
         <div className="mt-8 bg-white rounded-lg shadow-sm p-6">
           <VehicleSpecs vehicle={vehicle} />

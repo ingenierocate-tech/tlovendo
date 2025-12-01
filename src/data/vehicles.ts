@@ -3,7 +3,7 @@ import path from 'path';
 import type { Vehicle } from '@/types/vehicle';
 import { fetchFotosCsv, fetchVehiculosCsv, type FotoRow, type VehiculoRow } from '@/lib/sheet-photos';
 import { buildImageSet } from '@/lib/gdrive';
-import { getLocalVehicles, getLocalSlugs, getLocalVehicleBySlug } from './local';
+import { getLocalVehicles, getLocalVehicleBySlug } from './local';
 
 const ROOT = process.cwd();
 const LOCAL_JSON = path.join(ROOT, 'src/data/vehicles.local.json');
@@ -141,11 +141,6 @@ export async function getVehicles(): Promise<Vehicle[]> {
   // 1. Intentar cargar datos locales primero
   console.log('🔍 getVehicles: Intentando cargar datos locales...');
   const localVehicles = await getLocalVehicles();
-  const forceLocal = process.env.FORCE_LOCAL === '1';
-  if (process.env.NODE_ENV === 'production' || forceLocal) {
-    console.log(`✅ getVehicles: producción usa locales (${localVehicles.length})`);
-    return localVehicles;
-  }
   console.log(`🔍 getVehicles: Datos locales cargados: ${localVehicles.length} vehículos`);
   
   if (localVehicles.length > 0) {
@@ -175,10 +170,10 @@ export async function getVehicles(): Promise<Vehicle[]> {
  * Obtiene los slugs de vehículos con la misma lógica de prioridad
  */
 export async function getVehicleSlugs(): Promise<string[]> {
-  // 1. Intentar cargar slugs locales primero
-  const localSlugs = await getLocalSlugs();
-  if (localSlugs.length > 0) {
-    return localSlugs;
+  // 1. Intentar cargar vehículos locales y derivar slugs
+  const localVehicles = await getLocalVehicles();
+  if (localVehicles.length > 0) {
+    return localVehicles.map(v => v.slug).filter(Boolean);
   }
 
   // 2. Fallback: extraer slugs desde Sheet
