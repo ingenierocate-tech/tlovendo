@@ -20,6 +20,7 @@ export type Vehicle = {
   owners: number; // Dueños - nunca puede ser 0, default 1
   color?: string;
   status?: string; // Estado
+  state?: string;
   engine?: string; // Motor
   power?: string; // Potencia
   consumption?: string; // Consumo
