@@ -82,24 +82,9 @@ import type { Vehicle } from '@/types/vehicle';
  * 4) Placeholder por defecto
  */
 export function getVehiclePrimaryImage(vehicle: Vehicle, fallback: string = '/placeholder-car.webp'): string {
-    // 0) Priorizar siempre la imagen lateral si existe en el array de imágenes
-    if (vehicle.images && Array.isArray(vehicle.images) && vehicle.images.length > 0) {
-        const lateralFromList = vehicle.images.find(img => {
-            const url = (img.url || '').toLowerCase();
-            const alt = (img.alt || '').toLowerCase();
-            return url.includes('_lateral.') || alt.includes('lateral');
-        });
-        if (lateralFromList && lateralFromList.url) {
-            return lateralFromList.url;
-        }
-    }
-
-    // 1) Usar vehicle.image solo si es lateral
+    // 1) Usar vehicle.image si existe (por ejemplo /autos/[slug]/front.jpg)
     if (vehicle.image && vehicle.image.trim() !== '') {
-        const imgLower = vehicle.image.toLowerCase();
-        if (imgLower.includes('_lateral.')) {
-            return vehicle.image;
-        }
+        return vehicle.image;
     }
 
     // 2) Si hay imágenes, usar marcada como primary; luego primera

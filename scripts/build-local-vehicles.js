@@ -156,7 +156,12 @@ const slugToFolderMapping = {
   'nissan-pathfinder-2018-full': 'nissan-pathfinder-2018-advance',
   'ford-f150-xlt-2016-full': 'ford-f150-xlt-2016',
   'ford-fusion-2020-hibrido': 'ford-fusion-2020-se',
-  'kia-soluto-2022-full': 'kia-soluto-2024-lx'
+  'kia-soluto-2022-full': 'kia-soluto-2024-lx',
+  // Nuevos mapeos para carpetas con espacios y acentos
+  'bmw-x1-2019': 'BMW X1 2019',
+  'nissan-sentra-2021': 'Nissan Sentra AT 2021',
+  'citroen-c4-picasso-2015': 'Citroën C4 Picasso 2015',
+  'nissan-pathfinder-33-1999': 'Nissan Pathfinder 3.3 1999'
 };
 
 async function getVehicleImages(slug) {

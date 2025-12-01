@@ -50,7 +50,7 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Otros servicios</h3>
             <div className="space-y-6">
-              <Link href="/servicios-adicionales" className="block group">
+              <Link href="/tlopreparo" className="block group">
                 <Image
                   src="/logo_Tlopreparo.jpg"
                   alt="TLoPreparo"
@@ -62,7 +62,7 @@ export default function Footer() {
                   Preparación y acondicionamiento de vehículos
                 </p>
               </Link>
-              <Link href="/servicios-adicionales" className="block group">
+              <Link href="/tlopinto" className="block group">
                 <Image
                   src="/logo_Tlopinto.jpg"
                   alt="TLoPinto"
@@ -74,7 +74,7 @@ export default function Footer() {
                   Servicios de pintura y carrocería
                 </p>
               </Link>
-              <Link href="/financiamiento" className="block group">
+              <Link href="/tasesoro" className="block group">
                 <Image
                   src="/logo_Tasesoro.jpg"
                   alt="Tasesoro"

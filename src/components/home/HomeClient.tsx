@@ -12,9 +12,9 @@ type Props = { vehicles: Vehicle[] };
 
 export default function HomeClient({ vehicles }: Props) {
   return (
-    <main className="flex flex-col gap-16 overflow-x-hidden max-w-[100vw] box-border">
+    <main className="flex flex-col gap-16">
       {/* Hero + Categorías (BLANCO) */}
-      <section className="bg-white w-full max-w-[100vw] box-border">
+      <section className="bg-white">
         <HeroSlider />
         <CategoriesBar />
       </section>
