@@ -17,6 +17,8 @@ interface RelatedItem {
   price: number | null;
 }
 
+import type { Vehicle } from '@/types/vehicle';
+
 export default async function Auto({ params }: { params: { slug: string } }) {
   const vehicle = await getVehicleBySlug(params.slug);
   
@@ -29,7 +31,7 @@ export default async function Auto({ params }: { params: { slug: string } }) {
 
   const normalize = (s?: string) => (s ?? '').toLowerCase().trim();
   const normalizeState = (s?: string) => normalize(s);
-  const isForSale = (v: { state?: string }) => normalizeState(v.state) === 'en venta';
+  const isForSale = (v: Vehicle) => normalizeState(v.state ?? v.status) === 'en venta';
 
   const score = (v: { brand?: string; year?: number }) => {
     let s = 0;
@@ -40,7 +42,7 @@ export default async function Auto({ params }: { params: { slug: string } }) {
 
   const candidates = (allVehicles ?? [])
     .filter(v => v.id !== vehicle.id)
-    .filter(v => v.brand && v.model && v.year) // datos completos
+    .filter(v => v.brand && v.model && v.year)
     .filter(isForSale);
 
   const ordered = candidates.sort((a, b) => score(b) - score(a));
