@@ -1,7 +1,7 @@
 // VehicleGrid.tsx
 import VehicleCard from './VehicleCard';
 import SoldVehicleCard from './SoldVehicleCard';
-import { Vehicle } from '@/types';
+import type { Vehicle } from '@/types/vehicle';
 
 interface Props {
   vehicles: Vehicle[];

@@ -1,7 +1,9 @@
 import { FaCogs, FaGasPump, FaMapMarkerAlt, FaChevronRight } from 'react-icons/fa';
 import { GiGearStickPattern } from 'react-icons/gi';
 import Tag from './Tag';
-import { Vehicle } from '@/types';
+import type { Vehicle } from '@/types/vehicle';
+import VehicleCardImage from '@/components/VehicleCardImage';
+import { getVehiclePrimaryImage, getVehicleImageAlt } from '@/lib/vehicleImage';
 
 interface Props {
   vehicle: Vehicle;
@@ -13,7 +15,6 @@ export default function VehicleCard({ vehicle }: Props) {
     model,
     year,
     price,
-    image,
     transmission,
     fuel,
     kilometers,
@@ -21,21 +22,24 @@ export default function VehicleCard({ vehicle }: Props) {
     slug,
   } = vehicle;
 
+  const primaryImage = getVehiclePrimaryImage(vehicle, '/placeholder-car.webp');
+  const imageAlt = getVehicleImageAlt(vehicle, 'lateral');
+
   return (
     <div className="border rounded-2xl overflow-hidden shadow hover:shadow-md transition-shadow duration-200">
       <a href={`/auto/${slug}`}>
         {/* Altura fija para uniformar las fotos */}
         <div className="overflow-hidden h-48 sm:h-52 md:h-56">
-          <img
-            src={image}
-            alt={`${brand} ${model}`}
+          <VehicleCardImage
+            src={primaryImage}
+            alt={imageAlt}
             className="object-cover w-full h-full"
           />
         </div>
       </a>
       <div className="p-3 space-y-1">
         <div className="font-medium text-sm">
-          {brand} {model} {year}
+          {brand} {model} {year ?? ''}
         </div>
         <div className="font-bold text-lg">
           {typeof price === 'number'
