@@ -10,7 +10,7 @@
     "lint": "next lint",
     "optimize-images": "node scripts/optimize-images.js",
     "watch-images": "node scripts/optimize-images.js --watch",
-    "prebuild": "if [ \"$SKIP_PREBUILD\" = \"1\" ]; then echo 'Skipping prebuild'; else npm run build:local || true && npm run optimize-images || true; fi"
+    "backup": "node scripts/backup-current-state.js"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.19",
@@ -37,6 +37,7 @@
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "autoprefixer": "^10.4.18",
+    "baseline-browser-mapping": "^2.8.32",
     "cross-env": "^10.0.0",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.2.5",

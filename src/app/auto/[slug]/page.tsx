@@ -33,16 +33,16 @@ export default async function Auto({ params }: { params: { slug: string } }) {
   const normalizeState = (s?: string) => normalize(s);
   const isForSale = (v: Vehicle) => normalizeState(v.state ?? v.status) === 'en venta';
 
-  const score = (v: { brand?: string; year?: number }) => {
+  const score = (v: Vehicle) => {
     let s = 0;
     if (normalize(v.brand) === normalize(vehicle.brand)) s += 2; // misma marca
-    if (v.year === vehicle.year) s += 1;                         // mismo año
+    if (v.year != null && vehicle.year != null && v.year === vehicle.year) s += 1; // mismo año
     return s;
   };
 
   const candidates = (allVehicles ?? [])
     .filter(v => v.id !== vehicle.id)
-    .filter(v => v.brand && v.model && v.year)
+    .filter(v => v.brand && v.model && v.year != null)
     .filter(isForSale);
 
   const ordered = candidates.sort((a, b) => score(b) - score(a));

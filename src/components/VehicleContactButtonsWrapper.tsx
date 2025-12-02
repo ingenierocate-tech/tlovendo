@@ -1,4 +1,5 @@
 import dynamic from 'next/dynamic'
+import type { Vehicle } from '@/types/vehicle'
 
 const VehicleContactButtons = dynamic(() => import('./VehicleContactButtons'), {
   ssr: false,
@@ -11,12 +12,7 @@ const VehicleContactButtons = dynamic(() => import('./VehicleContactButtons'), {
 })
 
 interface VehicleContactButtonsWrapperProps {
-  vehicle: {
-    brand: string
-    model: string
-    version?: string
-    year: number
-  }
+  vehicle: Pick<Vehicle, 'brand' | 'model' | 'version' | 'year'>
 }
 
 export default function VehicleContactButtonsWrapper({ vehicle }: VehicleContactButtonsWrapperProps) {

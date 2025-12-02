@@ -30,7 +30,7 @@ export default function HomeClient({ vehicles }: Props) {
           {vehicles?.length > 0 ? (
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 items-stretch">
               {vehicles.slice(0, 3).map((v) => (
-                <VehicleCard key={v.slug} vehicle={v} variant="home" />
+                <VehicleCard key={v.slug} vehicle={v} />
               ))}
             </div>
           ) : (
