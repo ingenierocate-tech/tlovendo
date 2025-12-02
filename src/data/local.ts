@@ -39,7 +39,9 @@ export async function getLocalVehicles(): Promise<Vehicle[]> {
         const hasGallery = Array.isArray(v.images) && v.images.length > 1;
         const hasPrimaryImage = typeof v.image === 'string' && v.image.startsWith('/');
 
-        if (hasGallery || !hasPrimaryImage) {
+        // En producción (Vercel), no leer el filesystem ni armar galerías dinámicas
+        const isProd = process.env.NODE_ENV === 'production' || process.env.VERCEL === '1';
+        if (isProd || hasGallery || !hasPrimaryImage) {
           return v;
         }
 
