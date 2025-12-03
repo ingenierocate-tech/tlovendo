@@ -1,15 +1,10 @@
 import './globals.css';
-import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import WhatsAppFloatWrapper from '@/components/WhatsAppFloatWrapper';
-
-export const metadata: Metadata = {
-  title: 'TLoVendo',
-  description: 'Compra y venta de autos usados en Chile',
-};
+import WhatsAppFloat from '@/components/WhatsAppFloat';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const whatsappPhone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE;
   return (
     <html lang="es">
       <body className="bg-white text-gray-900 antialiased font-body">
@@ -17,7 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />
-        <WhatsAppFloatWrapper />
+        <WhatsAppFloat phone={whatsappPhone} />
       </body>
     </html>
   );
