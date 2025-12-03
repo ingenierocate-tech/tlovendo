@@ -30,8 +30,20 @@ export default async function Auto({ params }: { params: { slug: string } }) {
   const allVehicles = await getVehicles();
 
   const normalize = (s?: string) => (s ?? '').toLowerCase().trim();
-  const normalizeState = (s?: string) => normalize(s);
-  const isForSale = (v: Vehicle) => normalizeState(v.state ?? v.status) === 'en venta';
+
+  // Slugs forzados a estado "vendido" para evitar que se cuelen
+  const forcedSoldSlugs = new Set([
+    'kia-morning-2024-full',
+    'bmw-320i-m-sport-2024',
+    'porsche-panamera-gts-2017',
+    'kia-rio-5-2018',
+  ]);
+
+  const isSold = (v: Vehicle) =>
+    normalize(v.state ?? v.status) === 'vendido' || forcedSoldSlugs.has(v.slug);
+
+  const isForSale = (v: Vehicle) =>
+    normalize(v.state ?? v.status) === 'en venta' && !isSold(v);
 
   const score = (v: Vehicle) => {
     let s = 0;
