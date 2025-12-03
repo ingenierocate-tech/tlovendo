@@ -23,13 +23,27 @@ export default async function Home() {
   ];
 
   const normalize = (s?: string) => (s || '').toLowerCase().trim();
-  const isForSale = (v: Vehicle) => normalize(v.state) === 'en venta';
 
+  // Slugs que deben considerarse vendidos aunque el estado sea ambiguo
+  const forcedSoldSlugs = new Set([
+    'kia-morning-2024-full',
+    'bmw-320i-m-sport-2024',
+    'porsche-panamera-gts-2017',
+    'kia-rio-5-2018',
+  ]);
+
+  const isSold = (v: Vehicle) =>
+    normalize(v.state ?? v.status) === 'vendido' || forcedSoldSlugs.has(v.slug);
+
+  const isForSale = (v: Vehicle) =>
+    normalize(v.state ?? v.status) === 'en venta' && !isSold(v);
+
+  // Filtrar explícitos: solo “en venta” y no vendidos
   let featured: Vehicle[] = desiredFeaturedSlugs
     .map((slug) => vehicles.find((v) => v.slug === slug))
-    .filter(Boolean) as Vehicle[];
+    .filter((v): v is Vehicle => !!v && isForSale(v));
 
-  // Fallback: completar hasta 3 con otros “en venta” si falta alguno
+  // Fallback: completar hasta 3 con otros “en venta” (no vendidos)
   if (featured.length < 3) {
     const selected = new Set(featured.map((v) => v.slug));
     const extras = vehicles
