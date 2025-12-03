@@ -4,6 +4,7 @@ import { getVehicles } from '@/data/vehicles';
 import type { Vehicle } from '@/types/vehicle';
 
 export const dynamic = 'force-dynamic';
+export const revalidate = false;
 
 export default async function Home() {
   let vehicles: Vehicle[] = [];

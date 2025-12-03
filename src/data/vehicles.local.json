@@ -118,36 +118,7 @@
     "cruiseControl": false,
     "image": "/autos/kia-sonet-2024-full/01_lateral.jpg",
     "images": [
-      {
-        "url": "/autos/kia-sonet-2024-full/01_lateral.jpg",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/kia-sonet-2024-full/02_posterior.jpg",
-        "alt": "posterior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-sonet-2024-full/02_tablero.jpg",
-        "alt": "tablero",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-sonet-2024-full/02_asientos.jpg",
-        "alt": "asientos",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-sonet-2024-full/02_interior.jpg",
-        "alt": "02_interior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-sonet-2024-full/WhatsApp Image 2025-09-16 at 08.08.32.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.08.32",
-        "isPrimary": false
-      }
+      "/autos/kia-sonet-2024-full/01_lateral.jpg"
     ]
   },
   {
@@ -181,36 +152,7 @@
     "cruiseControl": false,
     "image": "/autos/suzuki-alto-2022-800/01_lateral.jpg",
     "images": [
-      {
-        "url": "/autos/suzuki-alto-2022-800/01_lateral.jpg",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/suzuki-alto-2022-800/03_posterior.jpg",
-        "alt": "posterior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/suzuki-alto-2022-800/03_tablero.jpg",
-        "alt": "tablero",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/suzuki-alto-2022-800/03_asientos.jpg",
-        "alt": "asientos",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/suzuki-alto-2022-800/03_interior.jpg",
-        "alt": "03_interior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/suzuki-alto-2022-800/WhatsApp Image 2025-09-16 at 08.09.16 (3).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.09.16 (3)",
-        "isPrimary": false
-      }
+      "/autos/suzuki-alto-2022-800/01_lateral.jpg"
     ]
   },
   {
@@ -244,41 +186,7 @@
     "cruiseControl": false,
     "image": "/autos/hyundai-tucson-2018-full/01_lateral.jpg",
     "images": [
-      {
-        "url": "/autos/hyundai-tucson-2018-full/01_lateral.jpg",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/hyundai-tucson-2018-full/04_posterior.jpg",
-        "alt": "posterior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/hyundai-tucson-2018-full/04_tablero.jpg",
-        "alt": "tablero",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/hyundai-tucson-2018-full/04_asientos.jpg",
-        "alt": "asientos",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/hyundai-tucson-2018-full/04_interior.jpg",
-        "alt": "04_interior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/hyundai-tucson-2018-full/WhatsApp Image 2025-09-16 at 08.09.50.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.09.50",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/hyundai-tucson-2018-full/WhatsApp Image 2025-09-16 at 08.09.51.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.09.51",
-        "isPrimary": false
-      }
+      "/autos/hyundai-tucson-2018-full/01_lateral.jpg"
     ]
   },
   {
@@ -798,56 +706,7 @@
     "cruiseControl": false,
     "image": "/autos/kia-soluto-2024-lx/01_lateral.jpg",
     "images": [
-      {
-        "url": "/autos/kia-soluto-2024-lx/01_lateral.jpg",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/kia-soluto-2024-lx/11_frontal.jpg",
-        "alt": "frontal",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-soluto-2024-lx/11_posterior.jpg",
-        "alt": "posterior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-soluto-2024-lx/11_tablero.jpg",
-        "alt": "tablero",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-soluto-2024-lx/11_asientos.jpg",
-        "alt": "asientos",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-soluto-2024-lx/WhatsApp Image 2025-09-16 at 17.13.10 (1).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 17.13.10 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-soluto-2024-lx/WhatsApp Image 2025-09-16 at 17.13.10.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 17.13.10",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-soluto-2024-lx/WhatsApp Image 2025-09-16 at 17.15.41 (1).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 17.15.41 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-soluto-2024-lx/WhatsApp Image 2025-09-16 at 17.15.41 (2).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 17.15.41 (2)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-soluto-2024-lx/WhatsApp Image 2025-09-16 at 17.15.41.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 17.15.41",
-        "isPrimary": false
-      }
+      "/autos/kia-soluto-2024-lx/01_lateral.jpg"
     ]
   },
   {
@@ -867,7 +726,7 @@
     "state": "Vendido",
     "image": "/autos/Bmw_320iM_sport_2024/01_lateral.jpg",
     "images": [
-      { "url": "/autos/Bmw_320iM_sport_2024/01_lateral.jpg", "alt": "lateral", "isPrimary": true }
+      "/autos/Bmw_320iM_sport_2024/01_lateral.jpg"
     ]
   },
   {
@@ -887,7 +746,7 @@
     "state": "Vendido",
     "image": "/autos/Porsche_Panamera_GTS_2017/01_lateral.jpg",
     "images": [
-      { "url": "/autos/Porsche_Panamera_GTS_2017/01_lateral.jpg", "alt": "lateral", "isPrimary": true }
+      "/autos/Porsche_Panamera_GTS_2017/01_lateral.jpg"
     ]
   },
   {
@@ -907,7 +766,7 @@
     "state": "Vendido",
     "image": "/autos/kia-rio-5-2018/01_lateral.jpg",
     "images": [
-      { "url": "/autos/kia-rio-5-2018/01_lateral.jpg", "alt": "lateral", "isPrimary": true }
+      "/autos/kia-rio-5-2018/01_lateral.jpg"
     ]
   },
   {
@@ -927,7 +786,11 @@
     "state": "En venta",
     "image": "/autos/Nissan_Pathfinder_3.5cc_2003/01_lateral.jpg",
     "images": [
-      { "url": "/autos/Nissan_Pathfinder_3.5cc_2003/01_lateral.jpg", "alt": "lateral", "isPrimary": true }
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      }
     ]
   },
   {
@@ -947,7 +810,11 @@
     "state": "En venta",
     "image": "/autos/Chevrolet_Silverado_ZR2_2024/01_lateral.jpg",
     "images": [
-      { "url": "/autos/Chevrolet_Silverado_ZR2_2024/01_lateral.jpg", "alt": "lateral", "isPrimary": true }
+      {
+        "url": "/autos/Chevrolet_Silverado_ZR2_2024/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      }
     ]
   },
   {
@@ -967,7 +834,11 @@
     "state": "En venta",
     "image": "/autos/GreatWall_Wingle6_Elite_2017/01_lateral.jpg",
     "images": [
-      { "url": "/autos/GreatWall_Wingle6_Elite_2017/01_lateral.jpg", "alt": "lateral", "isPrimary": true }
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      }
     ]
   },
   {
@@ -987,7 +858,11 @@
     "state": "En venta",
     "image": "/autos/Subaru_Forester_Limited_2019/01_lateral.jpg",
     "images": [
-      { "url": "/autos/Subaru_Forester_Limited_2019/01_lateral.jpg", "alt": "lateral", "isPrimary": true }
+      {
+        "url": "/autos/Subaru_Forester_Limited_2019/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      }
     ]
   },
   {
@@ -1007,7 +882,7 @@
     "state": "Vendido",
     "image": "/autos/Citroen_C3Picasso_2011/01_lateral.jpg",
     "images": [
-      { "url": "/autos/Citroen_C3Picasso_2011/01_lateral.jpg", "alt": "lateral", "isPrimary": true }
+      "/autos/Citroen_C3Picasso_2011/01_lateral.jpg"
     ]
   },
   {
@@ -1027,9 +902,45 @@
     "state": "En venta",
     "airConditioning": true,
     "bluetooth": true,
-    "image": "/autos/Citroën C4 Picasso 2015/01_lateral.jpg",
+    "image": "/autos/Citroen C4 Picasso 2015/01_lateral.jpg",
     "images": [
-      { "url": "/autos/Citroën C4 Picasso 2015/01_lateral.jpg", "alt": "lateral", "isPrimary": true }
+      {
+        "url": "/autos/Citroen C4 Picasso 2015/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2015/IMG_20251121_103253.jpg",
+        "alt": "frontal"
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2015/IMG_20251121_103302.jpg",
+        "alt": "detalle frontal"
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2015/IMG_20251121_103316.jpg",
+        "alt": "interior"
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2015/IMG_20251121_103324.jpg",
+        "alt": "asientos"
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2015/IMG_20251121_103349.jpg",
+        "alt": "tablero"
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2015/IMG_20251121_103402.jpg",
+        "alt": "motor"
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2015/IMG_20251121_103408.jpg",
+        "alt": "trasero"
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2015/IMG_20251121_103416.jpg",
+        "alt": "posterior"
+      }
     ]
   },
   {
@@ -1051,7 +962,11 @@
     "bluetooth": true,
     "image": "/autos/BMW X1 2019/01_lateral.jpg",
     "images": [
-      { "url": "/autos/BMW X1 2019/01_lateral.jpg", "alt": "lateral", "isPrimary": true }
+      {
+        "url": "/autos/BMW X1 2019/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      }
     ]
   },
   {
@@ -1072,7 +987,11 @@
     "airConditioning": true,
     "image": "/autos/Nissan Pathfinder 3.3 1999/01_lateral.jpg",
     "images": [
-      { "url": "/autos/Nissan Pathfinder 3.3 1999/01_lateral.jpg", "alt": "lateral", "isPrimary": true }
+      {
+        "url": "/autos/Nissan Pathfinder 3.3 1999/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      }
     ]
   },
   {
@@ -1094,7 +1013,11 @@
     "bluetooth": true,
     "image": "/autos/Nissan Sentra AT 2021/01_lateral.jpg",
     "images": [
-      { "url": "/autos/Nissan Sentra AT 2021/01_lateral.jpg", "alt": "lateral", "isPrimary": true }
+      {
+        "url": "/autos/Nissan Sentra AT 2021/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      }
     ]
   }
 ]

@@ -200,3 +200,13 @@ export default async function Auto({ params }: { params: { slug: string } }) {
     </div>
   );
 }
+
+export const dynamic = 'force-static';
+export const dynamicParams = false;
+
+import { getLocalSlugs } from '@/data/local';
+
+export async function generateStaticParams() {
+  const slugs = await getLocalSlugs();
+  return slugs.map((slug) => ({ slug }));
+}

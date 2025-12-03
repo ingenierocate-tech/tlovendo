@@ -1,3 +1,6 @@
+export const dynamic = 'force-static';
+export const revalidate = false;
+
 import CatalogClient from './CatalogClient';
 import { getVehicles } from '@/data/vehicles';
 
