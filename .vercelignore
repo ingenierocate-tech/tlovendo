@@ -1,0 +1,11 @@
+# Ignora backups, datos y carpetas pesadas
+Tlovendo_backup/
+*.zip
+*.xlsx
+*.csv
+*.bak
+
+# Ignora otras carpetas si no son necesarias en prod
+/scripts/
+*.psd
+*.ai
