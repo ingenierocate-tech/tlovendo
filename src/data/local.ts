@@ -1,7 +1,9 @@
 import type { Vehicle } from '@/types/vehicle';
 import vehiclesJson from '@/data/vehicles.local.json';
 import slugsJson from '@/data/vehicles.slugs.local.json';
-import { completeVehicleGalleryFromDisk } from '@/data/local-dev-gallery';
+
+const IS_PROD = process.env.NODE_ENV === 'production';
+const SKIP_PREBUILD = process.env.SKIP_PREBUILD === '1' || process.env.SKIP_PREBUILD === 'true';
 
 function normalizeImages(v: any): { url: string; alt?: string; isPrimary?: boolean }[] {
   const label = `${v.brand ?? ''} ${v.model ?? ''} ${v.year ?? ''}`.trim();
@@ -60,8 +62,9 @@ export async function getLocalVehicles(): Promise<Vehicle[]> {
   const enriched = await Promise.all(
     vehicles.map(async (v) => {
       const count = Array.isArray(v.images) ? v.images.length : 0;
-      if (count <= 1 && v.image) {
+      if (!IS_PROD && !SKIP_PREBUILD && count <= 1 && v.image) {
         try {
+          const { completeVehicleGalleryFromDisk } = await import('@/data/local-dev-gallery');
           return await completeVehicleGalleryFromDisk(v);
         } catch {
           return v;
@@ -104,8 +107,9 @@ export async function getLocalVehicleBySlug(slug: string): Promise<Vehicle | nul
 
   // Completar galería desde disco si procede
   const count = Array.isArray(vehicle.images) ? vehicle.images.length : 0;
-  if (count <= 1 && vehicle.image) {
+  if (!IS_PROD && !SKIP_PREBUILD && count <= 1 && vehicle.image) {
     try {
+      const { completeVehicleGalleryFromDisk } = await import('@/data/local-dev-gallery');
       return await completeVehicleGalleryFromDisk(vehicle);
     } catch {
       return vehicle;
