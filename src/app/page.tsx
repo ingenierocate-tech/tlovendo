@@ -38,8 +38,6 @@ export default async function Home() {
     normalize(v.state ?? v.status) === 'en venta' && !isSold(v);
 
   // Filtrar explícitos: solo “en venta” y no vendidos
-=======
->>>>>>> 371577b (fix: imágenes corregidas y autos movidos a vendidos)
   let featured: Vehicle[] = desiredFeaturedSlugs
     .map((slug) => vehicles.find((v) => v.slug === slug))
     .filter((v): v is Vehicle => !!v && isForSale(v));
