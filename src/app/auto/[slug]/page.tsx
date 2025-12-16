@@ -7,16 +7,7 @@ import VehicleContactButtonsWrapper from '@/components/VehicleContactButtonsWrap
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ChevronRightIcon } from '@heroicons/react/24/outline';
-import { getVehicleBySlug, getVehicles } from '@/data/vehicles';
-
-interface RelatedItem {
-  id: number;
-  slug: string;
-  title: string;
-  image: string;
-  price: number | null;
-}
-
+import { getVehicleBySlug, getVehicles, getVehicleSlugs } from '@/data/vehicles';
 import type { Vehicle } from '@/types/vehicle';
 
 export default async function Auto({ params }: { params: { slug: string } }) {
@@ -219,6 +210,13 @@ export const dynamicParams = false;
 import { getLocalSlugs } from '@/data/local';
 
 export async function generateStaticParams() {
-  const slugs = await getLocalSlugs();
+  const slugs = await getVehicleSlugs();
   return slugs.map((slug) => ({ slug }));
 }
+// Eliminar este bloque no utilizado:
+// const forcedSoldSlugs = new Set([
+//   'kia-morning-2024-full',
+//   'bmw-320i-m-sport-2024',
+//   'porsche-panamera-gts-2017',
+//   'kia-rio-5-2018',
+// ]);

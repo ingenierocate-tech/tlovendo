@@ -1,6 +1,7 @@
 import type { Vehicle } from '@/types/vehicle';
 import vehiclesJson from '@/data/vehicles.local.json';
 import slugsJson from '@/data/vehicles.slugs.local.json';
+import { completeVehicleGalleryFromDisk } from '@/data/local-dev-gallery';
 
 function normalizeImages(v: any): { url: string; alt?: string; isPrimary?: boolean }[] {
   const label = `${v.brand ?? ''} ${v.model ?? ''} ${v.year ?? ''}`.trim();
@@ -48,7 +49,6 @@ export async function getLocalVehicles(): Promise<Vehicle[]> {
 
     return {
       ...v,
-      // Asegurar compatibilidad de tipos esperados por Vehicle
       price: v.price ?? null,
       kilometers: v.kilometers ?? null,
       image: primary,
@@ -56,8 +56,23 @@ export async function getLocalVehicles(): Promise<Vehicle[]> {
     } as Vehicle;
   });
 
-  console.log(`✅ Cargados ${vehicles.length} vehículos desde import estático`);
-  return vehicles;
+  // Completar galería desde disco si solo hay 0-1 imágenes
+  const enriched = await Promise.all(
+    vehicles.map(async (v) => {
+      const count = Array.isArray(v.images) ? v.images.length : 0;
+      if (count <= 1 && v.image) {
+        try {
+          return await completeVehicleGalleryFromDisk(v);
+        } catch {
+          return v;
+        }
+      }
+      return v;
+    })
+  );
+
+  console.log(`✅ Cargados ${enriched.length} vehículos desde import estático`);
+  return enriched;
 }
 
 /**
@@ -84,6 +99,17 @@ export async function getLocalVehicleBySlug(slug: string): Promise<Vehicle | nul
     console.log(`✅ Vehículo encontrado localmente: ${vehicle.brand} ${vehicle.model}`);
   } else {
     console.log(`📁 Vehículo con slug "${slug}" no encontrado localmente`);
+    return null;
   }
-  return vehicle || null;
+
+  // Completar galería desde disco si procede
+  const count = Array.isArray(vehicle.images) ? vehicle.images.length : 0;
+  if (count <= 1 && vehicle.image) {
+    try {
+      return await completeVehicleGalleryFromDisk(vehicle);
+    } catch {
+      return vehicle;
+    }
+  }
+  return vehicle;
 }

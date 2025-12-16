@@ -24,7 +24,6 @@ export default async function Home() {
 
   const normalize = (s?: string) => (s || '').toLowerCase().trim();
 
-  // Slugs que deben considerarse vendidos aunque el estado sea ambiguo
   const forcedSoldSlugs = new Set([
     'kia-morning-2024-full',
     'bmw-320i-m-sport-2024',
@@ -39,6 +38,8 @@ export default async function Home() {
     normalize(v.state ?? v.status) === 'en venta' && !isSold(v);
 
   // Filtrar explícitos: solo “en venta” y no vendidos
+=======
+>>>>>>> 371577b (fix: imágenes corregidas y autos movidos a vendidos)
   let featured: Vehicle[] = desiredFeaturedSlugs
     .map((slug) => vehicles.find((v) => v.slug === slug))
     .filter((v): v is Vehicle => !!v && isForSale(v));

@@ -22,7 +22,9 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
     'bmw-320i-m-sport-2024',
     'porsche-panamera-gts-2017',
     'kia-rio-5-2018',
-    'kia-morning-2024-full', // ← forzado a "Vendidos"
+    'kia-morning-2024-full',
+    'ford-f150-xlt-2016-full',
+    'toyota-avensis-2013',
   ]);
 
   // Excluir de 'vendidos' por foto incorrecta
