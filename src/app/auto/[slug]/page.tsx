@@ -9,6 +9,7 @@ import Link from 'next/link';
 import { ChevronRightIcon } from '@heroicons/react/24/outline';
 import { getVehicleBySlug, getVehicles, getVehicleSlugs } from '@/data/vehicles';
 import type { Vehicle } from '@/types/vehicle';
+import type { RelatedItem } from '@/components/RelatedVehicles';
 
 export default async function Auto({ params }: { params: { slug: string } }) {
   const vehicle = await getVehicleBySlug(params.slug);
