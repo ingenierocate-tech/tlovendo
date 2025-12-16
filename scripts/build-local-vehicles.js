@@ -59,40 +59,42 @@ function readExcelCaracteristicas(excelPath) {
 
   for (let i = 1; i < rows.length; i++) {
     const r = rows[i] || [];
-    const marca  = r[1];
-    const modelo = r[2];
-    const anio   = r[3];
+    // Ajuste de columnas: N°(1), Marca(2), Modelo(3), Año(4), Versión(5)...
+    const marca  = r[2];
+    const modelo = r[3];
+    const anio   = r[4];
 
-    if (!marca || !modelo || !anio) continue;
+    // Skip si es cabecera o fila vacía
+    if (!marca || !modelo || !anio || marca === 'Marca' || modelo === 'Modelo') continue;
 
-    const version      = r[4] ?? '';
-    const duenos       = toInt(r[5]) ?? 1;
-    const kilometros   = toInt(r[6]);
-    const color        = r[7] ?? '';
-    const transmision  = r[8] ?? '';
-    const precio       = toPrice(r[9]);
-    const combustible  = r[10] ?? '';
-    const ubicacion    = r[11] ?? '';
-    const estado       = r[12] ?? 'En venta';
-    const motor        = r[13] ?? '';
-    const potencia     = toInt(r[14]);
-    const consumo      = r[15] ?? '';
-    const emisiones    = r[16] ?? '';
+    const version      = r[5] ?? '';
+    const duenos       = toInt(r[6]) ?? 1;
+    const kilometros   = toInt(r[7]);
+    const color        = r[8] ?? '';
+    const transmision  = r[9] ?? '';
+    const precio       = toPrice(r[10]);
+    const combustible  = r[11] ?? '';
+    const ubicacion    = r[12] ?? '';
+    const estado       = r[13] ?? 'En venta';
+    const motor        = r[14] ?? '';
+    const potencia     = toInt(r[15]);
+    const consumo      = r[16] ?? '';
+    const emisiones    = r[17] ?? '';
     
     // Nuevos campos de características
-    const abs                = toBool(r[17]);
-    const esp                = toBool(r[18]);
-    const airbagsFrontales   = toBool(r[19]);
-    const airbagsLaterales   = toBool(r[20]);
-    const controlTraccion    = toBool(r[21]);
-    const aireAcondicionado  = toBool(r[22]);
-    const direccionAsistida  = toBool(r[23]);
-    const alzavidriosElec    = toBool(r[24]);
-    const espejosElec        = toBool(r[25]);
-    const sistemaAudio       = toBool(r[26]);
-    const bluetooth          = toBool(r[27]);
-    const usb                = toBool(r[28]);
-    const controlCrucero     = toBool(r[29]);
+    const abs                = toBool(r[18]);
+    const esp                = toBool(r[19]);
+    const airbagsFrontales   = toBool(r[20]);
+    const airbagsLaterales   = toBool(r[21]);
+    const controlTraccion    = toBool(r[22]);
+    const aireAcondicionado  = toBool(r[23]);
+    const direccionAsistida  = toBool(r[24]);
+    const alzavidriosElec    = toBool(r[25]);
+    const espejosElec        = toBool(r[26]);
+    const sistemaAudio       = toBool(r[27]);
+    const bluetooth          = toBool(r[28]);
+    const usb                = toBool(r[29]);
+    const controlCrucero     = toBool(r[30]);
 
     // Combinar airbags frontales y laterales en un string descriptivo
     let airbags = '';

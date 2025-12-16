@@ -1,24 +1,26 @@
 [
   {
-    "id": 2,
-    "slug": "n-marca-Modelo-ano",
-    "brand": "N°",
-    "model": "Marca",
-    "version": "Año",
-    "year": null,
+    "id": 3,
+    "slug": "kia-morning-2024-full",
+    "brand": "Kia",
+    "model": "Morning",
+    "version": "Full",
+    "year": 2024,
     "owners": 1,
-    "color": "Kilometraje",
-    "transmission": "Color",
-    "fuel": "Precio",
-    "region": "Combustible",
-    "state": "Ubicación",
-    "engine": "Estado",
-    "consumption": "Potencia",
-    "emissions": "Consumo",
+    "kilometers": 17000,
+    "color": "Blanco",
+    "transmission": "Automático",
+    "price": 9890000,
+    "fuel": "Bencina",
+    "region": "Santiago",
+    "state": "En venta",
+    "engine": "45689",
+    "consumption": "",
+    "emissions": "",
     "abs": false,
     "esp": false,
     "tractionControl": false,
-    "airConditioning": false,
+    "airConditioning": true,
     "powerSteering": false,
     "electricWindows": false,
     "electricMirrors": false,
@@ -26,54 +28,81 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
-  },
-  {
-    "id": 3,
-    "slug": "1-kia-Morning-2024",
-    "brand": "1",
-    "model": "Kia",
-    "version": "2024",
-    "year": null,
-    "owners": 1,
-    "color": "17000",
-    "transmission": "Blanco",
-    "fuel": "9890000",
-    "region": "Bencina",
-    "state": "Santiago",
-    "engine": "En venta",
-    "power": 45689,
-    "consumption": "",
-    "emissions": "",
-    "abs": false,
-    "esp": false,
-    "tractionControl": false,
-    "airConditioning": false,
-    "powerSteering": true,
-    "electricWindows": false,
-    "electricMirrors": false,
-    "audioSystem": false,
-    "bluetooth": false,
-    "usb": false,
-    "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/kia-morning-2024-full/01_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/kia-morning-2024-full/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/01_frontal.jpg",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/01_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/01_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/01_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.48 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.07.48 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.48.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.07.48",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.49 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.07.49 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.49.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.07.49",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.50 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.07.50 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.50.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.07.50",
+        "isPrimary": false
+      }
+    ]
   },
   {
     "id": 4,
-    "slug": "2-kia-Sonet-2024",
-    "brand": "2",
-    "model": "Kia",
-    "version": "2024",
-    "year": null,
+    "slug": "kia-sonet-2024-full",
+    "brand": "Kia",
+    "model": "Sonet",
+    "version": "Full",
+    "year": 2024,
     "owners": 1,
-    "color": "21000",
-    "transmission": "Blanco",
-    "fuel": "12990000",
-    "region": "Bencina",
-    "state": "Santiago",
-    "engine": "Vendido",
+    "kilometers": 21000,
+    "color": "Blanco",
+    "transmission": "Automático",
+    "price": 12990000,
+    "fuel": "Bencina",
+    "region": "Santiago",
+    "state": "Vendido",
+    "engine": "",
     "consumption": "",
     "emissions": "",
     "abs": false,
@@ -84,26 +113,34 @@
     "electricWindows": false,
     "electricMirrors": false,
     "audioSystem": false,
-    "bluetooth": false,
-    "usb": true,
+    "bluetooth": true,
+    "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/kia-sonet-2024-full/01_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/kia-sonet-2024-full/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ]
   },
   {
     "id": 5,
-    "slug": "3-suzuki-Alto-2022",
-    "brand": "3",
-    "model": "Suzuki",
-    "version": "2022",
-    "year": null,
-    "owners": 800,
-    "color": "20000",
-    "transmission": "Palatedo",
-    "fuel": "5190000",
-    "region": "Bencina",
-    "state": "Santiago",
-    "engine": "Vendido",
+    "slug": "suzuki-alto-2022-800",
+    "brand": "Suzuki",
+    "model": "Alto",
+    "version": "800",
+    "year": 2022,
+    "owners": 1,
+    "kilometers": 20000,
+    "color": "Palatedo",
+    "transmission": "Mecánico",
+    "price": 5190000,
+    "fuel": "Bencina",
+    "region": "Santiago",
+    "state": "Vendido",
+    "engine": "",
     "consumption": "",
     "emissions": "",
     "abs": false,
@@ -111,156 +148,313 @@
     "tractionControl": false,
     "airConditioning": false,
     "powerSteering": false,
-    "electricWindows": false,
-    "electricMirrors": true,
+    "electricWindows": true,
+    "electricMirrors": false,
     "audioSystem": false,
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/suzuki-alto-2022-800/01_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/suzuki-alto-2022-800/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ]
   },
   {
     "id": 6,
-    "slug": "4-hyundai-Tucson-2018",
-    "brand": "4",
-    "model": "Hyundai",
-    "version": "2018",
-    "year": null,
+    "slug": "hyundai-tucson-2018-full",
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "version": "Full",
+    "year": 2018,
     "owners": 1,
-    "kilometers": 1,
-    "color": "173000",
-    "transmission": "Burdeo",
-    "fuel": "11490000",
-    "region": "",
-    "state": "Las Condes",
-    "engine": "Vendido",
+    "kilometers": 173000,
+    "color": "Burdeo",
+    "transmission": "Mecánico",
+    "price": 11490000,
+    "fuel": "",
+    "region": "Las Condes",
+    "state": "Vendido",
+    "engine": "",
     "consumption": "",
     "emissions": "",
     "abs": false,
     "esp": false,
     "tractionControl": false,
-    "airConditioning": false,
-    "powerSteering": true,
-    "electricWindows": false,
-    "electricMirrors": true,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": false,
     "audioSystem": false,
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/hyundai-tucson-2018-full/01_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/hyundai-tucson-2018-full/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ]
   },
   {
     "id": 7,
-    "slug": "5-mercedes-benz-GLC-2016",
-    "brand": "5",
-    "model": "Mercedes Benz",
-    "version": "2016",
-    "year": null,
-    "owners": 220,
-    "kilometers": 2,
-    "color": "175000",
-    "transmission": "",
-    "fuel": "17890000",
-    "region": "Diesel",
-    "state": "Las Condes",
-    "engine": "En venta",
-    "power": 45690,
-    "consumption": "170",
+    "slug": "mercedes-benz-glc-2016-220d",
+    "brand": "Mercedes Benz",
+    "model": "GLC",
+    "version": "220d",
+    "year": 2016,
+    "owners": 2,
+    "kilometers": 175000,
+    "color": "",
+    "transmission": "Automático",
+    "price": 17890000,
+    "fuel": "Diesel",
+    "region": "Las Condes",
+    "state": "En venta",
+    "engine": "45690",
+    "power": 170,
+    "consumption": "",
     "emissions": "",
     "abs": false,
     "esp": false,
     "tractionControl": false,
-    "airConditioning": false,
-    "powerSteering": true,
-    "electricWindows": false,
-    "electricMirrors": true,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": false,
     "audioSystem": false,
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/mercedes-benz-glc-2016-220d/01_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/05_frontal.jpg",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/05_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/05_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/05_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.43.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.10.43",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.44 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.10.44 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.44 (2).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.10.44 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.45 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.10.45 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.45 (3).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.10.45 (3)",
+        "isPrimary": false
+      }
+    ]
   },
   {
     "id": 8,
-    "slug": "6-toyota-Avensis-2013",
-    "brand": "6",
-    "model": "Toyota",
-    "version": "2013",
-    "year": null,
+    "slug": "toyota-avensis-2013",
+    "brand": "Toyota",
+    "model": "Avensis",
+    "version": "",
+    "year": 2013,
     "owners": 1,
-    "color": "222000",
-    "transmission": "Blanco",
-    "fuel": "6490000",
-    "region": "Bencina",
-    "state": "Las Condes",
-    "engine": "En venta",
-    "power": 20,
-    "consumption": "150",
+    "kilometers": 222000,
+    "color": "Blanco",
+    "transmission": "Automático",
+    "price": 6490000,
+    "fuel": "Bencina",
+    "region": "Las Condes",
+    "state": "En venta",
+    "engine": "2.0",
+    "power": 150,
+    "consumption": "",
     "emissions": "",
     "abs": false,
     "esp": false,
     "tractionControl": false,
-    "airConditioning": false,
-    "powerSteering": true,
-    "electricWindows": false,
-    "electricMirrors": true,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": false,
     "audioSystem": false,
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/toyota-avensis-2013/01_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/toyota-avensis-2013/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/toyota-avensis-2013/06_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/toyota-avensis-2013/06_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/toyota-avensis-2013/06_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/toyota-avensis-2013/06_interior.jpg",
+        "alt": "06_interior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/toyota-avensis-2013/WhatsApp Image 2025-09-16 at 08.11.17.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.17",
+        "isPrimary": false
+      }
+    ]
   },
   {
     "id": 9,
-    "slug": "7-chevrolet-Tahoe-2018",
-    "brand": "7",
-    "model": "Chevrolet",
-    "version": "2018",
-    "year": null,
-    "owners": 1,
-    "kilometers": 2,
-    "color": "150000",
-    "transmission": "Blanco",
-    "fuel": "23990000",
-    "region": "",
-    "state": "Las Condes",
-    "engine": "En venta",
-    "consumption": "355",
+    "slug": "chevrolet-tahoe-2018-full",
+    "brand": "Chevrolet",
+    "model": "Tahoe",
+    "version": "Full",
+    "year": 2018,
+    "owners": 2,
+    "kilometers": 150000,
+    "color": "Blanco",
+    "transmission": "Automático",
+    "price": 23990000,
+    "fuel": "",
+    "region": "Las Condes",
+    "state": "En venta",
+    "engine": "",
+    "power": 355,
+    "consumption": "",
     "emissions": "",
     "abs": false,
     "esp": false,
     "tractionControl": false,
-    "airConditioning": false,
-    "powerSteering": true,
-    "electricWindows": false,
-    "electricMirrors": true,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": false,
     "audioSystem": false,
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/chevrolet-tahoe-2018-lt/01_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_frontal.jpg",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.52 (2).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.52 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.52.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.52",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.53 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53 (2).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.53 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.53",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.54 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.54 (1)",
+        "isPrimary": false
+      }
+    ]
   },
   {
     "id": 10,
-    "slug": "8-nissan-Pathfinder-2018",
-    "brand": "8",
-    "model": "Nissan",
-    "version": "2018",
-    "year": null,
-    "owners": 1,
-    "kilometers": 2,
-    "color": "",
-    "transmission": "Azul metálico",
-    "fuel": "16990000",
-    "region": "",
-    "state": "Santiago",
-    "engine": "En venta",
-    "consumption": "284",
+    "slug": "nissan-pathfinder-2018-full",
+    "brand": "Nissan",
+    "model": "Pathfinder",
+    "version": "Full",
+    "year": 2018,
+    "owners": 2,
+    "color": "Azul metálico",
+    "transmission": "Automático",
+    "price": 16990000,
+    "fuel": "",
+    "region": "Santiago",
+    "state": "En venta",
+    "engine": "",
+    "power": 284,
+    "consumption": "",
     "emissions": "",
     "abs": false,
     "esp": false,
@@ -273,25 +467,102 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/nissan-pathfinder-2018-advance/08_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/08_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/08_frontal.jpg",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/08_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/08_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/08_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.21 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.21 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.21 (2).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.21 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.22 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22 (2).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.22 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.22",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23 (3).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.23 (3)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23 (4).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.23 (4)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.23",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.24 (2).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.24 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.24 (3).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.24 (3)",
+        "isPrimary": false
+      }
+    ]
   },
   {
     "id": 11,
-    "slug": "9-ford-F150 XLT-2016",
-    "brand": "9",
-    "model": "Ford",
-    "version": "2016",
-    "year": null,
-    "owners": 1,
-    "kilometers": 2,
+    "slug": "ford-f150-xlt-2016-full",
+    "brand": "Ford",
+    "model": "F150 XLT",
+    "version": "Full",
+    "year": 2016,
+    "owners": 2,
     "color": "",
-    "transmission": "",
-    "fuel": "17990000",
-    "region": "",
-    "state": "Las Condes",
-    "engine": "En venta",
-    "consumption": "385",
+    "transmission": "Automático",
+    "price": 17990000,
+    "fuel": "",
+    "region": "Las Condes",
+    "state": "En venta",
+    "engine": "",
+    "power": 385,
+    "consumption": "",
     "emissions": "",
     "abs": false,
     "esp": false,
@@ -304,26 +575,72 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/ford-f150-xlt-2016/01_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/ford-f150-xlt-2016/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/01_frontal.jpg",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/09_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/09_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/09_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/WhatsApp Image 2025-09-16 at 08.12.50 (1).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.50 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/WhatsApp Image 2025-09-16 at 08.12.50 (2).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.50 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/WhatsApp Image 2025-09-16 at 08.12.50 (3).jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.50 (3)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-f150-xlt-2016/WhatsApp Image 2025-09-16 at 08.12.50.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.12.50",
+        "isPrimary": false
+      }
+    ]
   },
   {
     "id": 12,
-    "slug": "10-ford-Fusion-2020",
-    "brand": "10",
-    "model": "Ford",
-    "version": "2020",
-    "year": null,
+    "slug": "ford-fusion-2020-hibrido",
+    "brand": "Ford",
+    "model": "Fusion",
+    "version": "Híbrido",
+    "year": 2020,
     "owners": 1,
-    "kilometers": 1,
     "color": "",
-    "transmission": "",
-    "fuel": "15550000",
-    "region": "Eléctrico",
-    "state": "Colina",
-    "engine": "En venta",
-    "power": 20,
-    "consumption": "188",
+    "transmission": "Automático",
+    "price": 15550000,
+    "fuel": "Eléctrico",
+    "region": "Colina",
+    "state": "En venta",
+    "engine": "2.0",
+    "power": 188,
+    "consumption": "",
     "emissions": "",
     "abs": false,
     "esp": false,
@@ -336,66 +653,105 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/ford-fusion-2020-se/01_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/ford-fusion-2020-se/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/10_frontal.jpg",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/10_posterior.jpg",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/10_tablero.jpg",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/10_asientos.jpg",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/WhatsApp Image 2025-09-16 at 08.13.15.jpeg",
+        "alt": "WhatsApp Image 2025-09-16 at 08.13.15",
+        "isPrimary": false
+      }
+    ]
   },
   {
     "id": 13,
-    "slug": "11-kia-Soluto-2022",
-    "brand": "11",
-    "model": "Kia",
-    "version": "2022",
-    "year": null,
-    "owners": 1,
-    "kilometers": 2,
-    "color": "43000",
-    "transmission": "",
-    "fuel": "8390000",
-    "region": "Bencina",
-    "state": "Las Condes",
-    "engine": "Vendido",
+    "slug": "kia-soluto-2022-full",
+    "brand": "Kia",
+    "model": "Soluto",
+    "version": "Full",
+    "year": 2022,
+    "owners": 2,
+    "kilometers": 43000,
+    "color": "",
+    "transmission": "Mecánico",
+    "price": 8390000,
+    "fuel": "Bencina",
+    "region": "Las Condes",
+    "state": "Vendido",
+    "engine": "",
     "consumption": "",
     "emissions": "",
-    "abs": false,
-    "esp": true,
+    "abs": true,
+    "esp": false,
     "tractionControl": false,
     "airConditioning": false,
     "powerSteering": false,
-    "electricWindows": false,
+    "electricWindows": true,
     "electricMirrors": true,
-    "audioSystem": true,
+    "audioSystem": false,
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/kia-soluto-2024-lx/01_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/kia-soluto-2024-lx/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ]
   },
   {
     "id": 15,
-    "slug": "13-citroen-Picasso-2011",
-    "brand": "13",
-    "model": "Citroen",
-    "version": "2011",
-    "year": null,
+    "slug": "citroen-picasso-2011",
+    "brand": "Citroen",
+    "model": "Picasso",
+    "version": "",
+    "year": 2011,
     "owners": 1,
-    "color": "109000",
-    "transmission": "",
-    "fuel": "4490000",
-    "region": "Bencina",
-    "state": "Santiago",
-    "engine": "Vendido",
-    "power": 45809,
+    "kilometers": 109000,
+    "color": "",
+    "transmission": "Mecánico",
+    "price": 4490000,
+    "fuel": "Bencina",
+    "region": "Santiago",
+    "state": "Vendido",
+    "engine": "45809",
     "consumption": "",
     "emissions": "",
-    "abs": false,
-    "esp": true,
-    "airbags": "Laterales",
+    "abs": true,
+    "esp": false,
+    "airbags": "Frontales",
     "tractionControl": false,
-    "airConditioning": false,
-    "powerSteering": true,
-    "electricWindows": false,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": true,
     "electricMirrors": true,
-    "audioSystem": true,
+    "audioSystem": false,
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
@@ -404,19 +760,20 @@
   },
   {
     "id": 16,
-    "slug": "14-subaru-Forester-2019",
-    "brand": "14",
-    "model": "Subaru",
-    "version": "2019",
-    "year": null,
+    "slug": "subaru-forester-2019-awd",
+    "brand": "Subaru",
+    "model": "Forester",
+    "version": "AWD",
+    "year": 2019,
     "owners": 1,
-    "color": "80000",
-    "transmission": "",
-    "fuel": "18990000",
-    "region": "Bencina",
-    "state": "Las Condes",
-    "engine": "En venta",
-    "power": 20,
+    "kilometers": 80000,
+    "color": "",
+    "transmission": "Automático",
+    "price": 18990000,
+    "fuel": "Bencina",
+    "region": "Las Condes",
+    "state": "En venta",
+    "engine": "2.0",
     "consumption": "",
     "emissions": "",
     "abs": false,
@@ -435,19 +792,20 @@
   },
   {
     "id": 17,
-    "slug": "15-chevrolet-Silverado ZR2-2024",
-    "brand": "15",
-    "model": "Chevrolet",
-    "version": "2024",
-    "year": null,
+    "slug": "chevrolet-silverado-zr2-2024-full",
+    "brand": "Chevrolet",
+    "model": "Silverado ZR2",
+    "version": "Full",
+    "year": 2024,
     "owners": 1,
-    "kilometers": 1,
-    "color": "60000",
-    "transmission": "",
-    "fuel": "47990000",
-    "region": "Bencina",
-    "state": "Huechuraba",
-    "engine": "En venta",
+    "kilometers": 60000,
+    "color": "",
+    "transmission": "Automático",
+    "price": 47990000,
+    "fuel": "Bencina",
+    "region": "Huechuraba",
+    "state": "En venta",
+    "engine": "",
     "consumption": "",
     "emissions": "",
     "abs": false,
@@ -466,20 +824,20 @@
   },
   {
     "id": 18,
-    "slug": "16-great-wall-Wingle 6 Elite-2017",
-    "brand": "16",
-    "model": "Great Wall",
-    "version": "2017",
-    "year": null,
+    "slug": "great-wall-wingle-6-elite-2017-full",
+    "brand": "Great Wall",
+    "model": "Wingle 6 Elite",
+    "version": "Full",
+    "year": 2017,
     "owners": 1,
-    "kilometers": 1,
-    "color": "90000",
+    "kilometers": 90000,
+    "color": "",
     "transmission": "",
-    "fuel": "6990000",
-    "region": "Bencina",
-    "state": "Las Condes",
-    "engine": "En venta",
-    "power": 45749,
+    "price": 6990000,
+    "fuel": "Bencina",
+    "region": "Las Condes",
+    "state": "En venta",
+    "engine": "45749",
     "consumption": "",
     "emissions": "",
     "abs": false,
@@ -498,19 +856,20 @@
   },
   {
     "id": 19,
-    "slug": "17-nissan-Pathfinder-2003",
-    "brand": "17",
-    "model": "Nissan",
-    "version": "2003",
-    "year": null,
+    "slug": "nissan-pathfinder-2003",
+    "brand": "Nissan",
+    "model": "Pathfinder",
+    "version": "",
+    "year": 2003,
     "owners": 1,
-    "color": "240000",
-    "transmission": "",
-    "fuel": "10500000",
+    "kilometers": 240000,
+    "color": "",
+    "transmission": "Automático",
+    "price": 10500000,
+    "fuel": "",
     "region": "",
     "state": "En venta",
-    "engine": "En venta",
-    "power": 45780,
+    "engine": "45780",
     "consumption": "",
     "emissions": "",
     "abs": false,
@@ -524,23 +883,99 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/Nissan_Pathfinder_3.5cc_2003/01_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094204.jpg",
+        "alt": "IMG_20251114_094204",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094213.jpg",
+        "alt": "IMG_20251114_094213",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094404.jpg",
+        "alt": "IMG_20251114_094404",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094412.jpg",
+        "alt": "IMG_20251114_094412",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094418.jpg",
+        "alt": "IMG_20251114_094418",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094440.jpg",
+        "alt": "IMG_20251114_094440",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094447.jpg",
+        "alt": "IMG_20251114_094447",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094459.jpg",
+        "alt": "IMG_20251114_094459",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094515.jpg",
+        "alt": "IMG_20251114_094515",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094534.jpg",
+        "alt": "IMG_20251114_094534",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094542.jpg",
+        "alt": "IMG_20251114_094542",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094556.jpg",
+        "alt": "IMG_20251114_094556",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094608.jpg",
+        "alt": "IMG_20251114_094608",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094642.jpg",
+        "alt": "IMG_20251114_094642",
+        "isPrimary": false
+      }
+    ]
   },
   {
     "id": 20,
-    "slug": "18-bmw-X1-2019",
-    "brand": "18",
-    "model": "BMW",
-    "version": "2019",
-    "year": null,
+    "slug": "bmw-x1-2019",
+    "brand": "BMW",
+    "model": "X1",
+    "version": "",
+    "year": 2019,
     "owners": 1,
     "color": "",
     "transmission": "",
     "fuel": "",
     "region": "",
     "state": "En venta",
-    "engine": "En venta",
+    "engine": "",
     "consumption": "",
     "emissions": "",
     "abs": false,
@@ -554,53 +989,84 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/BMW X1 2019/01_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/BMW X1 2019/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_092951.jpg",
+        "alt": "IMG_20251119_092951",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093007.jpg",
+        "alt": "IMG_20251119_093007",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093033.jpg",
+        "alt": "IMG_20251119_093033",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093041.jpg",
+        "alt": "IMG_20251119_093041",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093050.jpg",
+        "alt": "IMG_20251119_093050",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093103.jpg",
+        "alt": "IMG_20251119_093103",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093114.jpg",
+        "alt": "IMG_20251119_093114",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093132.jpg",
+        "alt": "IMG_20251119_093132",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093143.jpg",
+        "alt": "IMG_20251119_093143",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093156.jpg",
+        "alt": "IMG_20251119_093156",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093205.jpg",
+        "alt": "IMG_20251119_093205",
+        "isPrimary": false
+      }
+    ]
   },
   {
     "id": 21,
-    "slug": "19-nissan-Sentra-2021",
-    "brand": "19",
-    "model": "Nissan",
-    "version": "2021",
-    "year": null,
-    "owners": 1,
-    "color": "",
-    "transmission": "",
-    "fuel": "",
-    "region": "",
-    "state": "En venta",
-    "engine": "En venta",
-    "consumption": "",
-    "emissions": "",
-    "abs": false,
-    "esp": false,
-    "tractionControl": false,
-    "airConditioning": false,
-    "powerSteering": false,
-    "electricWindows": false,
-    "electricMirrors": false,
-    "audioSystem": false,
-    "bluetooth": false,
-    "usb": false,
-    "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
-  },
-  {
-    "id": 22,
-    "slug": "20-citroen-Picasso",
-    "brand": "20",
-    "model": "Citroen",
+    "slug": "nissan-sentra-2021",
+    "brand": "Nissan",
+    "model": "Sentra",
     "version": "",
-    "year": null,
+    "year": 2021,
     "owners": 1,
     "color": "",
     "transmission": "",
     "fuel": "",
     "region": "",
     "state": "En venta",
-    "engine": "En venta",
+    "engine": "",
     "consumption": "",
     "emissions": "",
     "abs": false,
@@ -614,23 +1080,74 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/Nissan Sentra AT 2021/01_lateral.jpg",
+    "images": [
+      {
+        "url": "/autos/Nissan Sentra AT 2021/01_lateral.jpg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142032.jpg",
+        "alt": "IMG_20251120_142032",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142040.jpg",
+        "alt": "IMG_20251120_142040",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142055.jpg",
+        "alt": "IMG_20251120_142055",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142228.jpg",
+        "alt": "IMG_20251120_142228",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142249.jpg",
+        "alt": "IMG_20251120_142249",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142310.jpg",
+        "alt": "IMG_20251120_142310",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142317.jpg",
+        "alt": "IMG_20251120_142317",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142323.jpg",
+        "alt": "IMG_20251120_142323",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142352.jpg",
+        "alt": "IMG_20251120_142352",
+        "isPrimary": false
+      }
+    ]
   },
   {
     "id": 23,
-    "slug": "21-nissan-Pathfinder-1999",
-    "brand": "21",
-    "model": "Nissan",
-    "version": "1999",
-    "year": null,
+    "slug": "nissan-pathfinder-1999",
+    "brand": "Nissan",
+    "model": "Pathfinder",
+    "version": "",
+    "year": 1999,
     "owners": 1,
     "color": "",
     "transmission": "",
     "fuel": "",
     "region": "",
     "state": "En venta",
-    "engine": "En venta",
+    "engine": "",
     "consumption": "",
     "emissions": "",
     "abs": false,
@@ -857,112 +1374,6 @@
     ]
   },
   {
-    "id": 4,
-    "slug": "hyundai-tucson-2018-full",
-    "brand": "Hyundai",
-    "model": "Tucson",
-    "version": "full",
-    "year": 2018,
-    "price": null,
-    "kilometers": null,
-    "transmission": "No disponible",
-    "fuel": "No disponible",
-    "region": "No disponible",
-    "color": "No disponible",
-    "owners": 1,
-    "engine": "No disponible",
-    "power": null,
-    "consumption": "No disponible",
-    "emissions": "No disponible",
-    "state": "En venta",
-    "image": "/autos/hyundai-tucson-2018-full/01_lateral.jpg",
-    "images": [
-      {
-        "url": "/autos/hyundai-tucson-2018-full/01_lateral.jpg",
-        "alt": "lateral",
-        "isPrimary": true
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "slug": "kia-morning-2024-full",
-    "brand": "Kia",
-    "model": "Morning",
-    "version": "full",
-    "year": 2024,
-    "price": null,
-    "kilometers": null,
-    "transmission": "No disponible",
-    "fuel": "No disponible",
-    "region": "No disponible",
-    "color": "No disponible",
-    "owners": 1,
-    "engine": "No disponible",
-    "power": null,
-    "consumption": "No disponible",
-    "emissions": "No disponible",
-    "state": "En venta",
-    "image": "/autos/kia-morning-2024-full/01_lateral.jpg",
-    "images": [
-      {
-        "url": "/autos/kia-morning-2024-full/01_lateral.jpg",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/01_frontal.jpg",
-        "alt": "frontal",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/01_posterior.jpg",
-        "alt": "posterior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/01_tablero.jpg",
-        "alt": "tablero",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/01_asientos.jpg",
-        "alt": "asientos",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.48 (1).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.07.48 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.48.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.07.48",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.49 (1).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.07.49 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.49.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.07.49",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.50 (1).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.07.50 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.50.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.07.50",
-        "isPrimary": false
-      }
-    ]
-  },
-  {
     "id": 6,
     "slug": "kia-rio-5-2018",
     "brand": "Kia",
@@ -1013,34 +1424,6 @@
     "images": [
       {
         "url": "/autos/kia-soluto-2024-lx/01_lateral.jpg",
-        "alt": "lateral",
-        "isPrimary": true
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "slug": "kia-sonet-2024-full",
-    "brand": "Kia",
-    "model": "Sonet",
-    "version": "full",
-    "year": 2024,
-    "price": null,
-    "kilometers": null,
-    "transmission": "No disponible",
-    "fuel": "No disponible",
-    "region": "No disponible",
-    "color": "No disponible",
-    "owners": 1,
-    "engine": "No disponible",
-    "power": null,
-    "consumption": "No disponible",
-    "emissions": "No disponible",
-    "state": "En venta",
-    "image": "/autos/kia-sonet-2024-full/01_lateral.jpg",
-    "images": [
-      {
-        "url": "/autos/kia-sonet-2024-full/01_lateral.jpg",
         "alt": "lateral",
         "isPrimary": true
       }
@@ -1140,87 +1523,6 @@
       {
         "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.24 (3).jpeg",
         "alt": "WhatsApp Image 2025-09-16 at 08.12.24 (3)",
-        "isPrimary": false
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "slug": "suzuki-alto-2022-800",
-    "brand": "Suzuki",
-    "model": "Alto",
-    "version": "800",
-    "year": 2022,
-    "price": null,
-    "kilometers": null,
-    "transmission": "No disponible",
-    "fuel": "No disponible",
-    "region": "No disponible",
-    "color": "No disponible",
-    "owners": 1,
-    "engine": "No disponible",
-    "power": null,
-    "consumption": "No disponible",
-    "emissions": "No disponible",
-    "state": "En venta",
-    "image": "/autos/suzuki-alto-2022-800/01_lateral.jpg",
-    "images": [
-      {
-        "url": "/autos/suzuki-alto-2022-800/01_lateral.jpg",
-        "alt": "lateral",
-        "isPrimary": true
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "slug": "toyota-avensis-2013",
-    "brand": "Toyota",
-    "model": "Avensis",
-    "version": "",
-    "year": 2013,
-    "price": null,
-    "kilometers": null,
-    "transmission": "No disponible",
-    "fuel": "No disponible",
-    "region": "No disponible",
-    "color": "No disponible",
-    "owners": 1,
-    "engine": "No disponible",
-    "power": null,
-    "consumption": "No disponible",
-    "emissions": "No disponible",
-    "state": "En venta",
-    "image": "/autos/toyota-avensis-2013/01_lateral.jpg",
-    "images": [
-      {
-        "url": "/autos/toyota-avensis-2013/01_lateral.jpg",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/toyota-avensis-2013/06_posterior.jpg",
-        "alt": "posterior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/toyota-avensis-2013/06_tablero.jpg",
-        "alt": "tablero",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/toyota-avensis-2013/06_asientos.jpg",
-        "alt": "asientos",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/toyota-avensis-2013/06_interior.jpg",
-        "alt": "06_interior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/toyota-avensis-2013/WhatsApp Image 2025-09-16 at 08.11.17.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.11.17",
         "isPrimary": false
       }
     ]
