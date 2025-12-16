@@ -156,7 +156,23 @@ const slugToFolderMapping = {
   'nissan-pathfinder-2018-full': 'nissan-pathfinder-2018-advance',
   'ford-f150-xlt-2016-full': 'ford-f150-xlt-2016',
   'ford-fusion-2020-hibrido': 'ford-fusion-2020-se',
-  'kia-soluto-2022-full': 'kia-soluto-2024-lx'
+  'kia-soluto-2022-full': 'kia-soluto-2024-lx',
+  'bmw-x1-2019': 'BMW X1 2019',
+  'chevrolet-silverado-2024-zr2': 'Chevrolet_Silverado_ZR2_2024',
+  'citroen-c4-picasso-2015': 'Citroen C4 Picasso 2015',
+  'nissan-sentra-2021': 'Nissan Sentra AT 2021',
+  'nissan-pathfinder-33-1999': 'Nissan Pathfinder 3.3 1999',
+  'nissan-pathfinder-2003': 'Nissan_Pathfinder_3.5cc_2003',
+  'subaru-forester-2019-limited': 'Subaru_Forester_Limited_2019',
+  'great-wall-wingle-6-2017-elite': 'GreatWall_Wingle6_Elite_2017'
+};
+
+// Mapeo inverso: carpeta -> slug normalizado
+const folderToSlugMapping = {
+  'Bmw_320iM_sport_2024': 'bmw-320i-m-sport-2024',
+  'Porsche_Panamera_GTS_2017': 'porsche-panamera-gts-2017',
+  'Chevrolet_Silverado_ZR2_2024': 'chevrolet-silverado-zr2-2024',
+  'Subaru_Forester_Limited_2019': 'subaru-forester-2019-limited'
 };
 
 async function getVehicleImages(slug) {
@@ -232,8 +248,9 @@ async function generateFromFolders() {
   for (const folder of folders) {
     const folderName = path.basename(folder);
     
-    // Intentar extraer marca, modelo y año del nombre de la carpeta
-    const parts = folderName.split('-');
+    // Intentar extraer marca, modelo y año usando slug normalizado si existe
+    const raw = folderToSlugMapping[folderName] || folderName;
+    const parts = raw.split('-');
     if (parts.length < 3) continue;
     
     const brand = parts[0];
@@ -243,7 +260,7 @@ async function generateFromFolders() {
     
     if (!brand || !model || !year || isNaN(year)) continue;
 
-    const slug = folderName;
+    const slug = raw;
     const images = await getVehicleImages(slug);
     totalImages += images.length;
 
@@ -308,6 +325,19 @@ async function buildLocalVehicles() {
           
           vehicles.push(vehicle);
           slugs.push(vehicleData.slug);
+        }
+        
+        // Merge opcional desde carpetas para añadir faltantes (vendidos, etc.)
+        if (process.env.INCLUDE_FOLDERS !== '0') {
+          const folderData = await generateFromFolders();
+          const seen = new Set(slugs);
+          for (const v of folderData.vehicles) {
+            if (!seen.has(v.slug)) {
+              vehicles.push(v);
+              slugs.push(v.slug);
+              totalImages += Array.isArray(v.images) ? v.images.length : 0;
+            }
+          }
         }
       } else {
         console.log('⚠️  Excel vacío o sin datos válidos, usando carpetas...');
