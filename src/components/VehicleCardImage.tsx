@@ -1,6 +1,4 @@
 "use client";
-import TLVImage from '@/components/TLVImage';
-
 interface VehicleCardImageProps {
   src: string;
   alt: string;
@@ -9,18 +7,15 @@ interface VehicleCardImageProps {
 }
 
 export default function VehicleCardImage({ src, alt, className, priority }: VehicleCardImageProps) {
-  // Fallback seguro a placeholder si no hay src válida
   const imageSrc = src || '/placeholder-car.webp';
-  
+  const encoded = typeof imageSrc === 'string' ? encodeURI(imageSrc) : imageSrc;
   return (
-    <TLVImage
-      src={imageSrc}
+    <img
+      src={encoded as any}
       alt={alt}
-      width={400}
-      height={300}
       className={className}
-      priority={priority}
-      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 384px"
+      loading={priority ? 'eager' : 'lazy'}
+      onError={(e) => { e.currentTarget.src = '/placeholder-car.webp'; }}
     />
   );
 }

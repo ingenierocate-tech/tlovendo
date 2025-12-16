@@ -1,4 +1,5 @@
 import Image, { ImageProps } from 'next/image';
+import { useState } from 'react';
 
 type Props = ImageProps & { 
   fallbackSrc?: string;
@@ -17,10 +18,12 @@ export default function TLVImage({
 }: Props) {
     const safeAlt = alt || 'Imagen TLoVendo';
     const encodedSrc = typeof src === 'string' ? encodeURI(src) : src;
+    const initialSrc = (encodedSrc || fallbackSrc) as any;
+    const [srcToUse, setSrcToUse] = useState(initialSrc);
 
     return (
       <Image
-        src={encodedSrc || fallbackSrc!}
+        src={srcToUse}
         alt={safeAlt}
         {...(fill ? {} : { width: width || 600, height: height || 400 })}
         {...(fill ? { fill } : {})}
@@ -29,6 +32,8 @@ export default function TLVImage({
         sizes={fill 
           ? '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw'
           : '(max-width: 768px) 100vw, 50vw'}
+        unoptimized={typeof srcToUse === 'string' && srcToUse.startsWith('/')}
+        onError={() => setSrcToUse(fallbackSrc as any)}
         {...rest}
       />
     );

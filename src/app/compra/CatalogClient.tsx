@@ -30,10 +30,7 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
   // Excluir de 'vendidos' por foto incorrecta
   const excludeSoldSlugs = new Set(['kia-soluto-2024-lx']);
 
-  const isSold = (v: any) => {
-    const slug = String(v.slug ?? v.id ?? '');
-    return normalizeState(v) === 'vendido' || forcedSoldSlugs.has(slug);
-  };
+  const isForSaleStrict = (v: any) => normalizeState(v) === 'en venta';
 
   const [sortBy, setSortBy] = useState<'recent' | 'priceDesc' | 'priceAsc' | 'kmAsc' | 'kmDesc'>('recent');
 
@@ -41,11 +38,11 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
   const getPrice = (v: any) => Number(v.finalPrice ?? v.price ?? 0);
   const getKm = (v: any) => Number(v.kilometers ?? v.km ?? 0);
 
+  const available = vehicles.filter((v) => isForSaleStrict(v));
   const sold = vehicles.filter((v) => {
     const slug = String(v.slug ?? v.id ?? '');
-    return isSold(v) && !excludeSoldSlugs.has(slug);
+    return !isForSaleStrict(v) && !excludeSoldSlugs.has(slug);
   });
-  const available = vehicles.filter((v) => !isSold(v));
 
   const availableSorted = useMemo(() => {
     const arr = [...available];
@@ -78,6 +75,12 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
       ),
     ...sold.filter((v) => !soldPrioritySet.has(String(v.slug ?? v.id ?? ''))),
   ];
+
+  // Fallback: si por alguna razón no se detectan vendidos, usar slugs forzados
+  const forcedFallback = Array.from(forcedSoldSlugs)
+    .map((slug) => vehicles.find((v) => String(v.slug ?? v.id ?? '') === slug))
+    .filter((v): v is Vehicle => Boolean(v));
+  const soldFinal = soldOrdered.length > 0 ? soldOrdered : forcedFallback;
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-24 pb-48">
@@ -127,11 +130,11 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
         </div>
       </section>
 
-      {soldOrdered.length > 0 && (
+      {soldFinal.length > 0 && (
         <section className="mt-24 mb-32">
           <h3 className="text-2xl font-bold mb-4">Autos vendidos</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 items-stretch">
-            {soldOrdered.map((vehicle) => (
+            {soldFinal.map((vehicle) => (
               <SoldVehicleCard key={vehicle.id} vehicle={vehicle} />
             ))}
           </div>

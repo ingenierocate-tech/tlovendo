@@ -1,6 +1,6 @@
 [
   {
-    "id": 3,
+    "id": 1,
     "slug": "kia-morning-2024-full",
     "brand": "Kia",
     "model": "Morning",
@@ -13,7 +13,7 @@
     "price": 9890000,
     "fuel": "Bencina",
     "region": "Santiago",
-    "state": "En venta",
+    "state": "Vendido",
     "engine": "45689",
     "consumption": "",
     "emissions": "",
@@ -28,67 +28,18 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/autos/kia-morning-2024-full/01_lateral.jpg",
+    "image": "/autos/kia-morning-2024-full/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/kia-morning-2024-full/01_lateral.jpg",
+        "url": "/autos/kia-morning-2024-full/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/01_frontal.jpg",
-        "alt": "frontal",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/01_posterior.jpg",
-        "alt": "posterior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/01_tablero.jpg",
-        "alt": "tablero",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/01_asientos.jpg",
-        "alt": "asientos",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.48 (1).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.07.48 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.48.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.07.48",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.49 (1).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.07.49 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.49.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.07.49",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.50 (1).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.07.50 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/kia-morning-2024-full/WhatsApp Image 2025-09-16 at 08.07.50.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.07.50",
-        "isPrimary": false
       }
-    ]
+    ],
+    "keep": true
   },
   {
-    "id": 4,
+    "id": 2,
     "slug": "kia-sonet-2024-full",
     "brand": "Kia",
     "model": "Sonet",
@@ -116,17 +67,18 @@
     "bluetooth": true,
     "usb": false,
     "cruiseControl": false,
-    "image": "/autos/kia-sonet-2024-full/01_lateral.jpg",
+    "image": "/autos/kia-sonet-2024-full/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/kia-sonet-2024-full/01_lateral.jpg",
+        "url": "/autos/kia-sonet-2024-full/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       }
-    ]
+    ],
+    "keep": true
   },
   {
-    "id": 5,
+    "id": 3,
     "slug": "suzuki-alto-2022-800",
     "brand": "Suzuki",
     "model": "Alto",
@@ -154,17 +106,18 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/autos/suzuki-alto-2022-800/01_lateral.jpg",
+    "image": "/autos/suzuki-alto-2022-800/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/suzuki-alto-2022-800/01_lateral.jpg",
+        "url": "/autos/suzuki-alto-2022-800/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       }
-    ]
+    ],
+    "keep": true
   },
   {
-    "id": 6,
+    "id": 4,
     "slug": "hyundai-tucson-2018-full",
     "brand": "Hyundai",
     "model": "Tucson",
@@ -192,17 +145,18 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/autos/hyundai-tucson-2018-full/01_lateral.jpg",
+    "image": "/autos/hyundai-tucson-2018-full/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/hyundai-tucson-2018-full/01_lateral.jpg",
+        "url": "/autos/hyundai-tucson-2018-full/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       }
-    ]
+    ],
+    "keep": true
   },
   {
-    "id": 7,
+    "id": 5,
     "slug": "mercedes-benz-glc-2016-220d",
     "brand": "Mercedes Benz",
     "model": "GLC",
@@ -231,62 +185,63 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/autos/mercedes-benz-glc-2016-220d/01_lateral.jpg",
+    "image": "/autos/mercedes-benz-glc-2016-220d/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/mercedes-benz-glc-2016-220d/01_lateral.jpg",
+        "url": "/autos/mercedes-benz-glc-2016-220d/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/mercedes-benz-glc-2016-220d/05_frontal.jpg",
+        "url": "/autos/mercedes-benz-glc-2016-220d/05_frontal.webp",
         "alt": "frontal",
         "isPrimary": false
       },
       {
-        "url": "/autos/mercedes-benz-glc-2016-220d/05_posterior.jpg",
+        "url": "/autos/mercedes-benz-glc-2016-220d/05_posterior.webp",
         "alt": "posterior",
         "isPrimary": false
       },
       {
-        "url": "/autos/mercedes-benz-glc-2016-220d/05_tablero.jpg",
+        "url": "/autos/mercedes-benz-glc-2016-220d/05_tablero.webp",
         "alt": "tablero",
         "isPrimary": false
       },
       {
-        "url": "/autos/mercedes-benz-glc-2016-220d/05_asientos.jpg",
+        "url": "/autos/mercedes-benz-glc-2016-220d/05_asientos.webp",
         "alt": "asientos",
         "isPrimary": false
       },
       {
-        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.43.jpeg",
+        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.43.webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.10.43",
         "isPrimary": false
       },
       {
-        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.44 (1).jpeg",
+        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.44 (1).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.10.44 (1)",
         "isPrimary": false
       },
       {
-        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.44 (2).jpeg",
+        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.44 (2).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.10.44 (2)",
         "isPrimary": false
       },
       {
-        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.45 (1).jpeg",
+        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.45 (1).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.10.45 (1)",
         "isPrimary": false
       },
       {
-        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.45 (3).jpeg",
+        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.45 (3).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.10.45 (3)",
         "isPrimary": false
       }
-    ]
+    ],
+    "keep": true
   },
   {
-    "id": 8,
+    "id": 6,
     "slug": "toyota-avensis-2013",
     "brand": "Toyota",
     "model": "Avensis",
@@ -299,7 +254,7 @@
     "price": 6490000,
     "fuel": "Bencina",
     "region": "Las Condes",
-    "state": "En venta",
+    "state": "Vendido",
     "engine": "2.0",
     "power": 150,
     "consumption": "",
@@ -315,42 +270,18 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/autos/toyota-avensis-2013/01_lateral.jpg",
+    "image": "/autos/toyota-avensis-2013/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/toyota-avensis-2013/01_lateral.jpg",
+        "url": "/autos/toyota-avensis-2013/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/toyota-avensis-2013/06_posterior.jpg",
-        "alt": "posterior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/toyota-avensis-2013/06_tablero.jpg",
-        "alt": "tablero",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/toyota-avensis-2013/06_asientos.jpg",
-        "alt": "asientos",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/toyota-avensis-2013/06_interior.jpg",
-        "alt": "06_interior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/toyota-avensis-2013/WhatsApp Image 2025-09-16 at 08.11.17.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.11.17",
-        "isPrimary": false
       }
-    ]
+    ],
+    "keep": true
   },
   {
-    "id": 9,
+    "id": 7,
     "slug": "chevrolet-tahoe-2018-full",
     "brand": "Chevrolet",
     "model": "Tahoe",
@@ -379,67 +310,68 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/autos/chevrolet-tahoe-2018-lt/01_lateral.jpg",
+    "image": "/autos/chevrolet-tahoe-2018-lt/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/chevrolet-tahoe-2018-lt/01_lateral.jpg",
+        "url": "/autos/chevrolet-tahoe-2018-lt/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/chevrolet-tahoe-2018-lt/07_frontal.jpg",
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_frontal.webp",
         "alt": "frontal",
         "isPrimary": false
       },
       {
-        "url": "/autos/chevrolet-tahoe-2018-lt/07_posterior.jpg",
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_posterior.webp",
         "alt": "posterior",
         "isPrimary": false
       },
       {
-        "url": "/autos/chevrolet-tahoe-2018-lt/07_tablero.jpg",
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_tablero.webp",
         "alt": "tablero",
         "isPrimary": false
       },
       {
-        "url": "/autos/chevrolet-tahoe-2018-lt/07_asientos.jpg",
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_asientos.webp",
         "alt": "asientos",
         "isPrimary": false
       },
       {
-        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.52 (2).jpeg",
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.52 (2).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.11.52 (2)",
         "isPrimary": false
       },
       {
-        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.52.jpeg",
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.52.webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.11.52",
         "isPrimary": false
       },
       {
-        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53 (1).jpeg",
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53 (1).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.11.53 (1)",
         "isPrimary": false
       },
       {
-        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53 (2).jpeg",
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53 (2).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.11.53 (2)",
         "isPrimary": false
       },
       {
-        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53.jpeg",
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53.webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.11.53",
         "isPrimary": false
       },
       {
-        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.54 (1).jpeg",
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.54 (1).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.11.54 (1)",
         "isPrimary": false
       }
-    ]
+    ],
+    "keep": true
   },
   {
-    "id": 10,
+    "id": 8,
     "slug": "nissan-pathfinder-2018-full",
     "brand": "Nissan",
     "model": "Pathfinder",
@@ -448,7 +380,7 @@
     "owners": 2,
     "color": "Azul metálico",
     "transmission": "Automático",
-    "price": 16990000,
+    "price": 17550000,
     "fuel": "",
     "region": "Santiago",
     "state": "En venta",
@@ -467,87 +399,88 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/autos/nissan-pathfinder-2018-advance/08_lateral.jpg",
+    "image": "/autos/nissan-pathfinder-2018-advance/08_lateral.webp",
     "images": [
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/08_lateral.jpg",
+        "url": "/autos/nissan-pathfinder-2018-advance/08_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/08_frontal.jpg",
+        "url": "/autos/nissan-pathfinder-2018-advance/08_frontal.webp",
         "alt": "frontal",
         "isPrimary": false
       },
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/08_posterior.jpg",
+        "url": "/autos/nissan-pathfinder-2018-advance/08_posterior.webp",
         "alt": "posterior",
         "isPrimary": false
       },
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/08_tablero.jpg",
+        "url": "/autos/nissan-pathfinder-2018-advance/08_tablero.webp",
         "alt": "tablero",
         "isPrimary": false
       },
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/08_asientos.jpg",
+        "url": "/autos/nissan-pathfinder-2018-advance/08_asientos.webp",
         "alt": "asientos",
         "isPrimary": false
       },
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.21 (1).jpeg",
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.21 (1).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.12.21 (1)",
         "isPrimary": false
       },
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.21 (2).jpeg",
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.21 (2).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.12.21 (2)",
         "isPrimary": false
       },
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22 (1).jpeg",
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22 (1).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.12.22 (1)",
         "isPrimary": false
       },
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22 (2).jpeg",
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22 (2).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.12.22 (2)",
         "isPrimary": false
       },
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22.jpeg",
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22.webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.12.22",
         "isPrimary": false
       },
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23 (3).jpeg",
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23 (3).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.12.23 (3)",
         "isPrimary": false
       },
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23 (4).jpeg",
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23 (4).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.12.23 (4)",
         "isPrimary": false
       },
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23.jpeg",
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23.webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.12.23",
         "isPrimary": false
       },
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.24 (2).jpeg",
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.24 (2).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.12.24 (2)",
         "isPrimary": false
       },
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.24 (3).jpeg",
+        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.24 (3).webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.12.24 (3)",
         "isPrimary": false
       }
-    ]
+    ],
+    "keep": true
   },
   {
-    "id": 11,
+    "id": 9,
     "slug": "ford-f150-xlt-2016-full",
     "brand": "Ford",
     "model": "F150 XLT",
@@ -559,7 +492,7 @@
     "price": 17990000,
     "fuel": "",
     "region": "Las Condes",
-    "state": "En venta",
+    "state": "Vendido",
     "engine": "",
     "power": 385,
     "consumption": "",
@@ -575,57 +508,18 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/autos/ford-f150-xlt-2016/01_lateral.jpg",
+    "image": "/autos/ford-f150-xlt-2016/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/ford-f150-xlt-2016/01_lateral.jpg",
+        "url": "/autos/ford-f150-xlt-2016/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/ford-f150-xlt-2016/01_frontal.jpg",
-        "alt": "frontal",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-f150-xlt-2016/09_posterior.jpg",
-        "alt": "posterior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-f150-xlt-2016/09_tablero.jpg",
-        "alt": "tablero",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-f150-xlt-2016/09_asientos.jpg",
-        "alt": "asientos",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-f150-xlt-2016/WhatsApp Image 2025-09-16 at 08.12.50 (1).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.50 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-f150-xlt-2016/WhatsApp Image 2025-09-16 at 08.12.50 (2).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.50 (2)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-f150-xlt-2016/WhatsApp Image 2025-09-16 at 08.12.50 (3).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.50 (3)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-f150-xlt-2016/WhatsApp Image 2025-09-16 at 08.12.50.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.50",
-        "isPrimary": false
       }
-    ]
+    ],
+    "keep": true
   },
   {
-    "id": 12,
+    "id": 10,
     "slug": "ford-fusion-2020-hibrido",
     "brand": "Ford",
     "model": "Fusion",
@@ -653,42 +547,43 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/autos/ford-fusion-2020-se/01_lateral.jpg",
+    "image": "/autos/ford-fusion-2020-se/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/ford-fusion-2020-se/01_lateral.jpg",
+        "url": "/autos/ford-fusion-2020-se/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/ford-fusion-2020-se/10_frontal.jpg",
+        "url": "/autos/ford-fusion-2020-se/10_frontal.webp",
         "alt": "frontal",
         "isPrimary": false
       },
       {
-        "url": "/autos/ford-fusion-2020-se/10_posterior.jpg",
+        "url": "/autos/ford-fusion-2020-se/10_posterior.webp",
         "alt": "posterior",
         "isPrimary": false
       },
       {
-        "url": "/autos/ford-fusion-2020-se/10_tablero.jpg",
+        "url": "/autos/ford-fusion-2020-se/10_tablero.webp",
         "alt": "tablero",
         "isPrimary": false
       },
       {
-        "url": "/autos/ford-fusion-2020-se/10_asientos.jpg",
+        "url": "/autos/ford-fusion-2020-se/10_asientos.webp",
         "alt": "asientos",
         "isPrimary": false
       },
       {
-        "url": "/autos/ford-fusion-2020-se/WhatsApp Image 2025-09-16 at 08.13.15.jpeg",
+        "url": "/autos/ford-fusion-2020-se/WhatsApp Image 2025-09-16 at 08.13.15.webp",
         "alt": "WhatsApp Image 2025-09-16 at 08.13.15",
         "isPrimary": false
       }
-    ]
+    ],
+    "keep": true
   },
   {
-    "id": 13,
+    "id": 11,
     "slug": "kia-soluto-2022-full",
     "brand": "Kia",
     "model": "Soluto",
@@ -716,17 +611,18 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/autos/kia-soluto-2024-lx/01_lateral.jpg",
+    "image": "/autos/kia-soluto-2024-lx/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/kia-soluto-2024-lx/01_lateral.jpg",
+        "url": "/autos/kia-soluto-2024-lx/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       }
-    ]
+    ],
+    "keep": true
   },
   {
-    "id": 15,
+    "id": 12,
     "slug": "citroen-picasso-2011",
     "brand": "Citroen",
     "model": "Picasso",
@@ -755,11 +651,18 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/Citroen_C3Picasso_2011/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Citroen_C3Picasso_2011/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true
   },
   {
-    "id": 16,
+    "id": 13,
     "slug": "subaru-forester-2019-awd",
     "brand": "Subaru",
     "model": "Forester",
@@ -787,11 +690,68 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/Subaru_Forester_Limited_2019/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Subaru_Forester_Limited_2019/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105735.webp",
+        "alt": "IMG_20251106_105735",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105744.webp",
+        "alt": "IMG_20251106_105744",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105801.webp",
+        "alt": "IMG_20251106_105801",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105809.webp",
+        "alt": "IMG_20251106_105809",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105818.webp",
+        "alt": "IMG_20251106_105818",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105902.webp",
+        "alt": "IMG_20251106_105902",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105909.webp",
+        "alt": "IMG_20251106_105909",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105935.webp",
+        "alt": "IMG_20251106_105935",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_110004.webp",
+        "alt": "IMG_20251106_110004",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_110018.webp",
+        "alt": "IMG_20251106_110018",
+        "isPrimary": false
+      }
+    ],
+    "keep": true
   },
   {
-    "id": 17,
+    "id": 14,
     "slug": "chevrolet-silverado-zr2-2024-full",
     "brand": "Chevrolet",
     "model": "Silverado ZR2",
@@ -819,11 +779,68 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/Chevrolet_Silverado_ZR2_2024/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Chevrolet_Silverado_ZR2_2024/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134316.webp",
+        "alt": "IMG_20251023_134316",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134337.webp",
+        "alt": "IMG_20251023_134337",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134413.webp",
+        "alt": "IMG_20251023_134413",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134443.webp",
+        "alt": "IMG_20251023_134443",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134515.webp",
+        "alt": "IMG_20251023_134515",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134533.webp",
+        "alt": "IMG_20251023_134533",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134603.webp",
+        "alt": "IMG_20251023_134603",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134630.webp",
+        "alt": "IMG_20251023_134630",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134636.webp",
+        "alt": "IMG_20251023_134636",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134758.webp",
+        "alt": "IMG_20251023_134758",
+        "isPrimary": false
+      }
+    ],
+    "keep": true
   },
   {
-    "id": 18,
+    "id": 15,
     "slug": "great-wall-wingle-6-elite-2017-full",
     "brand": "Great Wall",
     "model": "Wingle 6 Elite",
@@ -851,11 +868,73 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
+    "image": "/autos/GreatWall_Wingle6_Elite_2017/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112422.webp",
+        "alt": "IMG_20251023_112422",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112454.webp",
+        "alt": "IMG_20251023_112454",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112600.webp",
+        "alt": "IMG_20251023_112600",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112608.webp",
+        "alt": "IMG_20251023_112608",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112621.webp",
+        "alt": "IMG_20251023_112621",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112643.webp",
+        "alt": "IMG_20251023_112643",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112659.webp",
+        "alt": "IMG_20251023_112659",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112714.webp",
+        "alt": "IMG_20251023_112714",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112718.webp",
+        "alt": "IMG_20251023_112718",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112724.webp",
+        "alt": "IMG_20251023_112724",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112742.webp",
+        "alt": "IMG_20251023_112742",
+        "isPrimary": false
+      }
+    ],
+    "keep": true
   },
   {
-    "id": 19,
+    "id": 16,
     "slug": "nissan-pathfinder-2003",
     "brand": "Nissan",
     "model": "Pathfinder",
@@ -883,87 +962,88 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/autos/Nissan_Pathfinder_3.5cc_2003/01_lateral.jpg",
+    "image": "/autos/Nissan_Pathfinder_3.5cc_2003/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/01_lateral.jpg",
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094204.jpg",
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094204.webp",
         "alt": "IMG_20251114_094204",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094213.jpg",
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094213.webp",
         "alt": "IMG_20251114_094213",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094404.jpg",
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094404.webp",
         "alt": "IMG_20251114_094404",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094412.jpg",
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094412.webp",
         "alt": "IMG_20251114_094412",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094418.jpg",
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094418.webp",
         "alt": "IMG_20251114_094418",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094440.jpg",
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094440.webp",
         "alt": "IMG_20251114_094440",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094447.jpg",
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094447.webp",
         "alt": "IMG_20251114_094447",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094459.jpg",
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094459.webp",
         "alt": "IMG_20251114_094459",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094515.jpg",
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094515.webp",
         "alt": "IMG_20251114_094515",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094534.jpg",
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094534.webp",
         "alt": "IMG_20251114_094534",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094542.jpg",
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094542.webp",
         "alt": "IMG_20251114_094542",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094556.jpg",
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094556.webp",
         "alt": "IMG_20251114_094556",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094608.jpg",
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094608.webp",
         "alt": "IMG_20251114_094608",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094642.jpg",
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094642.webp",
         "alt": "IMG_20251114_094642",
         "isPrimary": false
       }
-    ]
+    ],
+    "keep": true
   },
   {
-    "id": 20,
+    "id": 17,
     "slug": "bmw-x1-2019",
     "brand": "BMW",
     "model": "X1",
@@ -972,6 +1052,7 @@
     "owners": 1,
     "color": "",
     "transmission": "",
+    "price": 16890000,
     "fuel": "",
     "region": "",
     "state": "En venta",
@@ -989,72 +1070,73 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/autos/BMW X1 2019/01_lateral.jpg",
+    "image": "/autos/BMW X1 2019/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/BMW X1 2019/01_lateral.jpg",
+        "url": "/autos/BMW X1 2019/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/BMW X1 2019/IMG_20251119_092951.jpg",
+        "url": "/autos/BMW X1 2019/IMG_20251119_092951.webp",
         "alt": "IMG_20251119_092951",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093007.jpg",
+        "url": "/autos/BMW X1 2019/IMG_20251119_093007.webp",
         "alt": "IMG_20251119_093007",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093033.jpg",
+        "url": "/autos/BMW X1 2019/IMG_20251119_093033.webp",
         "alt": "IMG_20251119_093033",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093041.jpg",
+        "url": "/autos/BMW X1 2019/IMG_20251119_093041.webp",
         "alt": "IMG_20251119_093041",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093050.jpg",
+        "url": "/autos/BMW X1 2019/IMG_20251119_093050.webp",
         "alt": "IMG_20251119_093050",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093103.jpg",
+        "url": "/autos/BMW X1 2019/IMG_20251119_093103.webp",
         "alt": "IMG_20251119_093103",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093114.jpg",
+        "url": "/autos/BMW X1 2019/IMG_20251119_093114.webp",
         "alt": "IMG_20251119_093114",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093132.jpg",
+        "url": "/autos/BMW X1 2019/IMG_20251119_093132.webp",
         "alt": "IMG_20251119_093132",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093143.jpg",
+        "url": "/autos/BMW X1 2019/IMG_20251119_093143.webp",
         "alt": "IMG_20251119_093143",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093156.jpg",
+        "url": "/autos/BMW X1 2019/IMG_20251119_093156.webp",
         "alt": "IMG_20251119_093156",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093205.jpg",
+        "url": "/autos/BMW X1 2019/IMG_20251119_093205.webp",
         "alt": "IMG_20251119_093205",
         "isPrimary": false
       }
-    ]
+    ],
+    "keep": true
   },
   {
-    "id": 21,
+    "id": 18,
     "slug": "nissan-sentra-2021",
     "brand": "Nissan",
     "model": "Sentra",
@@ -1063,6 +1145,7 @@
     "owners": 1,
     "color": "",
     "transmission": "",
+    "price": 13750000,
     "fuel": "",
     "region": "",
     "state": "En venta",
@@ -1080,62 +1163,63 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/autos/Nissan Sentra AT 2021/01_lateral.jpg",
+    "image": "/autos/Nissan Sentra AT 2021/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/Nissan Sentra AT 2021/01_lateral.jpg",
+        "url": "/autos/Nissan Sentra AT 2021/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142032.jpg",
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142032.webp",
         "alt": "IMG_20251120_142032",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142040.jpg",
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142040.webp",
         "alt": "IMG_20251120_142040",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142055.jpg",
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142055.webp",
         "alt": "IMG_20251120_142055",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142228.jpg",
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142228.webp",
         "alt": "IMG_20251120_142228",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142249.jpg",
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142249.webp",
         "alt": "IMG_20251120_142249",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142310.jpg",
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142310.webp",
         "alt": "IMG_20251120_142310",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142317.jpg",
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142317.webp",
         "alt": "IMG_20251120_142317",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142323.jpg",
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142323.webp",
         "alt": "IMG_20251120_142323",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142352.jpg",
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142352.webp",
         "alt": "IMG_20251120_142352",
         "isPrimary": false
       }
-    ]
+    ],
+    "keep": true
   },
   {
-    "id": 23,
+    "id": 19,
     "slug": "nissan-pathfinder-1999",
     "brand": "Nissan",
     "model": "Pathfinder",
@@ -1144,6 +1228,7 @@
     "owners": 1,
     "color": "",
     "transmission": "",
+    "price": 9750000,
     "fuel": "",
     "region": "",
     "state": "En venta",
@@ -1161,280 +1246,77 @@
     "bluetooth": false,
     "usb": false,
     "cruiseControl": false,
-    "image": "/placeholder-car.webp",
-    "images": []
-  },
-  {
-    "id": 1,
-    "slug": "subaru-forester-2019-limited",
-    "brand": "Subaru",
-    "model": "Forester",
-    "version": "limited",
-    "year": 2019,
-    "price": null,
-    "kilometers": null,
-    "transmission": "No disponible",
-    "fuel": "No disponible",
-    "region": "No disponible",
-    "color": "No disponible",
-    "owners": 1,
-    "engine": "No disponible",
-    "power": null,
-    "consumption": "No disponible",
-    "emissions": "No disponible",
-    "state": "En venta",
-    "image": "/autos/Subaru_Forester_Limited_2019/01_lateral.jpg",
+    "image": "/autos/Nissan Pathfinder 3.3 1999/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/Subaru_Forester_Limited_2019/01_lateral.jpg",
+        "url": "/autos/Nissan Pathfinder 3.3 1999/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105735.jpg",
-        "alt": "IMG_20251106_105735",
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_130947.webp",
+        "alt": "IMG_20251121_130947",
         "isPrimary": false
       },
       {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105744.jpg",
-        "alt": "IMG_20251106_105744",
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_130956.webp",
+        "alt": "IMG_20251121_130956",
         "isPrimary": false
       },
       {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105801.jpg",
-        "alt": "IMG_20251106_105801",
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131032.webp",
+        "alt": "IMG_20251121_131032",
         "isPrimary": false
       },
       {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105809.jpg",
-        "alt": "IMG_20251106_105809",
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131042.webp",
+        "alt": "IMG_20251121_131042",
         "isPrimary": false
       },
       {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105818.jpg",
-        "alt": "IMG_20251106_105818",
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131052.webp",
+        "alt": "IMG_20251121_131052",
         "isPrimary": false
       },
       {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105902.jpg",
-        "alt": "IMG_20251106_105902",
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131111.webp",
+        "alt": "IMG_20251121_131111",
         "isPrimary": false
       },
       {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105909.jpg",
-        "alt": "IMG_20251106_105909",
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131119.webp",
+        "alt": "IMG_20251121_131119",
         "isPrimary": false
       },
       {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105935.jpg",
-        "alt": "IMG_20251106_105935",
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131128.webp",
+        "alt": "IMG_20251121_131128",
         "isPrimary": false
       },
       {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_110004.jpg",
-        "alt": "IMG_20251106_110004",
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131151.webp",
+        "alt": "IMG_20251121_131151",
         "isPrimary": false
       },
       {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_110018.jpg",
-        "alt": "IMG_20251106_110018",
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131158.webp",
+        "alt": "IMG_20251121_131158",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131211.webp",
+        "alt": "IMG_20251121_131211",
         "isPrimary": false
       }
-    ]
+    ],
+    "keep": true
   },
   {
-    "id": 2,
-    "slug": "chevrolet-tahoe-2018-lt",
-    "brand": "Chevrolet",
-    "model": "Tahoe",
-    "version": "lt",
-    "year": 2018,
-    "price": null,
-    "kilometers": null,
-    "transmission": "No disponible",
-    "fuel": "No disponible",
-    "region": "No disponible",
-    "color": "No disponible",
-    "owners": 1,
-    "engine": "No disponible",
-    "power": null,
-    "consumption": "No disponible",
-    "emissions": "No disponible",
-    "state": "En venta",
-    "image": "/autos/chevrolet-tahoe-2018-lt/01_lateral.jpg",
-    "images": [
-      {
-        "url": "/autos/chevrolet-tahoe-2018-lt/01_lateral.jpg",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/chevrolet-tahoe-2018-lt/07_frontal.jpg",
-        "alt": "frontal",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/chevrolet-tahoe-2018-lt/07_posterior.jpg",
-        "alt": "posterior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/chevrolet-tahoe-2018-lt/07_tablero.jpg",
-        "alt": "tablero",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/chevrolet-tahoe-2018-lt/07_asientos.jpg",
-        "alt": "asientos",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.52 (2).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.11.52 (2)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.52.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.11.52",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53 (1).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.11.53 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53 (2).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.11.53 (2)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.11.53",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.54 (1).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.11.54 (1)",
-        "isPrimary": false
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "slug": "ford-fusion-2020-se",
-    "brand": "Ford",
-    "model": "Fusion",
-    "version": "se",
-    "year": 2020,
-    "price": null,
-    "kilometers": null,
-    "transmission": "No disponible",
-    "fuel": "No disponible",
-    "region": "No disponible",
-    "color": "No disponible",
-    "owners": 1,
-    "engine": "No disponible",
-    "power": null,
-    "consumption": "No disponible",
-    "emissions": "No disponible",
-    "state": "En venta",
-    "image": "/autos/ford-fusion-2020-se/01_lateral.jpg",
-    "images": [
-      {
-        "url": "/autos/ford-fusion-2020-se/01_lateral.jpg",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/10_frontal.jpg",
-        "alt": "frontal",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/10_posterior.jpg",
-        "alt": "posterior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/10_tablero.jpg",
-        "alt": "tablero",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/10_asientos.jpg",
-        "alt": "asientos",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/WhatsApp Image 2025-09-16 at 08.13.15.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.13.15",
-        "isPrimary": false
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "slug": "kia-rio-5-2018",
+    "id": 20,
+    "slug": "kia-rio-2018-5",
     "brand": "Kia",
     "model": "Rio",
-    "version": "2018",
-    "year": 5,
-    "price": null,
-    "kilometers": null,
-    "transmission": "No disponible",
-    "fuel": "No disponible",
-    "region": "No disponible",
-    "color": "No disponible",
-    "owners": 1,
-    "engine": "No disponible",
-    "power": null,
-    "consumption": "No disponible",
-    "emissions": "No disponible",
-    "state": "En venta",
-    "image": "/autos/kia-rio-5-2018/01_lateral.jpg",
-    "images": [
-      {
-        "url": "/autos/kia-rio-5-2018/01_lateral.jpg",
-        "alt": "lateral",
-        "isPrimary": true
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "slug": "kia-soluto-2024-lx",
-    "brand": "Kia",
-    "model": "Soluto",
-    "version": "lx",
-    "year": 2024,
-    "price": null,
-    "kilometers": null,
-    "transmission": "No disponible",
-    "fuel": "No disponible",
-    "region": "No disponible",
-    "color": "No disponible",
-    "owners": 1,
-    "engine": "No disponible",
-    "power": null,
-    "consumption": "No disponible",
-    "emissions": "No disponible",
-    "state": "En venta",
-    "image": "/autos/kia-soluto-2024-lx/01_lateral.jpg",
-    "images": [
-      {
-        "url": "/autos/kia-soluto-2024-lx/01_lateral.jpg",
-        "alt": "lateral",
-        "isPrimary": true
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "slug": "nissan-pathfinder-2018-advance",
-    "brand": "Nissan",
-    "model": "Pathfinder",
-    "version": "advance",
+    "version": "5",
     "year": 2018,
     "price": null,
     "kilometers": null,
@@ -1447,84 +1329,65 @@
     "power": null,
     "consumption": "No disponible",
     "emissions": "No disponible",
-    "state": "En venta",
-    "image": "/autos/nissan-pathfinder-2018-advance/08_lateral.jpg",
+    "state": "Vendido",
+    "image": "/autos/kia-rio-5-2018/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/nissan-pathfinder-2018-advance/08_lateral.jpg",
+        "url": "/autos/kia-rio-5-2018/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/08_frontal.jpg",
-        "alt": "frontal",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/08_posterior.jpg",
-        "alt": "posterior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/08_tablero.jpg",
-        "alt": "tablero",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/08_asientos.jpg",
-        "alt": "asientos",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.21 (1).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.21 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.21 (2).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.21 (2)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22 (1).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.22 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22 (2).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.22 (2)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.22",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23 (3).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.23 (3)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23 (4).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.23 (4)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23.jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.23",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.24 (2).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.24 (2)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.24 (3).jpeg",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.24 (3)",
-        "isPrimary": false
       }
-    ]
+    ],
+    "keep": true
+  },
+  {
+    "id": 21,
+    "slug": "bmw-320i-m-sport-2024",
+    "brand": "BMW",
+    "model": "320i M Sport",
+    "version": "G20",
+    "year": 2024,
+    "owners": 1,
+    "kilometers": null,
+    "color": "No disponible",
+    "transmission": "Automático",
+    "price": null,
+    "fuel": "Bencina",
+    "region": "Santiago",
+    "state": "Vendido",
+    "image": "/autos/Bmw_320iM_sport_2024/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Bmw_320iM_sport_2024/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true
+  },
+  {
+    "id": 22,
+    "slug": "porsche-panamera-gts-2017",
+    "brand": "Porsche",
+    "model": "Panamera GTS",
+    "version": "",
+    "year": 2017,
+    "owners": 1,
+    "kilometers": null,
+    "color": "No disponible",
+    "transmission": "Automático",
+    "price": null,
+    "fuel": "Bencina",
+    "region": "Santiago",
+    "state": "Vendido",
+    "image": "/autos/Porsche_Panamera_GTS_2017/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Porsche_Panamera_GTS_2017/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true
   }
 ]

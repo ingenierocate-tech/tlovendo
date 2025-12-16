@@ -211,7 +211,7 @@ export const dynamicParams = false;
 import { getLocalSlugs } from '@/data/local';
 
 export async function generateStaticParams() {
-  const slugs = await getVehicleSlugs();
+  const slugs = await getLocalSlugs();
   return slugs.map((slug) => ({ slug }));
 }
 // Eliminar este bloque no utilizado:
