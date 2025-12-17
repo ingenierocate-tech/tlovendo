@@ -1,5 +1,5 @@
 import Image, { ImageProps } from 'next/image';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 type Props = ImageProps & { 
   fallbackSrc?: string;
@@ -20,6 +20,12 @@ export default function TLVImage({
     const encodedSrc = typeof src === 'string' ? encodeURI(src) : src;
     const initialSrc = (encodedSrc || fallbackSrc) as any;
     const [srcToUse, setSrcToUse] = useState(initialSrc);
+
+    // Actualizar srcToUse cuando cambia la prop src
+    useEffect(() => {
+      const encoded = typeof src === 'string' ? encodeURI(src) : src;
+      setSrcToUse(encoded || fallbackSrc);
+    }, [src, fallbackSrc]);
 
     return (
       <Image
