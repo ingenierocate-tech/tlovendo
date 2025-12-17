@@ -4,15 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { FormEvent, useRef } from 'react';
-
-const categories = [
-  { name: 'Citycar',      slug: 'citycar',     image: '/citycar.png' },
-  { name: 'Hatchback',    slug: 'hatchback',   image: '/hatchback.png' },
-  { name: 'SUV',          slug: 'suv',         image: '/suv.png' },
-  { name: 'Sedán',        slug: 'sedan',       image: '/sedan.png' },
-  { name: 'Camionetas',   slug: 'camionetas',  image: '/camioneta.png' },
-  { name: 'Utilitarios',  slug: 'utilitarios', image: '/utilitario.png' },
-];
+import { CATEGORIES } from '@/lib/categoryUtils';
 
 interface UnifiedSearchProps {
   variant?: 'default' | 'header' | 'compact';
@@ -65,15 +57,15 @@ export default function UnifiedSearch({ variant = 'default', className }: Unifie
 
       {/* Categorías */}
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 mb-10">
-        {categories.map((c) => (
+        {CATEGORIES.map((c) => (
           <Link
             key={c.slug}
-            href={`/compra?categoria=${encodeURIComponent(c.slug)}`}
+            href={`/compra/categoria/${c.slug}`}
             className="group rounded-xl bg-white border border-gray-200 hover:shadow-lg transition-all duration-300 p-6 flex flex-col items-center text-center hover:scale-105"
           >
             <div className="relative w-36 h-24 sm:w-40 sm:h-28">
               <Image
-                src={c.image}
+                src={c.icon}
                 alt={c.name}
                 fill
                 className="object-contain"

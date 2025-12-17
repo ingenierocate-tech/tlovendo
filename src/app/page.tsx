@@ -51,13 +51,16 @@ export default async function Home() {
     featured = [...featured, ...extras];
   }
 
+  // Lista completa de vehículos disponibles para las categorías
+  const availableVehicles = vehicles.filter(isForSale);
+
   return (
     <Suspense fallback={
       <main className="min-h-[60vh] grid place-items-center">
         <p className="text-neutral-500">Cargando…</p>
       </main>
     }>
-      <HomeClient vehicles={featured} />
+      <HomeClient featuredVehicles={featured} allVehicles={availableVehicles} />
     </Suspense>
   );
 }

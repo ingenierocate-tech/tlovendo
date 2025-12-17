@@ -4,6 +4,7 @@ import dynamic from 'next/dynamic';
 import TLVImage from '@/components/TLVImage';
 import Link from 'next/link';
 import UnifiedSearch from '@/components/UnifiedSearch';
+import { CATEGORIES } from '@/lib/categoryUtils';
 
 // HeroSlider con alias @/ y fallback mejorado
 const HeroSlider = dynamic(() => import('@/components/HeroSliderImpl'), {
@@ -44,15 +45,15 @@ export default function HomeClientSection() {
 
           {/* Categorías de autos */}
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
-            {categories.map((category) => (
+            {CATEGORIES.map((category) => (
               <Link
                 key={category.slug}
-                href={`/compra?categoria=${category.slug}`}
+                href={`/compra/categoria/${category.slug}`}
                 className="group flex flex-col items-center p-4 rounded-lg border border-gray-200 hover:border-red-300 hover:shadow-md transition-all duration-200"
               >
                 <div className="w-16 h-16 mb-3 flex items-center justify-center">
                   <TLVImage
-                    src={category.image}
+                    src={category.icon}
                     alt={category.name}
                     width={64}
                     height={64}

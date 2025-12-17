@@ -8,15 +8,18 @@ import CategoriesBar from './CategoriesBar';
 import SellStepsDark from './SellStepsDark';
 import Testimonials from './Testimonials';
 
-type Props = { vehicles: Vehicle[] };
+type Props = { 
+  featuredVehicles: Vehicle[];
+  allVehicles: Vehicle[];
+};
 
-export default function HomeClient({ vehicles }: Props) {
+export default function HomeClient({ featuredVehicles, allVehicles }: Props) {
   return (
     <main className="flex flex-col gap-16">
       {/* Hero + Categorías (BLANCO) */}
       <section className="bg-white">
         <HeroSlider />
-        <CategoriesBar />
+        <CategoriesBar vehicles={allVehicles} />
       </section>
 
       {/* Vehículos Destacados (BLANCO) */}
@@ -27,9 +30,9 @@ export default function HomeClient({ vehicles }: Props) {
             <p className="mt-1 text-neutral-600">Autos seleccionados especialmente para ti</p>
           </header>
 
-          {vehicles?.length > 0 ? (
+          {featuredVehicles?.length > 0 ? (
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 items-stretch">
-              {vehicles.slice(0, 3).map((v) => (
+              {featuredVehicles.slice(0, 3).map((v) => (
                 <VehicleCard key={v.slug} vehicle={v} />
               ))}
             </div>
