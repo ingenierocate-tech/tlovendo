@@ -186,8 +186,8 @@ export default async function Auto({ params }: { params: { slug: string } }) {
         {/* Descripción */}
         <div className="mt-8 bg-white rounded-lg shadow-sm p-6">
           <h3 className="text-lg font-semibold text-gray-900 mb-3">Descripción</h3>
-          <p className="text-gray-600 leading-relaxed">
-            Excelente estado, mantenciones al día, único dueño.
+          <p className="text-gray-600 leading-relaxed whitespace-pre-line">
+            {vehicle.description || "Excelente estado, mantenciones al día, único dueño."}
           </p>
         </div>
 

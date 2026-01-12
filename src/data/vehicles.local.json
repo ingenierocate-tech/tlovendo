@@ -752,95 +752,6 @@
   },
   {
     "id": 14,
-    "slug": "chevrolet-silverado-zr2-2024-full",
-    "brand": "Chevrolet",
-    "model": "Silverado ZR2",
-    "version": "Full",
-    "year": 2024,
-    "owners": 1,
-    "kilometers": 60000,
-    "color": "",
-    "transmission": "Automático",
-    "price": 47990000,
-    "fuel": "Bencina",
-    "region": "Huechuraba",
-    "state": "En venta",
-    "engine": "",
-    "consumption": "",
-    "emissions": "",
-    "abs": false,
-    "esp": false,
-    "tractionControl": false,
-    "airConditioning": false,
-    "powerSteering": false,
-    "electricWindows": false,
-    "electricMirrors": false,
-    "audioSystem": false,
-    "bluetooth": false,
-    "usb": false,
-    "cruiseControl": false,
-    "image": "/autos/Chevrolet_Silverado_ZR2_2024/01_lateral.webp",
-    "images": [
-      {
-        "url": "/autos/Chevrolet_Silverado_ZR2_2024/01_lateral.webp",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134316.webp",
-        "alt": "IMG_20251023_134316",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134337.webp",
-        "alt": "IMG_20251023_134337",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134413.webp",
-        "alt": "IMG_20251023_134413",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134443.webp",
-        "alt": "IMG_20251023_134443",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134515.webp",
-        "alt": "IMG_20251023_134515",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134533.webp",
-        "alt": "IMG_20251023_134533",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134603.webp",
-        "alt": "IMG_20251023_134603",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134630.webp",
-        "alt": "IMG_20251023_134630",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134636.webp",
-        "alt": "IMG_20251023_134636",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Silverado_ZR2_2024/IMG_20251023_134758.webp",
-        "alt": "IMG_20251023_134758",
-        "isPrimary": false
-      }
-    ],
-    "keep": true
-  },
-  {
-    "id": 15,
     "slug": "great-wall-wingle-6-elite-2017-full",
     "brand": "Great Wall",
     "model": "Wingle 6 Elite",
@@ -934,7 +845,7 @@
     "keep": true
   },
   {
-    "id": 16,
+    "id": 15,
     "slug": "nissan-pathfinder-2003",
     "brand": "Nissan",
     "model": "Pathfinder",
@@ -1043,210 +954,371 @@
     "keep": true
   },
   {
-    "id": 17,
-    "slug": "bmw-x1-2019",
-    "brand": "BMW",
-    "model": "X1",
-    "version": "",
-    "year": 2019,
+    "id": 16,
+    "slug": "kia-rio-2018-5",
+    "brand": "Kia",
+    "model": "Rio",
+    "version": "5",
+    "year": 2018,
+    "price": null,
+    "kilometers": null,
+    "transmission": "No disponible",
+    "fuel": "No disponible",
+    "region": "No disponible",
+    "color": "No disponible",
     "owners": 1,
-    "color": "",
-    "transmission": "",
-    "price": 16890000,
-    "fuel": "",
-    "region": "",
-    "state": "En venta",
-    "engine": "",
-    "consumption": "",
-    "emissions": "",
-    "abs": false,
-    "esp": false,
-    "tractionControl": false,
-    "airConditioning": false,
-    "powerSteering": false,
-    "electricWindows": false,
-    "electricMirrors": false,
-    "audioSystem": false,
-    "bluetooth": false,
-    "usb": false,
-    "cruiseControl": false,
-    "image": "/autos/BMW X1 2019/01_lateral.webp",
+    "engine": "No disponible",
+    "power": null,
+    "consumption": "No disponible",
+    "emissions": "No disponible",
+    "state": "Vendido",
+    "image": "/autos/kia-rio-5-2018/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/BMW X1 2019/01_lateral.webp",
+        "url": "/autos/kia-rio-5-2018/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_092951.webp",
-        "alt": "IMG_20251119_092951",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093007.webp",
-        "alt": "IMG_20251119_093007",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093033.webp",
-        "alt": "IMG_20251119_093033",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093041.webp",
-        "alt": "IMG_20251119_093041",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093050.webp",
-        "alt": "IMG_20251119_093050",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093103.webp",
-        "alt": "IMG_20251119_093103",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093114.webp",
-        "alt": "IMG_20251119_093114",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093132.webp",
-        "alt": "IMG_20251119_093132",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093143.webp",
-        "alt": "IMG_20251119_093143",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093156.webp",
-        "alt": "IMG_20251119_093156",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093205.webp",
-        "alt": "IMG_20251119_093205",
-        "isPrimary": false
       }
     ],
     "keep": true
   },
   {
-    "id": 18,
-    "slug": "nissan-sentra-2021",
+    "slug": "opel-corsa-2022-1-2-puretech",
+    "brand": "Opel",
+    "model": "Corsa",
+    "year": 2022,
+    "version": "1.2 PureTech",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 61000,
+    "price": 9350000,
+    "owners": 1,
+    "state": "En venta",
+    "description": "✔️ Motor 1.2 bencinero, muy económico \n✔️ Caja automática cómoda y suave \n✔️ Mantención recién hecha \n✔️ Ideal para ciudad y uso diario \n✔️ Pantalla con Apple CarPlay / Android Auto \n✔️ Control de estabilidad, airbags, ISOFIX \n✔️ Interior cómodo y bien cuidado \n✔️ Manejo ágil, fácil de estacionar \n📄 Documentación al día, listo para transferir \n💳 Financiamiento disponible \n🔁 Recibo vehículo menor en parte de pago \n📲 Interesados reales, escribir por interno",
+    "abs": true,
+    "esp": true,
+    "airbags": "Frontales y laterales",
+    "airConditioning": true,
+    "bluetooth": true,
+    "usb": true,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "images": [
+      {
+        "url": "/autos/Opel-Corsa-2022-AT/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153215.webp",
+        "alt": "IMG_20260108_153215",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153223.webp",
+        "alt": "IMG_20260108_153223",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153238.webp",
+        "alt": "IMG_20260108_153238",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153244.webp",
+        "alt": "IMG_20260108_153244",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153252.webp",
+        "alt": "IMG_20260108_153252",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153305.webp",
+        "alt": "IMG_20260108_153305",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153310.webp",
+        "alt": "IMG_20260108_153310",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153315.webp",
+        "alt": "IMG_20260108_153315",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153333.webp",
+        "alt": "IMG_20260108_153333",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153637.webp",
+        "alt": "IMG_20260108_153637",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Opel-Corsa-2022-AT/01_lateral.webp",
+    "id": 17
+  },
+  {
+    "slug": "nissan-x-trail-2024-exclusive",
     "brand": "Nissan",
-    "model": "Sentra",
-    "version": "",
-    "year": 2021,
+    "model": "X-Trail",
+    "year": 2024,
+    "version": "Exclusive",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 3000,
+    "price": 27890000,
     "owners": 1,
-    "color": "",
-    "transmission": "",
-    "price": 13750000,
-    "fuel": "",
-    "region": "",
     "state": "En venta",
-    "engine": "",
-    "consumption": "",
-    "emissions": "",
-    "abs": false,
-    "esp": false,
-    "tractionControl": false,
-    "airConditioning": false,
-    "powerSteering": false,
-    "electricWindows": false,
-    "electricMirrors": false,
-    "audioSystem": false,
-    "bluetooth": false,
-    "usb": false,
-    "cruiseControl": false,
-    "image": "/autos/Nissan Sentra AT 2021/01_lateral.webp",
+    "description": "✔️ Prácticamente nueva \n✔️ Motor 2.5 bencinero + caja CVT \n✔️ Full seguridad (frenado, carril, punto ciego, crucero inteligente) \n✔️ Asientos de cuero eléctricos y calefaccionados \n✔️ Pantalla grande + CarPlay / Android Auto \n✔️ Panel digital + HUD \n✔️ Climatizador triple zona \n✔️ Cargador inalámbrico \n✔️ Nunca chocado \n📄 Documentación al día, lista para transferir \n💳 Financiamiento disponible \n🔁 Recibo vehículo menor en parte de pago \n📲 Interesados reales, escribir por interno",
+    "abs": true,
+    "esp": true,
+    "airbags": "Frontales y laterales",
+    "airConditioning": true,
+    "bluetooth": true,
+    "usb": true,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "cruiseControl": true,
+    "tractionControl": true,
+    "audioSystem": true,
     "images": [
       {
-        "url": "/autos/Nissan Sentra AT 2021/01_lateral.webp",
+        "url": "/autos/Nissan-Xtrail-2024-Exclusive/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142032.webp",
-        "alt": "IMG_20251120_142032",
+        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152245.webp",
+        "alt": "IMG_20260107_152245",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142040.webp",
-        "alt": "IMG_20251120_142040",
+        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152253.webp",
+        "alt": "IMG_20260107_152253",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142055.webp",
-        "alt": "IMG_20251120_142055",
+        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152308.webp",
+        "alt": "IMG_20260107_152308",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142228.webp",
-        "alt": "IMG_20251120_142228",
+        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152315.webp",
+        "alt": "IMG_20260107_152315",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142249.webp",
-        "alt": "IMG_20251120_142249",
+        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152322.webp",
+        "alt": "IMG_20260107_152322",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142310.webp",
-        "alt": "IMG_20251120_142310",
+        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152334.webp",
+        "alt": "IMG_20260107_152334",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142317.webp",
-        "alt": "IMG_20251120_142317",
+        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152340.webp",
+        "alt": "IMG_20260107_152340",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142323.webp",
-        "alt": "IMG_20251120_142323",
+        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152437.webp",
+        "alt": "IMG_20260107_152437",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142352.webp",
-        "alt": "IMG_20251120_142352",
+        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152456.webp",
+        "alt": "IMG_20260107_152456",
         "isPrimary": false
       }
     ],
-    "keep": true
+    "image": "/autos/Nissan-Xtrail-2024-Exclusive/01_lateral.webp",
+    "id": 18
   },
   {
-    "id": 19,
+    "slug": "peugeot-5008-2018-1-6-bluehdi",
+    "brand": "Peugeot",
+    "model": "5008",
+    "year": 2018,
+    "version": "1.6 BlueHDi",
+    "transmission": "Automática",
+    "fuel": "Diésel",
+    "kilometers": 113000,
+    "price": 15890000,
+    "owners": 2,
+    "state": "En venta",
+    "description": "✔️ Motor diésel 1.6 BlueHDi — económico y con torque ideal para SUV familiar (bajo consumo por su tipo de motor). \n✔️ Caja automática — conducción cómoda en ciudad y carretera. \n✔️ SUV 7 plazas — ideal para familia o viajes con espacio para todos. \n✔️ Buen espacio de maletero (~780 L) — alto espacio para carga y bagaje. \n✔️ Seguridad completa — control de estabilidad, ABS, airbags, ISOFIX. \n✔️ Conectividad moderna — pantalla con Apple CarPlay / Android Auto. \n✔️ Interior cómodo y amplio, ideal para trayectos largos y familia. \n✔️ Muy buen rendimiento diésel — bajo consumo en ruta y ciudad. \n📄 Documentación al día, listo para transferir \n💳 Financiamiento disponible \n🔁 Recibo vehículo menor en parte de pago \n📲 Interesados reales, escribir por interno",
+    "abs": true,
+    "esp": true,
+    "airbags": "Frontales y laterales",
+    "airConditioning": true,
+    "bluetooth": true,
+    "usb": true,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "cruiseControl": true,
+    "images": [
+      {
+        "url": "/autos/Peugeot-5008-2018-full/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094214.webp",
+        "alt": "IMG_20260107_094214",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094224.webp",
+        "alt": "IMG_20260107_094224",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094241.webp",
+        "alt": "IMG_20260107_094241",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094249.webp",
+        "alt": "IMG_20260107_094249",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094256.webp",
+        "alt": "IMG_20260107_094256",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094321.webp",
+        "alt": "IMG_20260107_094321",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094325.webp",
+        "alt": "IMG_20260107_094325",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094331.webp",
+        "alt": "IMG_20260107_094331",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094341.webp",
+        "alt": "IMG_20260107_094341",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Peugeot-5008-2018-full/01_lateral.webp",
+    "id": 19
+  },
+  {
+    "slug": "mazda-3-2016-1-6",
+    "brand": "Mazda",
+    "model": "3",
+    "year": 2016,
+    "version": "1.6",
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 76000,
+    "price": 8890000,
+    "owners": 1,
+    "state": "En venta",
+    "description": "✔️ Motor 1.6 bencinero, económico y confiable \n✔️ Caja mecánica suave y rendidora \n✔️ Solo 76.000 km \n✔️ Color blanco \n✔️ Muy buen estado general \n✔️ Nunca chocado \n✔️ Mantenciones al día \n✔️ Interior cómodo y bien cuidado \n✔️ Ideal para ciudad, viajes o aplicaciones \n⛽ Consumo aprox. 15–16 km/l mixto \n📄 Documentación al día, listo para transferir \n💳 Financiamiento disponible \n🔁 Recibo vehículo en parte de pago \n📲 Interesados reales, escribir por interno.",
+    "abs": true,
+    "airbags": "Frontales",
+    "airConditioning": true,
+    "electricWindows": true,
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/Mazda-3-2016-manual/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122829.webp",
+        "alt": "IMG_20251218_122829",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122836.webp",
+        "alt": "IMG_20251218_122836",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122848.webp",
+        "alt": "IMG_20251218_122848",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122855.webp",
+        "alt": "IMG_20251218_122855",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122924.webp",
+        "alt": "IMG_20251218_122924",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122935.webp",
+        "alt": "IMG_20251218_122935",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122940.webp",
+        "alt": "IMG_20251218_122940",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122948.webp",
+        "alt": "IMG_20251218_122948",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_123027.webp",
+        "alt": "IMG_20251218_123027",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_123041.webp",
+        "alt": "IMG_20251218_123041",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Mazda-3-2016-manual/01_lateral.webp",
+    "id": 20
+  },
+  {
     "slug": "nissan-pathfinder-1999",
     "brand": "Nissan",
     "model": "Pathfinder",
-    "version": "",
     "year": 1999,
-    "owners": 1,
-    "color": "",
-    "transmission": "",
+    "version": "3.3 V6 Tope de Línea",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 184000,
     "price": 9750000,
-    "fuel": "",
-    "region": "",
+    "owners": 2,
     "state": "En venta",
-    "engine": "",
-    "consumption": "",
-    "emissions": "",
-    "abs": false,
-    "esp": false,
+    "region": "Viña del Mar",
+    "description": "✨ ¡Oportunidad! Pathfinder en excelente condición, cuidada y lista para seguir rodando! \n🔥 Características destacadas:\n⬆️ Levante de 2” — presencia más robusta y mejor despeje. \n🧳 Parrilla instalada — ideal para viajes y carga adicional. \n🪑 Interior tope de línea — cómodo y acogedor. \n🚘 Automática — suave y fácil de manejar. \n💪 Motor 3.3 V6 confiable y con muy buen desempeño. \n🚙 Carrocería e interior en excelente estado para su año. \n🚫 Nunca chocada — estructura 100% íntegra. \n📦 Segundo dueño — muy bien cuidada. \n👉 Ideal para: Quien busca un SUV amplio, potente y cómodo. Viajes, ciudad, familia o escapadas fuera del camino.",
+    "abs": true,
+    "airConditioning": true,
+    "electricWindows": true,
+    "audioSystem": true,
+    "electricMirrors": true,
+    "airbags": "Frontales",
     "tractionControl": false,
-    "airConditioning": false,
-    "powerSteering": false,
-    "electricWindows": false,
-    "electricMirrors": false,
-    "audioSystem": false,
-    "bluetooth": false,
-    "usb": false,
-    "cruiseControl": false,
-    "image": "/autos/Nissan Pathfinder 3.3 1999/01_lateral.webp",
+    "cruiseControl": true,
     "images": [
       {
         "url": "/autos/Nissan Pathfinder 3.3 1999/01_lateral.webp",
@@ -1309,39 +1381,188 @@
         "isPrimary": false
       }
     ],
-    "keep": true
+    "image": "/autos/Nissan Pathfinder 3.3 1999/01_lateral.webp",
+    "keep": true,
+    "id": 21
   },
   {
-    "id": 20,
-    "slug": "kia-rio-2018-5",
-    "brand": "Kia",
-    "model": "Rio",
-    "version": "5",
-    "year": 2018,
-    "price": null,
-    "kilometers": null,
-    "transmission": "No disponible",
-    "fuel": "No disponible",
-    "region": "No disponible",
-    "color": "No disponible",
+    "slug": "nissan-sentra-2021",
+    "brand": "Nissan",
+    "model": "Sentra",
+    "year": 2021,
+    "version": "Advance CVT",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 75000,
+    "price": 13750000,
     "owners": 1,
-    "engine": "No disponible",
-    "power": null,
-    "consumption": "No disponible",
-    "emissions": "No disponible",
-    "state": "Vendido",
-    "image": "/autos/kia-rio-5-2018/01_lateral.webp",
+    "state": "En venta",
+    "region": "Viña del Mar",
+    "description": "✨ ¡Oportunidad! Sentra moderno, económico, seguro y muy confortable. ¡Listo para llegar y manejar!\n🔥 Características destacadas:\n🛠️ Motor 2.0 con excelente rendimiento — ágil, suave y económico (hasta ~15 km/l mixto).\n🎛️ Caja automática CVT — conducción fluida y muy cómoda en ciudad o carretera.\n📱 Pantalla táctil con Apple CarPlay / Android Auto — conectividad total.\n🛡️ Seguridad avanzada — alerta de punto ciego, asistente de carril y frenado de emergencia.\n🪑 Interior amplio y ergonómico — asientos “Zero Gravity” muy cómodos.\n🚘 Estabilidad sobresaliente — suspensión multibrazo que mejora agarre y confort.\n🚫 Nunca chocado — estructura íntegra.\n📦 Mantenciones al día — muy bien cuidado.\n👉 Ideal para: Quien busca un sedán moderno, seguro y muy económico. Uso diario, viajes, familia, app tipo Uber/Beat/Didi, o como auto de inversión.\nConsulte por financiamiento automotriz, recibimos vehículo de menor valor.",
+    "abs": true,
+    "esp": true,
+    "airbags": "Frontales y laterales",
+    "airConditioning": true,
+    "bluetooth": true,
+    "usb": true,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "cruiseControl": true,
+    "tractionControl": true,
+    "audioSystem": true,
     "images": [
       {
-        "url": "/autos/kia-rio-5-2018/01_lateral.webp",
+        "url": "/autos/Nissan Sentra AT 2021/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142032.webp",
+        "alt": "IMG_20251120_142032",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142040.webp",
+        "alt": "IMG_20251120_142040",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142055.webp",
+        "alt": "IMG_20251120_142055",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142228.webp",
+        "alt": "IMG_20251120_142228",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142249.webp",
+        "alt": "IMG_20251120_142249",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142310.webp",
+        "alt": "IMG_20251120_142310",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142317.webp",
+        "alt": "IMG_20251120_142317",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142323.webp",
+        "alt": "IMG_20251120_142323",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142352.webp",
+        "alt": "IMG_20251120_142352",
+        "isPrimary": false
       }
     ],
-    "keep": true
+    "image": "/autos/Nissan Sentra AT 2021/01_lateral.webp",
+    "keep": true,
+    "id": 22
   },
   {
-    "id": 21,
+    "slug": "bmw-x1-2019",
+    "brand": "BMW",
+    "model": "X1",
+    "year": 2019,
+    "version": "sDrive 20i TwinPower Turbo",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 80000,
+    "price": 16890000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Peñalolén",
+    "description": "✨ Versión sDrive 20i / Motor 2.0 TwinPower Turbo \n✅ Único dueño \n✅ Mantenciones 100% en concesionario oficial BMW 👨‍🔧 \n✅ Transmisión automática \n✅ Pantalla iDrive + Bluetooth + comandos al volante \n✅ Sensores de retroceso + cámara trasera 📹 \n✅ Modo de manejo ECO / Comfort / Sport \n✅ Airbags múltiples + control de estabilidad \n✅ Llantas de aleación + luces LED \n\n🧾 Excelente estado, uso particular, interior y exterior muy cuidados. \n🚗 SUV premium, cómodo, firme y muy eficiente para ciudad y carretera. \n\n📍 Ubicación: Peñalolén \n📞 Contáctame por mensaje o WhatsApp para coordinar visita o envío de más fotos.",
+    "abs": true,
+    "esp": true,
+    "airbags": "Frontales, laterales y cortina",
+    "airConditioning": true,
+    "bluetooth": true,
+    "usb": true,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "cruiseControl": true,
+    "tractionControl": true,
+    "audioSystem": true,
+    "parkingSensors": true,
+    "rearCamera": true,
+    "ledLights": true,
+    "alloyWheels": true,
+    "images": [
+      {
+        "url": "/autos/BMW X1 2019/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_092951.webp",
+        "alt": "IMG_20251119_092951",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093007.webp",
+        "alt": "IMG_20251119_093007",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093033.webp",
+        "alt": "IMG_20251119_093033",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093041.webp",
+        "alt": "IMG_20251119_093041",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093050.webp",
+        "alt": "IMG_20251119_093050",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093103.webp",
+        "alt": "IMG_20251119_093103",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093114.webp",
+        "alt": "IMG_20251119_093114",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093132.webp",
+        "alt": "IMG_20251119_093132",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093143.webp",
+        "alt": "IMG_20251119_093143",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093156.webp",
+        "alt": "IMG_20251119_093156",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW X1 2019/IMG_20251119_093205.webp",
+        "alt": "IMG_20251119_093205",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/BMW X1 2019/01_lateral.webp",
+    "keep": true,
+    "id": 23
+  },
+  {
+    "id": 24,
     "slug": "bmw-320i-m-sport-2024",
     "brand": "BMW",
     "model": "320i M Sport",
@@ -1366,7 +1587,7 @@
     "keep": true
   },
   {
-    "id": 22,
+    "id": 25,
     "slug": "porsche-panamera-gts-2017",
     "brand": "Porsche",
     "model": "Panamera GTS",

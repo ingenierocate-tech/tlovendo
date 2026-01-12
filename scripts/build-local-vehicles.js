@@ -120,7 +120,8 @@ function readExcelCaracteristicas(excelPath) {
     audio: getColIdx(['sistema de audio', 'audio']),
     bluetooth: getColIdx(['bluetooth']),
     usb: getColIdx(['usb']),
-    crucero: getColIdx(['control crucero', 'crucero'])
+    crucero: getColIdx(['control crucero', 'crucero']),
+    description: getColIdx(['descripción', 'descripcion', 'description'])
   };
 
   const data = [];
@@ -213,6 +214,7 @@ function readExcelCaracteristicas(excelPath) {
       power: potencia,
       consumption: String(consumo || '').trim(),
       emissions: String(emisiones || '').trim(),
+      description: idx.description >= 0 ? String(r[idx.description] || '').trim() : undefined,
       
       // Características de seguridad
       abs: abs,
@@ -238,6 +240,10 @@ function readExcelCaracteristicas(excelPath) {
 
 // Mapeo de slugs problemáticos a carpetas reales
 const slugToFolderMapping = {
+  'opel-corsa-2022-1-2-puretech': 'Opel-Corsa-2022-AT',
+  'nissan-x-trail-2024-exclusive': 'Nissan-Xtrail-2024-Exclusive',
+  'peugeot-5008-2018-1-6-bluehdi': 'Peugeot-5008-2018-full',
+  'mazda-3-2016-1-6': 'Mazda-3-2016-manual',
   'chevrolet-tahoe-2018-full': 'chevrolet-tahoe-2018-lt',
   'nissan-pathfinder-2018-full': 'nissan-pathfinder-2018-advance',
   'ford-f150-xlt-2016-full': 'ford-f150-xlt-2016',
@@ -410,7 +416,13 @@ const folderToSlugMapping = {
   'Nissan Pathfinder 3.3 1999': 'nissan-pathfinder-1999',
   'Nissan Sentra AT 2021': 'nissan-sentra-2021',
   'BMW X1 2019': 'bmw-x1-2019',
-  'Citroen C4 Picasso 2015': 'citroen-c4-picasso-2015'
+  'Citroen C4 Picasso 2015': 'citroen-c4-picasso-2015',
+  
+  // Nuevos mapeos para evitar duplicados (Folder vs Chat Manual)
+  'Opel-Corsa-2022-AT': 'opel-corsa-2022-1-2-puretech',
+  'Nissan-Xtrail-2024-Exclusive': 'nissan-x-trail-2024-exclusive',
+  'Peugeot-5008-2018-full': 'peugeot-5008-2018-1-6-bluehdi',
+  'Mazda-3-2016-manual': 'mazda-3-2016-1-6'
 };
 
 async function getVehicleImages(slug) {
@@ -491,10 +503,30 @@ async function generateFromFolders() {
   let totalImages = 0;
 
   for (const folder of folders) {
-    const folderName = path.basename(folder);
+    let folderName = path.basename(folder).trim();
+    
+    console.log(`📂 Procesando carpeta: '${folderName}'`);
     
     // Intentar extraer marca, modelo y año usando slug normalizado si existe
-    const raw = folderToSlugMapping[folderName] || folderName;
+    // Búsqueda robusta en el mapa
+    let raw = folderToSlugMapping[folderName];
+    
+    if (!raw) {
+      // Intentar búsqueda insensible a mayúsculas/espacios
+      const matchingKey = Object.keys(folderToSlugMapping).find(k => k.toLowerCase().trim() === folderName.toLowerCase());
+      if (matchingKey) {
+        raw = folderToSlugMapping[matchingKey];
+        console.log(`   ✅ Match flexible encontrado: '${folderName}' -> '${raw}'`);
+      }
+    }
+    
+    if (!raw) {
+      console.log(`   ⚠️ No hay mapeo para '${folderName}', usando nombre original como slug.`);
+      raw = folderName;
+    } else {
+      console.log(`   🎯 Mapeado a slug: '${raw}'`);
+    }
+
     const parts = raw.split('-');
     if (parts.length < 3) continue;
     
@@ -599,6 +631,194 @@ async function buildLocalVehicles() {
       totalImages = vehicles.reduce((sum, v) => sum + v.images.length, 0);
     }
 
+    // Agregar vehículos manuales desde el chat (bypass Excel)
+    const chatVehicles = [
+      {
+        slug: 'opel-corsa-2022-1-2-puretech',
+        brand: 'Opel', model: 'Corsa', year: 2022, version: '1.2 PureTech',
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 61000,
+        price: 9350000, owners: 1, state: 'En venta',
+        description: `✔️ Motor 1.2 bencinero, muy económico 
+✔️ Caja automática cómoda y suave 
+✔️ Mantención recién hecha 
+✔️ Ideal para ciudad y uso diario 
+✔️ Pantalla con Apple CarPlay / Android Auto 
+✔️ Control de estabilidad, airbags, ISOFIX 
+✔️ Interior cómodo y bien cuidado 
+✔️ Manejo ágil, fácil de estacionar 
+📄 Documentación al día, listo para transferir 
+💳 Financiamiento disponible 
+🔁 Recibo vehículo menor en parte de pago 
+📲 Interesados reales, escribir por interno`,
+        abs: true, esp: true, airbags: 'Frontales y laterales', airConditioning: true,
+        bluetooth: true, usb: true, electricWindows: true, electricMirrors: true
+      },
+      {
+        slug: 'nissan-x-trail-2024-exclusive',
+        brand: 'Nissan', model: 'X-Trail', year: 2024, version: 'Exclusive',
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 3000,
+        price: 27890000, owners: 1, state: 'En venta',
+        description: `✔️ Prácticamente nueva 
+✔️ Motor 2.5 bencinero + caja CVT 
+✔️ Full seguridad (frenado, carril, punto ciego, crucero inteligente) 
+✔️ Asientos de cuero eléctricos y calefaccionados 
+✔️ Pantalla grande + CarPlay / Android Auto 
+✔️ Panel digital + HUD 
+✔️ Climatizador triple zona 
+✔️ Cargador inalámbrico 
+✔️ Nunca chocado 
+📄 Documentación al día, lista para transferir 
+💳 Financiamiento disponible 
+🔁 Recibo vehículo menor en parte de pago 
+📲 Interesados reales, escribir por interno`,
+        abs: true, esp: true, airbags: 'Frontales y laterales', airConditioning: true,
+        bluetooth: true, usb: true, electricWindows: true, electricMirrors: true,
+        cruiseControl: true, tractionControl: true, audioSystem: true
+      },
+      {
+        slug: 'peugeot-5008-2018-1-6-bluehdi',
+        brand: 'Peugeot', model: '5008', year: 2018, version: '1.6 BlueHDi',
+        transmission: 'Automática', fuel: 'Diésel', kilometers: 113000,
+        price: 15890000, owners: 2, state: 'En venta',
+        description: `✔️ Motor diésel 1.6 BlueHDi — económico y con torque ideal para SUV familiar (bajo consumo por su tipo de motor). 
+✔️ Caja automática — conducción cómoda en ciudad y carretera. 
+✔️ SUV 7 plazas — ideal para familia o viajes con espacio para todos. 
+✔️ Buen espacio de maletero (~780 L) — alto espacio para carga y bagaje. 
+✔️ Seguridad completa — control de estabilidad, ABS, airbags, ISOFIX. 
+✔️ Conectividad moderna — pantalla con Apple CarPlay / Android Auto. 
+✔️ Interior cómodo y amplio, ideal para trayectos largos y familia. 
+✔️ Muy buen rendimiento diésel — bajo consumo en ruta y ciudad. 
+📄 Documentación al día, listo para transferir 
+💳 Financiamiento disponible 
+🔁 Recibo vehículo menor en parte de pago 
+📲 Interesados reales, escribir por interno`,
+        abs: true, esp: true, airbags: 'Frontales y laterales', airConditioning: true,
+        bluetooth: true, usb: true, electricWindows: true, electricMirrors: true,
+        cruiseControl: true
+      },
+      {
+        slug: 'mazda-3-2016-1-6',
+        brand: 'Mazda', model: '3', year: 2016, version: '1.6',
+        transmission: 'Manual', fuel: 'Bencina', kilometers: 76000,
+        price: 8890000, owners: 1, state: 'En venta',
+        description: `✔️ Motor 1.6 bencinero, económico y confiable 
+✔️ Caja mecánica suave y rendidora 
+✔️ Solo 76.000 km 
+✔️ Color blanco 
+✔️ Muy buen estado general 
+✔️ Nunca chocado 
+✔️ Mantenciones al día 
+✔️ Interior cómodo y bien cuidado 
+✔️ Ideal para ciudad, viajes o aplicaciones 
+⛽ Consumo aprox. 15–16 km/l mixto 
+📄 Documentación al día, listo para transferir 
+💳 Financiamiento disponible 
+🔁 Recibo vehículo en parte de pago 
+📲 Interesados reales, escribir por interno.`,
+        abs: true, airbags: 'Frontales', airConditioning: true, electricWindows: true, audioSystem: true
+      },
+      {
+        slug: 'nissan-pathfinder-1999',
+        brand: 'Nissan', model: 'Pathfinder', year: 1999, version: '3.3 V6 Tope de Línea',
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 184000,
+        price: 9750000, owners: 2, state: 'En venta', region: 'Viña del Mar',
+        description: `✨ ¡Oportunidad! Pathfinder en excelente condición, cuidada y lista para seguir rodando! 
+🔥 Características destacadas:
+⬆️ Levante de 2” — presencia más robusta y mejor despeje. 
+🧳 Parrilla instalada — ideal para viajes y carga adicional. 
+🪑 Interior tope de línea — cómodo y acogedor. 
+🚘 Automática — suave y fácil de manejar. 
+💪 Motor 3.3 V6 confiable y con muy buen desempeño. 
+🚙 Carrocería e interior en excelente estado para su año. 
+🚫 Nunca chocada — estructura 100% íntegra. 
+📦 Segundo dueño — muy bien cuidada. 
+👉 Ideal para: Quien busca un SUV amplio, potente y cómodo. Viajes, ciudad, familia o escapadas fuera del camino.`,
+        abs: true, airConditioning: true, electricWindows: true, audioSystem: true, electricMirrors: true,
+        airbags: 'Frontales', tractionControl: false, cruiseControl: true
+      },
+      {
+        slug: 'nissan-sentra-2021',
+        brand: 'Nissan', model: 'Sentra', year: 2021, version: 'Advance CVT',
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 75000,
+        price: 13750000, owners: 1, state: 'En venta', region: 'Viña del Mar',
+        description: `✨ ¡Oportunidad! Sentra moderno, económico, seguro y muy confortable. ¡Listo para llegar y manejar!
+🔥 Características destacadas:
+🛠️ Motor 2.0 con excelente rendimiento — ágil, suave y económico (hasta ~15 km/l mixto).
+🎛️ Caja automática CVT — conducción fluida y muy cómoda en ciudad o carretera.
+📱 Pantalla táctil con Apple CarPlay / Android Auto — conectividad total.
+🛡️ Seguridad avanzada — alerta de punto ciego, asistente de carril y frenado de emergencia.
+🪑 Interior amplio y ergonómico — asientos “Zero Gravity” muy cómodos.
+🚘 Estabilidad sobresaliente — suspensión multibrazo que mejora agarre y confort.
+🚫 Nunca chocado — estructura íntegra.
+📦 Mantenciones al día — muy bien cuidado.
+👉 Ideal para: Quien busca un sedán moderno, seguro y muy económico. Uso diario, viajes, familia, app tipo Uber/Beat/Didi, o como auto de inversión.
+Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
+        abs: true, esp: true, airbags: 'Frontales y laterales', airConditioning: true,
+        bluetooth: true, usb: true, electricWindows: true, electricMirrors: true,
+        cruiseControl: true, tractionControl: true, audioSystem: true
+      },
+      {
+        slug: 'bmw-x1-2019',
+        brand: 'BMW', model: 'X1', year: 2019, version: 'sDrive 20i TwinPower Turbo',
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 80000,
+        price: 16890000, owners: 1, state: 'En venta', region: 'Peñalolén',
+        description: `✨ Versión sDrive 20i / Motor 2.0 TwinPower Turbo 
+✅ Único dueño 
+✅ Mantenciones 100% en concesionario oficial BMW 👨‍🔧 
+✅ Transmisión automática 
+✅ Pantalla iDrive + Bluetooth + comandos al volante 
+✅ Sensores de retroceso + cámara trasera 📹 
+✅ Modo de manejo ECO / Comfort / Sport 
+✅ Airbags múltiples + control de estabilidad 
+✅ Llantas de aleación + luces LED 
+
+🧾 Excelente estado, uso particular, interior y exterior muy cuidados. 
+🚗 SUV premium, cómodo, firme y muy eficiente para ciudad y carretera. 
+
+📍 Ubicación: Peñalolén 
+📞 Contáctame por mensaje o WhatsApp para coordinar visita o envío de más fotos.`,
+        abs: true, esp: true, airbags: 'Frontales, laterales y cortina', airConditioning: true,
+        bluetooth: true, usb: true, electricWindows: true, electricMirrors: true,
+        cruiseControl: true, tractionControl: true, audioSystem: true,
+        parkingSensors: true, rearCamera: true, ledLights: true, alloyWheels: true
+      }
+    ];
+
+    for (const cv of chatVehicles) {
+      console.log(`🚙 Inyectando vehículo manual: ${cv.slug}`);
+      
+      // Eliminar versión automática previa si existe para asegurar que manda la manual
+      const existingIdx = vehicles.findIndex(v => v.slug === cv.slug);
+      if (existingIdx !== -1) {
+        console.log(`   🗑️ Reemplazando datos automáticos por manuales para: ${cv.slug}`);
+        vehicles.splice(existingIdx, 1);
+      }
+
+      try {
+        // Forzar búsqueda por slug mapeado o directo
+        const folderName = slugToFolderMapping[cv.slug] || cv.slug;
+        const images = await getVehicleImages(cv.slug);
+        
+        cv.images = images;
+        // Prioridad absoluta a 01_lateral para la foto principal del catálogo
+        const primary = images.find(img => img.url.toLowerCase().includes('01_lateral')) || images[0];
+        cv.image = primary ? primary.url : '/placeholder-car.webp';
+        
+        if (images.length === 0) {
+          console.warn(`⚠️ No se encontraron imágenes en la carpeta: ${folderName}`);
+        } else {
+          console.log(`   📸 ${images.length} imágenes cargadas para ${cv.brand} ${cv.model}`);
+        }
+      } catch (err) {
+        console.warn(`⚠️ Error cargando imágenes para ${cv.slug}: ${err.message}`);
+        cv.images = [];
+        cv.image = '/placeholder-car.webp';
+      }
+      vehicles.push(cv);
+      slugs.push(cv.slug);
+      totalImages += cv.images.length;
+    }
+
     // Agregar vehículos históricos vendidos
     for (const hv of historicalSoldVehicles) {
       // Verificar si ya existe para no duplicar
@@ -649,17 +869,21 @@ async function buildLocalVehicles() {
            const existing = uniqueVehicles[existingIdx];
            const existingHasImages = existing.images && existing.images.length > 0;
            const newHasImages = v.images && v.images.length > 0;
+           const existingHasPrice = existing.price !== null && existing.price !== undefined;
+           const newHasPrice = v.price !== null && v.price !== undefined;
            
-           if (!existingHasImages && newHasImages) {
-             console.log(`🔄 Reemplazando vehículo sin fotos por versión con fotos: ${normalizedSlug}`);
+           // Criterio de mejora: El nuevo tiene fotos y el viejo no, O el nuevo tiene precio y el viejo no.
+           // Esto asegura que la inyección manual (con precio) sobreescriba al folder automático (sin precio).
+           if ((!existingHasImages && newHasImages) || (!existingHasPrice && newHasPrice)) {
+             console.log(`🔄 Mejorando vehículo existente (Price/Img): ${normalizedSlug}`);
              v.slug = normalizedSlug;
-             // Preservar datos del excel (precio, etc) si el nuevo (folder) no los tiene
-             if (existing.price && !v.price) v.price = existing.price;
+             
+             // Preservar datos del viejo si el nuevo está incompleto (Caso Excel -> Folder)
+             if (existingHasPrice && !newHasPrice) v.price = existing.price;
              if (existing.year && !v.year) v.year = existing.year;
-             // ... copiar otros campos si es necesario, pero generalmente Folder trae menos data
-             // Mejor estrategia: Mergear data de existing en v
-             const merged = { ...v, ...existing, images: v.images, image: v.image };
-             uniqueVehicles[existingIdx] = merged;
+             if (existing.description && (!v.description || v.description.length < 10)) v.description = existing.description;
+             
+             uniqueVehicles[existingIdx] = v;
            } else {
              console.log(`⚠️  Eliminando duplicado redundante: ${normalizedSlug}`);
            }
@@ -667,6 +891,19 @@ async function buildLocalVehicles() {
       }
     }
     vehicles = uniqueVehicles;
+
+    // ---------------------------------------------------------
+    // FILTRO MANUAL DE OCULTOS (No borrar, solo ocultar)
+    // ---------------------------------------------------------
+    const hiddenSlugs = [
+      'chevrolet-silverado-zr2-2024-full'
+    ];
+    
+    if (hiddenSlugs.length > 0) {
+      const initialCount = vehicles.length;
+      vehicles = vehicles.filter(v => !hiddenSlugs.includes(v.slug));
+      console.log(`🙈 Se ocultaron ${initialCount - vehicles.length} vehículos (Silverado, etc).`);
+    }
 
     // RE-INDEXAR IDs para asegurar unicidad
     vehicles.forEach((v, index) => {
@@ -677,6 +914,13 @@ async function buildLocalVehicles() {
     let deletedCount = 0;
     let convertedCount = 0;
     
+    const targetSlugsForResize = [
+      'opel-corsa-2022-1-2-puretech',
+      'nissan-x-trail-2024-exclusive',
+      'peugeot-5008-2018-1-6-bluehdi',
+      'mazda-3-2016-1-6'
+    ];
+
     for (const v of vehicles) {
       // 1. Limpieza de vendidos: Quedarse solo con la principal
       if (v.state === 'Vendido' && v.images && v.images.length > 1) {
@@ -714,37 +958,53 @@ async function buildLocalVehicles() {
         }
       }
 
-      // 2. Conversión a WebP de las imágenes restantes
+      // 2. Conversión a WebP y Redimensionado selectivo (Optimización)
       const newImages = [];
-      for (const img of v.images) {
-        // Si ya es webp, saltar
-        if (img.url.toLowerCase().endsWith('.webp')) {
-          newImages.push(img);
-          continue;
-        }
+      const shouldResize = targetSlugsForResize.includes(v.slug);
 
+      for (const img of v.images) {
         try {
           const relativePath = img.url.startsWith('/') ? img.url.slice(1) : img.url;
           const absolutePath = path.join(process.cwd(), 'public', relativePath);
           
-          if (await fs.pathExists(absolutePath)) {
-            const webpPath = absolutePath.replace(/\.(jpg|jpeg|png)$/i, '.webp');
+          if (!await fs.pathExists(absolutePath)) {
+            newImages.push(img);
+            continue;
+          }
+
+          const isWebP = img.url.toLowerCase().endsWith('.webp');
+
+          // Caso 1: Es de los nuevos -> Forzar resize a 1024px y calidad 75 (aunque sea WebP)
+          if (shouldResize) {
+            const buffer = await fs.readFile(absolutePath);
+            const webpPath = absolutePath.replace(/\.(jpg|jpeg|png|webp)$/i, '.webp');
             
-            // Convertir
+            await sharp(buffer)
+              .resize(1024, null, { withoutEnlargement: true }) // Max width 1024px
+              .webp({ quality: 75 }) // Mayor compresión
+              .toFile(webpPath);
+            
+            // Si cambió la extensión (ej. era jpg), borrar original y actualizar URL
+            if (!isWebP) {
+              await fs.remove(absolutePath);
+              img.url = img.url.replace(/\.(jpg|jpeg|png)$/i, '.webp');
+              convertedCount++;
+            }
+          } 
+          // Caso 2: No es de los nuevos y NO es WebP -> Convertir estándar
+          else if (!isWebP) {
+            const webpPath = absolutePath.replace(/\.(jpg|jpeg|png)$/i, '.webp');
             await sharp(absolutePath)
               .webp({ quality: 80 })
               .toFile(webpPath);
-            
-            // Borrar original
             await fs.remove(absolutePath);
-            
-            // Actualizar URL
-            const newUrl = img.url.replace(/\.(jpg|jpeg|png)$/i, '.webp');
-            img.url = newUrl;
+            img.url = img.url.replace(/\.(jpg|jpeg|png)$/i, '.webp');
             convertedCount++;
           }
+          // Caso 3: Ya es WebP y no es de los nuevos -> Dejar tal cual
+          
         } catch (err) {
-          console.error(`❌ Error convirtiendo ${img.url}:`, err);
+          console.error(`❌ Error procesando ${img.url}:`, err);
         }
         newImages.push(img);
       }

@@ -26,6 +26,9 @@ const MODEL_KEYWORDS: Record<string, string> = {
   'glc': 'suv',
   'coolray': 'suv',
   'corolla cross': 'suv',
+  'x-trail': 'suv',
+  'xtrail': 'suv',
+  '5008': 'suv',
   
   // Sedan
   '320i': 'sedan',
@@ -38,6 +41,7 @@ const MODEL_KEYWORDS: Record<string, string> = {
   'c-elysee': 'sedan',
   'c elysee': 'sedan',
   'mazda 3': 'sedan',
+  'mazda-3': 'sedan',
   'mazda 6': 'sedan',
   'bora': 'sedan',
   'virtus': 'sedan',
@@ -53,6 +57,7 @@ const MODEL_KEYWORDS: Record<string, string> = {
   'polo': 'hatchback',
   'ibiza': 'hatchback',
   'yaris': 'hatchback',
+  'corsa': 'hatchback',
   
   // Camioneta
   'silverado': 'camioneta',
