@@ -288,7 +288,7 @@ const manualOverrides = [
   { keywords: ['chevrolet', 'silverado', '2024'], price: 47990000, state: 'En venta' },
   { keywords: ['nissan', 'sentra', '2021'], price: 13750000, state: 'En venta' },
   { keywords: ['ford', 'fusion', '2020'], price: 15550000, state: 'En venta' },
-  { keywords: ['subaru', 'forester', '2019'], price: 18990000, state: 'En venta' },
+  { keywords: ['subaru', 'forester', '2019'], price: 18990000, state: 'Vendido' },
   { keywords: ['bmw', 'x1', '2019'], price: 16890000, state: 'En venta' },
   { keywords: ['chevrolet', 'tahoe', '2018'], price: 23990000, state: 'En venta' },
   { keywords: ['nissan', 'pathfinder', '2018'], price: 17550000, state: 'En venta' },

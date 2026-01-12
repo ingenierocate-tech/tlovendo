@@ -675,7 +675,7 @@
     "price": 18990000,
     "fuel": "Bencina",
     "region": "Las Condes",
-    "state": "En venta",
+    "state": "Vendido",
     "engine": "2.0",
     "consumption": "",
     "emissions": "",
@@ -696,56 +696,6 @@
         "url": "/autos/Subaru_Forester_Limited_2019/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105735.webp",
-        "alt": "IMG_20251106_105735",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105744.webp",
-        "alt": "IMG_20251106_105744",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105801.webp",
-        "alt": "IMG_20251106_105801",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105809.webp",
-        "alt": "IMG_20251106_105809",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105818.webp",
-        "alt": "IMG_20251106_105818",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105902.webp",
-        "alt": "IMG_20251106_105902",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105909.webp",
-        "alt": "IMG_20251106_105909",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_105935.webp",
-        "alt": "IMG_20251106_105935",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_110004.webp",
-        "alt": "IMG_20251106_110004",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_Forester_Limited_2019/IMG_20251106_110018.webp",
-        "alt": "IMG_20251106_110018",
-        "isPrimary": false
       }
     ],
     "keep": true
