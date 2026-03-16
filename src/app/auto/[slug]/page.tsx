@@ -4,6 +4,7 @@ import RelatedVehicles from '@/components/RelatedVehicles';
 import VehicleInfo from '@/components/VehicleInfo';
 import VehicleSpecs from '@/components/VehicleSpecs';
 import VehicleContactButtonsWrapper from '@/components/VehicleContactButtonsWrapper';
+import VehicleViewTracker from '@/components/VehicleViewTracker';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ChevronRightIcon } from '@heroicons/react/24/outline';
@@ -70,7 +71,10 @@ export default async function Auto({ params }: { params: { slug: string } }) {
   }
   
   return (
-    <div className="min-h-screen bg-gray-50">
+    <>
+      <VehicleViewTracker vehicle={vehicle} />
+
+      <div className="min-h-screen bg-gray-50">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-8">
         {/* Breadcrumb */}
         <nav className="flex mb-8" aria-label="Breadcrumb">
@@ -202,6 +206,7 @@ export default async function Auto({ params }: { params: { slug: string } }) {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

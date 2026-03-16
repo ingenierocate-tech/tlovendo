@@ -10,7 +10,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const whatsappPhone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE;
+  const whatsappPhone = process.env.NEXT_PUBLIC_WHATSAPP_PHONE ?? '+56 9 7108 7126';
 
   return (
     <html lang="es">
