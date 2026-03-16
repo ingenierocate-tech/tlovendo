@@ -47,19 +47,20 @@ async function main() {
   const DEST = path.join(ROOT, 'Tlovendo_backup', 'backups', ts);
 
   const items = [
-    // Datos
-    { kind: 'file', src: path.join(ROOT, 'src', 'data', 'vehicles.local.json') },
-    { kind: 'file', src: path.join(ROOT, 'src', 'data', 'vehicles.slugs.local.json') },
-    // Config útil
+    // Directorios completos de código
+    { kind: 'dir', src: path.join(ROOT, 'src') },
+    { kind: 'dir', src: path.join(ROOT, 'scripts') },
+    
+    // Archivos de configuración críticos
     { kind: 'file', src: path.join(ROOT, 'package.json') },
-    // Componentes relevantes
-    { kind: 'file', src: path.join(ROOT, 'src', 'components', 'VehicleContactButtons.tsx') },
-    { kind: 'file', src: path.join(ROOT, 'src', 'components', 'VehicleCard.tsx') },
-    { kind: 'file', src: path.join(ROOT, 'src', 'components', 'VehicleCardImage.tsx') },
-    { kind: 'file', src: path.join(ROOT, 'src', 'components', 'VehicleGrid.tsx') },
-    { kind: 'file', src: path.join(ROOT, 'src', 'components', 'SoldVehicleCard.tsx') },
-    // Imágenes
-    { kind: 'dir', src: path.join(ROOT, 'public', 'autos') },
+    { kind: 'file', src: path.join(ROOT, 'next.config.js') },
+    { kind: 'file', src: path.join(ROOT, 'tsconfig.json') },
+    { kind: 'file', src: path.join(ROOT, 'tailwind.config.ts') },
+    { kind: 'file', src: path.join(ROOT, '.env.local') },
+    { kind: 'file', src: path.join(ROOT, 'postcss.config.js') },
+    
+    // Opcional: public/autos si se desea (descomentar si se requiere, pero es pesado)
+    // { kind: 'dir', src: path.join(ROOT, 'public', 'autos') },
   ];
 
   await ensureDir(DEST);

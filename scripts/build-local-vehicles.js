@@ -250,6 +250,7 @@ const slugToFolderMapping = {
   'ford-fusion-2020-hibrido': 'ford-fusion-2020-se',
   'kia-soluto-2022-full': 'kia-soluto-2024-lx',
   'bmw-x1-2019': 'BMW X1 2019',
+  'bmw-320d-2018-sport': 'BMW-2018-2018',
   'chevrolet-silverado-2024-zr2': 'Chevrolet_Silverado_ZR2_2024',
   'chevrolet-silverado-zr2-2024-full': 'Chevrolet_Silverado_ZR2_2024',
   'citroen-c4-picasso-2015': 'Citroen C4 Picasso 2015',
@@ -270,7 +271,15 @@ const slugToFolderMapping = {
   'chevrolet-tahoe-2018': 'chevrolet-tahoe-2018-lt',
   'nissan-pathfinder-2018': 'nissan-pathfinder-2018-advance',
   'ford-f150-2016': 'ford-f150-xlt-2016',
-  'great-wall-wingle-6-2017': 'GreatWall_Wingle6_Elite_2017'
+  'great-wall-wingle-6-2017': 'GreatWall_Wingle6_Elite_2017',
+
+  // Nuevos autos agregados por chat
+  'jeep-compass-2011': 'Jeep-Compass-2011',
+  'chevrolet-d-max-2017': 'Chevrolet-Dmax-2017',
+  'mercedes-benz-a200-sedan-2021-look-amg': 'Marcedes Benz-A200-sedan',
+  'peugeot-3008-2017': 'Peugeot-3008-2017',
+  'fiat-uno-way-2020': 'Fiat-Uno-2020',
+  'kia-rio-5-2020': 'Kia-Rio-2020'
 };
 
 // Override manual de precios y estados para asegurar consistencia con la visual del cliente
@@ -285,11 +294,14 @@ const manualOverrides = [
   { keywords: ['kia', 'soluto', '2022'], state: 'Vendido' },
   { keywords: ['kia', 'rio', '2018'], state: 'Vendido' },
   { keywords: ['citroen', 'picasso', '2011'], state: 'Vendido' },
+  { keywords: ['bmw', '320i', '2024'], state: 'Vendido' },
+  { keywords: ['bmw', '320d', '2018'], price: 18990000, state: 'En venta' },
+  { keywords: ['porsche', 'panamera', '2017'], state: 'Vendido' },
   { keywords: ['chevrolet', 'silverado', '2024'], price: 47990000, state: 'En venta' },
-  { keywords: ['nissan', 'sentra', '2021'], price: 13750000, state: 'En venta' },
+  { keywords: ['nissan', 'sentra', '2021'], price: 13750000, state: 'Vendido' },
   { keywords: ['ford', 'fusion', '2020'], price: 15550000, state: 'En venta' },
   { keywords: ['subaru', 'forester', '2019'], price: 18990000, state: 'Vendido' },
-  { keywords: ['bmw', 'x1', '2019'], price: 16890000, state: 'En venta' },
+  { keywords: ['bmw', 'x1', '2019'], price: 16890000, state: 'Vendido' },
   { keywords: ['chevrolet', 'tahoe', '2018'], price: 23990000, state: 'En venta' },
   { keywords: ['nissan', 'pathfinder', '2018'], price: 17550000, state: 'En venta' },
   { keywords: ['great', 'wall', 'wingle', '2017'], price: 6990000, state: 'En venta' },
@@ -416,13 +428,20 @@ const folderToSlugMapping = {
   'Nissan Pathfinder 3.3 1999': 'nissan-pathfinder-1999',
   'Nissan Sentra AT 2021': 'nissan-sentra-2021',
   'BMW X1 2019': 'bmw-x1-2019',
+  'BMW-2018-2018': 'bmw-320d-2018-sport',
   'Citroen C4 Picasso 2015': 'citroen-c4-picasso-2015',
   
   // Nuevos mapeos para evitar duplicados (Folder vs Chat Manual)
   'Opel-Corsa-2022-AT': 'opel-corsa-2022-1-2-puretech',
   'Nissan-Xtrail-2024-Exclusive': 'nissan-x-trail-2024-exclusive',
   'Peugeot-5008-2018-full': 'peugeot-5008-2018-1-6-bluehdi',
-  'Mazda-3-2016-manual': 'mazda-3-2016-1-6'
+  'Mazda-3-2016-manual': 'mazda-3-2016-1-6',
+  'Jeep-Compass-2011': 'jeep-compass-2011',
+  'Chevrolet-Dmax-2017': 'chevrolet-d-max-2017',
+  'Marcedes Benz-A200-sedan': 'mercedes-benz-a200-sedan-2021-look-amg',
+  'Fiat-Uno-2020': 'fiat-uno-way-2020',
+  'Peugeot-3008-2017': 'peugeot-3008-2017',
+  'Kia-Rio-2020': 'kia-rio-5-2020'
 };
 
 async function getVehicleImages(slug) {
@@ -527,17 +546,28 @@ async function generateFromFolders() {
       console.log(`   🎯 Mapeado a slug: '${raw}'`);
     }
 
-    const parts = raw.split('-');
+    const normalized = toKebab(raw);
+    const parts = normalized.split('-').filter(Boolean);
     if (parts.length < 3) continue;
-    
+
+    let yearIdx = -1;
+    for (let i = parts.length - 1; i >= 0; i--) {
+      const n = parseInt(parts[i], 10);
+      if (String(parts[i]).length === 4 && Number.isFinite(n) && n >= 1900 && n <= 2100) {
+        yearIdx = i;
+        break;
+      }
+    }
+    if (yearIdx === -1) continue;
+
     const brand = parts[0];
-    const model = parts[1];
-    const year = parseInt(parts[2], 10);
-    const version = parts.slice(3).join(' ') || '';
-    
+    const model = parts.slice(1, yearIdx).join(' ');
+    const year = parseInt(parts[yearIdx], 10);
+    const version = parts.slice(yearIdx + 1).join(' ') || '';
+
     if (!brand || !model || !year || isNaN(year)) continue;
 
-    const slug = raw;
+    const slug = normalized;
     const images = await getVehicleImages(slug);
     totalImages += images.length;
 
@@ -656,7 +686,7 @@ async function buildLocalVehicles() {
       {
         slug: 'nissan-x-trail-2024-exclusive',
         brand: 'Nissan', model: 'X-Trail', year: 2024, version: 'Exclusive',
-        transmission: 'Automática', fuel: 'Bencina', kilometers: 3000,
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 33000,
         price: 27890000, owners: 1, state: 'En venta',
         description: `✔️ Prácticamente nueva 
 ✔️ Motor 2.5 bencinero + caja CVT 
@@ -740,7 +770,7 @@ async function buildLocalVehicles() {
         slug: 'nissan-sentra-2021',
         brand: 'Nissan', model: 'Sentra', year: 2021, version: 'Advance CVT',
         transmission: 'Automática', fuel: 'Bencina', kilometers: 75000,
-        price: 13750000, owners: 1, state: 'En venta', region: 'Viña del Mar',
+        price: 13750000, owners: 1, state: 'Vendido', region: 'Viña del Mar',
         description: `✨ ¡Oportunidad! Sentra moderno, económico, seguro y muy confortable. ¡Listo para llegar y manejar!
 🔥 Características destacadas:
 🛠️ Motor 2.0 con excelente rendimiento — ágil, suave y económico (hasta ~15 km/l mixto).
@@ -761,7 +791,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'bmw-x1-2019',
         brand: 'BMW', model: 'X1', year: 2019, version: 'sDrive 20i TwinPower Turbo',
         transmission: 'Automática', fuel: 'Bencina', kilometers: 80000,
-        price: 16890000, owners: 1, state: 'En venta', region: 'Peñalolén',
+        price: 16890000, owners: 1, state: 'Vendido', region: 'Peñalolén',
         description: `✨ Versión sDrive 20i / Motor 2.0 TwinPower Turbo 
 ✅ Único dueño 
 ✅ Mantenciones 100% en concesionario oficial BMW 👨‍🔧 
@@ -781,7 +811,98 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         bluetooth: true, usb: true, electricWindows: true, electricMirrors: true,
         cruiseControl: true, tractionControl: true, audioSystem: true,
         parkingSensors: true, rearCamera: true, ledLights: true, alloyWheels: true
-      }
+      },
+      {
+        slug: 'bmw-320d-2018-sport',
+        brand: 'BMW', model: '320d', year: 2018, version: 'Sport',
+        transmission: 'Automática', fuel: 'Diésel', kilometers: 142000,
+        price: 18990000, owners: 1, state: 'En venta', region: 'Santiago',
+        description: `🔧 Diésel · Automático
+📍 142.000 km · 2 llaves
+✔️ Todas las mantenciones hechas rigurosamente.
+🔥 Motor diésel eficiente y potente: equilibrio entre potencia y economía típico de esta versión del Serie 3.
+🔥 Prestaciones de sedán premium: ágil y sólido en autopista y ciudad.
+🔥 Buen espacio interior y maletero: práctico para el día a día y viajes.
+🔥 Estilo y presencia BMW: diseño deportivo, interior cuidado y conducción dinámica.
+📄 Documentación al día y lista para transferir
+🔁 Se recibe vehículo menor como parte de pago
+💳 Financiamiento disponible`,
+        abs: true
+      },
+      {
+        slug: 'jeep-compass-2011',
+        brand: 'Jeep', model: 'Compass', year: 2011,
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 166000,
+        price: 5790000, owners: 1, state: 'En venta', region: 'Santiago',
+        description: `✔️ Automático · Bencina
+✔️ 166.000 km · Dos llaves
+✔️ SUV versátil para ciudad y carretera
+📄 Documentación al día, lista para transferir
+🔁 Se recibe vehículo menor en parte de pago`,
+        abs: true, esp: true, airbags: 'Múltiples'
+      },
+      {
+        slug: 'chevrolet-d-max-2017',
+        brand: 'Chevrolet', model: 'D-Max', year: 2017, version: '4x2',
+        transmission: 'Manual', fuel: 'Diésel', kilometers: 142000,
+        price: 8990000, owners: 1, state: 'En venta', region: 'Santiago',
+        description: `✔️ Diésel · 4x2 · Mecánica
+✔️ Camioneta firme y confiable, ideal para trabajo
+⚠️ Aire acondicionado no funciona (considerado en el precio)
+📄 Documentación al día, lista para transferir
+💳 Financiamiento disponible`
+      },
+      {
+        slug: 'mercedes-benz-a200-sedan-2021-look-amg',
+        brand: 'Mercedes-Benz', model: 'A200', year: 2021, version: 'Sedan Look AMG',
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 82400,
+        price: 21990000, owners: 3, state: 'En venta', region: 'Santiago',
+        engine: '1.3 Turbo',
+        description: `✨ Deportivo, elegante y full tecnología
+✔️ Look AMG
+✔️ Apple CarPlay + Bluetooth
+✔️ Sensores + cámara trasera
+✔️ Modos ECO / Comfort / Sport
+🔄 Recibo vehículo de menor valor
+💳 Consulte por financiamiento`,
+        bluetooth: true
+      },
+      {
+        slug: 'kia-rio-5-2020',
+        brand: 'Kia', model: 'Rio 5', year: 2020,
+        transmission: 'Manual', fuel: 'Bencina', kilometers: 70000,
+        price: 9350000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✅ Manual · Único dueño
+✅ Bluetooth / USB
+✅ Cámara y sensores de retroceso
+✅ Aire acondicionado
+✅ Control de estabilidad y frenos ABS`,
+        abs: true, esp: true, airConditioning: true, bluetooth: true, usb: true
+      },
+      {
+        slug: 'peugeot-3008-2017',
+        brand: 'Peugeot', model: '3008', year: 2017,
+        transmission: 'Automática', fuel: 'Bencina', kilometers: null,
+        price: 12990000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✅ Bencinero Automático
+✅ Sensores de estacionamiento + cámara de retroceso
+✅ Climatizador automático
+✅ Control de estabilidad y múltiples airbags
+💰 Consulte por financiamiento automotriz`,
+        abs: true, esp: true, airbags: 'Múltiples', airConditioning: true
+      },
+      {
+        slug: 'fiat-uno-way-2020',
+        brand: 'Fiat', model: 'Uno Way', year: 2020,
+        transmission: 'Manual', fuel: 'Bencina', kilometers: 44000,
+        price: 6490000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✅ Motor 1.4 bencinero
+✅ Bluetooth / USB
+❌ Sin aire acondicionado
+✅ Frenos ABS + doble airbag
+💰 Consulte por financiamiento automotriz`,
+        abs: true, airbags: 'Frontales', airConditioning: false, bluetooth: true, usb: true
+      },
     ];
 
     for (const cv of chatVehicles) {
@@ -896,7 +1017,8 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
     // FILTRO MANUAL DE OCULTOS (No borrar, solo ocultar)
     // ---------------------------------------------------------
     const hiddenSlugs = [
-      'chevrolet-silverado-zr2-2024-full'
+      'chevrolet-silverado-zr2-2024-full',
+      'kia-rio-5-2020'
     ];
     
     if (hiddenSlugs.length > 0) {
@@ -918,7 +1040,14 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'opel-corsa-2022-1-2-puretech',
       'nissan-x-trail-2024-exclusive',
       'peugeot-5008-2018-1-6-bluehdi',
-      'mazda-3-2016-1-6'
+      'mazda-3-2016-1-6',
+      'ford-fusion-2020-hibrido',
+      'jeep-compass-2011',
+      'chevrolet-d-max-2017',
+      'mercedes-benz-a200-sedan-2021-look-amg',
+      'kia-rio-5-2020',
+      'peugeot-3008-2017',
+      'fiat-uno-way-2020'
     ];
 
     for (const v of vehicles) {

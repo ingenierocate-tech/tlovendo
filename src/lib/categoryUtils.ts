@@ -29,9 +29,12 @@ const MODEL_KEYWORDS: Record<string, string> = {
   'x-trail': 'suv',
   'xtrail': 'suv',
   '5008': 'suv',
+  '3008': 'suv',
+  'compass': 'suv',
   
   // Sedan
   '320i': 'sedan',
+  '320d': 'sedan',
   'sentra': 'sedan',
   'panamera': 'sedan',
   'fusion': 'sedan',
@@ -40,6 +43,7 @@ const MODEL_KEYWORDS: Record<string, string> = {
   '301': 'sedan',
   'c-elysee': 'sedan',
   'c elysee': 'sedan',
+  'a200': 'sedan',
   'mazda 3': 'sedan',
   'mazda-3': 'sedan',
   'mazda 6': 'sedan',
@@ -58,6 +62,8 @@ const MODEL_KEYWORDS: Record<string, string> = {
   'ibiza': 'hatchback',
   'yaris': 'hatchback',
   'corsa': 'hatchback',
+  'uno': 'hatchback',
+  'uno way': 'hatchback',
   
   // Camioneta
   'silverado': 'camioneta',
@@ -71,6 +77,9 @@ const MODEL_KEYWORDS: Record<string, string> = {
   'colorado': 'camioneta',
   'amarok': 'camioneta',
   'poer': 'camioneta',
+  'd-max': 'camioneta',
+  'd max': 'camioneta',
+  'dmax': 'camioneta',
   
   // Citycar
   'morning': 'citycar',
@@ -109,19 +118,26 @@ export function getVehicleCategory(vehicle: Vehicle): string | undefined {
   const model = (vehicle.model || '').toLowerCase();
   const slug = (vehicle.slug || '').toLowerCase();
   const brand = (vehicle.brand || '').toLowerCase();
-  
+  const version = (vehicle.version || '').toLowerCase();
+  const description = (vehicle.description || '').toLowerCase();
+
+  const text = `${brand} ${model} ${version} ${slug} ${description}`.trim();
+
   // Check model keywords
   for (const [keyword, category] of Object.entries(MODEL_KEYWORDS)) {
     // Check if model contains keyword (e.g. "Rio 5" contains "rio")
-    if (model.includes(keyword) || slug.includes(keyword)) {
+    if (text.includes(keyword)) {
       return category;
     }
   }
-  
+
   // Fallbacks genéricos si no detecta por modelo
-  if (model.includes('suv') || slug.includes('suv')) return 'suv';
-  if (model.includes('sedan') || slug.includes('sedan')) return 'sedan';
-  if (model.includes('furgon') || slug.includes('furgon') || model.includes('van') || slug.includes('van')) return 'utilitario';
-  
+  if (text.includes('suv')) return 'suv';
+  if (text.includes('sedan') || text.includes('sedán')) return 'sedan';
+  if (text.includes('hatchback')) return 'hatchback';
+  if (text.includes('camioneta') || text.includes('pickup') || text.includes('pick-up')) return 'camioneta';
+  if (text.includes('citycar') || text.includes('city car')) return 'citycar';
+  if (text.includes('utilitario') || text.includes('furgon') || text.includes('furgón') || text.includes('van')) return 'utilitario';
+
   return undefined;
 }

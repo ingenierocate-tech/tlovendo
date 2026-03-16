@@ -555,28 +555,53 @@
         "isPrimary": true
       },
       {
-        "url": "/autos/ford-fusion-2020-se/10_frontal.webp",
-        "alt": "frontal",
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103445.webp",
+        "alt": "IMG_20231213_103445",
         "isPrimary": false
       },
       {
-        "url": "/autos/ford-fusion-2020-se/10_posterior.webp",
-        "alt": "posterior",
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103455.webp",
+        "alt": "IMG_20231213_103455",
         "isPrimary": false
       },
       {
-        "url": "/autos/ford-fusion-2020-se/10_tablero.webp",
-        "alt": "tablero",
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103512.webp",
+        "alt": "IMG_20231213_103512",
         "isPrimary": false
       },
       {
-        "url": "/autos/ford-fusion-2020-se/10_asientos.webp",
-        "alt": "asientos",
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103525.webp",
+        "alt": "IMG_20231213_103525",
         "isPrimary": false
       },
       {
-        "url": "/autos/ford-fusion-2020-se/WhatsApp Image 2025-09-16 at 08.13.15.webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.13.15",
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103535.webp",
+        "alt": "IMG_20231213_103535",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103558.webp",
+        "alt": "IMG_20231213_103558",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103610.webp",
+        "alt": "IMG_20231213_103610",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103619.webp",
+        "alt": "IMG_20231213_103619",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103629.webp",
+        "alt": "IMG_20231213_103629",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103748.webp",
+        "alt": "IMG_20231213_103748",
         "isPrimary": false
       }
     ],
@@ -905,6 +930,93 @@
   },
   {
     "id": 16,
+    "slug": "bmw-320i-m-sport-2024",
+    "brand": "Bmw",
+    "model": "320i m sport",
+    "version": "",
+    "year": 2024,
+    "price": null,
+    "kilometers": null,
+    "transmission": "No disponible",
+    "fuel": "No disponible",
+    "region": "No disponible",
+    "color": "No disponible",
+    "owners": 1,
+    "engine": "No disponible",
+    "power": null,
+    "consumption": "No disponible",
+    "emissions": "No disponible",
+    "state": "Vendido",
+    "image": "/autos/Bmw_320iM_sport_2024/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Bmw_320iM_sport_2024/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true
+  },
+  {
+    "id": 17,
+    "slug": "citroen-c4-picasso-2015",
+    "brand": "Citroen",
+    "model": "C4 picasso",
+    "version": "",
+    "year": 2015,
+    "price": 7790000,
+    "kilometers": null,
+    "transmission": "No disponible",
+    "fuel": "No disponible",
+    "region": "No disponible",
+    "color": "No disponible",
+    "owners": 1,
+    "engine": "No disponible",
+    "power": null,
+    "consumption": "No disponible",
+    "emissions": "No disponible",
+    "state": "Vendido",
+    "image": "/autos/Citroen C4 Picasso 2015/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Citroen C4 Picasso 2015/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true
+  },
+  {
+    "id": 18,
+    "slug": "porsche-panamera-gts-2017",
+    "brand": "Porsche",
+    "model": "Panamera gts",
+    "version": "",
+    "year": 2017,
+    "price": null,
+    "kilometers": null,
+    "transmission": "No disponible",
+    "fuel": "No disponible",
+    "region": "No disponible",
+    "color": "No disponible",
+    "owners": 1,
+    "engine": "No disponible",
+    "power": null,
+    "consumption": "No disponible",
+    "emissions": "No disponible",
+    "state": "Vendido",
+    "image": "/autos/Porsche_Panamera_GTS_2017/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Porsche_Panamera_GTS_2017/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true
+  },
+  {
+    "id": 19,
     "slug": "kia-rio-2018-5",
     "brand": "Kia",
     "model": "Rio",
@@ -1011,7 +1123,7 @@
       }
     ],
     "image": "/autos/Opel-Corsa-2022-AT/01_lateral.webp",
-    "id": 17
+    "id": 20
   },
   {
     "slug": "nissan-x-trail-2024-exclusive",
@@ -1021,7 +1133,7 @@
     "version": "Exclusive",
     "transmission": "Automática",
     "fuel": "Bencina",
-    "kilometers": 3000,
+    "kilometers": 33000,
     "price": 27890000,
     "owners": 1,
     "state": "En venta",
@@ -1090,7 +1202,7 @@
       }
     ],
     "image": "/autos/Nissan-Xtrail-2024-Exclusive/01_lateral.webp",
-    "id": 18
+    "id": 21
   },
   {
     "slug": "peugeot-5008-2018-1-6-bluehdi",
@@ -1167,7 +1279,7 @@
       }
     ],
     "image": "/autos/Peugeot-5008-2018-full/01_lateral.webp",
-    "id": 19
+    "id": 22
   },
   {
     "slug": "mazda-3-2016-1-6",
@@ -1245,7 +1357,7 @@
       }
     ],
     "image": "/autos/Mazda-3-2016-manual/01_lateral.webp",
-    "id": 20
+    "id": 23
   },
   {
     "slug": "nissan-pathfinder-1999",
@@ -1333,7 +1445,7 @@
     ],
     "image": "/autos/Nissan Pathfinder 3.3 1999/01_lateral.webp",
     "keep": true,
-    "id": 21
+    "id": 24
   },
   {
     "slug": "nissan-sentra-2021",
@@ -1346,7 +1458,7 @@
     "kilometers": 75000,
     "price": 13750000,
     "owners": 1,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Viña del Mar",
     "description": "✨ ¡Oportunidad! Sentra moderno, económico, seguro y muy confortable. ¡Listo para llegar y manejar!\n🔥 Características destacadas:\n🛠️ Motor 2.0 con excelente rendimiento — ágil, suave y económico (hasta ~15 km/l mixto).\n🎛️ Caja automática CVT — conducción fluida y muy cómoda en ciudad o carretera.\n📱 Pantalla táctil con Apple CarPlay / Android Auto — conectividad total.\n🛡️ Seguridad avanzada — alerta de punto ciego, asistente de carril y frenado de emergencia.\n🪑 Interior amplio y ergonómico — asientos “Zero Gravity” muy cómodos.\n🚘 Estabilidad sobresaliente — suspensión multibrazo que mejora agarre y confort.\n🚫 Nunca chocado — estructura íntegra.\n📦 Mantenciones al día — muy bien cuidado.\n👉 Ideal para: Quien busca un sedán moderno, seguro y muy económico. Uso diario, viajes, familia, app tipo Uber/Beat/Didi, o como auto de inversión.\nConsulte por financiamiento automotriz, recibimos vehículo de menor valor.",
     "abs": true,
@@ -1365,56 +1477,11 @@
         "url": "/autos/Nissan Sentra AT 2021/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142032.webp",
-        "alt": "IMG_20251120_142032",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142040.webp",
-        "alt": "IMG_20251120_142040",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142055.webp",
-        "alt": "IMG_20251120_142055",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142228.webp",
-        "alt": "IMG_20251120_142228",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142249.webp",
-        "alt": "IMG_20251120_142249",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142310.webp",
-        "alt": "IMG_20251120_142310",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142317.webp",
-        "alt": "IMG_20251120_142317",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142323.webp",
-        "alt": "IMG_20251120_142323",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan Sentra AT 2021/IMG_20251120_142352.webp",
-        "alt": "IMG_20251120_142352",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Nissan Sentra AT 2021/01_lateral.webp",
     "keep": true,
-    "id": 22
+    "id": 25
   },
   {
     "slug": "bmw-x1-2019",
@@ -1427,7 +1494,7 @@
     "kilometers": 80000,
     "price": 16890000,
     "owners": 1,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Peñalolén",
     "description": "✨ Versión sDrive 20i / Motor 2.0 TwinPower Turbo \n✅ Único dueño \n✅ Mantenciones 100% en concesionario oficial BMW 👨‍🔧 \n✅ Transmisión automática \n✅ Pantalla iDrive + Bluetooth + comandos al volante \n✅ Sensores de retroceso + cámara trasera 📹 \n✅ Modo de manejo ECO / Comfort / Sport \n✅ Airbags múltiples + control de estabilidad \n✅ Llantas de aleación + luces LED \n\n🧾 Excelente estado, uso particular, interior y exterior muy cuidados. \n🚗 SUV premium, cómodo, firme y muy eficiente para ciudad y carretera. \n\n📍 Ubicación: Peñalolén \n📞 Contáctame por mensaje o WhatsApp para coordinar visita o envío de más fotos.",
     "abs": true,
@@ -1450,115 +1517,437 @@
         "url": "/autos/BMW X1 2019/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_092951.webp",
-        "alt": "IMG_20251119_092951",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093007.webp",
-        "alt": "IMG_20251119_093007",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093033.webp",
-        "alt": "IMG_20251119_093033",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093041.webp",
-        "alt": "IMG_20251119_093041",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093050.webp",
-        "alt": "IMG_20251119_093050",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093103.webp",
-        "alt": "IMG_20251119_093103",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093114.webp",
-        "alt": "IMG_20251119_093114",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093132.webp",
-        "alt": "IMG_20251119_093132",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093143.webp",
-        "alt": "IMG_20251119_093143",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093156.webp",
-        "alt": "IMG_20251119_093156",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW X1 2019/IMG_20251119_093205.webp",
-        "alt": "IMG_20251119_093205",
-        "isPrimary": false
       }
     ],
     "image": "/autos/BMW X1 2019/01_lateral.webp",
     "keep": true,
-    "id": 23
+    "id": 26
   },
   {
-    "id": 24,
-    "slug": "bmw-320i-m-sport-2024",
+    "slug": "bmw-320d-2018-sport",
     "brand": "BMW",
-    "model": "320i M Sport",
-    "version": "G20",
-    "year": 2024,
+    "model": "320d",
+    "year": 2018,
+    "version": "Sport",
+    "transmission": "Automática",
+    "fuel": "Diésel",
+    "kilometers": 142000,
+    "price": 18990000,
     "owners": 1,
-    "kilometers": null,
-    "color": "No disponible",
-    "transmission": "Automático",
-    "price": null,
-    "fuel": "Bencina",
+    "state": "En venta",
     "region": "Santiago",
-    "state": "Vendido",
-    "image": "/autos/Bmw_320iM_sport_2024/01_lateral.webp",
+    "description": "🔧 Diésel · Automático\n📍 142.000 km · 2 llaves\n✔️ Todas las mantenciones hechas rigurosamente.\n🔥 Motor diésel eficiente y potente: equilibrio entre potencia y economía típico de esta versión del Serie 3.\n🔥 Prestaciones de sedán premium: ágil y sólido en autopista y ciudad.\n🔥 Buen espacio interior y maletero: práctico para el día a día y viajes.\n🔥 Estilo y presencia BMW: diseño deportivo, interior cuidado y conducción dinámica.\n📄 Documentación al día y lista para transferir\n🔁 Se recibe vehículo menor como parte de pago\n💳 Financiamiento disponible",
+    "abs": true,
     "images": [
       {
-        "url": "/autos/Bmw_320iM_sport_2024/01_lateral.webp",
+        "url": "/autos/BMW-2018-2018/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
+      },
+      {
+        "url": "/autos/BMW-2018-2018/IMG_20260115_131830.webp",
+        "alt": "IMG_20260115_131830",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-2018-2018/IMG_20260115_131839.webp",
+        "alt": "IMG_20260115_131839",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-2018-2018/IMG_20260115_131907.webp",
+        "alt": "IMG_20260115_131907",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-2018-2018/IMG_20260115_131921.webp",
+        "alt": "IMG_20260115_131921",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-2018-2018/IMG_20260115_131934.webp",
+        "alt": "IMG_20260115_131934",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-2018-2018/IMG_20260115_131952.webp",
+        "alt": "IMG_20260115_131952",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-2018-2018/IMG_20260115_132010.webp",
+        "alt": "IMG_20260115_132010",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-2018-2018/IMG_20260115_132015.webp",
+        "alt": "IMG_20260115_132015",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-2018-2018/IMG_20260115_132024.webp",
+        "alt": "IMG_20260115_132024",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-2018-2018/IMG_20260115_132104.webp",
+        "alt": "IMG_20260115_132104",
+        "isPrimary": false
       }
     ],
-    "keep": true
+    "image": "/autos/BMW-2018-2018/01_lateral.webp",
+    "keep": true,
+    "id": 27
   },
   {
-    "id": 25,
-    "slug": "porsche-panamera-gts-2017",
-    "brand": "Porsche",
-    "model": "Panamera GTS",
-    "version": "",
-    "year": 2017,
-    "owners": 1,
-    "kilometers": null,
-    "color": "No disponible",
-    "transmission": "Automático",
-    "price": null,
+    "slug": "jeep-compass-2011",
+    "brand": "Jeep",
+    "model": "Compass",
+    "year": 2011,
+    "transmission": "Automática",
     "fuel": "Bencina",
+    "kilometers": 166000,
+    "price": 5790000,
+    "owners": 1,
+    "state": "En venta",
     "region": "Santiago",
-    "state": "Vendido",
-    "image": "/autos/Porsche_Panamera_GTS_2017/01_lateral.webp",
+    "description": "✔️ Automático · Bencina\n✔️ 166.000 km · Dos llaves\n✔️ SUV versátil para ciudad y carretera\n📄 Documentación al día, lista para transferir\n🔁 Se recibe vehículo menor en parte de pago",
+    "abs": true,
+    "esp": true,
+    "airbags": "Múltiples",
     "images": [
       {
-        "url": "/autos/Porsche_Panamera_GTS_2017/01_lateral.webp",
+        "url": "/autos/Jeep-Compass-2011/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184545.webp",
+        "alt": "IMG_20260302_184545",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184556.webp",
+        "alt": "IMG_20260302_184556",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184616.webp",
+        "alt": "IMG_20260302_184616",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184630.webp",
+        "alt": "IMG_20260302_184630",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184636.webp",
+        "alt": "IMG_20260302_184636",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184654.webp",
+        "alt": "IMG_20260302_184654",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184659.webp",
+        "alt": "IMG_20260302_184659",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184713.webp",
+        "alt": "IMG_20260302_184713",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184726.webp",
+        "alt": "IMG_20260302_184726",
+        "isPrimary": false
       }
     ],
-    "keep": true
+    "image": "/autos/Jeep-Compass-2011/01_lateral.webp",
+    "id": 28
+  },
+  {
+    "slug": "chevrolet-d-max-2017",
+    "brand": "Chevrolet",
+    "model": "D-Max",
+    "year": 2017,
+    "version": "4x2",
+    "transmission": "Manual",
+    "fuel": "Diésel",
+    "kilometers": 142000,
+    "price": 8990000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Santiago",
+    "description": "✔️ Diésel · 4x2 · Mecánica\n✔️ Camioneta firme y confiable, ideal para trabajo\n⚠️ Aire acondicionado no funciona (considerado en el precio)\n📄 Documentación al día, lista para transferir\n💳 Financiamiento disponible",
+    "images": [
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184221.webp",
+        "alt": "IMG_20260116_184221",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184231.webp",
+        "alt": "IMG_20260116_184231",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184246.webp",
+        "alt": "IMG_20260116_184246",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184253.webp",
+        "alt": "IMG_20260116_184253",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184300.webp",
+        "alt": "IMG_20260116_184300",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184313.webp",
+        "alt": "IMG_20260116_184313",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184324.webp",
+        "alt": "IMG_20260116_184324",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184329.webp",
+        "alt": "IMG_20260116_184329",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184337.webp",
+        "alt": "IMG_20260116_184337",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Chevrolet-Dmax-2017/01_lateral.webp",
+    "id": 29
+  },
+  {
+    "slug": "mercedes-benz-a200-sedan-2021-look-amg",
+    "brand": "Mercedes-Benz",
+    "model": "A200",
+    "year": 2021,
+    "version": "Sedan Look AMG",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 82400,
+    "price": 21990000,
+    "owners": 3,
+    "state": "En venta",
+    "region": "Santiago",
+    "engine": "1.3 Turbo",
+    "description": "✨ Deportivo, elegante y full tecnología\n✔️ Look AMG\n✔️ Apple CarPlay + Bluetooth\n✔️ Sensores + cámara trasera\n✔️ Modos ECO / Comfort / Sport\n🔄 Recibo vehículo de menor valor\n💳 Consulte por financiamiento",
+    "bluetooth": true,
+    "images": [
+      {
+        "url": "/autos/Marcedes Benz-A200-sedan/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082425.webp",
+        "alt": "IMG_20260302_082425",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082434.webp",
+        "alt": "IMG_20260302_082434",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082514.webp",
+        "alt": "IMG_20260302_082514",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082527.webp",
+        "alt": "IMG_20260302_082527",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082536.webp",
+        "alt": "IMG_20260302_082536",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082614.webp",
+        "alt": "IMG_20260302_082614",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082635.webp",
+        "alt": "IMG_20260302_082635",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082648.webp",
+        "alt": "IMG_20260302_082648",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082721.webp",
+        "alt": "IMG_20260302_082721",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Marcedes Benz-A200-sedan/01_lateral.webp",
+    "id": 30
+  },
+  {
+    "slug": "peugeot-3008-2017",
+    "brand": "Peugeot",
+    "model": "3008",
+    "year": 2017,
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": null,
+    "price": 12990000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Bencinero Automático\n✅ Sensores de estacionamiento + cámara de retroceso\n✅ Climatizador automático\n✅ Control de estabilidad y múltiples airbags\n💰 Consulte por financiamiento automotriz",
+    "abs": true,
+    "esp": true,
+    "airbags": "Múltiples",
+    "airConditioning": true,
+    "images": [
+      {
+        "url": "/autos/Peugeot-3008-2017/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_152859.webp",
+        "alt": "IMG_20260305_152859",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_152908.webp",
+        "alt": "IMG_20260305_152908",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_152940.webp",
+        "alt": "IMG_20260305_152940",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_152953.webp",
+        "alt": "IMG_20260305_152953",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_153008.webp",
+        "alt": "IMG_20260305_153008",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_153022.webp",
+        "alt": "IMG_20260305_153022",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_153027.webp",
+        "alt": "IMG_20260305_153027",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_153034.webp",
+        "alt": "IMG_20260305_153034",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_153042.webp",
+        "alt": "IMG_20260305_153042",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Peugeot-3008-2017/01_lateral.webp",
+    "id": 31
+  },
+  {
+    "slug": "fiat-uno-way-2020",
+    "brand": "Fiat",
+    "model": "Uno Way",
+    "year": 2020,
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 44000,
+    "price": 6490000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Motor 1.4 bencinero\n✅ Bluetooth / USB\n❌ Sin aire acondicionado\n✅ Frenos ABS + doble airbag\n💰 Consulte por financiamiento automotriz",
+    "abs": true,
+    "airbags": "Frontales",
+    "airConditioning": false,
+    "bluetooth": true,
+    "usb": true,
+    "images": [
+      {
+        "url": "/autos/Fiat-Uno-2020/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174026.webp",
+        "alt": "IMG_20260302_174026",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174033.webp",
+        "alt": "IMG_20260302_174033",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174123.webp",
+        "alt": "IMG_20260302_174123",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174138.webp",
+        "alt": "IMG_20260302_174138",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174146.webp",
+        "alt": "IMG_20260302_174146",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174207.webp",
+        "alt": "IMG_20260302_174207",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174304.webp",
+        "alt": "IMG_20260302_174304",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174314.webp",
+        "alt": "IMG_20260302_174314",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Fiat-Uno-2020/01_lateral.webp",
+    "id": 32
   }
 ]
