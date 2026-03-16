@@ -2,9 +2,10 @@
 
 interface WhatsAppFloatProps {
   phone?: string;
+  text?: string;
 }
 
-export default function WhatsAppFloat({ phone }: WhatsAppFloatProps) {
+export default function WhatsAppFloat({ phone, text }: WhatsAppFloatProps) {
   const handleClick = () => {
     if (typeof window !== 'undefined' && (window as any).gtag) {
       (window as any).gtag('event', 'click_whatsapp', {
@@ -17,9 +18,13 @@ export default function WhatsAppFloat({ phone }: WhatsAppFloatProps) {
   const sanitizedPhone = String(phone ?? '').replace(/[^\d]/g, '');
   if (!sanitizedPhone) return null;
 
+  const href = text
+    ? `https://wa.me/${sanitizedPhone}?text=${encodeURIComponent(text)}`
+    : `https://wa.me/${sanitizedPhone}`;
+
   return (
     <a
-      href={`https://wa.me/${sanitizedPhone}`}
+      href={href}
       target="_blank"
       rel="noopener noreferrer"
       onClick={handleClick}
