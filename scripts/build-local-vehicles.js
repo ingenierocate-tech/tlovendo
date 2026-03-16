@@ -687,7 +687,7 @@ async function buildLocalVehicles() {
         slug: 'nissan-x-trail-2024-exclusive',
         brand: 'Nissan', model: 'X-Trail', year: 2024, version: 'Exclusive',
         transmission: 'Automática', fuel: 'Bencina', kilometers: 33000,
-        price: 27890000, owners: 1, state: 'En venta',
+        price: 27290000, owners: 1, state: 'En venta',
         description: `✔️ Prácticamente nueva 
 ✔️ Motor 2.5 bencinero + caja CVT 
 ✔️ Full seguridad (frenado, carril, punto ciego, crucero inteligente) 
@@ -704,6 +704,16 @@ async function buildLocalVehicles() {
         abs: true, esp: true, airbags: 'Frontales y laterales', airConditioning: true,
         bluetooth: true, usb: true, electricWindows: true, electricMirrors: true,
         cruiseControl: true, tractionControl: true, audioSystem: true
+      },
+      {
+        slug: 'ford-fusion-2020-hibrido',
+        brand: 'Ford', model: 'Fusion', year: 2020, version: 'Híbrido',
+        transmission: 'Automática', fuel: 'Eléctrico', kilometers: 89000,
+        price: 15550000, owners: 1, state: 'En venta', region: 'Colina',
+        engine: '2.0', power: 188,
+        description: `Híbrido · Automático
+✅ Pantalla con conectividad
+✅ Vehículo económico y confiable`,
       },
       {
         slug: 'peugeot-5008-2018-1-6-bluehdi',

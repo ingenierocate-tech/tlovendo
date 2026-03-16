@@ -5,7 +5,11 @@ interface WhatsAppFloatProps {
   text?: string;
 }
 
-export default function WhatsAppFloat({ phone, text }: WhatsAppFloatProps) {
+export default function WhatsAppFloat({ phone, text: _text }: WhatsAppFloatProps) {
+  const pathname = typeof window !== 'undefined' ? window.location.pathname : '';
+
+  if (pathname.startsWith('/auto/')) return null;
+
   const handleClick = () => {
     if (typeof window !== 'undefined' && (window as any).gtag) {
       (window as any).gtag('event', 'click_whatsapp', {
@@ -18,9 +22,10 @@ export default function WhatsAppFloat({ phone, text }: WhatsAppFloatProps) {
   const sanitizedPhone = String(phone ?? '').replace(/[^\d]/g, '');
   if (!sanitizedPhone) return null;
 
-  const href = text
-    ? `https://wa.me/${sanitizedPhone}?text=${encodeURIComponent(text)}`
-    : `https://wa.me/${sanitizedPhone}`;
+  const text =
+    'Hola, vengo desde la web de tlovendo.cl y necesito más información de los servicios de la web, por favor.';
+
+  const href = `https://wa.me/${sanitizedPhone}?text=${encodeURIComponent(text)}`;
 
   return (
     <a
