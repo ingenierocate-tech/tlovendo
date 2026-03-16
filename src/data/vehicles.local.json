@@ -1811,6 +1811,74 @@
     "id": 30
   },
   {
+    "slug": "kia-rio-5-2020",
+    "brand": "Kia",
+    "model": "Rio 5",
+    "year": 2020,
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 70000,
+    "price": 9350000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "🚗 Kia Rio 5 2020 – Manual | Único Dueño\n📍 Las Condes\n⏱️ 70.000 km\n⛽ Bencinero\n\n✨ Modelo moderno, económico y muy confiable\n\n✅ Motor bencinero eficiente y rendidor, ideal para uso diario\n✅ Transmisión manual, excelente control y bajo consumo\n✅ Único dueño, muy bien cuidado\n✅ Pantalla táctil con conectividad (Bluetooth / USB)\n✅ Cámara y sensores de retroceso\n✅ Volante multifunción con mandos\n✅ Aire acondicionado\n✅ Control de estabilidad y frenos ABS\n✅ Amplio interior para 5 pasajeros\n✅ Gran maletero y asientos traseros abatibles\n\n🧾 Vehículo muy económico y confiable, ideal para ciudad o viajes.\n\n🚗 El Kia Rio destaca por su bajo consumo y buen equipamiento, con rendimientos cercanos a 19-20 km/l combinados dependiendo de la versión y conducción.\n\n📲 Escríbeme por mensaje o WhatsApp para coordinar visita, prueba de manejo o enviarte más fotos del vehículo.\n\nHatchback",
+    "abs": true,
+    "esp": true,
+    "airConditioning": true,
+    "bluetooth": true,
+    "usb": true,
+    "images": [
+      {
+        "url": "/autos/Kia-Rio-2020/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.34.webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.34",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.35 (1).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.35 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.35.webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.35",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.37.webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.37",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.40 (1).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.40 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.40.webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.40",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.41 (1).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.41 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.41.webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.41",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Kia-Rio-2020/01_lateral.webp",
+    "id": 31
+  },
+  {
     "slug": "peugeot-3008-2017",
     "brand": "Peugeot",
     "model": "3008",
@@ -1880,7 +1948,7 @@
       }
     ],
     "image": "/autos/Peugeot-3008-2017/01_lateral.webp",
-    "id": 31
+    "id": 32
   },
   {
     "slug": "fiat-uno-way-2020",
@@ -1948,6 +2016,6 @@
       }
     ],
     "image": "/autos/Fiat-Uno-2020/01_lateral.webp",
-    "id": 32
+    "id": 33
   }
 ]

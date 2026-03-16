@@ -872,11 +872,31 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         brand: 'Kia', model: 'Rio 5', year: 2020,
         transmission: 'Manual', fuel: 'Bencina', kilometers: 70000,
         price: 9350000, owners: 1, state: 'En venta', region: 'Las Condes',
-        description: `✅ Manual · Único dueño
-✅ Bluetooth / USB
+        description: `🚗 Kia Rio 5 2020 – Manual | Único Dueño
+📍 Las Condes
+⏱️ 70.000 km
+⛽ Bencinero
+
+✨ Modelo moderno, económico y muy confiable
+
+✅ Motor bencinero eficiente y rendidor, ideal para uso diario
+✅ Transmisión manual, excelente control y bajo consumo
+✅ Único dueño, muy bien cuidado
+✅ Pantalla táctil con conectividad (Bluetooth / USB)
 ✅ Cámara y sensores de retroceso
+✅ Volante multifunción con mandos
 ✅ Aire acondicionado
-✅ Control de estabilidad y frenos ABS`,
+✅ Control de estabilidad y frenos ABS
+✅ Amplio interior para 5 pasajeros
+✅ Gran maletero y asientos traseros abatibles
+
+🧾 Vehículo muy económico y confiable, ideal para ciudad o viajes.
+
+🚗 El Kia Rio destaca por su bajo consumo y buen equipamiento, con rendimientos cercanos a 19-20 km/l combinados dependiendo de la versión y conducción.
+
+📲 Escríbeme por mensaje o WhatsApp para coordinar visita, prueba de manejo o enviarte más fotos del vehículo.
+
+Hatchback`,
         abs: true, esp: true, airConditioning: true, bluetooth: true, usb: true
       },
       {
@@ -1017,8 +1037,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
     // FILTRO MANUAL DE OCULTOS (No borrar, solo ocultar)
     // ---------------------------------------------------------
     const hiddenSlugs = [
-      'chevrolet-silverado-zr2-2024-full',
-      'kia-rio-5-2020'
+      'chevrolet-silverado-zr2-2024-full'
     ];
     
     if (hiddenSlugs.length > 0) {
