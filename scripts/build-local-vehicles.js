@@ -842,8 +842,8 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       {
         slug: 'jeep-compass-2011',
         brand: 'Jeep', model: 'Compass', year: 2011,
-        transmission: 'Automática', fuel: 'Bencina', kilometers: 166000,
-        price: 5790000, owners: 1, state: 'En venta', region: 'Santiago',
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 61000,
+        price: 9350000, owners: 1, state: 'Vendido', region: 'Santiago',
         description: `✔️ Automático · Bencina
 ✔️ 166.000 km · Dos llaves
 ✔️ SUV versátil para ciudad y carretera
