@@ -279,7 +279,8 @@ const slugToFolderMapping = {
   'mercedes-benz-a200-sedan-2021-look-amg': 'Marcedes Benz-A200-sedan',
   'peugeot-3008-2017': 'Peugeot-3008-2017',
   'fiat-uno-way-2020': 'Fiat-Uno-2020',
-  'kia-rio-5-2020': 'Kia-Rio-2020'
+  'kia-rio-5-2020': 'Kia-Rio-2020',
+  'bmw-118i-look-m-2024': 'BMW-118i Look-2024'
 };
 
 // Override manual de precios y estados para asegurar consistencia con la visual del cliente
@@ -441,7 +442,8 @@ const folderToSlugMapping = {
   'Marcedes Benz-A200-sedan': 'mercedes-benz-a200-sedan-2021-look-amg',
   'Fiat-Uno-2020': 'fiat-uno-way-2020',
   'Peugeot-3008-2017': 'peugeot-3008-2017',
-  'Kia-Rio-2020': 'kia-rio-5-2020'
+  'Kia-Rio-2020': 'kia-rio-5-2020',
+  'BMW-118i Look-2024': 'bmw-118i-look-m-2024'
 };
 
 async function getVehicleImages(slug) {
@@ -667,7 +669,7 @@ async function buildLocalVehicles() {
         slug: 'opel-corsa-2022-1-2-puretech',
         brand: 'Opel', model: 'Corsa', year: 2022, version: '1.2 PureTech',
         transmission: 'Automática', fuel: 'Bencina', kilometers: 61000,
-        price: 9350000, owners: 1, state: 'En venta',
+        price: 9350000, owners: 1, state: 'Vendido',
         description: `✔️ Motor 1.2 bencinero, muy económico 
 ✔️ Caja automática cómoda y suave 
 ✔️ Mantención recién hecha 
@@ -682,6 +684,32 @@ async function buildLocalVehicles() {
 📲 Interesados reales, escribir por interno`,
         abs: true, esp: true, airbags: 'Frontales y laterales', airConditioning: true,
         bluetooth: true, usb: true, electricWindows: true, electricMirrors: true
+      },
+      {
+        slug: 'bmw-118i-look-m-2024',
+        brand: 'BMW', model: '118i', year: 2024, version: 'Look M',
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 39900,
+        price: 27990000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✨ Versión Look M – Full equipo
+✅ Motor 1.5 Turbo BMW TwinPower, potente y eficiente
+✅ Transmisión automática deportiva y muy cómoda
+✅ Sunroof panorámico
+✅ Único dueño
+✅ Pantalla multimedia BMW iDrive + conectividad
+✅ Volante deportivo multifunción
+✅ Sensores de estacionamiento + cámara
+✅ Interior premium y excelente calidad de terminaciones
+✅ Gran maletero y cabina cómoda para 5 pasajeros
+
+🧾 Vehículo en estado impecable, sin detalles.
+✔️ Todas las mantenciones realizadas en la marca
+✔️ Mantención de 40.000 km ya realizada
+✔️ Incluye mantenciones de 50.000 y 60.000 km GRATIS en BMW
+✔️ Primera cuota del permiso de circulación 2026 pagada
+
+📲 Escríbeme por mensaje o WhatsApp para coordinar visita o enviarte más fotos del vehículo.
+💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ
+💳 VEHÍCULO CON PREPAGO DE FINANCIAMIENTO`,
       },
       {
         slug: 'nissan-x-trail-2024-exclusive',

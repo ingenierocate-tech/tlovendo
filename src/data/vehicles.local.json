@@ -520,96 +520,6 @@
   },
   {
     "id": 10,
-    "slug": "ford-fusion-2020-hibrido",
-    "brand": "Ford",
-    "model": "Fusion",
-    "version": "Híbrido",
-    "year": 2020,
-    "kilometers": 89000,
-    "owners": 1,
-    "color": "",
-    "transmission": "Automático",
-    "price": 15550000,
-    "fuel": "Eléctrico",
-    "region": "Colina",
-    "state": "En venta",
-    "engine": "2.0",
-    "power": 188,
-    "consumption": "",
-    "emissions": "",
-    "abs": false,
-    "esp": false,
-    "tractionControl": false,
-    "airConditioning": false,
-    "powerSteering": false,
-    "electricWindows": false,
-    "electricMirrors": false,
-    "audioSystem": false,
-    "bluetooth": false,
-    "usb": false,
-    "cruiseControl": false,
-    "image": "/autos/ford-fusion-2020-se/01_lateral.webp",
-    "images": [
-      {
-        "url": "/autos/ford-fusion-2020-se/01_lateral.webp",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103445.webp",
-        "alt": "IMG_20231213_103445",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103455.webp",
-        "alt": "IMG_20231213_103455",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103512.webp",
-        "alt": "IMG_20231213_103512",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103525.webp",
-        "alt": "IMG_20231213_103525",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103535.webp",
-        "alt": "IMG_20231213_103535",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103558.webp",
-        "alt": "IMG_20231213_103558",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103610.webp",
-        "alt": "IMG_20231213_103610",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103619.webp",
-        "alt": "IMG_20231213_103619",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103629.webp",
-        "alt": "IMG_20231213_103629",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103748.webp",
-        "alt": "IMG_20231213_103748",
-        "isPrimary": false
-      }
-    ],
-    "keep": true
-  },
-  {
-    "id": 11,
     "slug": "kia-soluto-2022-full",
     "brand": "Kia",
     "model": "Soluto",
@@ -648,7 +558,7 @@
     "keep": true
   },
   {
-    "id": 12,
+    "id": 11,
     "slug": "citroen-picasso-2011",
     "brand": "Citroen",
     "model": "Picasso",
@@ -688,7 +598,7 @@
     "keep": true
   },
   {
-    "id": 13,
+    "id": 12,
     "slug": "subaru-forester-2019-awd",
     "brand": "Subaru",
     "model": "Forester",
@@ -727,7 +637,7 @@
     "keep": true
   },
   {
-    "id": 14,
+    "id": 13,
     "slug": "great-wall-wingle-6-elite-2017-full",
     "brand": "Great Wall",
     "model": "Wingle 6 Elite",
@@ -821,7 +731,7 @@
     "keep": true
   },
   {
-    "id": 15,
+    "id": 14,
     "slug": "nissan-pathfinder-2003",
     "brand": "Nissan",
     "model": "Pathfinder",
@@ -930,7 +840,7 @@
     "keep": true
   },
   {
-    "id": 16,
+    "id": 15,
     "slug": "bmw-320i-m-sport-2024",
     "brand": "Bmw",
     "model": "320i m sport",
@@ -959,7 +869,7 @@
     "keep": true
   },
   {
-    "id": 17,
+    "id": 16,
     "slug": "citroen-c4-picasso-2015",
     "brand": "Citroen",
     "model": "C4 picasso",
@@ -988,7 +898,7 @@
     "keep": true
   },
   {
-    "id": 18,
+    "id": 17,
     "slug": "porsche-panamera-gts-2017",
     "brand": "Porsche",
     "model": "Panamera gts",
@@ -1017,7 +927,7 @@
     "keep": true
   },
   {
-    "id": 19,
+    "id": 18,
     "slug": "kia-rio-2018-5",
     "brand": "Kia",
     "model": "Rio",
@@ -1071,59 +981,88 @@
         "url": "/autos/Opel-Corsa-2022-AT/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153215.webp",
-        "alt": "IMG_20260108_153215",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153223.webp",
-        "alt": "IMG_20260108_153223",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153238.webp",
-        "alt": "IMG_20260108_153238",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153244.webp",
-        "alt": "IMG_20260108_153244",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153252.webp",
-        "alt": "IMG_20260108_153252",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153305.webp",
-        "alt": "IMG_20260108_153305",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153310.webp",
-        "alt": "IMG_20260108_153310",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153315.webp",
-        "alt": "IMG_20260108_153315",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153333.webp",
-        "alt": "IMG_20260108_153333",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Opel-Corsa-2022-AT/IMG_20260108_153637.webp",
-        "alt": "IMG_20260108_153637",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Opel-Corsa-2022-AT/01_lateral.webp",
+    "id": 19
+  },
+  {
+    "slug": "bmw-118i-look-m-2024",
+    "brand": "BMW",
+    "model": "118i",
+    "year": 2024,
+    "version": "Look M",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 39900,
+    "price": 27990000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✨ Versión Look M – Full equipo\n✅ Motor 1.5 Turbo BMW TwinPower, potente y eficiente\n✅ Transmisión automática deportiva y muy cómoda\n✅ Sunroof panorámico\n✅ Único dueño\n✅ Pantalla multimedia BMW iDrive + conectividad\n✅ Volante deportivo multifunción\n✅ Sensores de estacionamiento + cámara\n✅ Interior premium y excelente calidad de terminaciones\n✅ Gran maletero y cabina cómoda para 5 pasajeros\n\n🧾 Vehículo en estado impecable, sin detalles.\n✔️ Todas las mantenciones realizadas en la marca\n✔️ Mantención de 40.000 km ya realizada\n✔️ Incluye mantenciones de 50.000 y 60.000 km GRATIS en BMW\n✔️ Primera cuota del permiso de circulación 2026 pagada\n\n📲 Escríbeme por mensaje o WhatsApp para coordinar visita o enviarte más fotos del vehículo.\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ\n💳 VEHÍCULO CON PREPAGO DE FINANCIAMIENTO",
+    "images": [
+      {
+        "url": "/autos/BMW-118i Look-2024/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173734.webp",
+        "alt": "IMG_20260316_173734",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173754.webp",
+        "alt": "IMG_20260316_173754",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173804.webp",
+        "alt": "IMG_20260316_173804",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173814.webp",
+        "alt": "IMG_20260316_173814",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173850.webp",
+        "alt": "IMG_20260316_173850",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173859.webp",
+        "alt": "IMG_20260316_173859",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173910.webp",
+        "alt": "IMG_20260316_173910",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173918.webp",
+        "alt": "IMG_20260316_173918",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173927.webp",
+        "alt": "IMG_20260316_173927",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173958.webp",
+        "alt": "IMG_20260316_173958",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_174917.webp",
+        "alt": "IMG_20260316_174917",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/BMW-118i Look-2024/01_lateral.webp",
     "id": 20
   },
   {
@@ -1206,6 +1145,83 @@
     "id": 21
   },
   {
+    "slug": "ford-fusion-2020-hibrido",
+    "brand": "Ford",
+    "model": "Fusion",
+    "year": 2020,
+    "version": "Híbrido",
+    "transmission": "Automática",
+    "fuel": "Eléctrico",
+    "kilometers": 89000,
+    "price": 15550000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Colina",
+    "engine": "2.0",
+    "power": 188,
+    "description": "Híbrido · Automático\n✅ Pantalla con conectividad\n✅ Vehículo económico y confiable",
+    "images": [
+      {
+        "url": "/autos/ford-fusion-2020-se/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103445.webp",
+        "alt": "IMG_20231213_103445",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103455.webp",
+        "alt": "IMG_20231213_103455",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103512.webp",
+        "alt": "IMG_20231213_103512",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103525.webp",
+        "alt": "IMG_20231213_103525",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103535.webp",
+        "alt": "IMG_20231213_103535",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103558.webp",
+        "alt": "IMG_20231213_103558",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103610.webp",
+        "alt": "IMG_20231213_103610",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103619.webp",
+        "alt": "IMG_20231213_103619",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103629.webp",
+        "alt": "IMG_20231213_103629",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103748.webp",
+        "alt": "IMG_20231213_103748",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/ford-fusion-2020-se/01_lateral.webp",
+    "keep": true,
+    "id": 22
+  },
+  {
     "slug": "peugeot-5008-2018-1-6-bluehdi",
     "brand": "Peugeot",
     "model": "5008",
@@ -1280,7 +1296,7 @@
       }
     ],
     "image": "/autos/Peugeot-5008-2018-full/01_lateral.webp",
-    "id": 22
+    "id": 23
   },
   {
     "slug": "mazda-3-2016-1-6",
@@ -1358,7 +1374,7 @@
       }
     ],
     "image": "/autos/Mazda-3-2016-manual/01_lateral.webp",
-    "id": 23
+    "id": 24
   },
   {
     "slug": "nissan-pathfinder-1999",
@@ -1446,7 +1462,7 @@
     ],
     "image": "/autos/Nissan Pathfinder 3.3 1999/01_lateral.webp",
     "keep": true,
-    "id": 24
+    "id": 25
   },
   {
     "slug": "nissan-sentra-2021",
@@ -1482,7 +1498,7 @@
     ],
     "image": "/autos/Nissan Sentra AT 2021/01_lateral.webp",
     "keep": true,
-    "id": 25
+    "id": 26
   },
   {
     "slug": "bmw-x1-2019",
@@ -1522,7 +1538,7 @@
     ],
     "image": "/autos/BMW X1 2019/01_lateral.webp",
     "keep": true,
-    "id": 26
+    "id": 27
   },
   {
     "slug": "bmw-320d-2018-sport",
@@ -1598,7 +1614,7 @@
     ],
     "image": "/autos/BMW-2018-2018/01_lateral.webp",
     "keep": true,
-    "id": 27
+    "id": 28
   },
   {
     "slug": "jeep-compass-2011",
@@ -1607,10 +1623,10 @@
     "year": 2011,
     "transmission": "Automática",
     "fuel": "Bencina",
-    "kilometers": 166000,
-    "price": 5790000,
+    "kilometers": 61000,
+    "price": 9350000,
     "owners": 1,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Santiago",
     "description": "✔️ Automático · Bencina\n✔️ 166.000 km · Dos llaves\n✔️ SUV versátil para ciudad y carretera\n📄 Documentación al día, lista para transferir\n🔁 Se recibe vehículo menor en parte de pago",
     "abs": true,
@@ -1621,55 +1637,10 @@
         "url": "/autos/Jeep-Compass-2011/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184545.webp",
-        "alt": "IMG_20260302_184545",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184556.webp",
-        "alt": "IMG_20260302_184556",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184616.webp",
-        "alt": "IMG_20260302_184616",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184630.webp",
-        "alt": "IMG_20260302_184630",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184636.webp",
-        "alt": "IMG_20260302_184636",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184654.webp",
-        "alt": "IMG_20260302_184654",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184659.webp",
-        "alt": "IMG_20260302_184659",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184713.webp",
-        "alt": "IMG_20260302_184713",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184726.webp",
-        "alt": "IMG_20260302_184726",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Jeep-Compass-2011/01_lateral.webp",
-    "id": 28
+    "id": 29
   },
   {
     "slug": "chevrolet-d-max-2017",
@@ -1738,7 +1709,7 @@
       }
     ],
     "image": "/autos/Chevrolet-Dmax-2017/01_lateral.webp",
-    "id": 29
+    "id": 30
   },
   {
     "slug": "mercedes-benz-a200-sedan-2021-look-amg",
@@ -1809,7 +1780,7 @@
       }
     ],
     "image": "/autos/Marcedes Benz-A200-sedan/01_lateral.webp",
-    "id": 30
+    "id": 31
   },
   {
     "slug": "kia-rio-5-2020",
@@ -1877,7 +1848,7 @@
       }
     ],
     "image": "/autos/Kia-Rio-2020/01_lateral.webp",
-    "id": 31
+    "id": 32
   },
   {
     "slug": "peugeot-3008-2017",
@@ -1949,7 +1920,7 @@
       }
     ],
     "image": "/autos/Peugeot-3008-2017/01_lateral.webp",
-    "id": 32
+    "id": 33
   },
   {
     "slug": "fiat-uno-way-2020",
@@ -2017,6 +1988,6 @@
       }
     ],
     "image": "/autos/Fiat-Uno-2020/01_lateral.webp",
-    "id": 33
+    "id": 34
   }
 ]

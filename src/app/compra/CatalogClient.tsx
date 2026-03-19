@@ -28,7 +28,7 @@ export default function CatalogClient({ vehicles }: CatalogClientProps) {
   ]);
 
   // Excluir de 'vendidos' por foto incorrecta
-  const excludeSoldSlugs = new Set(['kia-soluto-2024-lx']);
+  const excludeSoldSlugs = new Set(['kia-soluto-2024-lx', 'opel-corsa-2022-1-2-puretech']);
 
   const getSlug = (v: any) => String(v.slug ?? v.id ?? '');
 

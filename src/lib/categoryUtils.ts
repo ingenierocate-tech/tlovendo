@@ -62,6 +62,7 @@ const MODEL_KEYWORDS: Record<string, string> = {
   'ibiza': 'hatchback',
   'yaris': 'hatchback',
   'corsa': 'hatchback',
+  '118i': 'hatchback',
   'uno': 'hatchback',
   'uno way': 'hatchback',
   
