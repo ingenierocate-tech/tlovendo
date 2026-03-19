@@ -241,8 +241,8 @@ function readExcelCaracteristicas(excelPath) {
 // Mapeo de slugs problemáticos a carpetas reales
 const slugToFolderMapping = {
   'opel-corsa-2022-1-2-puretech': 'Opel-Corsa-2022-AT',
-  'nissan-x-trail-2024-exclusive': 'Nissan-Xtrail-2024-Exclusive',
-  'peugeot-5008-2018-1-6-bluehdi': 'Peugeot-5008-2018-full',
+  'nissan-x-trail-2024-exclusive': 'Nissan-Xtrail-2024',
+  'peugeot-5008-2018-1-6-bluehdi': 'Peugeot-5008-2018',
   'mazda-3-2016-1-6': 'Mazda-3-2016-manual',
   'chevrolet-tahoe-2018-full': 'chevrolet-tahoe-2018-lt',
   'nissan-pathfinder-2018-full': 'nissan-pathfinder-2018-advance',
@@ -250,10 +250,10 @@ const slugToFolderMapping = {
   'ford-fusion-2020-hibrido': 'ford-fusion-2020-se',
   'kia-soluto-2022-full': 'kia-soluto-2024-lx',
   'bmw-x1-2019': 'BMW X1 2019',
-  'bmw-320d-2018-sport': 'BMW-2018-2018',
+  'bmw-320d-2018-sport': 'Bmw_320iM_sport_2018',
   'chevrolet-silverado-2024-zr2': 'Chevrolet_Silverado_ZR2_2024',
   'chevrolet-silverado-zr2-2024-full': 'Chevrolet_Silverado_ZR2_2024',
-  'citroen-c4-picasso-2015': 'Citroen C4 Picasso 2015',
+  'citroen-c4-picasso-2015': 'Citroën C4 Picasso 2015',
   'citroen-picasso-2011': 'Citroen_C3Picasso_2011',
   'kia-rio-2018-5': 'kia-rio-5-2018',
   'nissan-sentra-2021': 'Nissan Sentra AT 2021',
@@ -279,8 +279,9 @@ const slugToFolderMapping = {
   'mercedes-benz-a200-sedan-2021-look-amg': 'Marcedes Benz-A200-sedan',
   'peugeot-3008-2017': 'Peugeot-3008-2017',
   'fiat-uno-way-2020': 'Fiat-Uno-2020',
-  'kia-rio-5-2020': 'Kia-Rio-2020',
-  'bmw-118i-look-m-2024': 'BMW-118i Look-2024'
+  'kia-rio-5-2020': 'Kia-rio-2020',
+  // BMW 118i Look M 2024
+  'bmw-118i-look-m-2024': 'BMW-118i Look-2024',
 };
 
 // Override manual de precios y estados para asegurar consistencia con la visual del cliente
@@ -308,7 +309,8 @@ const manualOverrides = [
   { keywords: ['great', 'wall', 'wingle', '2017'], price: 6990000, state: 'En venta' },
   { keywords: ['mercedes', 'glc', '2016'], price: 17890000, state: 'En venta' },
   { keywords: ['nissan', 'pathfinder', '2003'], price: 10500000, state: 'En venta' },
-  { keywords: ['nissan', 'pathfinder', '1999'], price: 9750000, state: 'En venta' }
+  { keywords: ['nissan', 'pathfinder', '1999'], price: 9750000, state: 'En venta' },
+  { keywords: ['kia', 'rio', '2020'], price: 9350000, state: 'En venta' }
 ];
 
 function applyManualOverrides(vehicles) {
@@ -319,7 +321,7 @@ function applyManualOverrides(vehicles) {
   // vehicles.forEach(v => v.keep = false); // DESACTIVADO: Para evitar ocultar vehículos no listados
 
   // Marcar históricos como keep=true por defecto (se manejarán aparte si hay conflictos, pero son únicos por definición aquí)
-  vehicles.filter(v => v.slug === 'bmw-320i-m-sport-2024' || v.slug === 'porsche-panamera-gts-2017').forEach(v => v.keep = true);
+  vehicles.filter(v => ['bmw-320i-m-sport-2024','porsche-panamera-gts-2017','jeep-compass-2011'].includes(v.slug)).forEach(v => v.keep = true);
 
   for (const override of manualOverrides) {
     // Encontrar todos los candidatos que coincidan con este override
@@ -382,10 +384,8 @@ const historicalSoldVehicles = [
     "fuel": "Bencina",
     "region": "Santiago",
     "state": "Vendido",
-    "image": "/autos/Bmw_320iM_sport_2024/01_lateral.jpg",
-    "images": [
-      "/autos/Bmw_320iM_sport_2024/01_lateral.jpg"
-    ]
+    "image": "/placeholder-car.webp",
+    "images": []
   },
   {
     "id": 1002,
@@ -411,6 +411,7 @@ const historicalSoldVehicles = [
 
 // Mapeo inverso: carpeta -> slug normalizado (Debe coincidir con el slug generado por Excel)
 const folderToSlugMapping = {
+  'Bmw_320iM_sport_2018': 'bmw-320d-2018-sport',
   'Bmw_320iM_sport_2024': 'bmw-320i-m-sport-2024',
   'Porsche_Panamera_GTS_2017': 'porsche-panamera-gts-2017',
   'Chevrolet_Silverado_ZR2_2024': 'chevrolet-silverado-zr2-2024-full',
@@ -429,13 +430,12 @@ const folderToSlugMapping = {
   'Nissan Pathfinder 3.3 1999': 'nissan-pathfinder-1999',
   'Nissan Sentra AT 2021': 'nissan-sentra-2021',
   'BMW X1 2019': 'bmw-x1-2019',
-  'BMW-2018-2018': 'bmw-320d-2018-sport',
   'Citroen C4 Picasso 2015': 'citroen-c4-picasso-2015',
   
   // Nuevos mapeos para evitar duplicados (Folder vs Chat Manual)
   'Opel-Corsa-2022-AT': 'opel-corsa-2022-1-2-puretech',
-  'Nissan-Xtrail-2024-Exclusive': 'nissan-x-trail-2024-exclusive',
-  'Peugeot-5008-2018-full': 'peugeot-5008-2018-1-6-bluehdi',
+  'Nissan-Xtrail-2024': 'nissan-x-trail-2024-exclusive',
+  'Peugeot-5008-2018': 'peugeot-5008-2018-1-6-bluehdi',
   'Mazda-3-2016-manual': 'mazda-3-2016-1-6',
   'Jeep-Compass-2011': 'jeep-compass-2011',
   'Chevrolet-Dmax-2017': 'chevrolet-d-max-2017',
@@ -443,7 +443,9 @@ const folderToSlugMapping = {
   'Fiat-Uno-2020': 'fiat-uno-way-2020',
   'Peugeot-3008-2017': 'peugeot-3008-2017',
   'Kia-Rio-2020': 'kia-rio-5-2020',
-  'BMW-118i Look-2024': 'bmw-118i-look-m-2024'
+  // BMW 118i Look M 2024
+  'BMW-118i Look-2024': 'bmw-118i-look-m-2024',
+  'BMW-118i Look M-2024': 'bmw-118i-look-m-2024',
 };
 
 async function getVehicleImages(slug) {
@@ -870,8 +872,8 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       {
         slug: 'jeep-compass-2011',
         brand: 'Jeep', model: 'Compass', year: 2011,
-        transmission: 'Automática', fuel: 'Bencina', kilometers: 61000,
-        price: 9350000, owners: 1, state: 'Vendido', region: 'Santiago',
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 166000,
+        price: 9350000, owners: 1, state: 'En venta', region: 'Santiago',
         description: `✔️ Automático · Bencina
 ✔️ 166.000 km · Dos llaves
 ✔️ SUV versátil para ciudad y carretera
@@ -905,38 +907,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 💳 Consulte por financiamiento`,
         bluetooth: true
       },
-      {
-        slug: 'kia-rio-5-2020',
-        brand: 'Kia', model: 'Rio 5', year: 2020,
-        transmission: 'Manual', fuel: 'Bencina', kilometers: 70000,
-        price: 9350000, owners: 1, state: 'En venta', region: 'Las Condes',
-        description: `🚗 Kia Rio 5 2020 – Manual | Único Dueño
-📍 Las Condes
-⏱️ 70.000 km
-⛽ Bencinero
 
-✨ Modelo moderno, económico y muy confiable
-
-✅ Motor bencinero eficiente y rendidor, ideal para uso diario
-✅ Transmisión manual, excelente control y bajo consumo
-✅ Único dueño, muy bien cuidado
-✅ Pantalla táctil con conectividad (Bluetooth / USB)
-✅ Cámara y sensores de retroceso
-✅ Volante multifunción con mandos
-✅ Aire acondicionado
-✅ Control de estabilidad y frenos ABS
-✅ Amplio interior para 5 pasajeros
-✅ Gran maletero y asientos traseros abatibles
-
-🧾 Vehículo muy económico y confiable, ideal para ciudad o viajes.
-
-🚗 El Kia Rio destaca por su bajo consumo y buen equipamiento, con rendimientos cercanos a 19-20 km/l combinados dependiendo de la versión y conducción.
-
-📲 Escríbeme por mensaje o WhatsApp para coordinar visita, prueba de manejo o enviarte más fotos del vehículo.
-
-Hatchback`,
-        abs: true, esp: true, airConditioning: true, bluetooth: true, usb: true
-      },
       {
         slug: 'peugeot-3008-2017',
         brand: 'Peugeot', model: '3008', year: 2017,
@@ -976,7 +947,7 @@ Hatchback`,
       try {
         // Forzar búsqueda por slug mapeado o directo
         const folderName = slugToFolderMapping[cv.slug] || cv.slug;
-        const images = await getVehicleImages(cv.slug);
+        const images = await getVehicleImages(folderName);
         
         cv.images = images;
         // Prioridad absoluta a 01_lateral para la foto principal del catálogo
@@ -1022,6 +993,8 @@ Hatchback`,
 
     // Aplicar overrides manuales al final para asegurar consistencia
     applyManualOverrides(vehicles);
+
+    vehicles = vehicles.filter(v => v.slug !== 'bmw-2018-2018');
 
     // Filtrar vehículos que no deben mostrarse (aquellos que no coinciden con la lista aprobada)
     const originalCount = vehicles.length;
@@ -1075,7 +1048,8 @@ Hatchback`,
     // FILTRO MANUAL DE OCULTOS (No borrar, solo ocultar)
     // ---------------------------------------------------------
     const hiddenSlugs = [
-      'chevrolet-silverado-zr2-2024-full'
+      'chevrolet-silverado-zr2-2024-full',
+      'bmw-320im-sport-2024'
     ];
     
     if (hiddenSlugs.length > 0) {

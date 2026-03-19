@@ -887,10 +887,10 @@
     "consumption": "No disponible",
     "emissions": "No disponible",
     "state": "Vendido",
-    "image": "/autos/Citroen C4 Picasso 2015/01_lateral.webp",
+    "image": "/autos/Citroën C4 Picasso 2015/01_lateral.webp",
     "images": [
       {
-        "url": "/autos/Citroen C4 Picasso 2015/01_lateral.webp",
+        "url": "/autos/Citroën C4 Picasso 2015/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       }
@@ -899,6 +899,75 @@
   },
   {
     "id": 17,
+    "slug": "kia-rio-5-2020",
+    "brand": "Kia",
+    "model": "Rio 5",
+    "version": "",
+    "year": 2020,
+    "price": 9350000,
+    "kilometers": null,
+    "transmission": "No disponible",
+    "fuel": "No disponible",
+    "region": "No disponible",
+    "color": "No disponible",
+    "owners": 1,
+    "engine": "No disponible",
+    "power": null,
+    "consumption": "No disponible",
+    "emissions": "No disponible",
+    "state": "En venta",
+    "image": "/autos/Kia-rio-2020/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Kia-rio-2020/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.34 (1).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.34 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.35 (1).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.35 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.35 (2).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.35 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.37.webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.37",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.40 (1).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.40 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.40 (2).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.40 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.41 (1).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.41 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.41 (2).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.41 (2)",
+        "isPrimary": false
+      }
+    ],
+    "keep": true
+  },
+  {
+    "id": 18,
     "slug": "porsche-panamera-gts-2017",
     "brand": "Porsche",
     "model": "Panamera gts",
@@ -927,7 +996,7 @@
     "keep": true
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "kia-rio-2018-5",
     "brand": "Kia",
     "model": "Rio",
@@ -976,15 +1045,9 @@
     "usb": true,
     "electricWindows": true,
     "electricMirrors": true,
-    "images": [
-      {
-        "url": "/autos/Opel-Corsa-2022-AT/01_lateral.webp",
-        "alt": "lateral",
-        "isPrimary": true
-      }
-    ],
-    "image": "/autos/Opel-Corsa-2022-AT/01_lateral.webp",
-    "id": 19
+    "images": [],
+    "image": "/placeholder-car.webp",
+    "id": 20
   },
   {
     "slug": "bmw-118i-look-m-2024",
@@ -1063,7 +1126,7 @@
       }
     ],
     "image": "/autos/BMW-118i Look-2024/01_lateral.webp",
-    "id": 20
+    "id": 21
   },
   {
     "slug": "nissan-x-trail-2024-exclusive",
@@ -1091,58 +1154,58 @@
     "audioSystem": true,
     "images": [
       {
-        "url": "/autos/Nissan-Xtrail-2024-Exclusive/01_lateral.webp",
+        "url": "/autos/Nissan-Xtrail-2024/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152245.webp",
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152237.webp",
+        "alt": "IMG_20260107_152237",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152245.webp",
         "alt": "IMG_20260107_152245",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152253.webp",
-        "alt": "IMG_20260107_152253",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152308.webp",
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152308.webp",
         "alt": "IMG_20260107_152308",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152315.webp",
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152315.webp",
         "alt": "IMG_20260107_152315",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152322.webp",
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152322.webp",
         "alt": "IMG_20260107_152322",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152334.webp",
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152334.webp",
         "alt": "IMG_20260107_152334",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152340.webp",
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152340.webp",
         "alt": "IMG_20260107_152340",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152437.webp",
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152437.webp",
         "alt": "IMG_20260107_152437",
         "isPrimary": false
       },
       {
-        "url": "/autos/Nissan-Xtrail-2024-Exclusive/IMG_20260107_152456.webp",
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152456.webp",
         "alt": "IMG_20260107_152456",
         "isPrimary": false
       }
     ],
-    "image": "/autos/Nissan-Xtrail-2024-Exclusive/01_lateral.webp",
-    "id": 21
+    "image": "/autos/Nissan-Xtrail-2024/01_lateral.webp",
+    "id": 22
   },
   {
     "slug": "ford-fusion-2020-hibrido",
@@ -1167,8 +1230,28 @@
         "isPrimary": true
       },
       {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103445.webp",
-        "alt": "IMG_20231213_103445",
+        "url": "/autos/ford-fusion-2020-se/10_frontal.webp",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/10_posterior.webp",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/10_tablero.webp",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/10_asientos.webp",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/01_volante.webp",
+        "alt": "01_volante",
         "isPrimary": false
       },
       {
@@ -1187,39 +1270,14 @@
         "isPrimary": false
       },
       {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103535.webp",
-        "alt": "IMG_20231213_103535",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103558.webp",
-        "alt": "IMG_20231213_103558",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103610.webp",
-        "alt": "IMG_20231213_103610",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103619.webp",
-        "alt": "IMG_20231213_103619",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103629.webp",
-        "alt": "IMG_20231213_103629",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103748.webp",
-        "alt": "IMG_20231213_103748",
+        "url": "/autos/ford-fusion-2020-se/WhatsApp Image 2025-09-16 at 08.13.15.webp",
+        "alt": "WhatsApp Image 2025-09-16 at 08.13.15",
         "isPrimary": false
       }
     ],
     "image": "/autos/ford-fusion-2020-se/01_lateral.webp",
     "keep": true,
-    "id": 22
+    "id": 23
   },
   {
     "slug": "peugeot-5008-2018-1-6-bluehdi",
@@ -1245,58 +1303,58 @@
     "cruiseControl": true,
     "images": [
       {
-        "url": "/autos/Peugeot-5008-2018-full/01_lateral.webp",
+        "url": "/autos/Peugeot-5008-2018/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094214.webp",
+        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094214.webp",
         "alt": "IMG_20260107_094214",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094224.webp",
+        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094224.webp",
         "alt": "IMG_20260107_094224",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094241.webp",
+        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094241.webp",
         "alt": "IMG_20260107_094241",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094249.webp",
+        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094249.webp",
         "alt": "IMG_20260107_094249",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094256.webp",
+        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094256.webp",
         "alt": "IMG_20260107_094256",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094321.webp",
+        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094321.webp",
         "alt": "IMG_20260107_094321",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094325.webp",
+        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094325.webp",
         "alt": "IMG_20260107_094325",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094331.webp",
+        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094331.webp",
         "alt": "IMG_20260107_094331",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot-5008-2018-full/IMG_20260107_094341.webp",
+        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094341.webp",
         "alt": "IMG_20260107_094341",
         "isPrimary": false
       }
     ],
-    "image": "/autos/Peugeot-5008-2018-full/01_lateral.webp",
-    "id": 23
+    "image": "/autos/Peugeot-5008-2018/01_lateral.webp",
+    "id": 24
   },
   {
     "slug": "mazda-3-2016-1-6",
@@ -1374,7 +1432,7 @@
       }
     ],
     "image": "/autos/Mazda-3-2016-manual/01_lateral.webp",
-    "id": 24
+    "id": 25
   },
   {
     "slug": "nissan-pathfinder-1999",
@@ -1462,7 +1520,7 @@
     ],
     "image": "/autos/Nissan Pathfinder 3.3 1999/01_lateral.webp",
     "keep": true,
-    "id": 25
+    "id": 26
   },
   {
     "slug": "nissan-sentra-2021",
@@ -1498,7 +1556,7 @@
     ],
     "image": "/autos/Nissan Sentra AT 2021/01_lateral.webp",
     "keep": true,
-    "id": 26
+    "id": 27
   },
   {
     "slug": "bmw-x1-2019",
@@ -1538,7 +1596,7 @@
     ],
     "image": "/autos/BMW X1 2019/01_lateral.webp",
     "keep": true,
-    "id": 27
+    "id": 28
   },
   {
     "slug": "bmw-320d-2018-sport",
@@ -1557,64 +1615,64 @@
     "abs": true,
     "images": [
       {
-        "url": "/autos/BMW-2018-2018/01_lateral.webp",
+        "url": "/autos/Bmw_320iM_sport_2018/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/BMW-2018-2018/IMG_20260115_131830.webp",
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131830.webp",
         "alt": "IMG_20260115_131830",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW-2018-2018/IMG_20260115_131839.webp",
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131839.webp",
         "alt": "IMG_20260115_131839",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW-2018-2018/IMG_20260115_131907.webp",
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131907.webp",
         "alt": "IMG_20260115_131907",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW-2018-2018/IMG_20260115_131921.webp",
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131921.webp",
         "alt": "IMG_20260115_131921",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW-2018-2018/IMG_20260115_131934.webp",
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131934.webp",
         "alt": "IMG_20260115_131934",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW-2018-2018/IMG_20260115_131952.webp",
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131952.webp",
         "alt": "IMG_20260115_131952",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW-2018-2018/IMG_20260115_132010.webp",
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_132010.webp",
         "alt": "IMG_20260115_132010",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW-2018-2018/IMG_20260115_132015.webp",
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_132015.webp",
         "alt": "IMG_20260115_132015",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW-2018-2018/IMG_20260115_132024.webp",
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_132024.webp",
         "alt": "IMG_20260115_132024",
         "isPrimary": false
       },
       {
-        "url": "/autos/BMW-2018-2018/IMG_20260115_132104.webp",
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_132104.webp",
         "alt": "IMG_20260115_132104",
         "isPrimary": false
       }
     ],
-    "image": "/autos/BMW-2018-2018/01_lateral.webp",
+    "image": "/autos/Bmw_320iM_sport_2018/01_lateral.webp",
     "keep": true,
-    "id": 28
+    "id": 29
   },
   {
     "slug": "jeep-compass-2011",
@@ -1623,10 +1681,10 @@
     "year": 2011,
     "transmission": "Automática",
     "fuel": "Bencina",
-    "kilometers": 61000,
+    "kilometers": 166000,
     "price": 9350000,
     "owners": 1,
-    "state": "Vendido",
+    "state": "En venta",
     "region": "Santiago",
     "description": "✔️ Automático · Bencina\n✔️ 166.000 km · Dos llaves\n✔️ SUV versátil para ciudad y carretera\n📄 Documentación al día, lista para transferir\n🔁 Se recibe vehículo menor en parte de pago",
     "abs": true,
@@ -1637,10 +1695,56 @@
         "url": "/autos/Jeep-Compass-2011/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184545.webp",
+        "alt": "IMG_20260302_184545",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184556.webp",
+        "alt": "IMG_20260302_184556",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184616.webp",
+        "alt": "IMG_20260302_184616",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184630.webp",
+        "alt": "IMG_20260302_184630",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184636.webp",
+        "alt": "IMG_20260302_184636",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184654.webp",
+        "alt": "IMG_20260302_184654",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184659.webp",
+        "alt": "IMG_20260302_184659",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184713.webp",
+        "alt": "IMG_20260302_184713",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184726.webp",
+        "alt": "IMG_20260302_184726",
+        "isPrimary": false
       }
     ],
     "image": "/autos/Jeep-Compass-2011/01_lateral.webp",
-    "id": 29
+    "keep": true,
+    "id": 30
   },
   {
     "slug": "chevrolet-d-max-2017",
@@ -1709,7 +1813,7 @@
       }
     ],
     "image": "/autos/Chevrolet-Dmax-2017/01_lateral.webp",
-    "id": 30
+    "id": 31
   },
   {
     "slug": "mercedes-benz-a200-sedan-2021-look-amg",
@@ -1780,74 +1884,6 @@
       }
     ],
     "image": "/autos/Marcedes Benz-A200-sedan/01_lateral.webp",
-    "id": 31
-  },
-  {
-    "slug": "kia-rio-5-2020",
-    "brand": "Kia",
-    "model": "Rio 5",
-    "year": 2020,
-    "transmission": "Manual",
-    "fuel": "Bencina",
-    "kilometers": 70000,
-    "price": 9350000,
-    "owners": 1,
-    "state": "En venta",
-    "region": "Las Condes",
-    "description": "🚗 Kia Rio 5 2020 – Manual | Único Dueño\n📍 Las Condes\n⏱️ 70.000 km\n⛽ Bencinero\n\n✨ Modelo moderno, económico y muy confiable\n\n✅ Motor bencinero eficiente y rendidor, ideal para uso diario\n✅ Transmisión manual, excelente control y bajo consumo\n✅ Único dueño, muy bien cuidado\n✅ Pantalla táctil con conectividad (Bluetooth / USB)\n✅ Cámara y sensores de retroceso\n✅ Volante multifunción con mandos\n✅ Aire acondicionado\n✅ Control de estabilidad y frenos ABS\n✅ Amplio interior para 5 pasajeros\n✅ Gran maletero y asientos traseros abatibles\n\n🧾 Vehículo muy económico y confiable, ideal para ciudad o viajes.\n\n🚗 El Kia Rio destaca por su bajo consumo y buen equipamiento, con rendimientos cercanos a 19-20 km/l combinados dependiendo de la versión y conducción.\n\n📲 Escríbeme por mensaje o WhatsApp para coordinar visita, prueba de manejo o enviarte más fotos del vehículo.\n\nHatchback",
-    "abs": true,
-    "esp": true,
-    "airConditioning": true,
-    "bluetooth": true,
-    "usb": true,
-    "images": [
-      {
-        "url": "/autos/Kia-Rio-2020/01_lateral.webp",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.34.webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.34",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.35 (1).webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.35 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.35.webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.35",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.37.webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.37",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.40 (1).webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.40 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.40.webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.40",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.41 (1).webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.41 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia-Rio-2020/WhatsApp Image 2026-03-16 at 11.21.41.webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.41",
-        "isPrimary": false
-      }
-    ],
-    "image": "/autos/Kia-Rio-2020/01_lateral.webp",
     "id": 32
   },
   {
