@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function FinancingSection() {
   const steps = [
-    { label: "Elige tu auto favorito.", image: "/images/foto-auto.png" },
-    { label: 'Haz clic en "Solicitar Financiamiento".', image: "/images/financiamiento.png" },
+    { label: "Elige tu auto favorito.", image: "/images/auto_favorito.webp" },
+    { label: 'Haz clic en "Solicitar Financiamiento".', image: "/images/prestamo.jpg" },
     { label: "Completa un breve formulario.", image: "/images/firma-contrato.png" },
     { label: "Un asesor te contactará para guiarte.", image: "/images/cliente-feliz.png" }
   ];
@@ -32,7 +32,9 @@ export default function FinancingSection() {
               key={idx}
               className="bg-gray-100 p-6 rounded-xl shadow hover:shadow-md transition flex flex-col items-center text-center"
             >
-              <Image src={image} alt={label} width={64} height={64} className="h-16 w-16 mb-3 object-contain" />
+              <div className="relative w-full h-40 mb-3">
+                <Image src={image} alt={label} fill className="object-cover rounded-lg" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 25vw, 256px" />
+              </div>
               <span className="text-gray-700 text-sm font-medium">{label}</span>
             </div>
           ))}
