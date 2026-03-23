@@ -288,7 +288,7 @@ const slugToFolderMapping = {
 const manualOverrides = [
   { keywords: ['ford', 'f150', '2016'], price: 17990000, state: 'Vendido' },
   { keywords: ['toyota', 'avensis', '2013'], price: 6490000, state: 'Vendido' },
-  { keywords: ['citroen', 'picasso', '2015'], price: 7790000, state: 'Vendido' },
+  { keywords: ['citroen', 'picasso', '2015'], price: 7790000, state: 'En venta' },
   { keywords: ['kia', 'morning', '2024'], state: 'Vendido' },
   { keywords: ['kia', 'sonet', '2024'], state: 'Vendido' },
   { keywords: ['suzuki', 'alto', '2022'], state: 'Vendido' },
@@ -305,9 +305,11 @@ const manualOverrides = [
   { keywords: ['subaru', 'forester', '2019'], price: 18990000, state: 'Vendido' },
   { keywords: ['bmw', 'x1', '2019'], price: 16890000, state: 'Vendido' },
   { keywords: ['chevrolet', 'tahoe', '2018'], price: 23990000, state: 'En venta' },
-  { keywords: ['nissan', 'pathfinder', '2018'], price: 17550000, state: 'En venta' },
+  { keywords: ['nissan', 'pathfinder', '2018'], price: 17550000, state: 'Vendido' },
   { keywords: ['great', 'wall', 'wingle', '2017'], price: 6990000, state: 'En venta' },
-  { keywords: ['mercedes', 'glc', '2016'], price: 17890000, state: 'En venta' },
+  { keywords: ['mercedes', 'glc', '2016'], price: 17890000, state: 'Vendido' },
+  { keywords: ['mazda', '3', '2016'], price: 8890000, state: 'Vendido' },
+  { keywords: ['jeep', 'compass', '2011'], price: 9350000, state: 'Vendido' },
   { keywords: ['nissan', 'pathfinder', '2003'], price: 10500000, state: 'En venta' },
   { keywords: ['nissan', 'pathfinder', '1999'], price: 9750000, state: 'En venta' },
   { keywords: ['kia', 'rio', '2020'], price: 9350000, state: 'En venta' }
@@ -749,7 +751,7 @@ async function buildLocalVehicles() {
         slug: 'peugeot-5008-2018-1-6-bluehdi',
         brand: 'Peugeot', model: '5008', year: 2018, version: '1.6 BlueHDi',
         transmission: 'Automática', fuel: 'Diésel', kilometers: 113000,
-        price: 15890000, owners: 2, state: 'En venta',
+        price: 15890000, owners: 2, state: 'Vendido',
         description: `✔️ Motor diésel 1.6 BlueHDi — económico y con torque ideal para SUV familiar (bajo consumo por su tipo de motor). 
 ✔️ Caja automática — conducción cómoda en ciudad y carretera. 
 ✔️ SUV 7 plazas — ideal para familia o viajes con espacio para todos. 
@@ -770,7 +772,7 @@ async function buildLocalVehicles() {
         slug: 'mazda-3-2016-1-6',
         brand: 'Mazda', model: '3', year: 2016, version: '1.6',
         transmission: 'Manual', fuel: 'Bencina', kilometers: 76000,
-        price: 8890000, owners: 1, state: 'En venta',
+        price: 8890000, owners: 1, state: 'Vendido',
         description: `✔️ Motor 1.6 bencinero, económico y confiable 
 ✔️ Caja mecánica suave y rendidora 
 ✔️ Solo 76.000 km 
@@ -873,7 +875,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'jeep-compass-2011',
         brand: 'Jeep', model: 'Compass', year: 2011,
         transmission: 'Automática', fuel: 'Bencina', kilometers: 166000,
-        price: 9350000, owners: 1, state: 'En venta', region: 'Santiago',
+        price: 9350000, owners: 1, state: 'Vendido', region: 'Santiago',
         description: `✔️ Automático · Bencina
 ✔️ 166.000 km · Dos llaves
 ✔️ SUV versátil para ciudad y carretera

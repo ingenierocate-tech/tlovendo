@@ -13,9 +13,9 @@ const HeroSlider = dynamic(() => import('@/components/HeroSliderImpl'), {
 });
 
 const slides = [
-  { id: 's1', src: '/Slider1.png', alt: 'Llaves', title: 'Compra con confianza', desc: 'Gestión completa y segura', ctaLabel: 'Ver catálogo', ctaHref: '/compra' },
-  { id: 's2', src: '/Slider2.png', alt: 'Velocidad', title: 'Financiamiento a tu medida', desc: 'Créditos con tasas competitivas', ctaLabel: 'Simular crédito', ctaHref: '/financiamiento' },
-  { id: 's3', src: '/Slider3.png', alt: 'Entrega', title: 'Vende tu auto fácil y rápido', desc: 'Publicación, visitas y cierre seguro', ctaLabel: 'Vender auto', ctaHref: '/vender' },
+  { id: 's1', src: '/images/Slider1.png', alt: 'Llaves', title: 'Compra con confianza', desc: 'Gestión completa y segura', ctaLabel: 'Ver catálogo', ctaHref: '/compra' },
+  { id: 's2', src: '/images/Slider2.png', alt: 'Velocidad', title: 'Financiamiento a tu medida', desc: 'Créditos con tasas competitivas', ctaLabel: 'Simular crédito', ctaHref: '/financiamiento' },
+  { id: 's3', src: '/images/Slider3.png', alt: 'Entrega', title: 'Vende tu auto fácil y rápido', desc: 'Publicación, visitas y cierre seguro', ctaLabel: 'Vender auto', ctaHref: '/vender' },
 ];
 
 const categories = [

@@ -169,7 +169,7 @@
     "price": 17890000,
     "fuel": "Diesel",
     "region": "Las Condes",
-    "state": "En venta",
+    "state": "Vendido",
     "engine": "45690",
     "power": 170,
     "consumption": "",
@@ -191,51 +191,6 @@
         "url": "/autos/mercedes-benz-glc-2016-220d/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/mercedes-benz-glc-2016-220d/05_frontal.webp",
-        "alt": "frontal",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/mercedes-benz-glc-2016-220d/05_posterior.webp",
-        "alt": "posterior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/mercedes-benz-glc-2016-220d/05_tablero.webp",
-        "alt": "tablero",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/mercedes-benz-glc-2016-220d/05_asientos.webp",
-        "alt": "asientos",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.43.webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.10.43",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.44 (1).webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.10.44 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.44 (2).webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.10.44 (2)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.45 (1).webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.10.45 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/mercedes-benz-glc-2016-220d/WhatsApp Image 2025-09-16 at 08.10.45 (3).webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.10.45 (3)",
-        "isPrimary": false
       }
     ],
     "keep": true
@@ -383,7 +338,7 @@
     "price": 17550000,
     "fuel": "",
     "region": "Santiago",
-    "state": "En venta",
+    "state": "Vendido",
     "engine": "",
     "power": 284,
     "consumption": "",
@@ -405,76 +360,6 @@
         "url": "/autos/nissan-pathfinder-2018-advance/08_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/08_frontal.webp",
-        "alt": "frontal",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/08_posterior.webp",
-        "alt": "posterior",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/08_tablero.webp",
-        "alt": "tablero",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/08_asientos.webp",
-        "alt": "asientos",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.21 (1).webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.21 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.21 (2).webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.21 (2)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22 (1).webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.22 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22 (2).webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.22 (2)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.22.webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.22",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23 (3).webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.23 (3)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23 (4).webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.23 (4)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.23.webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.23",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.24 (2).webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.24 (2)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/nissan-pathfinder-2018-advance/WhatsApp Image 2025-09-16 at 08.12.24 (3).webp",
-        "alt": "WhatsApp Image 2025-09-16 at 08.12.24 (3)",
-        "isPrimary": false
       }
     ],
     "keep": true
@@ -886,7 +771,7 @@
     "power": null,
     "consumption": "No disponible",
     "emissions": "No disponible",
-    "state": "Vendido",
+    "state": "En venta",
     "image": "/autos/Citroën C4 Picasso 2015/01_lateral.webp",
     "images": [
       {
@@ -1290,7 +1175,7 @@
     "kilometers": 113000,
     "price": 15890000,
     "owners": 2,
-    "state": "En venta",
+    "state": "Vendido",
     "description": "✔️ Motor diésel 1.6 BlueHDi — económico y con torque ideal para SUV familiar (bajo consumo por su tipo de motor). \n✔️ Caja automática — conducción cómoda en ciudad y carretera. \n✔️ SUV 7 plazas — ideal para familia o viajes con espacio para todos. \n✔️ Buen espacio de maletero (~780 L) — alto espacio para carga y bagaje. \n✔️ Seguridad completa — control de estabilidad, ABS, airbags, ISOFIX. \n✔️ Conectividad moderna — pantalla con Apple CarPlay / Android Auto. \n✔️ Interior cómodo y amplio, ideal para trayectos largos y familia. \n✔️ Muy buen rendimiento diésel — bajo consumo en ruta y ciudad. \n📄 Documentación al día, listo para transferir \n💳 Financiamiento disponible \n🔁 Recibo vehículo menor en parte de pago \n📲 Interesados reales, escribir por interno",
     "abs": true,
     "esp": true,
@@ -1306,51 +1191,6 @@
         "url": "/autos/Peugeot-5008-2018/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094214.webp",
-        "alt": "IMG_20260107_094214",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094224.webp",
-        "alt": "IMG_20260107_094224",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094241.webp",
-        "alt": "IMG_20260107_094241",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094249.webp",
-        "alt": "IMG_20260107_094249",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094256.webp",
-        "alt": "IMG_20260107_094256",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094321.webp",
-        "alt": "IMG_20260107_094321",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094325.webp",
-        "alt": "IMG_20260107_094325",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094331.webp",
-        "alt": "IMG_20260107_094331",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Peugeot-5008-2018/IMG_20260107_094341.webp",
-        "alt": "IMG_20260107_094341",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Peugeot-5008-2018/01_lateral.webp",
@@ -1367,7 +1207,7 @@
     "kilometers": 76000,
     "price": 8890000,
     "owners": 1,
-    "state": "En venta",
+    "state": "Vendido",
     "description": "✔️ Motor 1.6 bencinero, económico y confiable \n✔️ Caja mecánica suave y rendidora \n✔️ Solo 76.000 km \n✔️ Color blanco \n✔️ Muy buen estado general \n✔️ Nunca chocado \n✔️ Mantenciones al día \n✔️ Interior cómodo y bien cuidado \n✔️ Ideal para ciudad, viajes o aplicaciones \n⛽ Consumo aprox. 15–16 km/l mixto \n📄 Documentación al día, listo para transferir \n💳 Financiamiento disponible \n🔁 Recibo vehículo en parte de pago \n📲 Interesados reales, escribir por interno.",
     "abs": true,
     "airbags": "Frontales",
@@ -1379,59 +1219,10 @@
         "url": "/autos/Mazda-3-2016-manual/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122829.webp",
-        "alt": "IMG_20251218_122829",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122836.webp",
-        "alt": "IMG_20251218_122836",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122848.webp",
-        "alt": "IMG_20251218_122848",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122855.webp",
-        "alt": "IMG_20251218_122855",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122924.webp",
-        "alt": "IMG_20251218_122924",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122935.webp",
-        "alt": "IMG_20251218_122935",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122940.webp",
-        "alt": "IMG_20251218_122940",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_122948.webp",
-        "alt": "IMG_20251218_122948",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_123027.webp",
-        "alt": "IMG_20251218_123027",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda-3-2016-manual/IMG_20251218_123041.webp",
-        "alt": "IMG_20251218_123041",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Mazda-3-2016-manual/01_lateral.webp",
+    "keep": true,
     "id": 25
   },
   {
@@ -1684,7 +1475,7 @@
     "kilometers": 166000,
     "price": 9350000,
     "owners": 1,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Santiago",
     "description": "✔️ Automático · Bencina\n✔️ 166.000 km · Dos llaves\n✔️ SUV versátil para ciudad y carretera\n📄 Documentación al día, lista para transferir\n🔁 Se recibe vehículo menor en parte de pago",
     "abs": true,
@@ -1695,51 +1486,6 @@
         "url": "/autos/Jeep-Compass-2011/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184545.webp",
-        "alt": "IMG_20260302_184545",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184556.webp",
-        "alt": "IMG_20260302_184556",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184616.webp",
-        "alt": "IMG_20260302_184616",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184630.webp",
-        "alt": "IMG_20260302_184630",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184636.webp",
-        "alt": "IMG_20260302_184636",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184654.webp",
-        "alt": "IMG_20260302_184654",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184659.webp",
-        "alt": "IMG_20260302_184659",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184713.webp",
-        "alt": "IMG_20260302_184713",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Jeep-Compass-2011/IMG_20260302_184726.webp",
-        "alt": "IMG_20260302_184726",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Jeep-Compass-2011/01_lateral.webp",

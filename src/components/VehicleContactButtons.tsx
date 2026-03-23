@@ -36,7 +36,7 @@ export default function VehicleContactButtons({ vehicle }: VehicleContactButtons
         className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2"
       >
         <ChatBubbleLeftRightIcon className="w-5 h-5" />
-        Contactar vendedor
+        Agenda tu visita
       </button>
     </div>
   )
