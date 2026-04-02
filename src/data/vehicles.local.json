@@ -36,7 +36,8 @@
         "isPrimary": true
       }
     ],
-    "keep": true
+    "keep": true,
+    "soldAt": "2026-03-26"
   },
   {
     "id": 2,
@@ -75,7 +76,8 @@
         "isPrimary": true
       }
     ],
-    "keep": true
+    "keep": true,
+    "soldAt": "2026-03-26"
   },
   {
     "id": 3,
@@ -114,7 +116,8 @@
         "isPrimary": true
       }
     ],
-    "keep": true
+    "keep": true,
+    "soldAt": "2026-03-26"
   },
   {
     "id": 4,
@@ -153,7 +156,8 @@
         "isPrimary": true
       }
     ],
-    "keep": true
+    "keep": true,
+    "soldAt": "2026-03-26"
   },
   {
     "id": 5,
@@ -193,7 +197,8 @@
         "isPrimary": true
       }
     ],
-    "keep": true
+    "keep": true,
+    "soldAt": "2026-03-26"
   },
   {
     "id": 6,
@@ -233,7 +238,8 @@
         "isPrimary": true
       }
     ],
-    "keep": true
+    "keep": true,
+    "soldAt": "2026-03-26"
   },
   {
     "id": 7,
@@ -362,7 +368,8 @@
         "isPrimary": true
       }
     ],
-    "keep": true
+    "keep": true,
+    "soldAt": "2026-03-26"
   },
   {
     "id": 9,
@@ -401,7 +408,8 @@
         "isPrimary": true
       }
     ],
-    "keep": true
+    "keep": true,
+    "soldAt": "2026-03-26"
   },
   {
     "id": 10,
@@ -440,7 +448,8 @@
         "isPrimary": true
       }
     ],
-    "keep": true
+    "keep": true,
+    "soldAt": "2026-03-26"
   },
   {
     "id": 11,
@@ -480,7 +489,8 @@
         "isPrimary": true
       }
     ],
-    "keep": true
+    "keep": true,
+    "soldAt": "2026-03-26"
   },
   {
     "id": 12,
@@ -519,7 +529,8 @@
         "isPrimary": true
       }
     ],
-    "keep": true
+    "keep": true,
+    "soldAt": "2026-03-26"
   },
   {
     "id": 13,
@@ -751,7 +762,8 @@
         "isPrimary": true
       }
     ],
-    "keep": true
+    "keep": true,
+    "soldAt": "2026-03-26"
   },
   {
     "id": 16,
@@ -878,7 +890,8 @@
         "isPrimary": true
       }
     ],
-    "keep": true
+    "keep": true,
+    "soldAt": "2026-03-26"
   },
   {
     "id": 19,
@@ -907,7 +920,8 @@
         "isPrimary": true
       }
     ],
-    "keep": true
+    "keep": true,
+    "soldAt": "2026-03-26"
   },
   {
     "slug": "opel-corsa-2022-1-2-puretech",
@@ -932,7 +946,8 @@
     "electricMirrors": true,
     "images": [],
     "image": "/placeholder-car.webp",
-    "id": 20
+    "id": 20,
+    "soldAt": "2026-03-26"
   },
   {
     "slug": "bmw-118i-look-m-2024",
@@ -1194,7 +1209,8 @@
       }
     ],
     "image": "/autos/Peugeot-5008-2018/01_lateral.webp",
-    "id": 24
+    "id": 24,
+    "soldAt": "2026-03-26"
   },
   {
     "slug": "mazda-3-2016-1-6",
@@ -1223,7 +1239,8 @@
     ],
     "image": "/autos/Mazda-3-2016-manual/01_lateral.webp",
     "keep": true,
-    "id": 25
+    "id": 25,
+    "soldAt": "2026-03-26"
   },
   {
     "slug": "nissan-pathfinder-1999",
@@ -1347,7 +1364,8 @@
     ],
     "image": "/autos/Nissan Sentra AT 2021/01_lateral.webp",
     "keep": true,
-    "id": 27
+    "id": 27,
+    "soldAt": "2026-03-26"
   },
   {
     "slug": "bmw-x1-2019",
@@ -1387,7 +1405,8 @@
     ],
     "image": "/autos/BMW X1 2019/01_lateral.webp",
     "keep": true,
-    "id": 28
+    "id": 28,
+    "soldAt": "2026-03-26"
   },
   {
     "slug": "bmw-320d-2018-sport",
@@ -1490,7 +1509,8 @@
     ],
     "image": "/autos/Jeep-Compass-2011/01_lateral.webp",
     "keep": true,
-    "id": 30
+    "id": 30,
+    "soldAt": "2026-03-26"
   },
   {
     "slug": "chevrolet-d-max-2017",
@@ -1572,7 +1592,7 @@
     "kilometers": 82400,
     "price": 21990000,
     "owners": 3,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Santiago",
     "engine": "1.3 Turbo",
     "description": "✨ Deportivo, elegante y full tecnología\n✔️ Look AMG\n✔️ Apple CarPlay + Bluetooth\n✔️ Sensores + cámara trasera\n✔️ Modos ECO / Comfort / Sport\n🔄 Recibo vehículo de menor valor\n💳 Consulte por financiamiento",
@@ -1582,55 +1602,12 @@
         "url": "/autos/Marcedes Benz-A200-sedan/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082425.webp",
-        "alt": "IMG_20260302_082425",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082434.webp",
-        "alt": "IMG_20260302_082434",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082514.webp",
-        "alt": "IMG_20260302_082514",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082527.webp",
-        "alt": "IMG_20260302_082527",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082536.webp",
-        "alt": "IMG_20260302_082536",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082614.webp",
-        "alt": "IMG_20260302_082614",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082635.webp",
-        "alt": "IMG_20260302_082635",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082648.webp",
-        "alt": "IMG_20260302_082648",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Marcedes Benz-A200-sedan/IMG_20260302_082721.webp",
-        "alt": "IMG_20260302_082721",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Marcedes Benz-A200-sedan/01_lateral.webp",
-    "id": 32
+    "keep": true,
+    "id": 32,
+    "soldAt": "2026-04-02"
   },
   {
     "slug": "peugeot-3008-2017",
@@ -1771,5 +1748,322 @@
     ],
     "image": "/autos/Fiat-Uno-2020/01_lateral.webp",
     "id": 34
+  },
+  {
+    "slug": "chevrolet-captiva-2020",
+    "brand": "Chevrolet",
+    "model": "Captiva",
+    "year": 2020,
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 98000,
+    "price": 9890000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Motor 1.5 Turbo bencinero (Delta Motors)\n✅ Mecánica · versión equipada\n✅ 5 a 7 pasajeros · cuero · climatizador\n✅ Pantalla táctil + CarPlay/BT · cámara + sensores\n✅ Gran maletero · mantenciones al día",
+    "images": [
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082321.webp",
+        "alt": "IMG_20260402_082321",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082330.webp",
+        "alt": "IMG_20260402_082330",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082402.webp",
+        "alt": "IMG_20260402_082402",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082436.webp",
+        "alt": "IMG_20260402_082436",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082445.webp",
+        "alt": "IMG_20260402_082445",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082459.webp",
+        "alt": "IMG_20260402_082459",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082508.webp",
+        "alt": "IMG_20260402_082508",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082526.webp",
+        "alt": "IMG_20260402_082526",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082543.webp",
+        "alt": "IMG_20260402_082543",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082616.webp",
+        "alt": "IMG_20260402_082616",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082619.webp",
+        "alt": "IMG_20260402_082619",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Chevrolet_Captiva_2020/01_lateral.webp",
+    "id": 35
+  },
+  {
+    "slug": "toyota-raize-2025",
+    "brand": "Toyota",
+    "model": "Raize",
+    "year": 2025,
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 7000,
+    "price": 11990000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ 1.2L Dual VVT-i · económico\n✅ Único dueño · 2 llaves · 7.000 km\n✅ CarPlay/Android Auto · cámara\n✅ ABS + control estabilidad · aire acondicionado",
+    "images": [
+      {
+        "url": "/autos/Toyora_Raize_2025/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_124912.webp",
+        "alt": "IMG_20260327_124912",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125005.webp",
+        "alt": "IMG_20260327_125005",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125029.webp",
+        "alt": "IMG_20260327_125029",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125052.webp",
+        "alt": "IMG_20260327_125052",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125324.webp",
+        "alt": "IMG_20260327_125324",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125328.webp",
+        "alt": "IMG_20260327_125328",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125334.webp",
+        "alt": "IMG_20260327_125334",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125400.webp",
+        "alt": "IMG_20260327_125400",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/_storage_emulated_0_DCIM_Camera_IMG_20260327_124928.webp",
+        "alt": "_storage_emulated_0_DCIM_Camera_IMG_20260327_124928",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Toyora_Raize_2025/01_lateral.webp",
+    "id": 36
+  },
+  {
+    "slug": "ford-territory-2023",
+    "brand": "Ford",
+    "model": "Territory",
+    "year": 2023,
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 21000,
+    "price": 11990000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Full equipo · techo panorámico\n✅ 21.000 km · 2 llaves\n✅ CarPlay/Android Auto · cámara + sensores\n✅ Climatizador · múltiples airbags",
+    "images": [
+      {
+        "url": "/autos/Ford_Territory_2023/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0031.webp",
+        "alt": "IMG-20250707-WA0031",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0032.webp",
+        "alt": "IMG-20250707-WA0032",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0033.webp",
+        "alt": "IMG-20250707-WA0033",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0034.webp",
+        "alt": "IMG-20250707-WA0034",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0035.webp",
+        "alt": "IMG-20250707-WA0035",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0036.webp",
+        "alt": "IMG-20250707-WA0036",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0037.webp",
+        "alt": "IMG-20250707-WA0037",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0038(1).webp",
+        "alt": "IMG-20250707-WA0038(1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0039.webp",
+        "alt": "IMG-20250707-WA0039",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0040.webp",
+        "alt": "IMG-20250707-WA0040",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250725-WA0080.webp",
+        "alt": "IMG-20250725-WA0080",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Ford_Territory_2023/01_lateral.webp",
+    "id": 37
+  },
+  {
+    "slug": "hyundai-porter-2023",
+    "brand": "Hyundai",
+    "model": "Porter",
+    "year": 2023,
+    "transmission": "Manual",
+    "fuel": "Diésel",
+    "kilometers": 122000,
+    "price": 14990000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ 2.5 Turbo diésel · mecánica\n✅ Doble cabina · dirección asistida\n✅ Excelente capacidad de carga · mantenciones al día\n✅ Listo para trabajar",
+    "images": [
+      {
+        "url": "/autos/Hyundai_Porter_2023/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095139.webp",
+        "alt": "IMG_20260330_095139",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095148.webp",
+        "alt": "IMG_20260330_095148",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095208.webp",
+        "alt": "IMG_20260330_095208",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095218.webp",
+        "alt": "IMG_20260330_095218",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095225.webp",
+        "alt": "IMG_20260330_095225",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095233.webp",
+        "alt": "IMG_20260330_095233",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095243.webp",
+        "alt": "IMG_20260330_095243",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095249.webp",
+        "alt": "IMG_20260330_095249",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095251.webp",
+        "alt": "IMG_20260330_095251",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095259.webp",
+        "alt": "IMG_20260330_095259",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095304.webp",
+        "alt": "IMG_20260330_095304",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095310.webp",
+        "alt": "IMG_20260330_095310",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095315.webp",
+        "alt": "IMG_20260330_095315",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095323.webp",
+        "alt": "IMG_20260330_095323",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Hyundai_Porter_2023/01_lateral.webp",
+    "id": 38
   }
 ]

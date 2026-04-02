@@ -282,6 +282,10 @@ const slugToFolderMapping = {
   'kia-rio-5-2020': 'Kia-rio-2020',
   // BMW 118i Look M 2024
   'bmw-118i-look-m-2024': 'BMW-118i Look-2024',
+  'chevrolet-captiva-2020': 'Chevrolet_Captiva_2020',
+  'toyota-raize-2025': 'Toyora_Raize_2025',
+  'ford-territory-2023': 'Ford_Territory_2023',
+  'hyundai-porter-2023': 'Hyundai_Porter_2023',
 };
 
 // Override manual de precios y estados para asegurar consistencia con la visual del cliente
@@ -312,7 +316,8 @@ const manualOverrides = [
   { keywords: ['jeep', 'compass', '2011'], price: 9350000, state: 'Vendido' },
   { keywords: ['nissan', 'pathfinder', '2003'], price: 10500000, state: 'En venta' },
   { keywords: ['nissan', 'pathfinder', '1999'], price: 9750000, state: 'En venta' },
-  { keywords: ['kia', 'rio', '2020'], price: 9350000, state: 'En venta' }
+  { keywords: ['kia', 'rio', '2020'], price: 9350000, state: 'En venta' },
+  { keywords: ['mercedes', 'a200', '2021'], state: 'Vendido' }
 ];
 
 function applyManualOverrides(vehicles) {
@@ -448,6 +453,10 @@ const folderToSlugMapping = {
   // BMW 118i Look M 2024
   'BMW-118i Look-2024': 'bmw-118i-look-m-2024',
   'BMW-118i Look M-2024': 'bmw-118i-look-m-2024',
+  'Chevrolet_Captiva_2020': 'chevrolet-captiva-2020',
+  'Toyora_Raize_2025': 'toyota-raize-2025',
+  'Ford_Territory_2023': 'ford-territory-2023',
+  'Hyundai_Porter_2023': 'hyundai-porter-2023',
 };
 
 async function getVehicleImages(slug) {
@@ -898,7 +907,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'mercedes-benz-a200-sedan-2021-look-amg',
         brand: 'Mercedes-Benz', model: 'A200', year: 2021, version: 'Sedan Look AMG',
         transmission: 'Automática', fuel: 'Bencina', kilometers: 82400,
-        price: 21990000, owners: 3, state: 'En venta', region: 'Santiago',
+        price: 21990000, owners: 3, state: 'Vendido', region: 'Santiago',
         engine: '1.3 Turbo',
         description: `✨ Deportivo, elegante y full tecnología
 ✔️ Look AMG
@@ -933,6 +942,47 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Frenos ABS + doble airbag
 💰 Consulte por financiamiento automotriz`,
         abs: true, airbags: 'Frontales', airConditioning: false, bluetooth: true, usb: true
+      },
+      {
+        slug: 'chevrolet-captiva-2020',
+        brand: 'Chevrolet', model: 'Captiva', year: 2020,
+        transmission: 'Manual', fuel: 'Bencina', kilometers: 98000,
+        price: 9890000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✅ Motor 1.5 Turbo bencinero (Delta Motors)
+✅ Mecánica · versión equipada
+✅ 5 a 7 pasajeros · cuero · climatizador
+✅ Pantalla táctil + CarPlay/BT · cámara + sensores
+✅ Gran maletero · mantenciones al día`
+      },
+      {
+        slug: 'toyota-raize-2025',
+        brand: 'Toyota', model: 'Raize', year: 2025,
+        transmission: 'Manual', fuel: 'Bencina', kilometers: 7000,
+        price: 11990000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✅ 1.2L Dual VVT-i · económico
+✅ Único dueño · 2 llaves · 7.000 km
+✅ CarPlay/Android Auto · cámara
+✅ ABS + control estabilidad · aire acondicionado`
+      },
+      {
+        slug: 'ford-territory-2023',
+        brand: 'Ford', model: 'Territory', year: 2023,
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 21000,
+        price: 11990000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✅ Full equipo · techo panorámico
+✅ 21.000 km · 2 llaves
+✅ CarPlay/Android Auto · cámara + sensores
+✅ Climatizador · múltiples airbags`
+      },
+      {
+        slug: 'hyundai-porter-2023',
+        brand: 'Hyundai', model: 'Porter', year: 2023,
+        transmission: 'Manual', fuel: 'Diésel', kilometers: 122000,
+        price: 14990000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✅ 2.5 Turbo diésel · mecánica
+✅ Doble cabina · dirección asistida
+✅ Excelente capacidad de carga · mantenciones al día
+✅ Listo para trabajar`
       },
     ];
 
@@ -1080,7 +1130,11 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'mercedes-benz-a200-sedan-2021-look-amg',
       'kia-rio-5-2020',
       'peugeot-3008-2017',
-      'fiat-uno-way-2020'
+      'fiat-uno-way-2020',
+      'chevrolet-captiva-2020',
+      'toyota-raize-2025',
+      'ford-territory-2023',
+      'hyundai-porter-2023'
     ];
 
     for (const v of vehicles) {
@@ -1181,13 +1235,43 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 
     slugs = vehicles.map(v => v.slug);
 
-    // Crear directorios de salida si no existen
+    let prev = [];
+    if (await fs.pathExists(OUTPUT_VEHICLES)) {
+      try { prev = await fs.readJson(OUTPUT_VEHICLES); } catch {}
+    }
+    const prevMap = new Map(prev.map(p => [p.slug, p]));
+    const today = new Date().toISOString().slice(0,10);
+    for (const v of vehicles) {
+      const before = prevMap.get(v.slug);
+      if (v.state === 'Vendido') {
+        if (before && before.state === 'Vendido' && before.soldAt) {
+          v.soldAt = before.soldAt;
+        } else if (before && before.state !== 'Vendido') {
+          v.soldAt = today;
+        } else if (!before || !before.soldAt) {
+          v.soldAt = today;
+        }
+      } else {
+        if (v.soldAt) delete v.soldAt;
+      }
+    }
+
     await fs.ensureDir(path.dirname(OUTPUT_VEHICLES));
     await fs.ensureDir(path.dirname(OUTPUT_SLUGS));
 
-    // Escribir archivos JSON
     await fs.writeJson(OUTPUT_VEHICLES, vehicles, { spaces: 2 });
     await fs.writeJson(OUTPUT_SLUGS, slugs, { spaces: 2 });
+
+    const sales = vehicles.filter(v => v.state === 'Vendido' && v.soldAt);
+    const byMonth = {};
+    for (const s of sales) {
+      const m = String(s.soldAt).slice(0,7);
+      byMonth[m] = (byMonth[m] || 0) + 1;
+    }
+    console.log('🗓️ Ventas por mes:');
+    Object.keys(byMonth).sort().forEach(m => {
+      console.log(`   ${m}: ${byMonth[m]}`);
+    });
 
     console.log('✅ Construcción completada:');
     console.log(`   📄 ${vehicles.length} vehículos procesados`);
