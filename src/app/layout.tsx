@@ -7,6 +7,11 @@ import { Analytics } from '@vercel/analytics/react';
 export const metadata = {
   title: 'TLoVendo',
   description: 'Catálogo de vehículos',
+  icons: {
+    icon: '/Logo_Tlovendo.png',
+    apple: '/Logo_Tlovendo.png',
+    shortcut: '/Logo_Tlovendo.png',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

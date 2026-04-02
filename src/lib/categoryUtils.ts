@@ -31,6 +31,8 @@ const MODEL_KEYWORDS: Record<string, string> = {
   '5008': 'suv',
   '3008': 'suv',
   'compass': 'suv',
+  'captiva': 'suv',
+  'territory': 'suv',
   
   // Sedan
   '320i': 'sedan',
@@ -65,6 +67,7 @@ const MODEL_KEYWORDS: Record<string, string> = {
   '118i': 'hatchback',
   'uno': 'hatchback',
   'uno way': 'hatchback',
+  'raize': 'hatchback',
   
   // Camioneta
   'silverado': 'camioneta',
@@ -106,7 +109,7 @@ const MODEL_KEYWORDS: Record<string, string> = {
   'jumpy': 'utilitario',
   'n300': 'utilitario',
   'n400': 'utilitario',
-  'porter': 'utilitario',
+  'porter': 'camioneta',
   'h1': 'utilitario',
   'h-1': 'utilitario',
   'rifter': 'utilitario',
