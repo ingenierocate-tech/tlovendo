@@ -33,6 +33,7 @@ const MODEL_KEYWORDS: Record<string, string> = {
   'compass': 'suv',
   'captiva': 'suv',
   'territory': 'suv',
+  'land cruiser': 'suv',
   
   // Sedan
   '320i': 'sedan',
@@ -68,6 +69,7 @@ const MODEL_KEYWORDS: Record<string, string> = {
   'uno': 'hatchback',
   'uno way': 'hatchback',
   'raize': 'hatchback',
+  'crosstrek': 'hatchback',
   
   // Camioneta
   'silverado': 'camioneta',
@@ -84,6 +86,7 @@ const MODEL_KEYWORDS: Record<string, string> = {
   'd-max': 'camioneta',
   'd max': 'camioneta',
   'dmax': 'camioneta',
+  'silverado zr2': 'camioneta',
   
   // Citycar
   'morning': 'citycar',

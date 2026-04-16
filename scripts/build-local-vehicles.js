@@ -286,13 +286,17 @@ const slugToFolderMapping = {
   'toyota-raize-2025': 'Toyora_Raize_2025',
   'ford-territory-2023': 'Ford_Territory_2023',
   'hyundai-porter-2023': 'Hyundai_Porter_2023',
+  'toyota-land-cruiser-2010': 'Toyota_ Landcruiser_2010',
+  'subaru-crosstrek-2025': 'Subaru_crosstrek _2025',
+  'mitsubishi-l200-katana-2013': 'Mitsubishi_L200Katana_2013',
+  'chevrolet-silverado-zr2-2024-full': 'Chevrolet_ Silverado_2024',
 };
 
 // Override manual de precios y estados para asegurar consistencia con la visual del cliente
 const manualOverrides = [
   { keywords: ['ford', 'f150', '2016'], price: 17990000, state: 'Vendido' },
   { keywords: ['toyota', 'avensis', '2013'], price: 6490000, state: 'Vendido' },
-  { keywords: ['citroen', 'picasso', '2015'], price: 7790000, state: 'En venta' },
+  { keywords: ['citroen', 'picasso', '2015'], price: 7390000, state: 'En venta' },
   { keywords: ['kia', 'morning', '2024'], state: 'Vendido' },
   { keywords: ['kia', 'sonet', '2024'], state: 'Vendido' },
   { keywords: ['suzuki', 'alto', '2022'], state: 'Vendido' },
@@ -303,7 +307,7 @@ const manualOverrides = [
   { keywords: ['bmw', '320i', '2024'], state: 'Vendido' },
   { keywords: ['bmw', '320d', '2018'], price: 18990000, state: 'En venta' },
   { keywords: ['porsche', 'panamera', '2017'], state: 'Vendido' },
-  { keywords: ['chevrolet', 'silverado', '2024'], price: 47990000, state: 'En venta' },
+  { keywords: ['chevrolet', 'silverado', '2024'], price: 40590000, state: 'En venta' },
   { keywords: ['nissan', 'sentra', '2021'], price: 13750000, state: 'Vendido' },
   { keywords: ['ford', 'fusion', '2020'], price: 15550000, state: 'En venta' },
   { keywords: ['subaru', 'forester', '2019'], price: 18990000, state: 'Vendido' },
@@ -316,7 +320,7 @@ const manualOverrides = [
   { keywords: ['jeep', 'compass', '2011'], price: 9350000, state: 'Vendido' },
   { keywords: ['nissan', 'pathfinder', '2003'], price: 10500000, state: 'En venta' },
   { keywords: ['nissan', 'pathfinder', '1999'], price: 9750000, state: 'En venta' },
-  { keywords: ['kia', 'rio', '2020'], price: 9350000, state: 'En venta' },
+  { keywords: ['kia', 'rio', '2020'], price: 9150000, state: 'En venta' },
   { keywords: ['mercedes', 'a200', '2021'], state: 'Vendido' }
 ];
 
@@ -457,6 +461,10 @@ const folderToSlugMapping = {
   'Toyora_Raize_2025': 'toyota-raize-2025',
   'Ford_Territory_2023': 'ford-territory-2023',
   'Hyundai_Porter_2023': 'hyundai-porter-2023',
+  'Toyota_ Landcruiser_2010': 'toyota-land-cruiser-2010',
+  'Subaru_crosstrek _2025': 'subaru-crosstrek-2025',
+  'Mitsubishi_L200Katana_2013': 'mitsubishi-l200-katana-2013',
+  'Chevrolet_ Silverado_2024': 'chevrolet-silverado-zr2-2024-full',
 };
 
 async function getVehicleImages(slug) {
@@ -728,7 +736,7 @@ async function buildLocalVehicles() {
         slug: 'nissan-x-trail-2024-exclusive',
         brand: 'Nissan', model: 'X-Trail', year: 2024, version: 'Exclusive',
         transmission: 'Automática', fuel: 'Bencina', kilometers: 33000,
-        price: 27290000, owners: 1, state: 'En venta',
+        price: 27290000, owners: 1, state: 'Vendido',
         description: `✔️ Prácticamente nueva 
 ✔️ Motor 2.5 bencinero + caja CVT 
 ✔️ Full seguridad (frenado, carril, punto ciego, crucero inteligente) 
@@ -923,7 +931,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'peugeot-3008-2017',
         brand: 'Peugeot', model: '3008', year: 2017,
         transmission: 'Automática', fuel: 'Bencina', kilometers: null,
-        price: 12990000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 11890000, owners: 1, state: 'En venta', region: 'Las Condes',
         description: `✅ Bencinero Automático
 ✅ Sensores de estacionamiento + cámara de retroceso
 ✅ Climatizador automático
@@ -935,7 +943,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'fiat-uno-way-2020',
         brand: 'Fiat', model: 'Uno Way', year: 2020,
         transmission: 'Manual', fuel: 'Bencina', kilometers: 44000,
-        price: 6490000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 6190000, owners: 1, state: 'En venta', region: 'Las Condes',
         description: `✅ Motor 1.4 bencinero
 ✅ Bluetooth / USB
 ❌ Sin aire acondicionado
@@ -947,7 +955,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'chevrolet-captiva-2020',
         brand: 'Chevrolet', model: 'Captiva', year: 2020,
         transmission: 'Manual', fuel: 'Bencina', kilometers: 98000,
-        price: 9890000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 9650000, owners: 1, state: 'En venta', region: 'Las Condes',
         description: `✅ Motor 1.5 Turbo bencinero (Delta Motors)
 ✅ Mecánica · versión equipada
 ✅ 5 a 7 pasajeros · cuero · climatizador
@@ -958,7 +966,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'toyota-raize-2025',
         brand: 'Toyota', model: 'Raize', year: 2025,
         transmission: 'Manual', fuel: 'Bencina', kilometers: 7000,
-        price: 11990000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 11890000, owners: 1, state: 'En venta', region: 'Las Condes',
         description: `✅ 1.2L Dual VVT-i · económico
 ✅ Único dueño · 2 llaves · 7.000 km
 ✅ CarPlay/Android Auto · cámara
@@ -968,7 +976,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'ford-territory-2023',
         brand: 'Ford', model: 'Territory', year: 2023,
         transmission: 'Automática', fuel: 'Bencina', kilometers: 21000,
-        price: 11990000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 11650000, owners: 1, state: 'En venta', region: 'Las Condes',
         description: `✅ Full equipo · techo panorámico
 ✅ 21.000 km · 2 llaves
 ✅ CarPlay/Android Auto · cámara + sensores
@@ -983,6 +991,46 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Doble cabina · dirección asistida
 ✅ Excelente capacidad de carga · mantenciones al día
 ✅ Listo para trabajar`
+      },
+      {
+        slug: 'toyota-land-cruiser-2010',
+        brand: 'Toyota', model: 'Land Cruiser', year: 2010,
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 258000,
+        price: 11990000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✅ Automática 4x4 · 7 pasajeros
+✅ Climatizador · volante multifunción
+✅ Gran maletero · mantenciones al día
+✅ SUV robusto y confiable para todo terreno`
+      },
+      {
+        slug: 'subaru-crosstrek-2025',
+        brand: 'Subaru', model: 'Crosstrek', year: 2025,
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 8000,
+        price: 23990000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✅ Boxer + CVT + AWD
+✅ Único dueño · 8.000 km
+✅ CarPlay/Android Auto · cámara + sensores
+✅ Muy seguro y tecnológico`
+      },
+      {
+        slug: 'mitsubishi-l200-katana-2013',
+        brand: 'Mitsubishi', model: 'L200 Katana', year: 2013, version: '4x2',
+        transmission: 'Manual', fuel: 'Diésel', kilometers: 171000,
+        price: 10390000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✅ 2.5 Turbo diésel · mecánica
+✅ Único dueño · 4x2
+✅ Semi nuevos · mantenciones al día
+✅ Lista para trabajo o uso personal`
+      },
+      {
+        slug: 'chevrolet-silverado-zr2-2024-full',
+        brand: 'Chevrolet', model: 'Silverado ZR2', year: 2024, version: '4x4',
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 60000,
+        price: 40590000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✅ V8 bencinero · automática · 4x4 ZR2
+✅ Único dueño · cuero · climatizador
+✅ CarPlay/Android Auto · cámara 360 + sensores
+✅ Mantenciones al día en la marca`
       },
     ];
 
@@ -1100,7 +1148,6 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
     // FILTRO MANUAL DE OCULTOS (No borrar, solo ocultar)
     // ---------------------------------------------------------
     const hiddenSlugs = [
-      'chevrolet-silverado-zr2-2024-full',
       'bmw-320im-sport-2024'
     ];
     
@@ -1134,7 +1181,11 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'chevrolet-captiva-2020',
       'toyota-raize-2025',
       'ford-territory-2023',
-      'hyundai-porter-2023'
+      'hyundai-porter-2023',
+      'toyota-land-cruiser-2010',
+      'subaru-crosstrek-2025',
+      'mitsubishi-l200-katana-2013',
+      'chevrolet-silverado-zr2-2024-full'
     ];
 
     for (const v of vehicles) {

@@ -772,7 +772,7 @@
     "model": "C4 picasso",
     "version": "",
     "year": 2015,
-    "price": 7790000,
+    "price": 7390000,
     "kilometers": null,
     "transmission": "No disponible",
     "fuel": "No disponible",
@@ -801,7 +801,7 @@
     "model": "Rio 5",
     "version": "",
     "year": 2020,
-    "price": 9350000,
+    "price": 9150000,
     "kilometers": null,
     "transmission": "No disponible",
     "fuel": "No disponible",
@@ -1039,7 +1039,7 @@
     "kilometers": 33000,
     "price": 27290000,
     "owners": 1,
-    "state": "En venta",
+    "state": "Vendido",
     "description": "✔️ Prácticamente nueva \n✔️ Motor 2.5 bencinero + caja CVT \n✔️ Full seguridad (frenado, carril, punto ciego, crucero inteligente) \n✔️ Asientos de cuero eléctricos y calefaccionados \n✔️ Pantalla grande + CarPlay / Android Auto \n✔️ Panel digital + HUD \n✔️ Climatizador triple zona \n✔️ Cargador inalámbrico \n✔️ Nunca chocado \n📄 Documentación al día, lista para transferir \n💳 Financiamiento disponible \n🔁 Recibo vehículo menor en parte de pago \n📲 Interesados reales, escribir por interno",
     "abs": true,
     "esp": true,
@@ -1617,7 +1617,7 @@
     "transmission": "Automática",
     "fuel": "Bencina",
     "kilometers": null,
-    "price": 12990000,
+    "price": 11890000,
     "owners": 1,
     "state": "En venta",
     "region": "Las Condes",
@@ -1689,7 +1689,7 @@
     "transmission": "Manual",
     "fuel": "Bencina",
     "kilometers": 44000,
-    "price": 6490000,
+    "price": 6190000,
     "owners": 1,
     "state": "En venta",
     "region": "Las Condes",
@@ -1757,7 +1757,7 @@
     "transmission": "Manual",
     "fuel": "Bencina",
     "kilometers": 98000,
-    "price": 9890000,
+    "price": 9650000,
     "owners": 1,
     "state": "En venta",
     "region": "Las Condes",
@@ -1835,7 +1835,7 @@
     "transmission": "Manual",
     "fuel": "Bencina",
     "kilometers": 7000,
-    "price": 11990000,
+    "price": 11890000,
     "owners": 1,
     "state": "En venta",
     "region": "Las Condes",
@@ -1903,7 +1903,7 @@
     "transmission": "Automática",
     "fuel": "Bencina",
     "kilometers": 21000,
-    "price": 11990000,
+    "price": 11650000,
     "owners": 1,
     "state": "En venta",
     "region": "Las Condes",
@@ -2065,5 +2065,330 @@
     ],
     "image": "/autos/Hyundai_Porter_2023/01_lateral.webp",
     "id": 38
+  },
+  {
+    "slug": "toyota-land-cruiser-2010",
+    "brand": "Toyota",
+    "model": "Land Cruiser",
+    "year": 2010,
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 258000,
+    "price": 11990000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Automática 4x4 · 7 pasajeros\n✅ Climatizador · volante multifunción\n✅ Gran maletero · mantenciones al día\n✅ SUV robusto y confiable para todo terreno",
+    "images": [
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163519.webp",
+        "alt": "IMG_20260410_163519",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163534.webp",
+        "alt": "IMG_20260410_163534",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163553.webp",
+        "alt": "IMG_20260410_163553",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163559.webp",
+        "alt": "IMG_20260410_163559",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163607.webp",
+        "alt": "IMG_20260410_163607",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163619.webp",
+        "alt": "IMG_20260410_163619",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163624.webp",
+        "alt": "IMG_20260410_163624",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163631.webp",
+        "alt": "IMG_20260410_163631",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163639.webp",
+        "alt": "IMG_20260410_163639",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163702.webp",
+        "alt": "IMG_20260410_163702",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Toyota_ Landcruiser_2010/01_lateral.webp",
+    "id": 39
+  },
+  {
+    "slug": "subaru-crosstrek-2025",
+    "brand": "Subaru",
+    "model": "Crosstrek",
+    "year": 2025,
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 8000,
+    "price": 23990000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Boxer + CVT + AWD\n✅ Único dueño · 8.000 km\n✅ CarPlay/Android Auto · cámara + sensores\n✅ Muy seguro y tecnológico",
+    "images": [
+      {
+        "url": "/autos/Subaru_crosstrek _2025/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122514.webp",
+        "alt": "IMG_20260407_122514",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122558.webp",
+        "alt": "IMG_20260407_122558",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122618.webp",
+        "alt": "IMG_20260407_122618",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122656.webp",
+        "alt": "IMG_20260407_122656",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122730.webp",
+        "alt": "IMG_20260407_122730",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122737.webp",
+        "alt": "IMG_20260407_122737",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122803.webp",
+        "alt": "IMG_20260407_122803",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122822.webp",
+        "alt": "IMG_20260407_122822",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122845.webp",
+        "alt": "IMG_20260407_122845",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122938.webp",
+        "alt": "IMG_20260407_122938",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Subaru_crosstrek _2025/01_lateral.webp",
+    "id": 40
+  },
+  {
+    "slug": "mitsubishi-l200-katana-2013",
+    "brand": "Mitsubishi",
+    "model": "L200 Katana",
+    "year": 2013,
+    "version": "4x2",
+    "transmission": "Manual",
+    "fuel": "Diésel",
+    "kilometers": 171000,
+    "price": 10390000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ 2.5 Turbo diésel · mecánica\n✅ Único dueño · 4x2\n✅ Semi nuevos · mantenciones al día\n✅ Lista para trabajo o uso personal",
+    "images": [
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150354.webp",
+        "alt": "IMG_20260406_150354",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150406.webp",
+        "alt": "IMG_20260406_150406",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150425.webp",
+        "alt": "IMG_20260406_150425",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150433.webp",
+        "alt": "IMG_20260406_150433",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150514.webp",
+        "alt": "IMG_20260406_150514",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150526.webp",
+        "alt": "IMG_20260406_150526",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150533.webp",
+        "alt": "IMG_20260406_150533",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150541.webp",
+        "alt": "IMG_20260406_150541",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150548.webp",
+        "alt": "IMG_20260406_150548",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150555.webp",
+        "alt": "IMG_20260406_150555",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Mitsubishi_L200Katana_2013/01_lateral.webp",
+    "id": 41
+  },
+  {
+    "slug": "chevrolet-silverado-zr2-2024-full",
+    "brand": "Chevrolet",
+    "model": "Silverado ZR2",
+    "year": 2024,
+    "version": "4x4",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 60000,
+    "price": 40590000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ V8 bencinero · automática · 4x4 ZR2\n✅ Único dueño · cuero · climatizador\n✅ CarPlay/Android Auto · cámara 360 + sensores\n✅ Mantenciones al día en la marca",
+    "images": [
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105024.webp",
+        "alt": "IMG_20260410_105024",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105038.webp",
+        "alt": "IMG_20260410_105038",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105105.webp",
+        "alt": "IMG_20260410_105105",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105119.webp",
+        "alt": "IMG_20260410_105119",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105131.webp",
+        "alt": "IMG_20260410_105131",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105158.webp",
+        "alt": "IMG_20260410_105158",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105216.webp",
+        "alt": "IMG_20260410_105216",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105237.webp",
+        "alt": "IMG_20260410_105237",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105242.webp",
+        "alt": "IMG_20260410_105242",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105246.webp",
+        "alt": "IMG_20260410_105246",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105259.webp",
+        "alt": "IMG_20260410_105259",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105310.webp",
+        "alt": "IMG_20260410_105310",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105325.webp",
+        "alt": "IMG_20260410_105325",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105356.webp",
+        "alt": "IMG_20260410_105356",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105402.webp",
+        "alt": "IMG_20260410_105402",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105413.webp",
+        "alt": "IMG_20260410_105413",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Chevrolet_ Silverado_2024/01_lateral.webp",
+    "keep": true,
+    "id": 42
   }
 ]
