@@ -1,0 +1,2394 @@
+[
+  {
+    "id": 1,
+    "slug": "kia-morning-2024-full",
+    "brand": "Kia",
+    "model": "Morning",
+    "version": "Full",
+    "year": 2024,
+    "owners": 1,
+    "kilometers": 17000,
+    "color": "Blanco",
+    "transmission": "Automático",
+    "price": 9890000,
+    "fuel": "Bencina",
+    "region": "Santiago",
+    "state": "Vendido",
+    "engine": "45689",
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": false,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/kia-morning-2024-full/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/kia-morning-2024-full/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "id": 2,
+    "slug": "kia-sonet-2024-full",
+    "brand": "Kia",
+    "model": "Sonet",
+    "version": "Full",
+    "year": 2024,
+    "owners": 1,
+    "kilometers": 21000,
+    "color": "Blanco",
+    "transmission": "Automático",
+    "price": 12990000,
+    "fuel": "Bencina",
+    "region": "Santiago",
+    "state": "Vendido",
+    "engine": "",
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": false,
+    "powerSteering": false,
+    "electricWindows": false,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": true,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/kia-sonet-2024-full/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/kia-sonet-2024-full/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "id": 3,
+    "slug": "suzuki-alto-2022-800",
+    "brand": "Suzuki",
+    "model": "Alto",
+    "version": "800",
+    "year": 2022,
+    "owners": 1,
+    "kilometers": 20000,
+    "color": "Palatedo",
+    "transmission": "Mecánico",
+    "price": 5190000,
+    "fuel": "Bencina",
+    "region": "Santiago",
+    "state": "Vendido",
+    "engine": "",
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": false,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/suzuki-alto-2022-800/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/suzuki-alto-2022-800/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "id": 4,
+    "slug": "hyundai-tucson-2018-full",
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "version": "Full",
+    "year": 2018,
+    "owners": 1,
+    "kilometers": 173000,
+    "color": "Burdeo",
+    "transmission": "Mecánico",
+    "price": 11490000,
+    "fuel": "",
+    "region": "Las Condes",
+    "state": "Vendido",
+    "engine": "",
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/hyundai-tucson-2018-full/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/hyundai-tucson-2018-full/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "id": 5,
+    "slug": "mercedes-benz-glc-2016-220d",
+    "brand": "Mercedes Benz",
+    "model": "GLC",
+    "version": "220d",
+    "year": 2016,
+    "owners": 2,
+    "kilometers": 175000,
+    "color": "",
+    "transmission": "Automático",
+    "price": 17890000,
+    "fuel": "Diesel",
+    "region": "Las Condes",
+    "state": "Vendido",
+    "engine": "45690",
+    "power": 170,
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/mercedes-benz-glc-2016-220d/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/mercedes-benz-glc-2016-220d/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "id": 6,
+    "slug": "toyota-avensis-2013",
+    "brand": "Toyota",
+    "model": "Avensis",
+    "version": "",
+    "year": 2013,
+    "owners": 1,
+    "kilometers": 222000,
+    "color": "Blanco",
+    "transmission": "Automático",
+    "price": 6490000,
+    "fuel": "Bencina",
+    "region": "Las Condes",
+    "state": "Vendido",
+    "engine": "2.0",
+    "power": 150,
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/toyota-avensis-2013/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/toyota-avensis-2013/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "id": 7,
+    "slug": "chevrolet-tahoe-2018-full",
+    "brand": "Chevrolet",
+    "model": "Tahoe",
+    "version": "Full",
+    "year": 2018,
+    "owners": 2,
+    "kilometers": 150000,
+    "color": "Blanco",
+    "transmission": "Automático",
+    "price": 23990000,
+    "fuel": "",
+    "region": "Las Condes",
+    "state": "En venta",
+    "engine": "",
+    "power": 355,
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/chevrolet-tahoe-2018-lt/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_frontal.webp",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_posterior.webp",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_tablero.webp",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/07_asientos.webp",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.52 (2).webp",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.52 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.52.webp",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.52",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53 (1).webp",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.53 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53 (2).webp",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.53 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.53.webp",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.53",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/chevrolet-tahoe-2018-lt/WhatsApp Image 2025-09-16 at 08.11.54 (1).webp",
+        "alt": "WhatsApp Image 2025-09-16 at 08.11.54 (1)",
+        "isPrimary": false
+      }
+    ],
+    "keep": true
+  },
+  {
+    "id": 8,
+    "slug": "nissan-pathfinder-2018-full",
+    "brand": "Nissan",
+    "model": "Pathfinder",
+    "version": "Full",
+    "year": 2018,
+    "owners": 2,
+    "color": "Azul metálico",
+    "transmission": "Automático",
+    "price": 17550000,
+    "fuel": "",
+    "region": "Santiago",
+    "state": "Vendido",
+    "engine": "",
+    "power": 284,
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": false,
+    "powerSteering": false,
+    "electricWindows": false,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/nissan-pathfinder-2018-advance/08_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/nissan-pathfinder-2018-advance/08_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "id": 9,
+    "slug": "ford-f150-xlt-2016-full",
+    "brand": "Ford",
+    "model": "F150 XLT",
+    "version": "Full",
+    "year": 2016,
+    "owners": 2,
+    "color": "",
+    "transmission": "Automático",
+    "price": 17990000,
+    "fuel": "",
+    "region": "Las Condes",
+    "state": "Vendido",
+    "engine": "",
+    "power": 385,
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": false,
+    "powerSteering": false,
+    "electricWindows": false,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/ford-f150-xlt-2016/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/ford-f150-xlt-2016/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "id": 10,
+    "slug": "kia-soluto-2022-full",
+    "brand": "Kia",
+    "model": "Soluto",
+    "version": "Full",
+    "year": 2022,
+    "owners": 2,
+    "kilometers": 43000,
+    "color": "",
+    "transmission": "Mecánico",
+    "price": 8390000,
+    "fuel": "Bencina",
+    "region": "Las Condes",
+    "state": "Vendido",
+    "engine": "",
+    "consumption": "",
+    "emissions": "",
+    "abs": true,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": false,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/kia-soluto-2024-lx/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/kia-soluto-2024-lx/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "id": 11,
+    "slug": "citroen-picasso-2011",
+    "brand": "Citroen",
+    "model": "Picasso",
+    "version": "",
+    "year": 2011,
+    "owners": 1,
+    "kilometers": 109000,
+    "color": "",
+    "transmission": "Mecánico",
+    "price": 4490000,
+    "fuel": "Bencina",
+    "region": "Santiago",
+    "state": "Vendido",
+    "engine": "45809",
+    "consumption": "",
+    "emissions": "",
+    "abs": true,
+    "esp": false,
+    "airbags": "Frontales",
+    "tractionControl": false,
+    "airConditioning": true,
+    "powerSteering": false,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/Citroen_C3Picasso_2011/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Citroen_C3Picasso_2011/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "id": 12,
+    "slug": "subaru-forester-2019-awd",
+    "brand": "Subaru",
+    "model": "Forester",
+    "version": "AWD",
+    "year": 2019,
+    "owners": 1,
+    "kilometers": 80000,
+    "color": "",
+    "transmission": "Automático",
+    "price": 18990000,
+    "fuel": "Bencina",
+    "region": "Las Condes",
+    "state": "Vendido",
+    "engine": "2.0",
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": false,
+    "powerSteering": false,
+    "electricWindows": false,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/Subaru_Forester_Limited_2019/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Subaru_Forester_Limited_2019/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "id": 13,
+    "slug": "great-wall-wingle-6-elite-2017-full",
+    "brand": "Great Wall",
+    "model": "Wingle 6 Elite",
+    "version": "Full",
+    "year": 2017,
+    "owners": 1,
+    "kilometers": 90000,
+    "color": "",
+    "transmission": "",
+    "price": 6990000,
+    "fuel": "Bencina",
+    "region": "Las Condes",
+    "state": "En venta",
+    "engine": "45749",
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": false,
+    "powerSteering": false,
+    "electricWindows": false,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/GreatWall_Wingle6_Elite_2017/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112422.webp",
+        "alt": "IMG_20251023_112422",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112454.webp",
+        "alt": "IMG_20251023_112454",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112600.webp",
+        "alt": "IMG_20251023_112600",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112608.webp",
+        "alt": "IMG_20251023_112608",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112621.webp",
+        "alt": "IMG_20251023_112621",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112643.webp",
+        "alt": "IMG_20251023_112643",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112659.webp",
+        "alt": "IMG_20251023_112659",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112714.webp",
+        "alt": "IMG_20251023_112714",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112718.webp",
+        "alt": "IMG_20251023_112718",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112724.webp",
+        "alt": "IMG_20251023_112724",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112742.webp",
+        "alt": "IMG_20251023_112742",
+        "isPrimary": false
+      }
+    ],
+    "keep": true
+  },
+  {
+    "id": 14,
+    "slug": "nissan-pathfinder-2003",
+    "brand": "Nissan",
+    "model": "Pathfinder",
+    "version": "",
+    "year": 2003,
+    "owners": 1,
+    "kilometers": 240000,
+    "color": "",
+    "transmission": "Automático",
+    "price": 10500000,
+    "fuel": "",
+    "region": "",
+    "state": "En venta",
+    "engine": "45780",
+    "consumption": "",
+    "emissions": "",
+    "abs": false,
+    "esp": false,
+    "tractionControl": false,
+    "airConditioning": false,
+    "powerSteering": false,
+    "electricWindows": false,
+    "electricMirrors": false,
+    "audioSystem": false,
+    "bluetooth": false,
+    "usb": false,
+    "cruiseControl": false,
+    "image": "/autos/Nissan_Pathfinder_3.5cc_2003/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094204.webp",
+        "alt": "IMG_20251114_094204",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094213.webp",
+        "alt": "IMG_20251114_094213",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094404.webp",
+        "alt": "IMG_20251114_094404",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094412.webp",
+        "alt": "IMG_20251114_094412",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094418.webp",
+        "alt": "IMG_20251114_094418",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094440.webp",
+        "alt": "IMG_20251114_094440",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094447.webp",
+        "alt": "IMG_20251114_094447",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094459.webp",
+        "alt": "IMG_20251114_094459",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094515.webp",
+        "alt": "IMG_20251114_094515",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094534.webp",
+        "alt": "IMG_20251114_094534",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094542.webp",
+        "alt": "IMG_20251114_094542",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094556.webp",
+        "alt": "IMG_20251114_094556",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094608.webp",
+        "alt": "IMG_20251114_094608",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan_Pathfinder_3.5cc_2003/IMG_20251114_094642.webp",
+        "alt": "IMG_20251114_094642",
+        "isPrimary": false
+      }
+    ],
+    "keep": true
+  },
+  {
+    "id": 15,
+    "slug": "bmw-320i-m-sport-2024",
+    "brand": "Bmw",
+    "model": "320i m sport",
+    "version": "",
+    "year": 2024,
+    "price": null,
+    "kilometers": null,
+    "transmission": "No disponible",
+    "fuel": "No disponible",
+    "region": "No disponible",
+    "color": "No disponible",
+    "owners": 1,
+    "engine": "No disponible",
+    "power": null,
+    "consumption": "No disponible",
+    "emissions": "No disponible",
+    "state": "Vendido",
+    "image": "/autos/Bmw_320iM_sport_2024/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Bmw_320iM_sport_2024/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "id": 16,
+    "slug": "citroen-c4-picasso-2015",
+    "brand": "Citroen",
+    "model": "C4 picasso",
+    "version": "",
+    "year": 2015,
+    "price": 7390000,
+    "kilometers": null,
+    "transmission": "No disponible",
+    "fuel": "No disponible",
+    "region": "No disponible",
+    "color": "No disponible",
+    "owners": 1,
+    "engine": "No disponible",
+    "power": null,
+    "consumption": "No disponible",
+    "emissions": "No disponible",
+    "state": "En venta",
+    "image": "/autos/Citroën C4 Picasso 2015/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Citroën C4 Picasso 2015/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true
+  },
+  {
+    "id": 17,
+    "slug": "kia-rio-5-2020",
+    "brand": "Kia",
+    "model": "Rio 5",
+    "version": "",
+    "year": 2020,
+    "price": 9150000,
+    "kilometers": null,
+    "transmission": "No disponible",
+    "fuel": "No disponible",
+    "region": "No disponible",
+    "color": "No disponible",
+    "owners": 1,
+    "engine": "No disponible",
+    "power": null,
+    "consumption": "No disponible",
+    "emissions": "No disponible",
+    "state": "En venta",
+    "image": "/autos/Kia-rio-2020/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Kia-rio-2020/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.34 (1).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.34 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.35 (1).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.35 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.35 (2).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.35 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.37.webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.37",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.40 (1).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.40 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.40 (2).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.40 (2)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.41 (1).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.41 (1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.41 (2).webp",
+        "alt": "WhatsApp Image 2026-03-16 at 11.21.41 (2)",
+        "isPrimary": false
+      }
+    ],
+    "keep": true
+  },
+  {
+    "id": 18,
+    "slug": "porsche-panamera-gts-2017",
+    "brand": "Porsche",
+    "model": "Panamera gts",
+    "version": "",
+    "year": 2017,
+    "price": null,
+    "kilometers": null,
+    "transmission": "No disponible",
+    "fuel": "No disponible",
+    "region": "No disponible",
+    "color": "No disponible",
+    "owners": 1,
+    "engine": "No disponible",
+    "power": null,
+    "consumption": "No disponible",
+    "emissions": "No disponible",
+    "state": "Vendido",
+    "image": "/autos/Porsche_Panamera_GTS_2017/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/Porsche_Panamera_GTS_2017/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "id": 19,
+    "slug": "kia-rio-2018-5",
+    "brand": "Kia",
+    "model": "Rio",
+    "version": "5",
+    "year": 2018,
+    "price": null,
+    "kilometers": null,
+    "transmission": "No disponible",
+    "fuel": "No disponible",
+    "region": "No disponible",
+    "color": "No disponible",
+    "owners": 1,
+    "engine": "No disponible",
+    "power": null,
+    "consumption": "No disponible",
+    "emissions": "No disponible",
+    "state": "Vendido",
+    "image": "/autos/kia-rio-5-2018/01_lateral.webp",
+    "images": [
+      {
+        "url": "/autos/kia-rio-5-2018/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "keep": true,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "slug": "opel-corsa-2022-1-2-puretech",
+    "brand": "Opel",
+    "model": "Corsa",
+    "year": 2022,
+    "version": "1.2 PureTech",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 61000,
+    "price": 9350000,
+    "owners": 1,
+    "state": "Vendido",
+    "description": "✔️ Motor 1.2 bencinero, muy económico \n✔️ Caja automática cómoda y suave \n✔️ Mantención recién hecha \n✔️ Ideal para ciudad y uso diario \n✔️ Pantalla con Apple CarPlay / Android Auto \n✔️ Control de estabilidad, airbags, ISOFIX \n✔️ Interior cómodo y bien cuidado \n✔️ Manejo ágil, fácil de estacionar \n📄 Documentación al día, listo para transferir \n💳 Financiamiento disponible \n🔁 Recibo vehículo menor en parte de pago \n📲 Interesados reales, escribir por interno",
+    "abs": true,
+    "esp": true,
+    "airbags": "Frontales y laterales",
+    "airConditioning": true,
+    "bluetooth": true,
+    "usb": true,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "images": [],
+    "image": "/placeholder-car.webp",
+    "id": 20,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "slug": "bmw-118i-look-m-2024",
+    "brand": "BMW",
+    "model": "118i",
+    "year": 2024,
+    "version": "Look M",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 39900,
+    "price": 27990000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✨ Versión Look M – Full equipo\n✅ Motor 1.5 Turbo BMW TwinPower, potente y eficiente\n✅ Transmisión automática deportiva y muy cómoda\n✅ Sunroof panorámico\n✅ Único dueño\n✅ Pantalla multimedia BMW iDrive + conectividad\n✅ Volante deportivo multifunción\n✅ Sensores de estacionamiento + cámara\n✅ Interior premium y excelente calidad de terminaciones\n✅ Gran maletero y cabina cómoda para 5 pasajeros\n\n🧾 Vehículo en estado impecable, sin detalles.\n✔️ Todas las mantenciones realizadas en la marca\n✔️ Mantención de 40.000 km ya realizada\n✔️ Incluye mantenciones de 50.000 y 60.000 km GRATIS en BMW\n✔️ Primera cuota del permiso de circulación 2026 pagada\n\n📲 Escríbeme por mensaje o WhatsApp para coordinar visita o enviarte más fotos del vehículo.\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ\n💳 VEHÍCULO CON PREPAGO DE FINANCIAMIENTO",
+    "images": [
+      {
+        "url": "/autos/BMW-118i Look-2024/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173734.webp",
+        "alt": "IMG_20260316_173734",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173754.webp",
+        "alt": "IMG_20260316_173754",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173804.webp",
+        "alt": "IMG_20260316_173804",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173814.webp",
+        "alt": "IMG_20260316_173814",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173850.webp",
+        "alt": "IMG_20260316_173850",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173859.webp",
+        "alt": "IMG_20260316_173859",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173910.webp",
+        "alt": "IMG_20260316_173910",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173918.webp",
+        "alt": "IMG_20260316_173918",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173927.webp",
+        "alt": "IMG_20260316_173927",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173958.webp",
+        "alt": "IMG_20260316_173958",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW-118i Look-2024/IMG_20260316_174917.webp",
+        "alt": "IMG_20260316_174917",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/BMW-118i Look-2024/01_lateral.webp",
+    "id": 21
+  },
+  {
+    "slug": "nissan-x-trail-2024-exclusive",
+    "brand": "Nissan",
+    "model": "X-Trail",
+    "year": 2024,
+    "version": "Exclusive",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 33000,
+    "price": 27290000,
+    "owners": 1,
+    "state": "Vendido",
+    "description": "✔️ Prácticamente nueva \n✔️ Motor 2.5 bencinero + caja CVT \n✔️ Full seguridad (frenado, carril, punto ciego, crucero inteligente) \n✔️ Asientos de cuero eléctricos y calefaccionados \n✔️ Pantalla grande + CarPlay / Android Auto \n✔️ Panel digital + HUD \n✔️ Climatizador triple zona \n✔️ Cargador inalámbrico \n✔️ Nunca chocado \n📄 Documentación al día, lista para transferir \n💳 Financiamiento disponible \n🔁 Recibo vehículo menor en parte de pago \n📲 Interesados reales, escribir por interno",
+    "abs": true,
+    "esp": true,
+    "airbags": "Frontales y laterales",
+    "airConditioning": true,
+    "bluetooth": true,
+    "usb": true,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "cruiseControl": true,
+    "tractionControl": true,
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/Nissan-Xtrail-2024/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152237.webp",
+        "alt": "IMG_20260107_152237",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152245.webp",
+        "alt": "IMG_20260107_152245",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152308.webp",
+        "alt": "IMG_20260107_152308",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152315.webp",
+        "alt": "IMG_20260107_152315",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152322.webp",
+        "alt": "IMG_20260107_152322",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152334.webp",
+        "alt": "IMG_20260107_152334",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152340.webp",
+        "alt": "IMG_20260107_152340",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152437.webp",
+        "alt": "IMG_20260107_152437",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152456.webp",
+        "alt": "IMG_20260107_152456",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Nissan-Xtrail-2024/01_lateral.webp",
+    "id": 22
+  },
+  {
+    "slug": "ford-fusion-2020-hibrido",
+    "brand": "Ford",
+    "model": "Fusion",
+    "year": 2020,
+    "version": "Híbrido",
+    "transmission": "Automática",
+    "fuel": "Eléctrico",
+    "kilometers": 89000,
+    "price": 15550000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Colina",
+    "engine": "2.0",
+    "power": 188,
+    "description": "Híbrido · Automático\n✅ Pantalla con conectividad\n✅ Vehículo económico y confiable",
+    "images": [
+      {
+        "url": "/autos/ford-fusion-2020-se/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/10_frontal.webp",
+        "alt": "frontal",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/10_posterior.webp",
+        "alt": "posterior",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/10_tablero.webp",
+        "alt": "tablero",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/10_asientos.webp",
+        "alt": "asientos",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/01_volante.webp",
+        "alt": "01_volante",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103455.webp",
+        "alt": "IMG_20231213_103455",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103512.webp",
+        "alt": "IMG_20231213_103512",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/IMG_20231213_103525.webp",
+        "alt": "IMG_20231213_103525",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/ford-fusion-2020-se/WhatsApp Image 2025-09-16 at 08.13.15.webp",
+        "alt": "WhatsApp Image 2025-09-16 at 08.13.15",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/ford-fusion-2020-se/01_lateral.webp",
+    "keep": true,
+    "id": 23
+  },
+  {
+    "slug": "peugeot-5008-2018-1-6-bluehdi",
+    "brand": "Peugeot",
+    "model": "5008",
+    "year": 2018,
+    "version": "1.6 BlueHDi",
+    "transmission": "Automática",
+    "fuel": "Diésel",
+    "kilometers": 113000,
+    "price": 15890000,
+    "owners": 2,
+    "state": "Vendido",
+    "description": "✔️ Motor diésel 1.6 BlueHDi — económico y con torque ideal para SUV familiar (bajo consumo por su tipo de motor). \n✔️ Caja automática — conducción cómoda en ciudad y carretera. \n✔️ SUV 7 plazas — ideal para familia o viajes con espacio para todos. \n✔️ Buen espacio de maletero (~780 L) — alto espacio para carga y bagaje. \n✔️ Seguridad completa — control de estabilidad, ABS, airbags, ISOFIX. \n✔️ Conectividad moderna — pantalla con Apple CarPlay / Android Auto. \n✔️ Interior cómodo y amplio, ideal para trayectos largos y familia. \n✔️ Muy buen rendimiento diésel — bajo consumo en ruta y ciudad. \n📄 Documentación al día, listo para transferir \n💳 Financiamiento disponible \n🔁 Recibo vehículo menor en parte de pago \n📲 Interesados reales, escribir por interno",
+    "abs": true,
+    "esp": true,
+    "airbags": "Frontales y laterales",
+    "airConditioning": true,
+    "bluetooth": true,
+    "usb": true,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "cruiseControl": true,
+    "images": [
+      {
+        "url": "/autos/Peugeot-5008-2018/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "image": "/autos/Peugeot-5008-2018/01_lateral.webp",
+    "id": 24,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "slug": "mazda-3-2016-1-6",
+    "brand": "Mazda",
+    "model": "3",
+    "year": 2016,
+    "version": "1.6",
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 76000,
+    "price": 8890000,
+    "owners": 1,
+    "state": "Vendido",
+    "description": "✔️ Motor 1.6 bencinero, económico y confiable \n✔️ Caja mecánica suave y rendidora \n✔️ Solo 76.000 km \n✔️ Color blanco \n✔️ Muy buen estado general \n✔️ Nunca chocado \n✔️ Mantenciones al día \n✔️ Interior cómodo y bien cuidado \n✔️ Ideal para ciudad, viajes o aplicaciones \n⛽ Consumo aprox. 15–16 km/l mixto \n📄 Documentación al día, listo para transferir \n💳 Financiamiento disponible \n🔁 Recibo vehículo en parte de pago \n📲 Interesados reales, escribir por interno.",
+    "abs": true,
+    "airbags": "Frontales",
+    "airConditioning": true,
+    "electricWindows": true,
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/Mazda-3-2016-manual/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "image": "/autos/Mazda-3-2016-manual/01_lateral.webp",
+    "keep": true,
+    "id": 25,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "slug": "nissan-pathfinder-1999",
+    "brand": "Nissan",
+    "model": "Pathfinder",
+    "year": 1999,
+    "version": "3.3 V6 Tope de Línea",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 184000,
+    "price": 9750000,
+    "owners": 2,
+    "state": "En venta",
+    "region": "Viña del Mar",
+    "description": "✨ ¡Oportunidad! Pathfinder en excelente condición, cuidada y lista para seguir rodando! \n🔥 Características destacadas:\n⬆️ Levante de 2” — presencia más robusta y mejor despeje. \n🧳 Parrilla instalada — ideal para viajes y carga adicional. \n🪑 Interior tope de línea — cómodo y acogedor. \n🚘 Automática — suave y fácil de manejar. \n💪 Motor 3.3 V6 confiable y con muy buen desempeño. \n🚙 Carrocería e interior en excelente estado para su año. \n🚫 Nunca chocada — estructura 100% íntegra. \n📦 Segundo dueño — muy bien cuidada. \n👉 Ideal para: Quien busca un SUV amplio, potente y cómodo. Viajes, ciudad, familia o escapadas fuera del camino.",
+    "abs": true,
+    "airConditioning": true,
+    "electricWindows": true,
+    "audioSystem": true,
+    "electricMirrors": true,
+    "airbags": "Frontales",
+    "tractionControl": false,
+    "cruiseControl": true,
+    "images": [
+      {
+        "url": "/autos/Nissan Pathfinder 3.3 1999/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_130947.webp",
+        "alt": "IMG_20251121_130947",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_130956.webp",
+        "alt": "IMG_20251121_130956",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131032.webp",
+        "alt": "IMG_20251121_131032",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131042.webp",
+        "alt": "IMG_20251121_131042",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131052.webp",
+        "alt": "IMG_20251121_131052",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131111.webp",
+        "alt": "IMG_20251121_131111",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131119.webp",
+        "alt": "IMG_20251121_131119",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131128.webp",
+        "alt": "IMG_20251121_131128",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131151.webp",
+        "alt": "IMG_20251121_131151",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131158.webp",
+        "alt": "IMG_20251121_131158",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Pathfinder 3.3 1999/IMG_20251121_131211.webp",
+        "alt": "IMG_20251121_131211",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Nissan Pathfinder 3.3 1999/01_lateral.webp",
+    "keep": true,
+    "id": 26
+  },
+  {
+    "slug": "nissan-sentra-2021",
+    "brand": "Nissan",
+    "model": "Sentra",
+    "year": 2021,
+    "version": "Advance CVT",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 75000,
+    "price": 13750000,
+    "owners": 1,
+    "state": "Vendido",
+    "region": "Viña del Mar",
+    "description": "✨ ¡Oportunidad! Sentra moderno, económico, seguro y muy confortable. ¡Listo para llegar y manejar!\n🔥 Características destacadas:\n🛠️ Motor 2.0 con excelente rendimiento — ágil, suave y económico (hasta ~15 km/l mixto).\n🎛️ Caja automática CVT — conducción fluida y muy cómoda en ciudad o carretera.\n📱 Pantalla táctil con Apple CarPlay / Android Auto — conectividad total.\n🛡️ Seguridad avanzada — alerta de punto ciego, asistente de carril y frenado de emergencia.\n🪑 Interior amplio y ergonómico — asientos “Zero Gravity” muy cómodos.\n🚘 Estabilidad sobresaliente — suspensión multibrazo que mejora agarre y confort.\n🚫 Nunca chocado — estructura íntegra.\n📦 Mantenciones al día — muy bien cuidado.\n👉 Ideal para: Quien busca un sedán moderno, seguro y muy económico. Uso diario, viajes, familia, app tipo Uber/Beat/Didi, o como auto de inversión.\nConsulte por financiamiento automotriz, recibimos vehículo de menor valor.",
+    "abs": true,
+    "esp": true,
+    "airbags": "Frontales y laterales",
+    "airConditioning": true,
+    "bluetooth": true,
+    "usb": true,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "cruiseControl": true,
+    "tractionControl": true,
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/Nissan Sentra AT 2021/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "image": "/autos/Nissan Sentra AT 2021/01_lateral.webp",
+    "keep": true,
+    "id": 27,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "slug": "bmw-x1-2019",
+    "brand": "BMW",
+    "model": "X1",
+    "year": 2019,
+    "version": "sDrive 20i TwinPower Turbo",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 80000,
+    "price": 16890000,
+    "owners": 1,
+    "state": "Vendido",
+    "region": "Peñalolén",
+    "description": "✨ Versión sDrive 20i / Motor 2.0 TwinPower Turbo \n✅ Único dueño \n✅ Mantenciones 100% en concesionario oficial BMW 👨‍🔧 \n✅ Transmisión automática \n✅ Pantalla iDrive + Bluetooth + comandos al volante \n✅ Sensores de retroceso + cámara trasera 📹 \n✅ Modo de manejo ECO / Comfort / Sport \n✅ Airbags múltiples + control de estabilidad \n✅ Llantas de aleación + luces LED \n\n🧾 Excelente estado, uso particular, interior y exterior muy cuidados. \n🚗 SUV premium, cómodo, firme y muy eficiente para ciudad y carretera. \n\n📍 Ubicación: Peñalolén \n📞 Contáctame por mensaje o WhatsApp para coordinar visita o envío de más fotos.",
+    "abs": true,
+    "esp": true,
+    "airbags": "Frontales, laterales y cortina",
+    "airConditioning": true,
+    "bluetooth": true,
+    "usb": true,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "cruiseControl": true,
+    "tractionControl": true,
+    "audioSystem": true,
+    "parkingSensors": true,
+    "rearCamera": true,
+    "ledLights": true,
+    "alloyWheels": true,
+    "images": [
+      {
+        "url": "/autos/BMW X1 2019/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "image": "/autos/BMW X1 2019/01_lateral.webp",
+    "keep": true,
+    "id": 28,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "slug": "bmw-320d-2018-sport",
+    "brand": "BMW",
+    "model": "320d",
+    "year": 2018,
+    "version": "Sport",
+    "transmission": "Automática",
+    "fuel": "Diésel",
+    "kilometers": 142000,
+    "price": 18990000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Santiago",
+    "description": "🔧 Diésel · Automático\n📍 142.000 km · 2 llaves\n✔️ Todas las mantenciones hechas rigurosamente.\n🔥 Motor diésel eficiente y potente: equilibrio entre potencia y economía típico de esta versión del Serie 3.\n🔥 Prestaciones de sedán premium: ágil y sólido en autopista y ciudad.\n🔥 Buen espacio interior y maletero: práctico para el día a día y viajes.\n🔥 Estilo y presencia BMW: diseño deportivo, interior cuidado y conducción dinámica.\n📄 Documentación al día y lista para transferir\n🔁 Se recibe vehículo menor como parte de pago\n💳 Financiamiento disponible",
+    "abs": true,
+    "images": [
+      {
+        "url": "/autos/Bmw_320iM_sport_2018/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131830.webp",
+        "alt": "IMG_20260115_131830",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131839.webp",
+        "alt": "IMG_20260115_131839",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131907.webp",
+        "alt": "IMG_20260115_131907",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131921.webp",
+        "alt": "IMG_20260115_131921",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131934.webp",
+        "alt": "IMG_20260115_131934",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131952.webp",
+        "alt": "IMG_20260115_131952",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_132010.webp",
+        "alt": "IMG_20260115_132010",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_132015.webp",
+        "alt": "IMG_20260115_132015",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_132024.webp",
+        "alt": "IMG_20260115_132024",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_132104.webp",
+        "alt": "IMG_20260115_132104",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Bmw_320iM_sport_2018/01_lateral.webp",
+    "keep": true,
+    "id": 29
+  },
+  {
+    "slug": "jeep-compass-2011",
+    "brand": "Jeep",
+    "model": "Compass",
+    "year": 2011,
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 166000,
+    "price": 9350000,
+    "owners": 1,
+    "state": "Vendido",
+    "region": "Santiago",
+    "description": "✔️ Automático · Bencina\n✔️ 166.000 km · Dos llaves\n✔️ SUV versátil para ciudad y carretera\n📄 Documentación al día, lista para transferir\n🔁 Se recibe vehículo menor en parte de pago",
+    "abs": true,
+    "esp": true,
+    "airbags": "Múltiples",
+    "images": [
+      {
+        "url": "/autos/Jeep-Compass-2011/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "image": "/autos/Jeep-Compass-2011/01_lateral.webp",
+    "keep": true,
+    "id": 30,
+    "soldAt": "2026-03-26"
+  },
+  {
+    "slug": "chevrolet-d-max-2017",
+    "brand": "Chevrolet",
+    "model": "D-Max",
+    "year": 2017,
+    "version": "4x2",
+    "transmission": "Manual",
+    "fuel": "Diésel",
+    "kilometers": 142000,
+    "price": 8990000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Santiago",
+    "description": "✔️ Diésel · 4x2 · Mecánica\n✔️ Camioneta firme y confiable, ideal para trabajo\n⚠️ Aire acondicionado no funciona (considerado en el precio)\n📄 Documentación al día, lista para transferir\n💳 Financiamiento disponible",
+    "images": [
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184221.webp",
+        "alt": "IMG_20260116_184221",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184231.webp",
+        "alt": "IMG_20260116_184231",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184246.webp",
+        "alt": "IMG_20260116_184246",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184253.webp",
+        "alt": "IMG_20260116_184253",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184300.webp",
+        "alt": "IMG_20260116_184300",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184313.webp",
+        "alt": "IMG_20260116_184313",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184324.webp",
+        "alt": "IMG_20260116_184324",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184329.webp",
+        "alt": "IMG_20260116_184329",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184337.webp",
+        "alt": "IMG_20260116_184337",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Chevrolet-Dmax-2017/01_lateral.webp",
+    "id": 31
+  },
+  {
+    "slug": "mercedes-benz-a200-sedan-2021-look-amg",
+    "brand": "Mercedes-Benz",
+    "model": "A200",
+    "year": 2021,
+    "version": "Sedan Look AMG",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 82400,
+    "price": 21990000,
+    "owners": 3,
+    "state": "Vendido",
+    "region": "Santiago",
+    "engine": "1.3 Turbo",
+    "description": "✨ Deportivo, elegante y full tecnología\n✔️ Look AMG\n✔️ Apple CarPlay + Bluetooth\n✔️ Sensores + cámara trasera\n✔️ Modos ECO / Comfort / Sport\n🔄 Recibo vehículo de menor valor\n💳 Consulte por financiamiento",
+    "bluetooth": true,
+    "images": [
+      {
+        "url": "/autos/Marcedes Benz-A200-sedan/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "image": "/autos/Marcedes Benz-A200-sedan/01_lateral.webp",
+    "keep": true,
+    "id": 32,
+    "soldAt": "2026-04-02"
+  },
+  {
+    "slug": "peugeot-3008-2017",
+    "brand": "Peugeot",
+    "model": "3008",
+    "year": 2017,
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": null,
+    "price": 11890000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Bencinero Automático\n✅ Sensores de estacionamiento + cámara de retroceso\n✅ Climatizador automático\n✅ Control de estabilidad y múltiples airbags\n💰 Consulte por financiamiento automotriz",
+    "abs": true,
+    "esp": true,
+    "airbags": "Múltiples",
+    "airConditioning": true,
+    "images": [
+      {
+        "url": "/autos/Peugeot-3008-2017/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_152859.webp",
+        "alt": "IMG_20260305_152859",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_152908.webp",
+        "alt": "IMG_20260305_152908",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_152940.webp",
+        "alt": "IMG_20260305_152940",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_152953.webp",
+        "alt": "IMG_20260305_152953",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_153008.webp",
+        "alt": "IMG_20260305_153008",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_153022.webp",
+        "alt": "IMG_20260305_153022",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_153027.webp",
+        "alt": "IMG_20260305_153027",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_153034.webp",
+        "alt": "IMG_20260305_153034",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot-3008-2017/IMG_20260305_153042.webp",
+        "alt": "IMG_20260305_153042",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Peugeot-3008-2017/01_lateral.webp",
+    "id": 33
+  },
+  {
+    "slug": "fiat-uno-way-2020",
+    "brand": "Fiat",
+    "model": "Uno Way",
+    "year": 2020,
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 44000,
+    "price": 6190000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Motor 1.4 bencinero\n✅ Bluetooth / USB\n❌ Sin aire acondicionado\n✅ Frenos ABS + doble airbag\n💰 Consulte por financiamiento automotriz",
+    "abs": true,
+    "airbags": "Frontales",
+    "airConditioning": false,
+    "bluetooth": true,
+    "usb": true,
+    "images": [
+      {
+        "url": "/autos/Fiat-Uno-2020/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174026.webp",
+        "alt": "IMG_20260302_174026",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174033.webp",
+        "alt": "IMG_20260302_174033",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174123.webp",
+        "alt": "IMG_20260302_174123",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174138.webp",
+        "alt": "IMG_20260302_174138",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174146.webp",
+        "alt": "IMG_20260302_174146",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174207.webp",
+        "alt": "IMG_20260302_174207",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174304.webp",
+        "alt": "IMG_20260302_174304",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174314.webp",
+        "alt": "IMG_20260302_174314",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Fiat-Uno-2020/01_lateral.webp",
+    "id": 34
+  },
+  {
+    "slug": "chevrolet-captiva-2020",
+    "brand": "Chevrolet",
+    "model": "Captiva",
+    "year": 2020,
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 98000,
+    "price": 9650000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Motor 1.5 Turbo bencinero (Delta Motors)\n✅ Mecánica · versión equipada\n✅ 5 a 7 pasajeros · cuero · climatizador\n✅ Pantalla táctil + CarPlay/BT · cámara + sensores\n✅ Gran maletero · mantenciones al día",
+    "images": [
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082321.webp",
+        "alt": "IMG_20260402_082321",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082330.webp",
+        "alt": "IMG_20260402_082330",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082402.webp",
+        "alt": "IMG_20260402_082402",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082436.webp",
+        "alt": "IMG_20260402_082436",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082445.webp",
+        "alt": "IMG_20260402_082445",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082459.webp",
+        "alt": "IMG_20260402_082459",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082508.webp",
+        "alt": "IMG_20260402_082508",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082526.webp",
+        "alt": "IMG_20260402_082526",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082543.webp",
+        "alt": "IMG_20260402_082543",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082616.webp",
+        "alt": "IMG_20260402_082616",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082619.webp",
+        "alt": "IMG_20260402_082619",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Chevrolet_Captiva_2020/01_lateral.webp",
+    "id": 35
+  },
+  {
+    "slug": "toyota-raize-2025",
+    "brand": "Toyota",
+    "model": "Raize",
+    "year": 2025,
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 7000,
+    "price": 11890000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ 1.2L Dual VVT-i · económico\n✅ Único dueño · 2 llaves · 7.000 km\n✅ CarPlay/Android Auto · cámara\n✅ ABS + control estabilidad · aire acondicionado",
+    "images": [
+      {
+        "url": "/autos/Toyora_Raize_2025/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_124912.webp",
+        "alt": "IMG_20260327_124912",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125005.webp",
+        "alt": "IMG_20260327_125005",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125029.webp",
+        "alt": "IMG_20260327_125029",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125052.webp",
+        "alt": "IMG_20260327_125052",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125324.webp",
+        "alt": "IMG_20260327_125324",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125328.webp",
+        "alt": "IMG_20260327_125328",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125334.webp",
+        "alt": "IMG_20260327_125334",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125400.webp",
+        "alt": "IMG_20260327_125400",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyora_Raize_2025/_storage_emulated_0_DCIM_Camera_IMG_20260327_124928.webp",
+        "alt": "_storage_emulated_0_DCIM_Camera_IMG_20260327_124928",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Toyora_Raize_2025/01_lateral.webp",
+    "id": 36
+  },
+  {
+    "slug": "ford-territory-2023",
+    "brand": "Ford",
+    "model": "Territory",
+    "year": 2023,
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 21000,
+    "price": 11650000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Full equipo · techo panorámico\n✅ 21.000 km · 2 llaves\n✅ CarPlay/Android Auto · cámara + sensores\n✅ Climatizador · múltiples airbags",
+    "images": [
+      {
+        "url": "/autos/Ford_Territory_2023/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0031.webp",
+        "alt": "IMG-20250707-WA0031",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0032.webp",
+        "alt": "IMG-20250707-WA0032",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0033.webp",
+        "alt": "IMG-20250707-WA0033",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0034.webp",
+        "alt": "IMG-20250707-WA0034",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0035.webp",
+        "alt": "IMG-20250707-WA0035",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0036.webp",
+        "alt": "IMG-20250707-WA0036",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0037.webp",
+        "alt": "IMG-20250707-WA0037",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0038(1).webp",
+        "alt": "IMG-20250707-WA0038(1)",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0039.webp",
+        "alt": "IMG-20250707-WA0039",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0040.webp",
+        "alt": "IMG-20250707-WA0040",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Territory_2023/IMG-20250725-WA0080.webp",
+        "alt": "IMG-20250725-WA0080",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Ford_Territory_2023/01_lateral.webp",
+    "id": 37
+  },
+  {
+    "slug": "hyundai-porter-2023",
+    "brand": "Hyundai",
+    "model": "Porter",
+    "year": 2023,
+    "transmission": "Manual",
+    "fuel": "Diésel",
+    "kilometers": 122000,
+    "price": 14990000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ 2.5 Turbo diésel · mecánica\n✅ Doble cabina · dirección asistida\n✅ Excelente capacidad de carga · mantenciones al día\n✅ Listo para trabajar",
+    "images": [
+      {
+        "url": "/autos/Hyundai_Porter_2023/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095139.webp",
+        "alt": "IMG_20260330_095139",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095148.webp",
+        "alt": "IMG_20260330_095148",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095208.webp",
+        "alt": "IMG_20260330_095208",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095218.webp",
+        "alt": "IMG_20260330_095218",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095225.webp",
+        "alt": "IMG_20260330_095225",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095233.webp",
+        "alt": "IMG_20260330_095233",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095243.webp",
+        "alt": "IMG_20260330_095243",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095249.webp",
+        "alt": "IMG_20260330_095249",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095251.webp",
+        "alt": "IMG_20260330_095251",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095259.webp",
+        "alt": "IMG_20260330_095259",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095304.webp",
+        "alt": "IMG_20260330_095304",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095310.webp",
+        "alt": "IMG_20260330_095310",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095315.webp",
+        "alt": "IMG_20260330_095315",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Hyundai_Porter_2023/IMG_20260330_095323.webp",
+        "alt": "IMG_20260330_095323",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Hyundai_Porter_2023/01_lateral.webp",
+    "id": 38
+  },
+  {
+    "slug": "toyota-land-cruiser-2010",
+    "brand": "Toyota",
+    "model": "Land Cruiser",
+    "year": 2010,
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 258000,
+    "price": 11990000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Automática 4x4 · 7 pasajeros\n✅ Climatizador · volante multifunción\n✅ Gran maletero · mantenciones al día\n✅ SUV robusto y confiable para todo terreno",
+    "images": [
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163519.webp",
+        "alt": "IMG_20260410_163519",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163534.webp",
+        "alt": "IMG_20260410_163534",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163553.webp",
+        "alt": "IMG_20260410_163553",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163559.webp",
+        "alt": "IMG_20260410_163559",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163607.webp",
+        "alt": "IMG_20260410_163607",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163619.webp",
+        "alt": "IMG_20260410_163619",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163624.webp",
+        "alt": "IMG_20260410_163624",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163631.webp",
+        "alt": "IMG_20260410_163631",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163639.webp",
+        "alt": "IMG_20260410_163639",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163702.webp",
+        "alt": "IMG_20260410_163702",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Toyota_ Landcruiser_2010/01_lateral.webp",
+    "id": 39
+  },
+  {
+    "slug": "subaru-crosstrek-2025",
+    "brand": "Subaru",
+    "model": "Crosstrek",
+    "year": 2025,
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 8000,
+    "price": 23990000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Boxer + CVT + AWD\n✅ Único dueño · 8.000 km\n✅ CarPlay/Android Auto · cámara + sensores\n✅ Muy seguro y tecnológico",
+    "images": [
+      {
+        "url": "/autos/Subaru_crosstrek _2025/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122514.webp",
+        "alt": "IMG_20260407_122514",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122558.webp",
+        "alt": "IMG_20260407_122558",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122618.webp",
+        "alt": "IMG_20260407_122618",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122656.webp",
+        "alt": "IMG_20260407_122656",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122730.webp",
+        "alt": "IMG_20260407_122730",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122737.webp",
+        "alt": "IMG_20260407_122737",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122803.webp",
+        "alt": "IMG_20260407_122803",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122822.webp",
+        "alt": "IMG_20260407_122822",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122845.webp",
+        "alt": "IMG_20260407_122845",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122938.webp",
+        "alt": "IMG_20260407_122938",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Subaru_crosstrek _2025/01_lateral.webp",
+    "id": 40
+  },
+  {
+    "slug": "mitsubishi-l200-katana-2013",
+    "brand": "Mitsubishi",
+    "model": "L200 Katana",
+    "year": 2013,
+    "version": "4x2",
+    "transmission": "Manual",
+    "fuel": "Diésel",
+    "kilometers": 171000,
+    "price": 10390000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ 2.5 Turbo diésel · mecánica\n✅ Único dueño · 4x2\n✅ Semi nuevos · mantenciones al día\n✅ Lista para trabajo o uso personal",
+    "images": [
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150354.webp",
+        "alt": "IMG_20260406_150354",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150406.webp",
+        "alt": "IMG_20260406_150406",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150425.webp",
+        "alt": "IMG_20260406_150425",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150433.webp",
+        "alt": "IMG_20260406_150433",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150514.webp",
+        "alt": "IMG_20260406_150514",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150526.webp",
+        "alt": "IMG_20260406_150526",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150533.webp",
+        "alt": "IMG_20260406_150533",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150541.webp",
+        "alt": "IMG_20260406_150541",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150548.webp",
+        "alt": "IMG_20260406_150548",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150555.webp",
+        "alt": "IMG_20260406_150555",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Mitsubishi_L200Katana_2013/01_lateral.webp",
+    "id": 41
+  },
+  {
+    "slug": "chevrolet-silverado-zr2-2024-full",
+    "brand": "Chevrolet",
+    "model": "Silverado ZR2",
+    "year": 2024,
+    "version": "4x4",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 60000,
+    "price": 40590000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ V8 bencinero · automática · 4x4 ZR2\n✅ Único dueño · cuero · climatizador\n✅ CarPlay/Android Auto · cámara 360 + sensores\n✅ Mantenciones al día en la marca",
+    "images": [
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105024.webp",
+        "alt": "IMG_20260410_105024",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105038.webp",
+        "alt": "IMG_20260410_105038",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105105.webp",
+        "alt": "IMG_20260410_105105",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105119.webp",
+        "alt": "IMG_20260410_105119",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105131.webp",
+        "alt": "IMG_20260410_105131",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105158.webp",
+        "alt": "IMG_20260410_105158",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105216.webp",
+        "alt": "IMG_20260410_105216",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105237.webp",
+        "alt": "IMG_20260410_105237",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105242.webp",
+        "alt": "IMG_20260410_105242",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105246.webp",
+        "alt": "IMG_20260410_105246",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105259.webp",
+        "alt": "IMG_20260410_105259",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105310.webp",
+        "alt": "IMG_20260410_105310",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105325.webp",
+        "alt": "IMG_20260410_105325",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105356.webp",
+        "alt": "IMG_20260410_105356",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105402.webp",
+        "alt": "IMG_20260410_105402",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105413.webp",
+        "alt": "IMG_20260410_105413",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Chevrolet_ Silverado_2024/01_lateral.webp",
+    "keep": true,
+    "id": 42
+  }
+]

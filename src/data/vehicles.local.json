@@ -796,75 +796,6 @@
   },
   {
     "id": 17,
-    "slug": "kia-rio-5-2020",
-    "brand": "Kia",
-    "model": "Rio 5",
-    "version": "",
-    "year": 2020,
-    "price": 9150000,
-    "kilometers": null,
-    "transmission": "No disponible",
-    "fuel": "No disponible",
-    "region": "No disponible",
-    "color": "No disponible",
-    "owners": 1,
-    "engine": "No disponible",
-    "power": null,
-    "consumption": "No disponible",
-    "emissions": "No disponible",
-    "state": "En venta",
-    "image": "/autos/Kia-rio-2020/01_lateral.webp",
-    "images": [
-      {
-        "url": "/autos/Kia-rio-2020/01_lateral.webp",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.34 (1).webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.34 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.35 (1).webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.35 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.35 (2).webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.35 (2)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.37.webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.37",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.40 (1).webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.40 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.40 (2).webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.40 (2)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.41 (1).webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.41 (1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia-rio-2020/WhatsApp Image 2026-03-16 at 11.21.41 (2).webp",
-        "alt": "WhatsApp Image 2026-03-16 at 11.21.41 (2)",
-        "isPrimary": false
-      }
-    ],
-    "keep": true
-  },
-  {
-    "id": 18,
     "slug": "porsche-panamera-gts-2017",
     "brand": "Porsche",
     "model": "Panamera gts",
@@ -894,7 +825,7 @@
     "soldAt": "2026-03-26"
   },
   {
-    "id": 19,
+    "id": 18,
     "slug": "kia-rio-2018-5",
     "brand": "Kia",
     "model": "Rio",
@@ -946,87 +877,8 @@
     "electricMirrors": true,
     "images": [],
     "image": "/placeholder-car.webp",
-    "id": 20,
+    "id": 19,
     "soldAt": "2026-03-26"
-  },
-  {
-    "slug": "bmw-118i-look-m-2024",
-    "brand": "BMW",
-    "model": "118i",
-    "year": 2024,
-    "version": "Look M",
-    "transmission": "Automática",
-    "fuel": "Bencina",
-    "kilometers": 39900,
-    "price": 27990000,
-    "owners": 1,
-    "state": "En venta",
-    "region": "Las Condes",
-    "description": "✨ Versión Look M – Full equipo\n✅ Motor 1.5 Turbo BMW TwinPower, potente y eficiente\n✅ Transmisión automática deportiva y muy cómoda\n✅ Sunroof panorámico\n✅ Único dueño\n✅ Pantalla multimedia BMW iDrive + conectividad\n✅ Volante deportivo multifunción\n✅ Sensores de estacionamiento + cámara\n✅ Interior premium y excelente calidad de terminaciones\n✅ Gran maletero y cabina cómoda para 5 pasajeros\n\n🧾 Vehículo en estado impecable, sin detalles.\n✔️ Todas las mantenciones realizadas en la marca\n✔️ Mantención de 40.000 km ya realizada\n✔️ Incluye mantenciones de 50.000 y 60.000 km GRATIS en BMW\n✔️ Primera cuota del permiso de circulación 2026 pagada\n\n📲 Escríbeme por mensaje o WhatsApp para coordinar visita o enviarte más fotos del vehículo.\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ\n💳 VEHÍCULO CON PREPAGO DE FINANCIAMIENTO",
-    "images": [
-      {
-        "url": "/autos/BMW-118i Look-2024/01_lateral.webp",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173734.webp",
-        "alt": "IMG_20260316_173734",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173754.webp",
-        "alt": "IMG_20260316_173754",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173804.webp",
-        "alt": "IMG_20260316_173804",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173814.webp",
-        "alt": "IMG_20260316_173814",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173850.webp",
-        "alt": "IMG_20260316_173850",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173859.webp",
-        "alt": "IMG_20260316_173859",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173910.webp",
-        "alt": "IMG_20260316_173910",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173918.webp",
-        "alt": "IMG_20260316_173918",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173927.webp",
-        "alt": "IMG_20260316_173927",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW-118i Look-2024/IMG_20260316_173958.webp",
-        "alt": "IMG_20260316_173958",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW-118i Look-2024/IMG_20260316_174917.webp",
-        "alt": "IMG_20260316_174917",
-        "isPrimary": false
-      }
-    ],
-    "image": "/autos/BMW-118i Look-2024/01_lateral.webp",
-    "id": 21
   },
   {
     "slug": "nissan-x-trail-2024-exclusive",
@@ -1057,55 +909,11 @@
         "url": "/autos/Nissan-Xtrail-2024/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152237.webp",
-        "alt": "IMG_20260107_152237",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152245.webp",
-        "alt": "IMG_20260107_152245",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152308.webp",
-        "alt": "IMG_20260107_152308",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152315.webp",
-        "alt": "IMG_20260107_152315",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152322.webp",
-        "alt": "IMG_20260107_152322",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152334.webp",
-        "alt": "IMG_20260107_152334",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152340.webp",
-        "alt": "IMG_20260107_152340",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152437.webp",
-        "alt": "IMG_20260107_152437",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan-Xtrail-2024/IMG_20260107_152456.webp",
-        "alt": "IMG_20260107_152456",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Nissan-Xtrail-2024/01_lateral.webp",
-    "id": 22
+    "id": 20,
+    "soldAt": "2026-05-11"
   },
   {
     "slug": "ford-fusion-2020-hibrido",
@@ -1177,7 +985,7 @@
     ],
     "image": "/autos/ford-fusion-2020-se/01_lateral.webp",
     "keep": true,
-    "id": 23
+    "id": 21
   },
   {
     "slug": "peugeot-5008-2018-1-6-bluehdi",
@@ -1209,7 +1017,7 @@
       }
     ],
     "image": "/autos/Peugeot-5008-2018/01_lateral.webp",
-    "id": 24,
+    "id": 22,
     "soldAt": "2026-03-26"
   },
   {
@@ -1239,7 +1047,7 @@
     ],
     "image": "/autos/Mazda-3-2016-manual/01_lateral.webp",
     "keep": true,
-    "id": 25,
+    "id": 23,
     "soldAt": "2026-03-26"
   },
   {
@@ -1328,7 +1136,7 @@
     ],
     "image": "/autos/Nissan Pathfinder 3.3 1999/01_lateral.webp",
     "keep": true,
-    "id": 26
+    "id": 24
   },
   {
     "slug": "nissan-sentra-2021",
@@ -1364,7 +1172,7 @@
     ],
     "image": "/autos/Nissan Sentra AT 2021/01_lateral.webp",
     "keep": true,
-    "id": 27,
+    "id": 25,
     "soldAt": "2026-03-26"
   },
   {
@@ -1405,7 +1213,7 @@
     ],
     "image": "/autos/BMW X1 2019/01_lateral.webp",
     "keep": true,
-    "id": 28,
+    "id": 26,
     "soldAt": "2026-03-26"
   },
   {
@@ -1482,7 +1290,7 @@
     ],
     "image": "/autos/Bmw_320iM_sport_2018/01_lateral.webp",
     "keep": true,
-    "id": 29
+    "id": 27
   },
   {
     "slug": "jeep-compass-2011",
@@ -1509,77 +1317,8 @@
     ],
     "image": "/autos/Jeep-Compass-2011/01_lateral.webp",
     "keep": true,
-    "id": 30,
+    "id": 28,
     "soldAt": "2026-03-26"
-  },
-  {
-    "slug": "chevrolet-d-max-2017",
-    "brand": "Chevrolet",
-    "model": "D-Max",
-    "year": 2017,
-    "version": "4x2",
-    "transmission": "Manual",
-    "fuel": "Diésel",
-    "kilometers": 142000,
-    "price": 8990000,
-    "owners": 1,
-    "state": "En venta",
-    "region": "Santiago",
-    "description": "✔️ Diésel · 4x2 · Mecánica\n✔️ Camioneta firme y confiable, ideal para trabajo\n⚠️ Aire acondicionado no funciona (considerado en el precio)\n📄 Documentación al día, lista para transferir\n💳 Financiamiento disponible",
-    "images": [
-      {
-        "url": "/autos/Chevrolet-Dmax-2017/01_lateral.webp",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184221.webp",
-        "alt": "IMG_20260116_184221",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184231.webp",
-        "alt": "IMG_20260116_184231",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184246.webp",
-        "alt": "IMG_20260116_184246",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184253.webp",
-        "alt": "IMG_20260116_184253",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184300.webp",
-        "alt": "IMG_20260116_184300",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184313.webp",
-        "alt": "IMG_20260116_184313",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184324.webp",
-        "alt": "IMG_20260116_184324",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184329.webp",
-        "alt": "IMG_20260116_184329",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet-Dmax-2017/IMG_20260116_184337.webp",
-        "alt": "IMG_20260116_184337",
-        "isPrimary": false
-      }
-    ],
-    "image": "/autos/Chevrolet-Dmax-2017/01_lateral.webp",
-    "id": 31
   },
   {
     "slug": "mercedes-benz-a200-sedan-2021-look-amg",
@@ -1606,7 +1345,7 @@
     ],
     "image": "/autos/Marcedes Benz-A200-sedan/01_lateral.webp",
     "keep": true,
-    "id": 32,
+    "id": 29,
     "soldAt": "2026-04-02"
   },
   {
@@ -1679,7 +1418,7 @@
       }
     ],
     "image": "/autos/Peugeot-3008-2017/01_lateral.webp",
-    "id": 33
+    "id": 30
   },
   {
     "slug": "fiat-uno-way-2020",
@@ -1691,7 +1430,7 @@
     "kilometers": 44000,
     "price": 6190000,
     "owners": 1,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Las Condes",
     "description": "✅ Motor 1.4 bencinero\n✅ Bluetooth / USB\n❌ Sin aire acondicionado\n✅ Frenos ABS + doble airbag\n💰 Consulte por financiamiento automotriz",
     "abs": true,
@@ -1704,50 +1443,12 @@
         "url": "/autos/Fiat-Uno-2020/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174026.webp",
-        "alt": "IMG_20260302_174026",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174033.webp",
-        "alt": "IMG_20260302_174033",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174123.webp",
-        "alt": "IMG_20260302_174123",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174138.webp",
-        "alt": "IMG_20260302_174138",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174146.webp",
-        "alt": "IMG_20260302_174146",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174207.webp",
-        "alt": "IMG_20260302_174207",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174304.webp",
-        "alt": "IMG_20260302_174304",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Fiat-Uno-2020/IMG_20260302_174314.webp",
-        "alt": "IMG_20260302_174314",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Fiat-Uno-2020/01_lateral.webp",
-    "id": 34
+    "keep": true,
+    "id": 31,
+    "soldAt": "2026-05-11"
   },
   {
     "slug": "chevrolet-captiva-2020",
@@ -1825,7 +1526,7 @@
       }
     ],
     "image": "/autos/Chevrolet_Captiva_2020/01_lateral.webp",
-    "id": 35
+    "id": 32
   },
   {
     "slug": "toyota-raize-2025",
@@ -1893,85 +1594,7 @@
       }
     ],
     "image": "/autos/Toyora_Raize_2025/01_lateral.webp",
-    "id": 36
-  },
-  {
-    "slug": "ford-territory-2023",
-    "brand": "Ford",
-    "model": "Territory",
-    "year": 2023,
-    "transmission": "Automática",
-    "fuel": "Bencina",
-    "kilometers": 21000,
-    "price": 11650000,
-    "owners": 1,
-    "state": "En venta",
-    "region": "Las Condes",
-    "description": "✅ Full equipo · techo panorámico\n✅ 21.000 km · 2 llaves\n✅ CarPlay/Android Auto · cámara + sensores\n✅ Climatizador · múltiples airbags",
-    "images": [
-      {
-        "url": "/autos/Ford_Territory_2023/01_lateral.webp",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0031.webp",
-        "alt": "IMG-20250707-WA0031",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0032.webp",
-        "alt": "IMG-20250707-WA0032",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0033.webp",
-        "alt": "IMG-20250707-WA0033",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0034.webp",
-        "alt": "IMG-20250707-WA0034",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0035.webp",
-        "alt": "IMG-20250707-WA0035",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0036.webp",
-        "alt": "IMG-20250707-WA0036",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0037.webp",
-        "alt": "IMG-20250707-WA0037",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0038(1).webp",
-        "alt": "IMG-20250707-WA0038(1)",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0039.webp",
-        "alt": "IMG-20250707-WA0039",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford_Territory_2023/IMG-20250707-WA0040.webp",
-        "alt": "IMG-20250707-WA0040",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford_Territory_2023/IMG-20250725-WA0080.webp",
-        "alt": "IMG-20250725-WA0080",
-        "isPrimary": false
-      }
-    ],
-    "image": "/autos/Ford_Territory_2023/01_lateral.webp",
-    "id": 37
+    "id": 33
   },
   {
     "slug": "hyundai-porter-2023",
@@ -2064,7 +1687,7 @@
       }
     ],
     "image": "/autos/Hyundai_Porter_2023/01_lateral.webp",
-    "id": 38
+    "id": 34
   },
   {
     "slug": "toyota-land-cruiser-2010",
@@ -2137,80 +1760,7 @@
       }
     ],
     "image": "/autos/Toyota_ Landcruiser_2010/01_lateral.webp",
-    "id": 39
-  },
-  {
-    "slug": "subaru-crosstrek-2025",
-    "brand": "Subaru",
-    "model": "Crosstrek",
-    "year": 2025,
-    "transmission": "Automática",
-    "fuel": "Bencina",
-    "kilometers": 8000,
-    "price": 23990000,
-    "owners": 1,
-    "state": "En venta",
-    "region": "Las Condes",
-    "description": "✅ Boxer + CVT + AWD\n✅ Único dueño · 8.000 km\n✅ CarPlay/Android Auto · cámara + sensores\n✅ Muy seguro y tecnológico",
-    "images": [
-      {
-        "url": "/autos/Subaru_crosstrek _2025/01_lateral.webp",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122514.webp",
-        "alt": "IMG_20260407_122514",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122558.webp",
-        "alt": "IMG_20260407_122558",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122618.webp",
-        "alt": "IMG_20260407_122618",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122656.webp",
-        "alt": "IMG_20260407_122656",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122730.webp",
-        "alt": "IMG_20260407_122730",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122737.webp",
-        "alt": "IMG_20260407_122737",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122803.webp",
-        "alt": "IMG_20260407_122803",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122822.webp",
-        "alt": "IMG_20260407_122822",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122845.webp",
-        "alt": "IMG_20260407_122845",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Subaru_crosstrek _2025/IMG_20260407_122938.webp",
-        "alt": "IMG_20260407_122938",
-        "isPrimary": false
-      }
-    ],
-    "image": "/autos/Subaru_crosstrek _2025/01_lateral.webp",
-    "id": 40
+    "id": 35
   },
   {
     "slug": "mitsubishi-l200-katana-2013",
@@ -2284,7 +1834,7 @@
       }
     ],
     "image": "/autos/Mitsubishi_L200Katana_2013/01_lateral.webp",
-    "id": 41
+    "id": 36
   },
   {
     "slug": "chevrolet-silverado-zr2-2024-full",
@@ -2389,6 +1939,6 @@
     ],
     "image": "/autos/Chevrolet_ Silverado_2024/01_lateral.webp",
     "keep": true,
-    "id": 42
+    "id": 37
   }
 ]

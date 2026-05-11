@@ -321,6 +321,7 @@ const manualOverrides = [
   { keywords: ['nissan', 'pathfinder', '2003'], price: 10500000, state: 'En venta' },
   { keywords: ['nissan', 'pathfinder', '1999'], price: 9750000, state: 'En venta' },
   { keywords: ['kia', 'rio', '2020'], price: 9150000, state: 'En venta' },
+  { keywords: ['fiat', 'uno', '2020'], price: 6190000, state: 'Vendido' },
   { keywords: ['mercedes', 'a200', '2021'], state: 'Vendido' }
 ];
 
@@ -943,7 +944,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'fiat-uno-way-2020',
         brand: 'Fiat', model: 'Uno Way', year: 2020,
         transmission: 'Manual', fuel: 'Bencina', kilometers: 44000,
-        price: 6190000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 6190000, owners: 1, state: 'Vendido', region: 'Las Condes',
         description: `✅ Motor 1.4 bencinero
 ✅ Bluetooth / USB
 ❌ Sin aire acondicionado
@@ -1148,7 +1149,12 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
     // FILTRO MANUAL DE OCULTOS (No borrar, solo ocultar)
     // ---------------------------------------------------------
     const hiddenSlugs = [
-      'bmw-320im-sport-2024'
+      'bmw-320im-sport-2024',
+      'bmw-118i-look-m-2024',
+      'kia-rio-5-2020',
+      'subaru-crosstrek-2025',
+      'ford-territory-2023',
+      'chevrolet-d-max-2017'
     ];
     
     if (hiddenSlugs.length > 0) {
