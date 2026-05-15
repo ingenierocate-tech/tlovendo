@@ -47,7 +47,10 @@ export default async function Auto({ params }: { params: { slug: string } }) {
 
   const candidates = (allVehicles ?? [])
     .filter(v => v.id !== vehicle.id)
+    .filter(v => v.slug !== vehicle.slug)
     .filter(v => v.brand && v.model && v.year != null)
+    .filter(v => v.price != null)
+    .filter(v => v.image && v.image !== '/placeholder-car.webp')
     .filter(isForSale);
 
   const ordered = candidates.sort((a, b) => score(b) - score(a));

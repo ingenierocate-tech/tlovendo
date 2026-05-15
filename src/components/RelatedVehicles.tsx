@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
 import { useState } from 'react';
+import TLVImage from '@/components/TLVImage';
 
 export type RelatedItem = {
   id: number;
@@ -53,12 +54,13 @@ export default function RelatedVehicles({ items, title = 'Te puede interesar' }:
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {items.slice(index, index + 3).map((item) => (
           <article key={item.id} className="overflow-hidden rounded-xl border">
-            {item.image ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img src={item.image} alt={item.title} className="h-44 w-full object-cover" />
-            ) : (
-              <div className="h-44 w-full bg-gray-100" />
-            )}
+            <div className="relative h-44 w-full bg-gray-100">
+              {item.image ? (
+                <TLVImage src={item.image} alt={item.title} fill className="object-cover" fallbackSrc="/placeholder-car.webp" />
+              ) : (
+                <div className="h-44 w-full bg-gray-100" />
+              )}
+            </div>
             <div className="p-4">
               <h3 className="line-clamp-1 text-base font-medium">{item.title}</h3>
               <p className="mt-1 text-sm text-gray-600">{fmtCLP(item.price)}</p>

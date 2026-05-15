@@ -15,6 +15,11 @@ export const CATEGORIES: Category[] = [
   { slug: 'utilitario', name: 'Utilitarios', icon: '/utilitario.png' },
 ];
 
+const SLUG_CATEGORY_OVERRIDES: Record<string, string> = {
+  'suzuki-alto-800-2018': 'hatchback',
+  'ford-explorer-limited-2018': 'suv',
+};
+
 const MODEL_KEYWORDS: Record<string, string> = {
   // SUV
   'tucson': 'suv',
@@ -129,6 +134,10 @@ export function getVehicleCategory(vehicle: Vehicle): string | undefined {
   const description = (vehicle.description || '').toLowerCase();
 
   const text = `${brand} ${model} ${version} ${slug} ${description}`.trim();
+
+  if (SLUG_CATEGORY_OVERRIDES[slug]) {
+    return SLUG_CATEGORY_OVERRIDES[slug];
+  }
 
   // Check model keywords
   for (const [keyword, category] of Object.entries(MODEL_KEYWORDS)) {

@@ -1940,5 +1940,157 @@
     "image": "/autos/Chevrolet_ Silverado_2024/01_lateral.webp",
     "keep": true,
     "id": 37
+  },
+  {
+    "slug": "suzuki-alto-800-2018",
+    "brand": "Suzuki",
+    "model": "Alto 800",
+    "year": 2018,
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 107000,
+    "price": 3390000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ 800 cc bencinero · mecánico · muy económico\n✅ Excelente consumo · USB · mantenciones al día\n✅ Ideal como primer auto o para trabajo",
+    "images": [
+      {
+        "url": "/autos/Suzuki alto 800 2018/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150004.webp",
+        "alt": "IMG_20260513_150004",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150010.webp",
+        "alt": "IMG_20260513_150010",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150027.webp",
+        "alt": "IMG_20260513_150027",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150034.webp",
+        "alt": "IMG_20260513_150034",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150040.webp",
+        "alt": "IMG_20260513_150040",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150049.webp",
+        "alt": "IMG_20260513_150049",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150053.webp",
+        "alt": "IMG_20260513_150053",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150102.webp",
+        "alt": "IMG_20260513_150102",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150107.webp",
+        "alt": "IMG_20260513_150107",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Suzuki alto 800 2018/01_lateral.webp",
+    "id": 38
+  },
+  {
+    "slug": "ford-explorer-limited-2018",
+    "brand": "Ford",
+    "model": "Explorer",
+    "year": 2018,
+    "version": "Limited",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 100000,
+    "price": 18790000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Limited full equipo · 7 pasajeros\n✅ Cuero eléctrico calefaccionado · sunroof panorámico\n✅ CarPlay/Android Auto · cámara + sensores\n✅ Climatizador bi-zona · mantenciones al día",
+    "images": [
+      {
+        "url": "/autos/Ford Explorer Límites 2018/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Ford Explorer Límites 2018/IMG_20260508_132956.webp",
+        "alt": "IMG_20260508_132956",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford Explorer Límites 2018/IMG_20260508_133019.webp",
+        "alt": "IMG_20260508_133019",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford Explorer Límites 2018/IMG_20260508_133111.webp",
+        "alt": "IMG_20260508_133111",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford Explorer Límites 2018/IMG_20260508_133120.webp",
+        "alt": "IMG_20260508_133120",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford Explorer Límites 2018/IMG_20260508_133138.webp",
+        "alt": "IMG_20260508_133138",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford Explorer Límites 2018/IMG_20260508_133201.webp",
+        "alt": "IMG_20260508_133201",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford Explorer Límites 2018/IMG_20260508_133206.webp",
+        "alt": "IMG_20260508_133206",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford Explorer Límites 2018/IMG_20260508_133224.webp",
+        "alt": "IMG_20260508_133224",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford Explorer Límites 2018/IMG_20260508_133234.webp",
+        "alt": "IMG_20260508_133234",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford Explorer Límites 2018/IMG_20260508_133250.webp",
+        "alt": "IMG_20260508_133250",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford Explorer Límites 2018/IMG_20260508_133329.webp",
+        "alt": "IMG_20260508_133329",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford Explorer Límites 2018/IMG_20260508_133356.webp",
+        "alt": "IMG_20260508_133356",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Ford Explorer Límites 2018/01_lateral.webp",
+    "id": 39
   }
 ]

@@ -290,6 +290,8 @@ const slugToFolderMapping = {
   'subaru-crosstrek-2025': 'Subaru_crosstrek _2025',
   'mitsubishi-l200-katana-2013': 'Mitsubishi_L200Katana_2013',
   'chevrolet-silverado-zr2-2024-full': 'Chevrolet_ Silverado_2024',
+  'suzuki-alto-800-2018': 'Suzuki alto 800 2018',
+  'ford-explorer-limited-2018': 'Ford Explorer Límites 2018',
 };
 
 // Override manual de precios y estados para asegurar consistencia con la visual del cliente
@@ -466,6 +468,9 @@ const folderToSlugMapping = {
   'Subaru_crosstrek _2025': 'subaru-crosstrek-2025',
   'Mitsubishi_L200Katana_2013': 'mitsubishi-l200-katana-2013',
   'Chevrolet_ Silverado_2024': 'chevrolet-silverado-zr2-2024-full',
+  'Suzuki alto 800 2018': 'suzuki-alto-800-2018',
+  'Ford Explorer Límites 2018': 'ford-explorer-limited-2018',
+  'Ford Explorer Limited 2018': 'ford-explorer-limited-2018',
 };
 
 async function getVehicleImages(slug) {
@@ -555,8 +560,11 @@ async function generateFromFolders() {
     let raw = folderToSlugMapping[folderName];
     
     if (!raw) {
-      // Intentar búsqueda insensible a mayúsculas/espacios
-      const matchingKey = Object.keys(folderToSlugMapping).find(k => k.toLowerCase().trim() === folderName.toLowerCase());
+      const normalizeFolderKey = (s) => String(s || '')
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase().replace(/\s+/g, ' ').trim();
+      const normalizedFolderName = normalizeFolderKey(folderName);
+      const matchingKey = Object.keys(folderToSlugMapping).find(k => normalizeFolderKey(k) === normalizedFolderName);
       if (matchingKey) {
         raw = folderToSlugMapping[matchingKey];
         console.log(`   ✅ Match flexible encontrado: '${folderName}' -> '${raw}'`);
@@ -1033,6 +1041,25 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ CarPlay/Android Auto · cámara 360 + sensores
 ✅ Mantenciones al día en la marca`
       },
+      {
+        slug: 'suzuki-alto-800-2018',
+        brand: 'Suzuki', model: 'Alto 800', year: 2018,
+        transmission: 'Manual', fuel: 'Bencina', kilometers: 107000,
+        price: 3390000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✅ 800 cc bencinero · mecánico · muy económico
+✅ Excelente consumo · USB · mantenciones al día
+✅ Ideal como primer auto o para trabajo`
+      },
+      {
+        slug: 'ford-explorer-limited-2018',
+        brand: 'Ford', model: 'Explorer', year: 2018, version: 'Limited',
+        transmission: 'Automática', fuel: 'Bencina', kilometers: 100000,
+        price: 18790000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✅ Limited full equipo · 7 pasajeros
+✅ Cuero eléctrico calefaccionado · sunroof panorámico
+✅ CarPlay/Android Auto · cámara + sensores
+✅ Climatizador bi-zona · mantenciones al día`
+      },
     ];
 
     for (const cv of chatVehicles) {
@@ -1191,7 +1218,9 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'toyota-land-cruiser-2010',
       'subaru-crosstrek-2025',
       'mitsubishi-l200-katana-2013',
-      'chevrolet-silverado-zr2-2024-full'
+      'chevrolet-silverado-zr2-2024-full',
+      'suzuki-alto-800-2018',
+      'ford-explorer-limited-2018'
     ];
 
     for (const v of vehicles) {
