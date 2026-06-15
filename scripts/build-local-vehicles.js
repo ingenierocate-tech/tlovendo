@@ -292,6 +292,8 @@ const slugToFolderMapping = {
   'chevrolet-silverado-zr2-2024-full': 'Chevrolet_ Silverado_2024',
   'suzuki-alto-800-2018': 'Suzuki alto 800 2018',
   'ford-explorer-limited-2018': 'Ford Explorer Límites 2018',
+  'chery-iq-2014': 'Chery IQ 2014',
+  'chevrolet-tracker-lt-2018': 'Chevrolet Tracker 2018',
 };
 
 // Override manual de precios y estados para asegurar consistencia con la visual del cliente
@@ -316,7 +318,7 @@ const manualOverrides = [
   { keywords: ['bmw', 'x1', '2019'], price: 16890000, state: 'Vendido' },
   { keywords: ['chevrolet', 'tahoe', '2018'], price: 23990000, state: 'En venta' },
   { keywords: ['nissan', 'pathfinder', '2018'], price: 17550000, state: 'Vendido' },
-  { keywords: ['great', 'wall', 'wingle', '2017'], price: 6990000, state: 'En venta' },
+  { keywords: ['great', 'wall', 'wingle', '2017'], price: 6990000, state: 'Vendido' },
   { keywords: ['mercedes', 'glc', '2016'], price: 17890000, state: 'Vendido' },
   { keywords: ['mazda', '3', '2016'], price: 8890000, state: 'Vendido' },
   { keywords: ['jeep', 'compass', '2011'], price: 9350000, state: 'Vendido' },
@@ -324,6 +326,10 @@ const manualOverrides = [
   { keywords: ['nissan', 'pathfinder', '1999'], price: 9750000, state: 'En venta' },
   { keywords: ['kia', 'rio', '2020'], price: 9150000, state: 'En venta' },
   { keywords: ['fiat', 'uno', '2020'], price: 6190000, state: 'Vendido' },
+  { keywords: ['toyota', 'land', '2010'], price: 11990000, state: 'Vendido' },
+  { keywords: ['toyota', 'raize', '2025'], price: 11890000, state: 'Vendido' },
+  { keywords: ['mitsubishi', 'l200', '2013'], price: 10390000, state: 'Vendido' },
+  { keywords: ['suzuki', 'alto', '2018'], price: 3390000, state: 'Vendido' },
   { keywords: ['mercedes', 'a200', '2021'], state: 'Vendido' }
 ];
 
@@ -471,6 +477,8 @@ const folderToSlugMapping = {
   'Suzuki alto 800 2018': 'suzuki-alto-800-2018',
   'Ford Explorer Límites 2018': 'ford-explorer-limited-2018',
   'Ford Explorer Limited 2018': 'ford-explorer-limited-2018',
+  'Chery IQ 2014': 'chery-iq-2014',
+  'Chevrolet Tracker 2018': 'chevrolet-tracker-lt-2018',
 };
 
 async function getVehicleImages(slug) {
@@ -975,7 +983,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'toyota-raize-2025',
         brand: 'Toyota', model: 'Raize', year: 2025,
         transmission: 'Manual', fuel: 'Bencina', kilometers: 7000,
-        price: 11890000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 11890000, owners: 1, state: 'Vendido', region: 'Las Condes',
         description: `✅ 1.2L Dual VVT-i · económico
 ✅ Único dueño · 2 llaves · 7.000 km
 ✅ CarPlay/Android Auto · cámara
@@ -1005,7 +1013,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'toyota-land-cruiser-2010',
         brand: 'Toyota', model: 'Land Cruiser', year: 2010,
         transmission: 'Automática', fuel: 'Bencina', kilometers: 258000,
-        price: 11990000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 11990000, owners: 1, state: 'Vendido', region: 'Las Condes',
         description: `✅ Automática 4x4 · 7 pasajeros
 ✅ Climatizador · volante multifunción
 ✅ Gran maletero · mantenciones al día
@@ -1025,7 +1033,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'mitsubishi-l200-katana-2013',
         brand: 'Mitsubishi', model: 'L200 Katana', year: 2013, version: '4x2',
         transmission: 'Manual', fuel: 'Diésel', kilometers: 171000,
-        price: 10390000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 10390000, owners: 1, state: 'Vendido', region: 'Las Condes',
         description: `✅ 2.5 Turbo diésel · mecánica
 ✅ Único dueño · 4x2
 ✅ Semi nuevos · mantenciones al día
@@ -1045,7 +1053,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'suzuki-alto-800-2018',
         brand: 'Suzuki', model: 'Alto 800', year: 2018,
         transmission: 'Manual', fuel: 'Bencina', kilometers: 107000,
-        price: 3390000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 3390000, owners: 1, state: 'Vendido', region: 'Las Condes',
         description: `✅ 800 cc bencinero · mecánico · muy económico
 ✅ Excelente consumo · USB · mantenciones al día
 ✅ Ideal como primer auto o para trabajo`
@@ -1059,6 +1067,26 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Cuero eléctrico calefaccionado · sunroof panorámico
 ✅ CarPlay/Android Auto · cámara + sensores
 ✅ Climatizador bi-zona · mantenciones al día`
+      },
+      {
+        slug: 'chery-iq-2014',
+        brand: 'Chery', model: 'IQ', year: 2014,
+        transmission: 'Manual', fuel: 'Bencina', kilometers: 124000,
+        price: 2550000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✅ 1.0 bencinero · mecánico
+✅ Excelente rendimiento de combustible
+✅ Dirección asistida · USB
+✅ Ideal como primer auto o para trabajo`
+      },
+      {
+        slug: 'chevrolet-tracker-lt-2018',
+        brand: 'Chevrolet', model: 'Tracker', year: 2018, version: 'LT',
+        transmission: 'Manual', fuel: 'Bencina', kilometers: 105000,
+        price: 7780000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `✅ LT 1.8 bencinero · mecánica
+✅ MyLink + Bluetooth/USB · cámara
+✅ Volante multifunción · aire acondicionado
+✅ ABS + control de estabilidad · múltiples airbags`
       },
     ];
 
@@ -1220,7 +1248,9 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'mitsubishi-l200-katana-2013',
       'chevrolet-silverado-zr2-2024-full',
       'suzuki-alto-800-2018',
-      'ford-explorer-limited-2018'
+      'ford-explorer-limited-2018',
+      'chery-iq-2014',
+      'chevrolet-tracker-lt-2018'
     ];
 
     for (const v of vehicles) {

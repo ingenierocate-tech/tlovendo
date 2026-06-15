@@ -546,7 +546,7 @@
     "price": 6990000,
     "fuel": "Bencina",
     "region": "Las Condes",
-    "state": "En venta",
+    "state": "Vendido",
     "engine": "45749",
     "consumption": "",
     "emissions": "",
@@ -567,64 +567,10 @@
         "url": "/autos/GreatWall_Wingle6_Elite_2017/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112422.webp",
-        "alt": "IMG_20251023_112422",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112454.webp",
-        "alt": "IMG_20251023_112454",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112600.webp",
-        "alt": "IMG_20251023_112600",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112608.webp",
-        "alt": "IMG_20251023_112608",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112621.webp",
-        "alt": "IMG_20251023_112621",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112643.webp",
-        "alt": "IMG_20251023_112643",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112659.webp",
-        "alt": "IMG_20251023_112659",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112714.webp",
-        "alt": "IMG_20251023_112714",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112718.webp",
-        "alt": "IMG_20251023_112718",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112724.webp",
-        "alt": "IMG_20251023_112724",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/GreatWall_Wingle6_Elite_2017/IMG_20251023_112742.webp",
-        "alt": "IMG_20251023_112742",
-        "isPrimary": false
       }
     ],
-    "keep": true
+    "keep": true,
+    "soldAt": "2026-06-15"
   },
   {
     "id": 14,
@@ -1538,7 +1484,7 @@
     "kilometers": 7000,
     "price": 11890000,
     "owners": 1,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Las Condes",
     "description": "✅ 1.2L Dual VVT-i · económico\n✅ Único dueño · 2 llaves · 7.000 km\n✅ CarPlay/Android Auto · cámara\n✅ ABS + control estabilidad · aire acondicionado",
     "images": [
@@ -1546,55 +1492,12 @@
         "url": "/autos/Toyora_Raize_2025/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Toyora_Raize_2025/IMG_20260327_124912.webp",
-        "alt": "IMG_20260327_124912",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125005.webp",
-        "alt": "IMG_20260327_125005",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125029.webp",
-        "alt": "IMG_20260327_125029",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125052.webp",
-        "alt": "IMG_20260327_125052",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125324.webp",
-        "alt": "IMG_20260327_125324",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125328.webp",
-        "alt": "IMG_20260327_125328",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125334.webp",
-        "alt": "IMG_20260327_125334",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyora_Raize_2025/IMG_20260327_125400.webp",
-        "alt": "IMG_20260327_125400",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyora_Raize_2025/_storage_emulated_0_DCIM_Camera_IMG_20260327_124928.webp",
-        "alt": "_storage_emulated_0_DCIM_Camera_IMG_20260327_124928",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Toyora_Raize_2025/01_lateral.webp",
-    "id": 33
+    "keep": true,
+    "id": 33,
+    "soldAt": "2026-06-15"
   },
   {
     "slug": "hyundai-porter-2023",
@@ -1699,7 +1602,7 @@
     "kilometers": 258000,
     "price": 11990000,
     "owners": 1,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Las Condes",
     "description": "✅ Automática 4x4 · 7 pasajeros\n✅ Climatizador · volante multifunción\n✅ Gran maletero · mantenciones al día\n✅ SUV robusto y confiable para todo terreno",
     "images": [
@@ -1707,60 +1610,12 @@
         "url": "/autos/Toyota_ Landcruiser_2010/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163519.webp",
-        "alt": "IMG_20260410_163519",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163534.webp",
-        "alt": "IMG_20260410_163534",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163553.webp",
-        "alt": "IMG_20260410_163553",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163559.webp",
-        "alt": "IMG_20260410_163559",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163607.webp",
-        "alt": "IMG_20260410_163607",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163619.webp",
-        "alt": "IMG_20260410_163619",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163624.webp",
-        "alt": "IMG_20260410_163624",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163631.webp",
-        "alt": "IMG_20260410_163631",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163639.webp",
-        "alt": "IMG_20260410_163639",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota_ Landcruiser_2010/IMG_20260410_163702.webp",
-        "alt": "IMG_20260410_163702",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Toyota_ Landcruiser_2010/01_lateral.webp",
-    "id": 35
+    "keep": true,
+    "id": 35,
+    "soldAt": "2026-06-15"
   },
   {
     "slug": "mitsubishi-l200-katana-2013",
@@ -1773,7 +1628,7 @@
     "kilometers": 171000,
     "price": 10390000,
     "owners": 1,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Las Condes",
     "description": "✅ 2.5 Turbo diésel · mecánica\n✅ Único dueño · 4x2\n✅ Semi nuevos · mantenciones al día\n✅ Lista para trabajo o uso personal",
     "images": [
@@ -1781,60 +1636,12 @@
         "url": "/autos/Mitsubishi_L200Katana_2013/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150354.webp",
-        "alt": "IMG_20260406_150354",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150406.webp",
-        "alt": "IMG_20260406_150406",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150425.webp",
-        "alt": "IMG_20260406_150425",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150433.webp",
-        "alt": "IMG_20260406_150433",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150514.webp",
-        "alt": "IMG_20260406_150514",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150526.webp",
-        "alt": "IMG_20260406_150526",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150533.webp",
-        "alt": "IMG_20260406_150533",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150541.webp",
-        "alt": "IMG_20260406_150541",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150548.webp",
-        "alt": "IMG_20260406_150548",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mitsubishi_L200Katana_2013/IMG_20260406_150555.webp",
-        "alt": "IMG_20260406_150555",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Mitsubishi_L200Katana_2013/01_lateral.webp",
-    "id": 36
+    "keep": true,
+    "id": 36,
+    "soldAt": "2026-06-15"
   },
   {
     "slug": "chevrolet-silverado-zr2-2024-full",
@@ -1951,7 +1758,7 @@
     "kilometers": 107000,
     "price": 3390000,
     "owners": 1,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Las Condes",
     "description": "✅ 800 cc bencinero · mecánico · muy económico\n✅ Excelente consumo · USB · mantenciones al día\n✅ Ideal como primer auto o para trabajo",
     "images": [
@@ -1959,55 +1766,12 @@
         "url": "/autos/Suzuki alto 800 2018/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150004.webp",
-        "alt": "IMG_20260513_150004",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150010.webp",
-        "alt": "IMG_20260513_150010",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150027.webp",
-        "alt": "IMG_20260513_150027",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150034.webp",
-        "alt": "IMG_20260513_150034",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150040.webp",
-        "alt": "IMG_20260513_150040",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150049.webp",
-        "alt": "IMG_20260513_150049",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150053.webp",
-        "alt": "IMG_20260513_150053",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150102.webp",
-        "alt": "IMG_20260513_150102",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Suzuki alto 800 2018/IMG_20260513_150107.webp",
-        "alt": "IMG_20260513_150107",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Suzuki alto 800 2018/01_lateral.webp",
-    "id": 38
+    "keep": true,
+    "id": 38,
+    "soldAt": "2026-06-15"
   },
   {
     "slug": "ford-explorer-limited-2018",
@@ -2092,5 +1856,142 @@
     ],
     "image": "/autos/Ford Explorer Límites 2018/01_lateral.webp",
     "id": 39
+  },
+  {
+    "slug": "chery-iq-2014",
+    "brand": "Chery",
+    "model": "IQ",
+    "year": 2014,
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 124000,
+    "price": 2550000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ 1.0 bencinero · mecánico\n✅ Excelente rendimiento de combustible\n✅ Dirección asistida · USB\n✅ Ideal como primer auto o para trabajo",
+    "images": [
+      {
+        "url": "/autos/Chery IQ 2014/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Chery IQ 2014/IMG_20260604_133357.webp",
+        "alt": "IMG_20260604_133357",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chery IQ 2014/IMG_20260604_133414.webp",
+        "alt": "IMG_20260604_133414",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chery IQ 2014/IMG_20260604_133452.webp",
+        "alt": "IMG_20260604_133452",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chery IQ 2014/IMG_20260604_133500.webp",
+        "alt": "IMG_20260604_133500",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chery IQ 2014/IMG_20260604_133507.webp",
+        "alt": "IMG_20260604_133507",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chery IQ 2014/IMG_20260604_133520.webp",
+        "alt": "IMG_20260604_133520",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chery IQ 2014/IMG_20260604_133525.webp",
+        "alt": "IMG_20260604_133525",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chery IQ 2014/IMG_20260604_133534.webp",
+        "alt": "IMG_20260604_133534",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chery IQ 2014/IMG_20260604_133541.webp",
+        "alt": "IMG_20260604_133541",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Chery IQ 2014/01_lateral.webp",
+    "id": 40
+  },
+  {
+    "slug": "chevrolet-tracker-lt-2018",
+    "brand": "Chevrolet",
+    "model": "Tracker",
+    "year": 2018,
+    "version": "LT",
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 105000,
+    "price": 7780000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ LT 1.8 bencinero · mecánica\n✅ MyLink + Bluetooth/USB · cámara\n✅ Volante multifunción · aire acondicionado\n✅ ABS + control de estabilidad · múltiples airbags",
+    "images": [
+      {
+        "url": "/autos/Chevrolet Tracker 2018/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161833.webp",
+        "alt": "IMG_20260613_161833",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161840.webp",
+        "alt": "IMG_20260613_161840",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161904.webp",
+        "alt": "IMG_20260613_161904",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161910.webp",
+        "alt": "IMG_20260613_161910",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161917.webp",
+        "alt": "IMG_20260613_161917",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161927.webp",
+        "alt": "IMG_20260613_161927",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161932.webp",
+        "alt": "IMG_20260613_161932",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161937.webp",
+        "alt": "IMG_20260613_161937",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161946.webp",
+        "alt": "IMG_20260613_161946",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Chevrolet Tracker 2018/01_lateral.webp",
+    "id": 41
   }
 ]

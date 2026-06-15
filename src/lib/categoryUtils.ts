@@ -18,6 +18,8 @@ export const CATEGORIES: Category[] = [
 const SLUG_CATEGORY_OVERRIDES: Record<string, string> = {
   'suzuki-alto-800-2018': 'hatchback',
   'ford-explorer-limited-2018': 'suv',
+  'chery-iq-2014': 'citycar',
+  'chevrolet-tracker-lt-2018': 'suv',
 };
 
 const MODEL_KEYWORDS: Record<string, string> = {
