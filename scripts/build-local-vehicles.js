@@ -330,6 +330,7 @@ const manualOverrides = [
   { keywords: ['toyota', 'raize', '2025'], price: 11890000, state: 'Vendido' },
   { keywords: ['mitsubishi', 'l200', '2013'], price: 10390000, state: 'Vendido' },
   { keywords: ['suzuki', 'alto', '2018'], price: 3390000, state: 'Vendido' },
+  { keywords: ['chery', 'iq', '2014'], price: 2550000, state: 'Vendido' },
   { keywords: ['mercedes', 'a200', '2021'], state: 'Vendido' }
 ];
 
@@ -1072,7 +1073,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'chery-iq-2014',
         brand: 'Chery', model: 'IQ', year: 2014,
         transmission: 'Manual', fuel: 'Bencina', kilometers: 124000,
-        price: 2550000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 2550000, owners: 1, state: 'Vendido', region: 'Las Condes',
         description: `✅ 1.0 bencinero · mecánico
 ✅ Excelente rendimiento de combustible
 ✅ Dirección asistida · USB

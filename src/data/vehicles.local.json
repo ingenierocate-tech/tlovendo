@@ -1789,7 +1789,7 @@
     "kilometers": 124000,
     "price": 2550000,
     "owners": 1,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Las Condes",
     "description": "✅ 1.0 bencinero · mecánico\n✅ Excelente rendimiento de combustible\n✅ Dirección asistida · USB\n✅ Ideal como primer auto o para trabajo",
     "images": [
@@ -1845,7 +1845,8 @@
       }
     ],
     "image": "/autos/Chery IQ 2014/01_lateral.webp",
-    "id": 39
+    "id": 39,
+    "soldAt": "2026-06-26"
   },
   {
     "slug": "chevrolet-tracker-lt-2018",
