@@ -1209,7 +1209,8 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'kia-rio-5-2020',
       'subaru-crosstrek-2025',
       'ford-territory-2023',
-      'chevrolet-d-max-2017'
+      'chevrolet-d-max-2017',
+      'chevrolet-captiva-2020'
     ];
     
     if (hiddenSlugs.length > 0) {

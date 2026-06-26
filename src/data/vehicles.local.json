@@ -1397,84 +1397,6 @@
     "soldAt": "2026-05-11"
   },
   {
-    "slug": "chevrolet-captiva-2020",
-    "brand": "Chevrolet",
-    "model": "Captiva",
-    "year": 2020,
-    "transmission": "Manual",
-    "fuel": "Bencina",
-    "kilometers": 98000,
-    "price": 9650000,
-    "owners": 1,
-    "state": "En venta",
-    "region": "Las Condes",
-    "description": "✅ Motor 1.5 Turbo bencinero (Delta Motors)\n✅ Mecánica · versión equipada\n✅ 5 a 7 pasajeros · cuero · climatizador\n✅ Pantalla táctil + CarPlay/BT · cámara + sensores\n✅ Gran maletero · mantenciones al día",
-    "images": [
-      {
-        "url": "/autos/Chevrolet_Captiva_2020/01_lateral.webp",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082321.webp",
-        "alt": "IMG_20260402_082321",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082330.webp",
-        "alt": "IMG_20260402_082330",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082402.webp",
-        "alt": "IMG_20260402_082402",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082436.webp",
-        "alt": "IMG_20260402_082436",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082445.webp",
-        "alt": "IMG_20260402_082445",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082459.webp",
-        "alt": "IMG_20260402_082459",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082508.webp",
-        "alt": "IMG_20260402_082508",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082526.webp",
-        "alt": "IMG_20260402_082526",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082543.webp",
-        "alt": "IMG_20260402_082543",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082616.webp",
-        "alt": "IMG_20260402_082616",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_Captiva_2020/IMG_20260402_082619.webp",
-        "alt": "IMG_20260402_082619",
-        "isPrimary": false
-      }
-    ],
-    "image": "/autos/Chevrolet_Captiva_2020/01_lateral.webp",
-    "id": 32
-  },
-  {
     "slug": "toyota-raize-2025",
     "brand": "Toyota",
     "model": "Raize",
@@ -1496,7 +1418,7 @@
     ],
     "image": "/autos/Toyora_Raize_2025/01_lateral.webp",
     "keep": true,
-    "id": 33,
+    "id": 32,
     "soldAt": "2026-06-15"
   },
   {
@@ -1590,7 +1512,7 @@
       }
     ],
     "image": "/autos/Hyundai_Porter_2023/01_lateral.webp",
-    "id": 34
+    "id": 33
   },
   {
     "slug": "toyota-land-cruiser-2010",
@@ -1614,7 +1536,7 @@
     ],
     "image": "/autos/Toyota_ Landcruiser_2010/01_lateral.webp",
     "keep": true,
-    "id": 35,
+    "id": 34,
     "soldAt": "2026-06-15"
   },
   {
@@ -1640,7 +1562,7 @@
     ],
     "image": "/autos/Mitsubishi_L200Katana_2013/01_lateral.webp",
     "keep": true,
-    "id": 36,
+    "id": 35,
     "soldAt": "2026-06-15"
   },
   {
@@ -1746,7 +1668,7 @@
     ],
     "image": "/autos/Chevrolet_ Silverado_2024/01_lateral.webp",
     "keep": true,
-    "id": 37
+    "id": 36
   },
   {
     "slug": "suzuki-alto-800-2018",
@@ -1770,7 +1692,7 @@
     ],
     "image": "/autos/Suzuki alto 800 2018/01_lateral.webp",
     "keep": true,
-    "id": 38,
+    "id": 37,
     "soldAt": "2026-06-15"
   },
   {
@@ -1855,7 +1777,7 @@
       }
     ],
     "image": "/autos/Ford Explorer Límites 2018/01_lateral.webp",
-    "id": 39
+    "id": 38
   },
   {
     "slug": "chery-iq-2014",
@@ -1923,7 +1845,7 @@
       }
     ],
     "image": "/autos/Chery IQ 2014/01_lateral.webp",
-    "id": 40
+    "id": 39
   },
   {
     "slug": "chevrolet-tracker-lt-2018",
@@ -1992,6 +1914,6 @@
       }
     ],
     "image": "/autos/Chevrolet Tracker 2018/01_lateral.webp",
-    "id": 41
+    "id": 40
   }
 ]
