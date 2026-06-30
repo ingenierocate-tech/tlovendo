@@ -20,6 +20,7 @@ const SLUG_CATEGORY_OVERRIDES: Record<string, string> = {
   'ford-explorer-limited-2018': 'suv',
   'chery-iq-2014': 'citycar',
   'chevrolet-tracker-lt-2018': 'suv',
+  'mazda-2-gt-2015': 'hatchback',
 };
 
 const MODEL_KEYWORDS: Record<string, string> = {

@@ -294,6 +294,7 @@ const slugToFolderMapping = {
   'ford-explorer-limited-2018': 'Ford Explorer Límites 2018',
   'chery-iq-2014': 'Chery IQ 2014',
   'chevrolet-tracker-lt-2018': 'Chevrolet Tracker 2018',
+  'mazda-2-gt-2015': 'Mazda 2 GT 2015',
 };
 
 // Override manual de precios y estados para asegurar consistencia con la visual del cliente
@@ -1089,6 +1090,37 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Volante multifunción · aire acondicionado
 ✅ ABS + control de estabilidad · múltiples airbags`
       },
+      {
+        slug: 'mazda-2-gt-2015',
+        brand: 'Mazda', model: '2', year: 2015, version: 'GT',
+        transmission: 'Manual', fuel: 'Bencina', kilometers: 124000,
+        price: 6990000, owners: 1, state: 'En venta', region: 'Las Condes',
+        description: `🚗 Mazda 2 GT 2015 – Mecánico | Full Equipo
+
+✨ Versión GT muy equipada
+
+✅ Motor 1.5 Skyactiv-G, potente, confiable y muy económico
+✅ Transmisión mecánica
+✅ Versión GT, una de las más equipadas de la línea
+✅ Pantalla multimedia con conectividad Bluetooth y USB
+✅ Volante multifunción
+✅ Control de velocidad crucero
+✅ Aire acondicionado
+✅ Llantas de aleación
+✅ Frenos ABS, control de estabilidad y múltiples airbags
+✅ Excelente rendimiento de combustible
+✅ Mantenciones al día
+
+🧾 Vehículo impecable, muy bien cuidado y listo para disfrutar.
+🚗 Excelente opción: moderno, deportivo, seguro y reconocido por su confiabilidad, bajo consumo y gran experiencia de manejo.
+
+📍 Las Condes
+📲 Escríbeme por mensaje o WhatsApp para coordinar visita o enviarte más fotos del vehículo.
+
+💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ`,
+        abs: true, esp: true, airbags: 'Múltiples', airConditioning: true,
+        bluetooth: true, usb: true, cruiseControl: true, audioSystem: true
+      },
     ];
 
     for (const cv of chatVehicles) {
@@ -1252,7 +1284,8 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'suzuki-alto-800-2018',
       'ford-explorer-limited-2018',
       'chery-iq-2014',
-      'chevrolet-tracker-lt-2018'
+      'chevrolet-tracker-lt-2018',
+      'mazda-2-gt-2015'
     ];
 
     for (const v of vehicles) {
