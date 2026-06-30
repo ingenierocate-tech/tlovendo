@@ -1083,7 +1083,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'chevrolet-tracker-lt-2018',
         brand: 'Chevrolet', model: 'Tracker', year: 2018, version: 'LT',
         transmission: 'Manual', fuel: 'Bencina', kilometers: 105000,
-        price: 7780000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 8500000, owners: 1, state: 'En venta', region: 'Las Condes',
         description: `✅ LT 1.8 bencinero · mecánica
 ✅ MyLink + Bluetooth/USB · cámara
 ✅ Volante multifunción · aire acondicionado
