@@ -295,6 +295,11 @@ const slugToFolderMapping = {
   'chery-iq-2014': 'Chery IQ 2014',
   'chevrolet-tracker-lt-2018': 'Chevrolet Tracker 2018',
   'mazda-2-gt-2015': 'Mazda 2 GT 2015',
+  'toyota-yaris-sedan-2022': 'Toyota Yaris 2022',
+  'kia-seltos-2023': 'Kia Seltos 2023',
+  'chevrolet-sail-ltz-2024': 'Chevrolet Sail 2024',
+  'ford-fiesta-sedan-2017': 'Ford Fiesta 2017',
+  'ds-7-rivoli-2021': 'Ds7 2021',
 };
 
 // Override manual de precios y estados para asegurar consistencia con la visual del cliente
@@ -481,6 +486,11 @@ const folderToSlugMapping = {
   'Ford Explorer Limited 2018': 'ford-explorer-limited-2018',
   'Chery IQ 2014': 'chery-iq-2014',
   'Chevrolet Tracker 2018': 'chevrolet-tracker-lt-2018',
+  'Toyota Yaris 2022': 'toyota-yaris-sedan-2022',
+  'Kia Seltos 2023': 'kia-seltos-2023',
+  'Chevrolet Sail 2024': 'chevrolet-sail-ltz-2024',
+  'Ford Fiesta 2017': 'ford-fiesta-sedan-2017',
+  'Ds7 2021': 'ds-7-rivoli-2021',
 };
 
 async function getVehicleImages(slug) {
@@ -1121,6 +1131,26 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         abs: true, esp: true, airbags: 'Múltiples', airConditioning: true,
         bluetooth: true, usb: true, cruiseControl: true, audioSystem: true
       },
+      { slug: 'toyota-yaris-sedan-2022', brand: 'Toyota', model: 'Yaris', year: 2022, version: 'Sedán', transmission: 'Manual', fuel: 'Bencina', kilometers: 110000, price: 9990000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ Sedán 1.5 Dual VVT-i · mecánico
+✅ CarPlay/Android Auto · cámara
+✅ 6 airbags · VSC · HAC · ABS/EBD
+✅ Amplio maletero · mantenciones al día`, abs: true, esp: true, airbags: '6 airbags', audioSystem: true },
+      { slug: 'kia-seltos-2023', brand: 'Kia', model: 'Seltos', year: 2023, transmission: 'Manual', fuel: 'Bencina', kilometers: 97000, price: 12990000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ 1.6 bencinero · mecánica
+✅ Pantalla 10,25" · CarPlay/Android Auto · cámara
+✅ Aire acondicionado · crucero
+✅ Control de estabilidad · HAC · múltiples airbags`, airConditioning: true, cruiseControl: true, esp: true, airbags: 'Múltiples', audioSystem: true },
+      { slug: 'chevrolet-sail-ltz-2024', brand: 'Chevrolet', model: 'Sail', year: 2024, version: 'LTZ', transmission: 'Automática', fuel: 'Bencina', kilometers: 28000, price: 10790000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ LTZ 1.5 bencinero · automática CVT
+✅ Solo 28.000 km
+✅ Pantalla 8" · CarPlay/Android Auto · cámara + sensores
+✅ 6 airbags · estabilidad · ABS/EBD`, abs: true, esp: true, airbags: '6 airbags', airConditioning: true, audioSystem: true },
+      { slug: 'ford-fiesta-sedan-2017', brand: 'Ford', model: 'Fiesta', year: 2017, version: 'Sedán', transmission: 'Manual', fuel: 'Bencina', kilometers: 187000, price: 6790000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ Sedán 1.6 Ti-VCT · mecánico
+✅ Dirección asistida eléctrica · aire acondicionado
+✅ Volante multifunción · vidrios y espejos eléctricos
+✅ ABS · múltiples airbags · mantenciones al día`, abs: true, airbags: 'Múltiples', airConditioning: true, powerSteering: true, electricWindows: true, electricMirrors: true },
+      { slug: 'ds-7-rivoli-2021', brand: 'DS', model: '7', year: 2021, version: 'Rivoli', transmission: 'Automática', fuel: 'Diésel', kilometers: 85000, price: 19990000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ 2.0 BlueHDi Turbo Diésel · automática EAT8
+✅ Único dueño · Rivoli · sunroof panorámico
+✅ Cuero eléctrico con memoria y calefacción
+✅ CarPlay/Android Auto · cámara 360 · climatizador bi-zona`, airConditioning: true, airbags: 'Múltiples', bluetooth: true, usb: true, audioSystem: true },
     ];
 
     for (const cv of chatVehicles) {
@@ -1285,7 +1315,12 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'ford-explorer-limited-2018',
       'chery-iq-2014',
       'chevrolet-tracker-lt-2018',
-      'mazda-2-gt-2015'
+      'mazda-2-gt-2015',
+      'toyota-yaris-sedan-2022',
+      'kia-seltos-2023',
+      'chevrolet-sail-ltz-2024',
+      'ford-fiesta-sedan-2017',
+      'ds-7-rivoli-2021'
     ];
 
     for (const v of vehicles) {

@@ -21,6 +21,11 @@ const SLUG_CATEGORY_OVERRIDES: Record<string, string> = {
   'chery-iq-2014': 'citycar',
   'chevrolet-tracker-lt-2018': 'suv',
   'mazda-2-gt-2015': 'hatchback',
+  'toyota-yaris-sedan-2022': 'sedan',
+  'kia-seltos-2023': 'suv',
+  'chevrolet-sail-ltz-2024': 'sedan',
+  'ford-fiesta-sedan-2017': 'sedan',
+  'ds-7-rivoli-2021': 'suv',
 };
 
 const MODEL_KEYWORDS: Record<string, string> = {
