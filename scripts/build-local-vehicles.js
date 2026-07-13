@@ -1273,7 +1273,8 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'subaru-crosstrek-2025',
       'ford-territory-2023',
       'chevrolet-d-max-2017',
-      'chevrolet-captiva-2020'
+      'chevrolet-captiva-2020',
+      'ford-fusion-2020-hibrido'
     ];
     
     if (hiddenSlugs.length > 0) {
