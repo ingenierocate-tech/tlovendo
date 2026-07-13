@@ -1274,7 +1274,8 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'ford-territory-2023',
       'chevrolet-d-max-2017',
       'chevrolet-captiva-2020',
-      'ford-fusion-2020-hibrido'
+      'ford-fusion-2020-hibrido',
+      'peugeot-3008-2017'
     ];
     
     if (hiddenSlugs.length > 0) {
