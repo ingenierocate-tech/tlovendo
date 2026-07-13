@@ -891,7 +891,7 @@
       }
     ],
     "image": "/autos/Peugeot-5008-2018/01_lateral.webp",
-    "id": 22,
+    "id": 21,
     "soldAt": "2026-03-26"
   },
   {
@@ -921,7 +921,7 @@
     ],
     "image": "/autos/Mazda-3-2016-manual/01_lateral.webp",
     "keep": true,
-    "id": 23,
+    "id": 22,
     "soldAt": "2026-03-26"
   },
   {
@@ -1010,7 +1010,7 @@
     ],
     "image": "/autos/Nissan Pathfinder 3.3 1999/01_lateral.webp",
     "keep": true,
-    "id": 24
+    "id": 23
   },
   {
     "slug": "nissan-sentra-2021",
@@ -1046,7 +1046,7 @@
     ],
     "image": "/autos/Nissan Sentra AT 2021/01_lateral.webp",
     "keep": true,
-    "id": 25,
+    "id": 24,
     "soldAt": "2026-03-26"
   },
   {
@@ -1087,7 +1087,7 @@
     ],
     "image": "/autos/BMW X1 2019/01_lateral.webp",
     "keep": true,
-    "id": 26,
+    "id": 25,
     "soldAt": "2026-03-26"
   },
   {
@@ -1164,7 +1164,7 @@
     ],
     "image": "/autos/Bmw_320iM_sport_2018/01_lateral.webp",
     "keep": true,
-    "id": 27
+    "id": 26
   },
   {
     "slug": "jeep-compass-2011",
@@ -1191,7 +1191,7 @@
     ],
     "image": "/autos/Jeep-Compass-2011/01_lateral.webp",
     "keep": true,
-    "id": 28,
+    "id": 27,
     "soldAt": "2026-03-26"
   },
   {
@@ -1219,7 +1219,7 @@
     ],
     "image": "/autos/Marcedes Benz-A200-sedan/01_lateral.webp",
     "keep": true,
-    "id": 29,
+    "id": 28,
     "soldAt": "2026-04-02"
   },
   {
@@ -1249,7 +1249,7 @@
     ],
     "image": "/autos/Fiat-Uno-2020/01_lateral.webp",
     "keep": true,
-    "id": 31,
+    "id": 29,
     "soldAt": "2026-05-11"
   },
   {
@@ -1274,7 +1274,7 @@
     ],
     "image": "/autos/Toyora_Raize_2025/01_lateral.webp",
     "keep": true,
-    "id": 32,
+    "id": 30,
     "soldAt": "2026-06-15"
   },
   {
@@ -1368,7 +1368,7 @@
       }
     ],
     "image": "/autos/Hyundai_Porter_2023/01_lateral.webp",
-    "id": 33
+    "id": 31
   },
   {
     "slug": "toyota-land-cruiser-2010",
@@ -1392,7 +1392,7 @@
     ],
     "image": "/autos/Toyota_ Landcruiser_2010/01_lateral.webp",
     "keep": true,
-    "id": 34,
+    "id": 32,
     "soldAt": "2026-06-15"
   },
   {
@@ -1418,7 +1418,7 @@
     ],
     "image": "/autos/Mitsubishi_L200Katana_2013/01_lateral.webp",
     "keep": true,
-    "id": 35,
+    "id": 33,
     "soldAt": "2026-06-15"
   },
   {
@@ -1524,7 +1524,7 @@
     ],
     "image": "/autos/Chevrolet_ Silverado_2024/01_lateral.webp",
     "keep": true,
-    "id": 36
+    "id": 34
   },
   {
     "slug": "suzuki-alto-800-2018",
@@ -1548,7 +1548,7 @@
     ],
     "image": "/autos/Suzuki alto 800 2018/01_lateral.webp",
     "keep": true,
-    "id": 37,
+    "id": 35,
     "soldAt": "2026-06-15"
   },
   {
@@ -1633,7 +1633,7 @@
       }
     ],
     "image": "/autos/Ford Explorer Límites 2018/01_lateral.webp",
-    "id": 38
+    "id": 36
   },
   {
     "slug": "chery-iq-2014",
@@ -1657,7 +1657,7 @@
     ],
     "image": "/autos/Chery IQ 2014/01_lateral.webp",
     "keep": true,
-    "id": 39,
+    "id": 37,
     "soldAt": "2026-06-26"
   },
   {
@@ -1727,7 +1727,7 @@
       }
     ],
     "image": "/autos/Chevrolet Tracker 2018/01_lateral.webp",
-    "id": 40
+    "id": 38
   },
   {
     "slug": "mazda-2-gt-2015",
@@ -1804,7 +1804,7 @@
       }
     ],
     "image": "/autos/Mazda 2 GT 2015/01_lateral.webp",
-    "id": 41
+    "id": 39
   },
   {
     "slug": "toyota-yaris-sedan-2022",
@@ -1882,7 +1882,7 @@
       }
     ],
     "image": "/autos/Toyota Yaris 2022/01_lateral.webp",
-    "id": 42
+    "id": 40
   },
   {
     "slug": "kia-seltos-2023",
@@ -1960,7 +1960,7 @@
       }
     ],
     "image": "/autos/Kia Seltos 2023/01_lateral.webp",
-    "id": 43
+    "id": 41
   },
   {
     "slug": "chevrolet-sail-ltz-2024",
@@ -2034,7 +2034,7 @@
       }
     ],
     "image": "/autos/Chevrolet Sail 2024/01_lateral.webp",
-    "id": 44
+    "id": 42
   },
   {
     "slug": "ford-fiesta-sedan-2017",
@@ -2109,7 +2109,7 @@
       }
     ],
     "image": "/autos/Ford Fiesta 2017/01_lateral.webp",
-    "id": 45
+    "id": 43
   },
   {
     "slug": "ds-7-rivoli-2021",
@@ -2193,6 +2193,6 @@
       }
     ],
     "image": "/autos/Ds7 2021/01_lateral.webp",
-    "id": 46
+    "id": 44
   }
 ]
