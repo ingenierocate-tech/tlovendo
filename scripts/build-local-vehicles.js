@@ -300,6 +300,9 @@ const slugToFolderMapping = {
   'chevrolet-sail-ltz-2024': 'Chevrolet Sail 2024',
   'ford-fiesta-sedan-2017': 'Ford Fiesta 2017',
   'ds-7-rivoli-2021': 'Ds7 2021',
+  'bmw-316i-2016': 'BMW 316i 2016',
+  'suzuki-grand-nomade-glx-2014': 'Suzuki GN 2014',
+  'chevrolet-colorado-ltz-2021': 'Chevrolet LTZ 2021',
 };
 
 // Override manual de precios y estados para asegurar consistencia con la visual del cliente
@@ -491,6 +494,9 @@ const folderToSlugMapping = {
   'Chevrolet Sail 2024': 'chevrolet-sail-ltz-2024',
   'Ford Fiesta 2017': 'ford-fiesta-sedan-2017',
   'Ds7 2021': 'ds-7-rivoli-2021',
+  'BMW 316i 2016': 'bmw-316i-2016',
+  'Suzuki GN 2014': 'suzuki-grand-nomade-glx-2014',
+  'Chevrolet LTZ 2021': 'chevrolet-colorado-ltz-2021',
 };
 
 async function getVehicleImages(slug) {
@@ -1151,6 +1157,18 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Único dueño · Rivoli · sunroof panorámico
 ✅ Cuero eléctrico con memoria y calefacción
 ✅ CarPlay/Android Auto · cámara 360 · climatizador bi-zona`, airConditioning: true, airbags: 'Múltiples', bluetooth: true, usb: true, audioSystem: true },
+      { slug: 'bmw-316i-2016', brand: 'BMW', model: '316i', year: 2016, transmission: 'Automática', fuel: 'Bencina', kilometers: 107000, price: 12990000, owners: 2, state: 'En venta', region: 'Las Condes', description: `✅ 1.6 TwinPower Turbo · automática de 8 velocidades
+✅ Segundo dueño · iDrive · volante multifunción
+✅ Climatizador bi-zona · sensores
+✅ Estabilidad · airbags · mantenciones al día`, airConditioning: true, esp: true, airbags: 'Múltiples', audioSystem: true },
+      { slug: 'suzuki-grand-nomade-glx-2014', brand: 'Suzuki', model: 'Grand Nomade', year: 2014, version: 'GLX 4x2', transmission: 'Manual', fuel: 'Bencina', kilometers: 160000, price: 7790000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ GLX 2.4 bencinero · mecánica · 4x2
+✅ Única dueña · dos llaves
+✅ Climatizador · volante multifunción
+✅ ABS · airbags · mantenciones al día`, abs: true, airbags: 'Múltiples', airConditioning: true },
+      { slug: 'chevrolet-colorado-ltz-2021', brand: 'Chevrolet', model: 'Colorado', year: 2021, version: 'LTZ', transmission: 'Automática', fuel: 'Diésel', kilometers: 200000, price: 17790000, owners: 2, state: 'En venta', region: 'Las Condes', description: `✅ LTZ 2.8 Turbo Diésel Duramax · automática
+✅ Segundo dueño · CarPlay/Android Auto
+✅ Cámara + sensores · cuero · climatizador
+✅ Levante 2,5" · neumáticos anchos · coco de arrastre`, airConditioning: true, airbags: 'Múltiples', audioSystem: true },
     ];
 
     for (const cv of chatVehicles) {
@@ -1322,7 +1340,10 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'kia-seltos-2023',
       'chevrolet-sail-ltz-2024',
       'ford-fiesta-sedan-2017',
-      'ds-7-rivoli-2021'
+      'ds-7-rivoli-2021',
+      'bmw-316i-2016',
+      'suzuki-grand-nomade-glx-2014',
+      'chevrolet-colorado-ltz-2021'
     ];
 
     for (const v of vehicles) {

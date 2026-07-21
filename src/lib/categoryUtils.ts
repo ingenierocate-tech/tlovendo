@@ -26,6 +26,9 @@ const SLUG_CATEGORY_OVERRIDES: Record<string, string> = {
   'chevrolet-sail-ltz-2024': 'sedan',
   'ford-fiesta-sedan-2017': 'sedan',
   'ds-7-rivoli-2021': 'suv',
+  'bmw-316i-2016': 'sedan',
+  'suzuki-grand-nomade-glx-2014': 'suv',
+  'chevrolet-colorado-ltz-2021': 'camioneta',
 };
 
 const MODEL_KEYWORDS: Record<string, string> = {

@@ -2194,5 +2194,221 @@
     ],
     "image": "/autos/Ds7 2021/01_lateral.webp",
     "id": 44
+  },
+  {
+    "slug": "bmw-316i-2016",
+    "brand": "BMW",
+    "model": "316i",
+    "year": 2016,
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 107000,
+    "price": 12990000,
+    "owners": 2,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ 1.6 TwinPower Turbo · automática de 8 velocidades\n✅ Segundo dueño · iDrive · volante multifunción\n✅ Climatizador bi-zona · sensores\n✅ Estabilidad · airbags · mantenciones al día",
+    "airConditioning": true,
+    "esp": true,
+    "airbags": "Múltiples",
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/BMW 316i 2016/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/BMW 316i 2016/IMG_20260716_153340.webp",
+        "alt": "IMG_20260716_153340",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 316i 2016/IMG_20260716_153350.webp",
+        "alt": "IMG_20260716_153350",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 316i 2016/IMG_20260716_153506.webp",
+        "alt": "IMG_20260716_153506",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 316i 2016/IMG_20260716_153513.webp",
+        "alt": "IMG_20260716_153513",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 316i 2016/IMG_20260716_153523.webp",
+        "alt": "IMG_20260716_153523",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 316i 2016/IMG_20260716_153536.webp",
+        "alt": "IMG_20260716_153536",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 316i 2016/IMG_20260716_153541.webp",
+        "alt": "IMG_20260716_153541",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 316i 2016/IMG_20260716_153550.webp",
+        "alt": "IMG_20260716_153550",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 316i 2016/IMG_20260716_153557.webp",
+        "alt": "IMG_20260716_153557",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/BMW 316i 2016/01_lateral.webp",
+    "id": 45
+  },
+  {
+    "slug": "suzuki-grand-nomade-glx-2014",
+    "brand": "Suzuki",
+    "model": "Grand Nomade",
+    "year": 2014,
+    "version": "GLX 4x2",
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 160000,
+    "price": 7790000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ GLX 2.4 bencinero · mecánica · 4x2\n✅ Única dueña · dos llaves\n✅ Climatizador · volante multifunción\n✅ ABS · airbags · mantenciones al día",
+    "abs": true,
+    "airbags": "Múltiples",
+    "airConditioning": true,
+    "images": [
+      {
+        "url": "/autos/Suzuki GN 2014/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Suzuki GN 2014/IMG_20260720_164342.webp",
+        "alt": "IMG_20260720_164342",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki GN 2014/IMG_20260720_164351.webp",
+        "alt": "IMG_20260720_164351",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki GN 2014/IMG_20260720_164416.webp",
+        "alt": "IMG_20260720_164416",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki GN 2014/IMG_20260720_164424.webp",
+        "alt": "IMG_20260720_164424",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki GN 2014/IMG_20260720_164434.webp",
+        "alt": "IMG_20260720_164434",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki GN 2014/IMG_20260720_164448.webp",
+        "alt": "IMG_20260720_164448",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki GN 2014/IMG_20260720_164911.webp",
+        "alt": "IMG_20260720_164911",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki GN 2014/IMG_20260720_164916.webp",
+        "alt": "IMG_20260720_164916",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki GN 2014/IMG_20260720_164941.webp",
+        "alt": "IMG_20260720_164941",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Suzuki GN 2014/01_lateral.webp",
+    "id": 46
+  },
+  {
+    "slug": "chevrolet-colorado-ltz-2021",
+    "brand": "Chevrolet",
+    "model": "Colorado",
+    "year": 2021,
+    "version": "LTZ",
+    "transmission": "Automática",
+    "fuel": "Diésel",
+    "kilometers": 200000,
+    "price": 17790000,
+    "owners": 2,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ LTZ 2.8 Turbo Diésel Duramax · automática\n✅ Segundo dueño · CarPlay/Android Auto\n✅ Cámara + sensores · cuero · climatizador\n✅ Levante 2,5\" · neumáticos anchos · coco de arrastre",
+    "airConditioning": true,
+    "airbags": "Múltiples",
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/Chevrolet LTZ 2021/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Chevrolet LTZ 2021/IMG_20260714_123039.webp",
+        "alt": "IMG_20260714_123039",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet LTZ 2021/IMG_20260714_123054.webp",
+        "alt": "IMG_20260714_123054",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet LTZ 2021/IMG_20260714_123110.webp",
+        "alt": "IMG_20260714_123110",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet LTZ 2021/IMG_20260714_123116.webp",
+        "alt": "IMG_20260714_123116",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet LTZ 2021/file_00000000031c820eab854884772c4ef4.webp",
+        "alt": "file_00000000031c820eab854884772c4ef4",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet LTZ 2021/file_000000001160820ebe02446ff7d203a4.webp",
+        "alt": "file_000000001160820ebe02446ff7d203a4",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet LTZ 2021/file_000000003c20820ea5afa1741b66762f.webp",
+        "alt": "file_000000003c20820ea5afa1741b66762f",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet LTZ 2021/file_00000000a364820ea48bc9ebe64ed4a9.webp",
+        "alt": "file_00000000a364820ea48bc9ebe64ed4a9",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet LTZ 2021/file_00000000bf30820eb963dacbd04ecee3.webp",
+        "alt": "file_00000000bf30820eb963dacbd04ecee3",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Chevrolet LTZ 2021/01_lateral.webp",
+    "id": 47
   }
 ]
