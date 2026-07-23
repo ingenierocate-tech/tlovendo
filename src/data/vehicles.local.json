@@ -2047,7 +2047,7 @@
     "kilometers": 187000,
     "price": 6790000,
     "owners": 1,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Las Condes",
     "description": "✅ Sedán 1.6 Ti-VCT · mecánico\n✅ Dirección asistida eléctrica · aire acondicionado\n✅ Volante multifunción · vidrios y espejos eléctricos\n✅ ABS · múltiples airbags · mantenciones al día",
     "abs": true,
@@ -2109,7 +2109,8 @@
       }
     ],
     "image": "/autos/Ford Fiesta 2017/01_lateral.webp",
-    "id": 43
+    "id": 43,
+    "soldAt": "2026-07-23"
   },
   {
     "slug": "ds-7-rivoli-2021",

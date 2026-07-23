@@ -1149,7 +1149,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Solo 28.000 km
 ✅ Pantalla 8" · CarPlay/Android Auto · cámara + sensores
 ✅ 6 airbags · estabilidad · ABS/EBD`, abs: true, esp: true, airbags: '6 airbags', airConditioning: true, audioSystem: true },
-      { slug: 'ford-fiesta-sedan-2017', brand: 'Ford', model: 'Fiesta', year: 2017, version: 'Sedán', transmission: 'Manual', fuel: 'Bencina', kilometers: 187000, price: 6790000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ Sedán 1.6 Ti-VCT · mecánico
+      { slug: 'ford-fiesta-sedan-2017', brand: 'Ford', model: 'Fiesta', year: 2017, version: 'Sedán', transmission: 'Manual', fuel: 'Bencina', kilometers: 187000, price: 6790000, owners: 1, state: 'Vendido', region: 'Las Condes', description: `✅ Sedán 1.6 Ti-VCT · mecánico
 ✅ Dirección asistida eléctrica · aire acondicionado
 ✅ Volante multifunción · vidrios y espejos eléctricos
 ✅ ABS · múltiples airbags · mantenciones al día`, abs: true, airbags: 'Múltiples', airConditioning: true, powerSteering: true, electricWindows: true, electricMirrors: true },
