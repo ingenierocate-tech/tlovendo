@@ -1061,7 +1061,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'chevrolet-silverado-zr2-2024-full',
         brand: 'Chevrolet', model: 'Silverado ZR2', year: 2024, version: '4x4',
         transmission: 'Automática', fuel: 'Bencina', kilometers: 60000,
-        price: 40590000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 37790000, owners: 1, state: 'En venta', region: 'Las Condes',
         description: `✅ V8 bencinero · automática · 4x4 ZR2
 ✅ Único dueño · cuero · climatizador
 ✅ CarPlay/Android Auto · cámara 360 + sensores
@@ -1110,32 +1110,39 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'mazda-2-gt-2015',
         brand: 'Mazda', model: '2', year: 2015, version: 'GT',
         transmission: 'Manual', fuel: 'Bencina', kilometers: 124000,
-        price: 6990000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 6690000, owners: 1, state: 'En venta', region: 'Las Condes',
         description: `🚗 Mazda 2 GT 2015 – Mecánico | Full Equipo
 
-✨ Versión GT muy equipada
+📍 Las Condes
+⏱️ 124.000 km
+⛽ Bencinero
 
-✅ Motor 1.5 Skyactiv-G, potente, confiable y muy económico
-✅ Transmisión mecánica
-✅ Versión GT, una de las más equipadas de la línea
-✅ Pantalla multimedia con conectividad Bluetooth y USB
-✅ Volante multifunción
-✅ Control de velocidad crucero
-✅ Aire acondicionado
-✅ Llantas de aleación
-✅ Frenos ABS, control de estabilidad y múltiples airbags
-✅ Excelente rendimiento de combustible
-✅ Mantenciones al día
+✨ Versión GT
 
-🧾 Vehículo impecable, muy bien cuidado y listo para disfrutar.
-🚗 Excelente opción: moderno, deportivo, seguro y reconocido por su confiabilidad, bajo consumo y gran experiencia de manejo.
+✅ Motor 1.5, potente, confiable y muy económico.
+✅ Transmisión mecánica.
+✅ Aire acondicionado.
+✅ Llantas de aleación.
+✅ Alzavidrios eléctricos.
+✅ Espejos eléctricos.
+✅ Cierre centralizado.
+✅ Dirección asistida.
+✅ Frenos ABS con EBD.
+✅ Airbags delanteros.
+✅ Mantenciones al día.
+
+🧾 Vehículo muy bien cuidado, listo para transferir y disfrutar.
+
+🚗 Excelente opción por su confiabilidad, bajo consumo, mecánica simple y económica de mantener.
 
 📍 Las Condes
-📲 Escríbeme por mensaje o WhatsApp para coordinar visita o enviarte más fotos del vehículo.
+📲 Escríbeme por mensaje o WhatsApp para coordinar una visita o solicitar más fotos del vehículo.
 
-💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ`,
-        abs: true, esp: true, airbags: 'Múltiples', airConditioning: true,
-        bluetooth: true, usb: true, cruiseControl: true, audioSystem: true
+💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ CON 50% DE PIE
+
+🚗 RECIBIMOS VEHÍCULO EN PARTE DE PAGO (PREVIA EVALUACIÓN)`,
+        abs: true, airbags: 'Frontales', airConditioning: true,
+        powerSteering: true, electricWindows: true, electricMirrors: true
       },
       { slug: 'toyota-yaris-sedan-2022', brand: 'Toyota', model: 'Yaris', year: 2022, version: 'Sedán', transmission: 'Manual', fuel: 'Bencina', kilometers: 110000, price: 9990000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ Sedán 1.5 Dual VVT-i · mecánico
 ✅ CarPlay/Android Auto · cámara
@@ -1165,7 +1172,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Única dueña · dos llaves
 ✅ Climatizador · volante multifunción
 ✅ ABS · airbags · mantenciones al día`, abs: true, airbags: 'Múltiples', airConditioning: true },
-      { slug: 'chevrolet-colorado-ltz-2021', brand: 'Chevrolet', model: 'Colorado', year: 2021, version: 'LTZ', transmission: 'Automática', fuel: 'Diésel', kilometers: 200000, price: 17790000, owners: 2, state: 'En venta', region: 'Las Condes', description: `✅ LTZ 2.8 Turbo Diésel Duramax · automática
+      { slug: 'chevrolet-colorado-ltz-2021', brand: 'Chevrolet', model: 'Colorado', year: 2021, version: 'LTZ', transmission: 'Automática', fuel: 'Diésel', kilometers: 200000, price: 16850000, owners: 2, state: 'En venta', region: 'Las Condes', description: `✅ LTZ 2.8 Turbo Diésel Duramax · automática
 ✅ Segundo dueño · CarPlay/Android Auto
 ✅ Cámara + sensores · cuero · climatizador
 ✅ Levante 2,5" · neumáticos anchos · coco de arrastre`, airConditioning: true, airbags: 'Múltiples', audioSystem: true },
