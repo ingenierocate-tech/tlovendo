@@ -1730,81 +1730,6 @@
     "id": 38
   },
   {
-    "slug": "mazda-2-gt-2015",
-    "brand": "Mazda",
-    "model": "2",
-    "year": 2015,
-    "version": "GT",
-    "transmission": "Manual",
-    "fuel": "Bencina",
-    "kilometers": 124000,
-    "price": 6690000,
-    "owners": 1,
-    "state": "En venta",
-    "region": "Las Condes",
-    "description": "🚗 Mazda 2 GT 2015 – Mecánico | Full Equipo\n\n📍 Las Condes\n⏱️ 124.000 km\n⛽ Bencinero\n\n✨ Versión GT\n\n✅ Motor 1.5, potente, confiable y muy económico.\n✅ Transmisión mecánica.\n✅ Aire acondicionado.\n✅ Llantas de aleación.\n✅ Alzavidrios eléctricos.\n✅ Espejos eléctricos.\n✅ Cierre centralizado.\n✅ Dirección asistida.\n✅ Frenos ABS con EBD.\n✅ Airbags delanteros.\n✅ Mantenciones al día.\n\n🧾 Vehículo muy bien cuidado, listo para transferir y disfrutar.\n\n🚗 Excelente opción por su confiabilidad, bajo consumo, mecánica simple y económica de mantener.\n\n📍 Las Condes\n📲 Escríbeme por mensaje o WhatsApp para coordinar una visita o solicitar más fotos del vehículo.\n\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ CON 50% DE PIE\n\n🚗 RECIBIMOS VEHÍCULO EN PARTE DE PAGO (PREVIA EVALUACIÓN)",
-    "abs": true,
-    "airbags": "Frontales",
-    "airConditioning": true,
-    "powerSteering": true,
-    "electricWindows": true,
-    "electricMirrors": true,
-    "images": [
-      {
-        "url": "/autos/Mazda 2 GT 2015/01_lateral.webp",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/Mazda 2 GT 2015/IMG_20260622_131859.webp",
-        "alt": "IMG_20260622_131859",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda 2 GT 2015/IMG_20260622_131907.webp",
-        "alt": "IMG_20260622_131907",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda 2 GT 2015/IMG_20260622_131929.webp",
-        "alt": "IMG_20260622_131929",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda 2 GT 2015/IMG_20260622_131941.webp",
-        "alt": "IMG_20260622_131941",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda 2 GT 2015/IMG_20260622_131950.webp",
-        "alt": "IMG_20260622_131950",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda 2 GT 2015/IMG_20260622_132018.webp",
-        "alt": "IMG_20260622_132018",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda 2 GT 2015/IMG_20260622_132024.webp",
-        "alt": "IMG_20260622_132024",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda 2 GT 2015/IMG_20260622_132031.webp",
-        "alt": "IMG_20260622_132031",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mazda 2 GT 2015/IMG_20260622_132038.webp",
-        "alt": "IMG_20260622_132038",
-        "isPrimary": false
-      }
-    ],
-    "image": "/autos/Mazda 2 GT 2015/01_lateral.webp",
-    "id": 39
-  },
-  {
     "slug": "toyota-yaris-sedan-2022",
     "brand": "Toyota",
     "model": "Yaris",
@@ -1880,7 +1805,7 @@
       }
     ],
     "image": "/autos/Toyota Yaris 2022/01_lateral.webp",
-    "id": 40
+    "id": 39
   },
   {
     "slug": "kia-seltos-2023",
@@ -1958,7 +1883,7 @@
       }
     ],
     "image": "/autos/Kia Seltos 2023/01_lateral.webp",
-    "id": 41
+    "id": 40
   },
   {
     "slug": "chevrolet-sail-ltz-2024",
@@ -2032,7 +1957,7 @@
       }
     ],
     "image": "/autos/Chevrolet Sail 2024/01_lateral.webp",
-    "id": 42
+    "id": 41
   },
   {
     "slug": "ford-fiesta-sedan-2017",
@@ -2062,7 +1987,7 @@
       }
     ],
     "image": "/autos/Ford Fiesta 2017/01_lateral.webp",
-    "id": 43,
+    "id": 42,
     "soldAt": "2026-07-23"
   },
   {
@@ -2147,7 +2072,7 @@
       }
     ],
     "image": "/autos/Ds7 2021/01_lateral.webp",
-    "id": 44
+    "id": 43
   },
   {
     "slug": "bmw-316i-2016",
@@ -2219,7 +2144,7 @@
       }
     ],
     "image": "/autos/BMW 316i 2016/01_lateral.webp",
-    "id": 45
+    "id": 44
   },
   {
     "slug": "suzuki-grand-nomade-glx-2014",
@@ -2291,7 +2216,7 @@
       }
     ],
     "image": "/autos/Suzuki GN 2014/01_lateral.webp",
-    "id": 46
+    "id": 45
   },
   {
     "slug": "chevrolet-colorado-ltz-2021",
@@ -2363,6 +2288,6 @@
       }
     ],
     "image": "/autos/Chevrolet LTZ 2021/01_lateral.webp",
-    "id": 47
+    "id": 46
   }
 ]

@@ -1110,7 +1110,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'mazda-2-gt-2015',
         brand: 'Mazda', model: '2', year: 2015, version: 'GT',
         transmission: 'Manual', fuel: 'Bencina', kilometers: 124000,
-        price: 6690000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 6690000, owners: 1, state: 'Vendido', region: 'Las Condes',
         description: `🚗 Mazda 2 GT 2015 – Mecánico | Full Equipo
 
 📍 Las Condes
@@ -1300,7 +1300,8 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'chevrolet-d-max-2017',
       'chevrolet-captiva-2020',
       'ford-fusion-2020-hibrido',
-      'peugeot-3008-2017'
+      'peugeot-3008-2017',
+      'mazda-2-gt-2015'
     ];
     
     if (hiddenSlugs.length > 0) {
