@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "kill -9 $(lsof -t -i:3000) 2>/dev/null || true && cross-env PORT=3000 next dev",
-    "build": "next build",
+    "build": "npm run build:local && next build",
     "build:local": "node scripts/build-local-vehicles.js",
     "start": "next start",
     "lint": "next lint",

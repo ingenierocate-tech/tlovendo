@@ -1430,7 +1430,7 @@
     "transmission": "Automática",
     "fuel": "Bencina",
     "kilometers": 60000,
-    "price": 40590000,
+    "price": 37790000,
     "owners": 1,
     "state": "En venta",
     "region": "Las Condes",
@@ -1738,19 +1738,17 @@
     "transmission": "Manual",
     "fuel": "Bencina",
     "kilometers": 124000,
-    "price": 6990000,
+    "price": 6690000,
     "owners": 1,
     "state": "En venta",
     "region": "Las Condes",
-    "description": "🚗 Mazda 2 GT 2015 – Mecánico | Full Equipo\n\n✨ Versión GT muy equipada\n\n✅ Motor 1.5 Skyactiv-G, potente, confiable y muy económico\n✅ Transmisión mecánica\n✅ Versión GT, una de las más equipadas de la línea\n✅ Pantalla multimedia con conectividad Bluetooth y USB\n✅ Volante multifunción\n✅ Control de velocidad crucero\n✅ Aire acondicionado\n✅ Llantas de aleación\n✅ Frenos ABS, control de estabilidad y múltiples airbags\n✅ Excelente rendimiento de combustible\n✅ Mantenciones al día\n\n🧾 Vehículo impecable, muy bien cuidado y listo para disfrutar.\n🚗 Excelente opción: moderno, deportivo, seguro y reconocido por su confiabilidad, bajo consumo y gran experiencia de manejo.\n\n📍 Las Condes\n📲 Escríbeme por mensaje o WhatsApp para coordinar visita o enviarte más fotos del vehículo.\n\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ",
+    "description": "🚗 Mazda 2 GT 2015 – Mecánico | Full Equipo\n\n📍 Las Condes\n⏱️ 124.000 km\n⛽ Bencinero\n\n✨ Versión GT\n\n✅ Motor 1.5, potente, confiable y muy económico.\n✅ Transmisión mecánica.\n✅ Aire acondicionado.\n✅ Llantas de aleación.\n✅ Alzavidrios eléctricos.\n✅ Espejos eléctricos.\n✅ Cierre centralizado.\n✅ Dirección asistida.\n✅ Frenos ABS con EBD.\n✅ Airbags delanteros.\n✅ Mantenciones al día.\n\n🧾 Vehículo muy bien cuidado, listo para transferir y disfrutar.\n\n🚗 Excelente opción por su confiabilidad, bajo consumo, mecánica simple y económica de mantener.\n\n📍 Las Condes\n📲 Escríbeme por mensaje o WhatsApp para coordinar una visita o solicitar más fotos del vehículo.\n\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ CON 50% DE PIE\n\n🚗 RECIBIMOS VEHÍCULO EN PARTE DE PAGO (PREVIA EVALUACIÓN)",
     "abs": true,
-    "esp": true,
-    "airbags": "Múltiples",
+    "airbags": "Frontales",
     "airConditioning": true,
-    "bluetooth": true,
-    "usb": true,
-    "cruiseControl": true,
-    "audioSystem": true,
+    "powerSteering": true,
+    "electricWindows": true,
+    "electricMirrors": true,
     "images": [
       {
         "url": "/autos/Mazda 2 GT 2015/01_lateral.webp",
@@ -2061,51 +2059,6 @@
         "url": "/autos/Ford Fiesta 2017/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Ford Fiesta 2017/IMG_20260710_124928.webp",
-        "alt": "IMG_20260710_124928",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford Fiesta 2017/IMG_20260710_124936.webp",
-        "alt": "IMG_20260710_124936",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford Fiesta 2017/IMG_20260710_124958.webp",
-        "alt": "IMG_20260710_124958",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford Fiesta 2017/IMG_20260710_125006.webp",
-        "alt": "IMG_20260710_125006",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford Fiesta 2017/IMG_20260710_125014.webp",
-        "alt": "IMG_20260710_125014",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford Fiesta 2017/IMG_20260710_125125.webp",
-        "alt": "IMG_20260710_125125",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford Fiesta 2017/IMG_20260710_125129.webp",
-        "alt": "IMG_20260710_125129",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford Fiesta 2017/IMG_20260710_125135.webp",
-        "alt": "IMG_20260710_125135",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Ford Fiesta 2017/IMG_20260710_125144.webp",
-        "alt": "IMG_20260710_125144",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Ford Fiesta 2017/01_lateral.webp",
@@ -2349,7 +2302,7 @@
     "transmission": "Automática",
     "fuel": "Diésel",
     "kilometers": 200000,
-    "price": 17790000,
+    "price": 16850000,
     "owners": 2,
     "state": "En venta",
     "region": "Las Condes",

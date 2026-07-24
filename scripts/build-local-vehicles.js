@@ -320,7 +320,7 @@ const manualOverrides = [
   { keywords: ['bmw', '320i', '2024'], state: 'Vendido' },
   { keywords: ['bmw', '320d', '2018'], price: 18990000, state: 'En venta' },
   { keywords: ['porsche', 'panamera', '2017'], state: 'Vendido' },
-  { keywords: ['chevrolet', 'silverado', '2024'], price: 40590000, state: 'En venta' },
+  { keywords: ['chevrolet', 'silverado', '2024'], price: 37790000, state: 'En venta' },
   { keywords: ['nissan', 'sentra', '2021'], price: 13750000, state: 'Vendido' },
   { keywords: ['ford', 'fusion', '2020'], price: 15550000, state: 'En venta' },
   { keywords: ['subaru', 'forester', '2019'], price: 18990000, state: 'Vendido' },
