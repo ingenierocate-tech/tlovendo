@@ -17,7 +17,7 @@ export type Vehicle = {
   description?: string;
   
   // Campos adicionales del Google Sheet
-  owners: number; // Dueños - nunca puede ser 0, default 1
+  owners?: number; // Dueños opcional; si no se conoce, se puede omitir
   color?: string;
   status?: string; // Estado
   state?: string;

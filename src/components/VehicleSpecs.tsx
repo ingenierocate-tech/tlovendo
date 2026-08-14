@@ -173,12 +173,14 @@ export default function VehicleSpecs({ vehicle }: VehicleSpecsProps) {
         </h3>
         
         <div className="space-y-3">
-          <div className="flex items-center justify-between">
-            <span className="text-gray-600">Propietarios:</span>
-            <span className="font-semibold text-gray-900">
-              {vehicle.owners || 1} {(vehicle.owners || 1) === 1 ? 'propietario' : 'propietarios'}
-            </span>
-          </div>
+          {typeof vehicle.owners === 'number' && (
+            <div className="flex items-center justify-between">
+              <span className="text-gray-600">Propietarios:</span>
+              <span className="font-semibold text-gray-900">
+                {vehicle.owners} {vehicle.owners === 1 ? 'propietario' : 'propietarios'}
+              </span>
+            </div>
+          )}
           
           {vehicle.color && (
             <div className="flex items-center justify-between">

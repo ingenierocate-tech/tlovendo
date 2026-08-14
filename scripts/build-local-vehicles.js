@@ -294,6 +294,10 @@ const slugToFolderMapping = {
   'ford-explorer-limited-2018': 'Ford Explorer Límites 2018',
   'chery-iq-2014': 'Chery IQ 2014',
   'chevrolet-tracker-lt-2018': 'Chevrolet Tracker 2018',
+  'chevrolet-prisma-ltz-2020': 'Chevrolet Prisma LTZ 2020',
+  'toyota-rav4-2018': 'Toyota Rav4 2018',
+  'citroen-c4-picasso-2017': 'Citroen C4 Picasso 2017',
+  'bmw-320d-m-package-2018': 'BMW 320D M Sport 2018',
   'mazda-2-gt-2015': 'Mazda 2 GT 2015',
   'toyota-yaris-sedan-2022': 'Toyota Yaris 2022',
   'kia-seltos-2023': 'Kia Seltos 2023',
@@ -318,9 +322,9 @@ const manualOverrides = [
   { keywords: ['kia', 'rio', '2018'], state: 'Vendido' },
   { keywords: ['citroen', 'picasso', '2011'], state: 'Vendido' },
   { keywords: ['bmw', '320i', '2024'], state: 'Vendido' },
-  { keywords: ['bmw', '320d', '2018'], price: 18990000, state: 'En venta' },
+  { keywords: ['bmw', '320d', '2018', 'sport'], price: 18350000, state: 'En venta' },
   { keywords: ['porsche', 'panamera', '2017'], state: 'Vendido' },
-  { keywords: ['chevrolet', 'silverado', '2024'], price: 37790000, state: 'En venta' },
+  { keywords: ['chevrolet', 'silverado', '2024'], price: 37790000, state: 'Vendido' },
   { keywords: ['nissan', 'sentra', '2021'], price: 13750000, state: 'Vendido' },
   { keywords: ['ford', 'fusion', '2020'], price: 15550000, state: 'En venta' },
   { keywords: ['subaru', 'forester', '2019'], price: 18990000, state: 'Vendido' },
@@ -334,6 +338,7 @@ const manualOverrides = [
   { keywords: ['nissan', 'pathfinder', '2003'], price: 10500000, state: 'En venta' },
   { keywords: ['nissan', 'pathfinder', '1999'], price: 9750000, state: 'En venta' },
   { keywords: ['kia', 'rio', '2020'], price: 9150000, state: 'En venta' },
+  { keywords: ['citroen', 'picasso', '2015'], price: 6990000, state: 'En venta' },
   { keywords: ['fiat', 'uno', '2020'], price: 6190000, state: 'Vendido' },
   { keywords: ['toyota', 'land', '2010'], price: 11990000, state: 'Vendido' },
   { keywords: ['toyota', 'raize', '2025'], price: 11890000, state: 'Vendido' },
@@ -489,6 +494,10 @@ const folderToSlugMapping = {
   'Ford Explorer Limited 2018': 'ford-explorer-limited-2018',
   'Chery IQ 2014': 'chery-iq-2014',
   'Chevrolet Tracker 2018': 'chevrolet-tracker-lt-2018',
+  'Chevrolet Prisma LTZ 2020': 'chevrolet-prisma-ltz-2020',
+  'Toyota Rav4 2018': 'toyota-rav4-2018',
+  'Citroen C4 Picasso 2017': 'citroen-c4-picasso-2017',
+  'BMW 320D M Sport 2018': 'bmw-320d-m-package-2018',
   'Toyota Yaris 2022': 'toyota-yaris-sedan-2022',
   'Kia Seltos 2023': 'kia-seltos-2023',
   'Chevrolet Sail 2024': 'chevrolet-sail-ltz-2024',
@@ -1021,7 +1030,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'hyundai-porter-2023',
         brand: 'Hyundai', model: 'Porter', year: 2023,
         transmission: 'Manual', fuel: 'Diésel', kilometers: 122000,
-        price: 14990000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 13990000, owners: 1, state: 'En venta', region: 'Las Condes',
         description: `✅ 2.5 Turbo diésel · mecánica
 ✅ Doble cabina · dirección asistida
 ✅ Excelente capacidad de carga · mantenciones al día
@@ -1061,7 +1070,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'chevrolet-silverado-zr2-2024-full',
         brand: 'Chevrolet', model: 'Silverado ZR2', year: 2024, version: '4x4',
         transmission: 'Automática', fuel: 'Bencina', kilometers: 60000,
-        price: 37790000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 37790000, owners: 1, state: 'Vendido', region: 'Las Condes',
         description: `✅ V8 bencinero · automática · 4x4 ZR2
 ✅ Único dueño · cuero · climatizador
 ✅ CarPlay/Android Auto · cámara 360 + sensores
@@ -1080,7 +1089,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'ford-explorer-limited-2018',
         brand: 'Ford', model: 'Explorer', year: 2018, version: 'Limited',
         transmission: 'Automática', fuel: 'Bencina', kilometers: 100000,
-        price: 18790000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 17500000, owners: 1, state: 'En venta', region: 'Las Condes',
         description: `✅ Limited full equipo · 7 pasajeros
 ✅ Cuero eléctrico calefaccionado · sunroof panorámico
 ✅ CarPlay/Android Auto · cámara + sensores
@@ -1100,12 +1109,33 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'chevrolet-tracker-lt-2018',
         brand: 'Chevrolet', model: 'Tracker', year: 2018, version: 'LT',
         transmission: 'Manual', fuel: 'Bencina', kilometers: 105000,
-        price: 8500000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 7790000, owners: 1, state: 'En venta', region: 'Las Condes',
         description: `✅ LT 1.8 bencinero · mecánica
 ✅ MyLink + Bluetooth/USB · cámara
 ✅ Volante multifunción · aire acondicionado
 ✅ ABS + control de estabilidad · múltiples airbags`
       },
+      { slug: 'chevrolet-prisma-ltz-2020', brand: 'Chevrolet', model: 'Prisma', year: 2020, version: 'LTZ', transmission: 'Manual', fuel: 'Bencina', kilometers: 85000, price: 6990000, state: 'En venta', region: 'Las Condes', description: `✅ Prisma LTZ 1.4 bencinero · mecánico
+✅ MyLink con CarPlay/Android Auto · cámara de retroceso
+✅ Volante multifunción · aire acondicionado · llantas
+✅ ABS · estabilidad · múltiples airbags
+✅ Amplio maletero · mantenciones al día`, abs: true, esp: true, airbags: 'Múltiples', airConditioning: true, audioSystem: true },
+      { slug: 'toyota-rav4-2018', brand: 'Toyota', model: 'RAV4', year: 2018, transmission: 'Automática', fuel: 'Bencina', kilometers: 61000, price: 13990000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ RAV4 2.0 Dual VVT-i · automática
+✅ Solo 61.000 km
+✅ Pantalla multimedia · cámara de retroceso
+✅ Volante multifunción · climatizador automático
+✅ Control crucero · ABS · estabilidad · múltiples airbags
+✅ Amplio maletero · mantenciones al día`, abs: true, esp: true, airbags: 'Múltiples', airConditioning: true, cruiseControl: true, audioSystem: true },
+      { slug: 'citroen-c4-picasso-2017', brand: 'Citroen', model: 'C4 Picasso', year: 2017, transmission: 'Automática', fuel: 'Diésel', kilometers: 214000, price: 9990000, state: 'En venta', region: 'Las Condes', description: `✅ C4 Picasso 2.0 HDi turbodiésel · automática
+✅ 3 corridas de asientos · 7 pasajeros
+✅ Techo panorámico · cuero · climatizador bi-zona
+✅ Pantalla multimedia + tablero digital · cámara y sensores
+✅ Gran maletero · mantenciones al día`, abs: true, airbags: 'Múltiples', airConditioning: true, audioSystem: true },
+      { slug: 'bmw-320d-m-package-2018', brand: 'BMW', model: '320d', year: 2018, version: 'M Sport', transmission: 'Automática', fuel: 'Diésel', kilometers: 146000, price: 18350000, state: 'En venta', region: 'Las Condes', description: `✅ 320d M Sport 2.0 TwinPower Turbo diésel
+✅ Automática deportiva de 8 velocidades
+✅ Paquete M original · fibra de carbono · sunroof
+✅ Cuero eléctrico · iDrive con CarPlay · cámara + sensores
+✅ Climatizador bi-zona · llantas M Sport · mantenciones al día`, airConditioning: true, airbags: 'Múltiples', audioSystem: true },
       {
         slug: 'mazda-2-gt-2015',
         brand: 'Mazda', model: '2', year: 2015, version: 'GT',
@@ -1148,7 +1178,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ CarPlay/Android Auto · cámara
 ✅ 6 airbags · VSC · HAC · ABS/EBD
 ✅ Amplio maletero · mantenciones al día`, abs: true, esp: true, airbags: '6 airbags', audioSystem: true },
-      { slug: 'kia-seltos-2023', brand: 'Kia', model: 'Seltos', year: 2023, transmission: 'Manual', fuel: 'Bencina', kilometers: 97000, price: 12990000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ 1.6 bencinero · mecánica
+      { slug: 'kia-seltos-2023', brand: 'Kia', model: 'Seltos', year: 2023, transmission: 'Manual', fuel: 'Bencina', kilometers: 97000, price: 12990000, owners: 1, state: 'Vendido', region: 'Las Condes', description: `✅ 1.6 bencinero · mecánica
 ✅ Pantalla 10,25" · CarPlay/Android Auto · cámara
 ✅ Aire acondicionado · crucero
 ✅ Control de estabilidad · HAC · múltiples airbags`, airConditioning: true, cruiseControl: true, esp: true, airbags: 'Múltiples', audioSystem: true },
@@ -1160,7 +1190,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Dirección asistida eléctrica · aire acondicionado
 ✅ Volante multifunción · vidrios y espejos eléctricos
 ✅ ABS · múltiples airbags · mantenciones al día`, abs: true, airbags: 'Múltiples', airConditioning: true, powerSteering: true, electricWindows: true, electricMirrors: true },
-      { slug: 'ds-7-rivoli-2021', brand: 'DS', model: '7', year: 2021, version: 'Rivoli', transmission: 'Automática', fuel: 'Diésel', kilometers: 85000, price: 19990000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ 2.0 BlueHDi Turbo Diésel · automática EAT8
+      { slug: 'ds-7-rivoli-2021', brand: 'DS', model: '7', year: 2021, version: 'Rivoli', transmission: 'Automática', fuel: 'Diésel', kilometers: 85000, price: 18790000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ 2.0 BlueHDi Turbo Diésel · automática EAT8
 ✅ Único dueño · Rivoli · sunroof panorámico
 ✅ Cuero eléctrico con memoria y calefacción
 ✅ CarPlay/Android Auto · cámara 360 · climatizador bi-zona`, airConditioning: true, airbags: 'Múltiples', bluetooth: true, usb: true, audioSystem: true },
@@ -1168,7 +1198,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Segundo dueño · iDrive · volante multifunción
 ✅ Climatizador bi-zona · sensores
 ✅ Estabilidad · airbags · mantenciones al día`, airConditioning: true, esp: true, airbags: 'Múltiples', audioSystem: true },
-      { slug: 'suzuki-grand-nomade-glx-2014', brand: 'Suzuki', model: 'Grand Nomade', year: 2014, version: 'GLX 4x2', transmission: 'Manual', fuel: 'Bencina', kilometers: 160000, price: 7790000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ GLX 2.4 bencinero · mecánica · 4x2
+      { slug: 'suzuki-grand-nomade-glx-2014', brand: 'Suzuki', model: 'Grand Nomade', year: 2014, version: 'GLX 4x2', transmission: 'Manual', fuel: 'Bencina', kilometers: 160000, price: 6990000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ GLX 2.4 bencinero · mecánica · 4x2
 ✅ Única dueña · dos llaves
 ✅ Climatizador · volante multifunción
 ✅ ABS · airbags · mantenciones al día`, abs: true, airbags: 'Múltiples', airConditioning: true },
@@ -1289,7 +1319,9 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
     vehicles = uniqueVehicles;
 
     // ---------------------------------------------------------
-    // FILTRO MANUAL DE OCULTOS (No borrar, solo ocultar)
+    // FILTRO MANUAL DE OCULTOS
+    // - En venta: se sacan del catálogo visible
+    // - Vendidos: se conservan para "Autos vendidos" y reporte mensual
     // ---------------------------------------------------------
     const hiddenSlugs = [
       'bmw-320im-sport-2024',
@@ -1301,13 +1333,23 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'chevrolet-captiva-2020',
       'ford-fusion-2020-hibrido',
       'peugeot-3008-2017',
-      'mazda-2-gt-2015'
+      'mazda-2-gt-2015',
+      'bmw-320d-2018-sport',
+      'chevrolet-silverado-zr2-2024-full',
+      'kia-seltos-2023'
     ];
     
     if (hiddenSlugs.length > 0) {
       const initialCount = vehicles.length;
-      vehicles = vehicles.filter(v => !hiddenSlugs.includes(v.slug));
-      console.log(`🙈 Se ocultaron ${initialCount - vehicles.length} vehículos (Silverado, etc).`);
+      const hiddenSet = new Set(hiddenSlugs);
+      const preservedSoldHidden = vehicles.filter(v => hiddenSet.has(v.slug) && String(v.state ?? v.status ?? '').toLowerCase().includes('vendido')).length;
+      vehicles = vehicles.filter(v => {
+        const isHidden = hiddenSet.has(v.slug);
+        const isSold = String(v.state ?? v.status ?? '').toLowerCase().includes('vendido');
+        return !isHidden || isSold;
+      });
+      console.log(`🙈 Se ocultaron ${initialCount - vehicles.length} vehículos activos del catálogo.`);
+      console.log(`🧾 Se conservaron ${preservedSoldHidden} vehículos vendidos ocultos para histórico y reporte mensual.`);
     }
 
     // RE-INDEXAR IDs para asegurar unicidad

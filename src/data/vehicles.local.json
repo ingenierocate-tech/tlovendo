@@ -718,7 +718,7 @@
     "model": "C4 picasso",
     "version": "",
     "year": 2015,
-    "price": 7390000,
+    "price": 6990000,
     "kilometers": null,
     "transmission": "No disponible",
     "fuel": "No disponible",
@@ -1091,82 +1091,6 @@
     "soldAt": "2026-03-26"
   },
   {
-    "slug": "bmw-320d-2018-sport",
-    "brand": "BMW",
-    "model": "320d",
-    "year": 2018,
-    "version": "Sport",
-    "transmission": "Automática",
-    "fuel": "Diésel",
-    "kilometers": 142000,
-    "price": 18990000,
-    "owners": 1,
-    "state": "En venta",
-    "region": "Santiago",
-    "description": "🔧 Diésel · Automático\n📍 142.000 km · 2 llaves\n✔️ Todas las mantenciones hechas rigurosamente.\n🔥 Motor diésel eficiente y potente: equilibrio entre potencia y economía típico de esta versión del Serie 3.\n🔥 Prestaciones de sedán premium: ágil y sólido en autopista y ciudad.\n🔥 Buen espacio interior y maletero: práctico para el día a día y viajes.\n🔥 Estilo y presencia BMW: diseño deportivo, interior cuidado y conducción dinámica.\n📄 Documentación al día y lista para transferir\n🔁 Se recibe vehículo menor como parte de pago\n💳 Financiamiento disponible",
-    "abs": true,
-    "images": [
-      {
-        "url": "/autos/Bmw_320iM_sport_2018/01_lateral.webp",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131830.webp",
-        "alt": "IMG_20260115_131830",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131839.webp",
-        "alt": "IMG_20260115_131839",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131907.webp",
-        "alt": "IMG_20260115_131907",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131921.webp",
-        "alt": "IMG_20260115_131921",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131934.webp",
-        "alt": "IMG_20260115_131934",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_131952.webp",
-        "alt": "IMG_20260115_131952",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_132010.webp",
-        "alt": "IMG_20260115_132010",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_132015.webp",
-        "alt": "IMG_20260115_132015",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_132024.webp",
-        "alt": "IMG_20260115_132024",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Bmw_320iM_sport_2018/IMG_20260115_132104.webp",
-        "alt": "IMG_20260115_132104",
-        "isPrimary": false
-      }
-    ],
-    "image": "/autos/Bmw_320iM_sport_2018/01_lateral.webp",
-    "keep": true,
-    "id": 26
-  },
-  {
     "slug": "jeep-compass-2011",
     "brand": "Jeep",
     "model": "Compass",
@@ -1191,7 +1115,7 @@
     ],
     "image": "/autos/Jeep-Compass-2011/01_lateral.webp",
     "keep": true,
-    "id": 27,
+    "id": 26,
     "soldAt": "2026-03-26"
   },
   {
@@ -1219,7 +1143,7 @@
     ],
     "image": "/autos/Marcedes Benz-A200-sedan/01_lateral.webp",
     "keep": true,
-    "id": 28,
+    "id": 27,
     "soldAt": "2026-04-02"
   },
   {
@@ -1249,7 +1173,7 @@
     ],
     "image": "/autos/Fiat-Uno-2020/01_lateral.webp",
     "keep": true,
-    "id": 29,
+    "id": 28,
     "soldAt": "2026-05-11"
   },
   {
@@ -1274,7 +1198,7 @@
     ],
     "image": "/autos/Toyora_Raize_2025/01_lateral.webp",
     "keep": true,
-    "id": 30,
+    "id": 29,
     "soldAt": "2026-06-15"
   },
   {
@@ -1285,7 +1209,7 @@
     "transmission": "Manual",
     "fuel": "Diésel",
     "kilometers": 122000,
-    "price": 14990000,
+    "price": 13990000,
     "owners": 1,
     "state": "En venta",
     "region": "Las Condes",
@@ -1368,7 +1292,7 @@
       }
     ],
     "image": "/autos/Hyundai_Porter_2023/01_lateral.webp",
-    "id": 31
+    "id": 30
   },
   {
     "slug": "toyota-land-cruiser-2010",
@@ -1392,7 +1316,7 @@
     ],
     "image": "/autos/Toyota_ Landcruiser_2010/01_lateral.webp",
     "keep": true,
-    "id": 32,
+    "id": 31,
     "soldAt": "2026-06-15"
   },
   {
@@ -1418,7 +1342,7 @@
     ],
     "image": "/autos/Mitsubishi_L200Katana_2013/01_lateral.webp",
     "keep": true,
-    "id": 33,
+    "id": 32,
     "soldAt": "2026-06-15"
   },
   {
@@ -1432,7 +1356,7 @@
     "kilometers": 60000,
     "price": 37790000,
     "owners": 1,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Las Condes",
     "description": "✅ V8 bencinero · automática · 4x4 ZR2\n✅ Único dueño · cuero · climatizador\n✅ CarPlay/Android Auto · cámara 360 + sensores\n✅ Mantenciones al día en la marca",
     "images": [
@@ -1440,91 +1364,12 @@
         "url": "/autos/Chevrolet_ Silverado_2024/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105024.webp",
-        "alt": "IMG_20260410_105024",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105038.webp",
-        "alt": "IMG_20260410_105038",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105105.webp",
-        "alt": "IMG_20260410_105105",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105119.webp",
-        "alt": "IMG_20260410_105119",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105131.webp",
-        "alt": "IMG_20260410_105131",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105158.webp",
-        "alt": "IMG_20260410_105158",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105216.webp",
-        "alt": "IMG_20260410_105216",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105237.webp",
-        "alt": "IMG_20260410_105237",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105242.webp",
-        "alt": "IMG_20260410_105242",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105246.webp",
-        "alt": "IMG_20260410_105246",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105259.webp",
-        "alt": "IMG_20260410_105259",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105310.webp",
-        "alt": "IMG_20260410_105310",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105325.webp",
-        "alt": "IMG_20260410_105325",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105356.webp",
-        "alt": "IMG_20260410_105356",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105402.webp",
-        "alt": "IMG_20260410_105402",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet_ Silverado_2024/IMG_20260410_105413.webp",
-        "alt": "IMG_20260410_105413",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Chevrolet_ Silverado_2024/01_lateral.webp",
     "keep": true,
-    "id": 34
+    "id": 33,
+    "soldAt": "2026-08-14"
   },
   {
     "slug": "suzuki-alto-800-2018",
@@ -1548,7 +1393,7 @@
     ],
     "image": "/autos/Suzuki alto 800 2018/01_lateral.webp",
     "keep": true,
-    "id": 35,
+    "id": 34,
     "soldAt": "2026-06-15"
   },
   {
@@ -1560,7 +1405,7 @@
     "transmission": "Automática",
     "fuel": "Bencina",
     "kilometers": 100000,
-    "price": 18790000,
+    "price": 17500000,
     "owners": 1,
     "state": "En venta",
     "region": "Las Condes",
@@ -1633,7 +1478,7 @@
       }
     ],
     "image": "/autos/Ford Explorer Límites 2018/01_lateral.webp",
-    "id": 36
+    "id": 35
   },
   {
     "slug": "chery-iq-2014",
@@ -1657,7 +1502,7 @@
     ],
     "image": "/autos/Chery IQ 2014/01_lateral.webp",
     "keep": true,
-    "id": 37,
+    "id": 36,
     "soldAt": "2026-06-26"
   },
   {
@@ -1669,7 +1514,7 @@
     "transmission": "Manual",
     "fuel": "Bencina",
     "kilometers": 105000,
-    "price": 8500000,
+    "price": 7790000,
     "owners": 1,
     "state": "En venta",
     "region": "Las Condes",
@@ -1727,7 +1572,347 @@
       }
     ],
     "image": "/autos/Chevrolet Tracker 2018/01_lateral.webp",
+    "id": 37
+  },
+  {
+    "slug": "chevrolet-prisma-ltz-2020",
+    "brand": "Chevrolet",
+    "model": "Prisma",
+    "year": 2020,
+    "version": "LTZ",
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 85000,
+    "price": 6990000,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Prisma LTZ 1.4 bencinero · mecánico\n✅ MyLink con CarPlay/Android Auto · cámara de retroceso\n✅ Volante multifunción · aire acondicionado · llantas\n✅ ABS · estabilidad · múltiples airbags\n✅ Amplio maletero · mantenciones al día",
+    "abs": true,
+    "esp": true,
+    "airbags": "Múltiples",
+    "airConditioning": true,
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/Chevrolet Prisma LTZ 2020/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_122914.webp",
+        "alt": "IMG_20260804_122914",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_122938.webp",
+        "alt": "IMG_20260804_122938",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_122951.webp",
+        "alt": "IMG_20260804_122951",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_122959.webp",
+        "alt": "IMG_20260804_122959",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_123008.webp",
+        "alt": "IMG_20260804_123008",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_123023.webp",
+        "alt": "IMG_20260804_123023",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_123036.webp",
+        "alt": "IMG_20260804_123036",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_123053.webp",
+        "alt": "IMG_20260804_123053",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_123102.webp",
+        "alt": "IMG_20260804_123102",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Chevrolet Prisma LTZ 2020/01_lateral.webp",
     "id": 38
+  },
+  {
+    "slug": "toyota-rav4-2018",
+    "brand": "Toyota",
+    "model": "RAV4",
+    "year": 2018,
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 61000,
+    "price": 13990000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ RAV4 2.0 Dual VVT-i · automática\n✅ Solo 61.000 km\n✅ Pantalla multimedia · cámara de retroceso\n✅ Volante multifunción · climatizador automático\n✅ Control crucero · ABS · estabilidad · múltiples airbags\n✅ Amplio maletero · mantenciones al día",
+    "abs": true,
+    "esp": true,
+    "airbags": "Múltiples",
+    "airConditioning": true,
+    "cruiseControl": true,
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/Toyota Rav4 2018/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085011.webp",
+        "alt": "IMG_20260803_085011",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085019.webp",
+        "alt": "IMG_20260803_085019",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085039.webp",
+        "alt": "IMG_20260803_085039",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085047.webp",
+        "alt": "IMG_20260803_085047",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085055.webp",
+        "alt": "IMG_20260803_085055",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085204.webp",
+        "alt": "IMG_20260803_085204",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085210.webp",
+        "alt": "IMG_20260803_085210",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085220.webp",
+        "alt": "IMG_20260803_085220",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085234.webp",
+        "alt": "IMG_20260803_085234",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Toyota Rav4 2018/01_lateral.webp",
+    "id": 39
+  },
+  {
+    "slug": "citroen-c4-picasso-2017",
+    "brand": "Citroen",
+    "model": "C4 Picasso",
+    "year": 2017,
+    "transmission": "Automática",
+    "fuel": "Diésel",
+    "kilometers": 214000,
+    "price": 9990000,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ C4 Picasso 2.0 HDi turbodiésel · automática\n✅ 3 corridas de asientos · 7 pasajeros\n✅ Techo panorámico · cuero · climatizador bi-zona\n✅ Pantalla multimedia + tablero digital · cámara y sensores\n✅ Gran maletero · mantenciones al día",
+    "abs": true,
+    "airbags": "Múltiples",
+    "airConditioning": true,
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/Citroen C4 Picasso 2017/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2017/file_000000001b64820e81cb74af58c8b136.webp",
+        "alt": "file_000000001b64820e81cb74af58c8b136",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2017/file_000000003604820e824049f55e9cbd6b.webp",
+        "alt": "file_000000003604820e824049f55e9cbd6b",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2017/file_000000003dcc820eb2ee7e08b64aca2f.webp",
+        "alt": "file_000000003dcc820eb2ee7e08b64aca2f",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2017/file_000000005604820ea563704a27bce8f2.webp",
+        "alt": "file_000000005604820ea563704a27bce8f2",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2017/file_000000006f78820e997497a845ca24da.webp",
+        "alt": "file_000000006f78820e997497a845ca24da",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2017/file_000000009f98820eb3b84827515554a7.webp",
+        "alt": "file_000000009f98820eb3b84827515554a7",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2017/file_00000000b24c820e8c44a3915e96c239.webp",
+        "alt": "file_00000000b24c820e8c44a3915e96c239",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2017/file_00000000d164820e805ef0affc92fbf6.webp",
+        "alt": "file_00000000d164820e805ef0affc92fbf6",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Citroen C4 Picasso 2017/file_00000000daf8820e9ae335fb3d122220.webp",
+        "alt": "file_00000000daf8820e9ae335fb3d122220",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Citroen C4 Picasso 2017/01_lateral.webp",
+    "id": 40
+  },
+  {
+    "slug": "bmw-320d-m-package-2018",
+    "brand": "BMW",
+    "model": "320d",
+    "year": 2018,
+    "version": "M Sport",
+    "transmission": "Automática",
+    "fuel": "Diésel",
+    "kilometers": 146000,
+    "price": 18350000,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ 320d M Sport 2.0 TwinPower Turbo diésel\n✅ Automática deportiva de 8 velocidades\n✅ Paquete M original · fibra de carbono · sunroof\n✅ Cuero eléctrico · iDrive con CarPlay · cámara + sensores\n✅ Climatizador bi-zona · llantas M Sport · mantenciones al día",
+    "airConditioning": true,
+    "airbags": "Múltiples",
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/BMW 320D M Sport 2018/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110724.webp",
+        "alt": "IMG_20260804_110724",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110734.webp",
+        "alt": "IMG_20260804_110734",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110759.webp",
+        "alt": "IMG_20260804_110759",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110813.webp",
+        "alt": "IMG_20260804_110813",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110826.webp",
+        "alt": "IMG_20260804_110826",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110836.webp",
+        "alt": "IMG_20260804_110836",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110851.webp",
+        "alt": "IMG_20260804_110851",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110901.webp",
+        "alt": "IMG_20260804_110901",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110906.webp",
+        "alt": "IMG_20260804_110906",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110917.webp",
+        "alt": "IMG_20260804_110917",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110923.webp",
+        "alt": "IMG_20260804_110923",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110934.webp",
+        "alt": "IMG_20260804_110934",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110946.webp",
+        "alt": "IMG_20260804_110946",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/BMW 320D M Sport 2018/01_lateral.webp",
+    "id": 41
+  },
+  {
+    "slug": "mazda-2-gt-2015",
+    "brand": "Mazda",
+    "model": "2",
+    "year": 2015,
+    "version": "GT",
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 124000,
+    "price": 6690000,
+    "owners": 1,
+    "state": "Vendido",
+    "region": "Las Condes",
+    "description": "🚗 Mazda 2 GT 2015 – Mecánico | Full Equipo\n\n📍 Las Condes\n⏱️ 124.000 km\n⛽ Bencinero\n\n✨ Versión GT\n\n✅ Motor 1.5, potente, confiable y muy económico.\n✅ Transmisión mecánica.\n✅ Aire acondicionado.\n✅ Llantas de aleación.\n✅ Alzavidrios eléctricos.\n✅ Espejos eléctricos.\n✅ Cierre centralizado.\n✅ Dirección asistida.\n✅ Frenos ABS con EBD.\n✅ Airbags delanteros.\n✅ Mantenciones al día.\n\n🧾 Vehículo muy bien cuidado, listo para transferir y disfrutar.\n\n🚗 Excelente opción por su confiabilidad, bajo consumo, mecánica simple y económica de mantener.\n\n📍 Las Condes\n📲 Escríbeme por mensaje o WhatsApp para coordinar una visita o solicitar más fotos del vehículo.\n\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ CON 50% DE PIE\n\n🚗 RECIBIMOS VEHÍCULO EN PARTE DE PAGO (PREVIA EVALUACIÓN)",
+    "abs": true,
+    "airbags": "Frontales",
+    "airConditioning": true,
+    "powerSteering": true,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "images": [
+      {
+        "url": "/autos/Mazda 2 GT 2015/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "image": "/autos/Mazda 2 GT 2015/01_lateral.webp",
+    "id": 42,
+    "soldAt": "2026-07-24"
   },
   {
     "slug": "toyota-yaris-sedan-2022",
@@ -1805,7 +1990,7 @@
       }
     ],
     "image": "/autos/Toyota Yaris 2022/01_lateral.webp",
-    "id": 39
+    "id": 43
   },
   {
     "slug": "kia-seltos-2023",
@@ -1817,7 +2002,7 @@
     "kilometers": 97000,
     "price": 12990000,
     "owners": 1,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Las Condes",
     "description": "✅ 1.6 bencinero · mecánica\n✅ Pantalla 10,25\" · CarPlay/Android Auto · cámara\n✅ Aire acondicionado · crucero\n✅ Control de estabilidad · HAC · múltiples airbags",
     "airConditioning": true,
@@ -1830,60 +2015,11 @@
         "url": "/autos/Kia Seltos 2023/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Kia Seltos 2023/IMG_20260708_145724.webp",
-        "alt": "IMG_20260708_145724",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia Seltos 2023/IMG_20260708_145731.webp",
-        "alt": "IMG_20260708_145731",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia Seltos 2023/IMG_20260708_145755.webp",
-        "alt": "IMG_20260708_145755",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia Seltos 2023/IMG_20260708_145802.webp",
-        "alt": "IMG_20260708_145802",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia Seltos 2023/IMG_20260708_145810.webp",
-        "alt": "IMG_20260708_145810",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia Seltos 2023/IMG_20260708_145823.webp",
-        "alt": "IMG_20260708_145823",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia Seltos 2023/IMG_20260708_145834.webp",
-        "alt": "IMG_20260708_145834",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia Seltos 2023/IMG_20260708_145840.webp",
-        "alt": "IMG_20260708_145840",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia Seltos 2023/IMG_20260708_145847.webp",
-        "alt": "IMG_20260708_145847",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Kia Seltos 2023/IMG_20260708_145901.webp",
-        "alt": "IMG_20260708_145901",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Kia Seltos 2023/01_lateral.webp",
-    "id": 40
+    "id": 44,
+    "soldAt": "2026-08-14"
   },
   {
     "slug": "chevrolet-sail-ltz-2024",
@@ -1957,7 +2093,7 @@
       }
     ],
     "image": "/autos/Chevrolet Sail 2024/01_lateral.webp",
-    "id": 41
+    "id": 45
   },
   {
     "slug": "ford-fiesta-sedan-2017",
@@ -1987,7 +2123,7 @@
       }
     ],
     "image": "/autos/Ford Fiesta 2017/01_lateral.webp",
-    "id": 42,
+    "id": 46,
     "soldAt": "2026-07-23"
   },
   {
@@ -1999,7 +2135,7 @@
     "transmission": "Automática",
     "fuel": "Diésel",
     "kilometers": 85000,
-    "price": 19990000,
+    "price": 18790000,
     "owners": 1,
     "state": "En venta",
     "region": "Las Condes",
@@ -2072,7 +2208,7 @@
       }
     ],
     "image": "/autos/Ds7 2021/01_lateral.webp",
-    "id": 43
+    "id": 47
   },
   {
     "slug": "bmw-316i-2016",
@@ -2144,7 +2280,7 @@
       }
     ],
     "image": "/autos/BMW 316i 2016/01_lateral.webp",
-    "id": 44
+    "id": 48
   },
   {
     "slug": "suzuki-grand-nomade-glx-2014",
@@ -2155,7 +2291,7 @@
     "transmission": "Manual",
     "fuel": "Bencina",
     "kilometers": 160000,
-    "price": 7790000,
+    "price": 6990000,
     "owners": 1,
     "state": "En venta",
     "region": "Las Condes",
@@ -2216,7 +2352,7 @@
       }
     ],
     "image": "/autos/Suzuki GN 2014/01_lateral.webp",
-    "id": 45
+    "id": 49
   },
   {
     "slug": "chevrolet-colorado-ltz-2021",
@@ -2288,6 +2424,6 @@
       }
     ],
     "image": "/autos/Chevrolet LTZ 2021/01_lateral.webp",
-    "id": 46
+    "id": 50
   }
 ]
