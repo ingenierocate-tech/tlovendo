@@ -1884,6 +1884,135 @@
     "id": 41
   },
   {
+    "slug": "mitsubishi-montero-sport-2023",
+    "brand": "Mitsubishi",
+    "model": "Montero Sport",
+    "year": 2023,
+    "version": "4x2",
+    "transmission": "Automática",
+    "fuel": "Diésel",
+    "kilometers": 53000,
+    "price": 26990000,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Montero Sport 2.4 Turbo Diésel · automática\n✅ Tracción 4x2 · solo 53.000 km\n✅ Mantenciones en concesionario\n✅ Pantalla multimedia · cámara de retroceso\n✅ Volante multifunción · climatizador automático\n✅ Control crucero · sensores · ABS · estabilidad · múltiples airbags",
+    "abs": true,
+    "esp": true,
+    "airbags": "Múltiples",
+    "airConditioning": true,
+    "cruiseControl": true,
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/Mitsubishi Montero Sport 2023/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Mitsubishi Montero Sport 2023/IMG_20260901_120037.webp",
+        "alt": "IMG_20260901_120037",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi Montero Sport 2023/IMG_20260901_120046.webp",
+        "alt": "IMG_20260901_120046",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi Montero Sport 2023/IMG_20260901_120102.webp",
+        "alt": "IMG_20260901_120102",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi Montero Sport 2023/IMG_20260901_120112.webp",
+        "alt": "IMG_20260901_120112",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi Montero Sport 2023/IMG_20260901_120121.webp",
+        "alt": "IMG_20260901_120121",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Mitsubishi Montero Sport 2023/IMG_20260901_120135.webp",
+        "alt": "IMG_20260901_120135",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Mitsubishi Montero Sport 2023/01_lateral.webp",
+    "id": 42
+  },
+  {
+    "slug": "nissan-march-2016",
+    "brand": "Nissan",
+    "model": "March",
+    "year": 2016,
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 61000,
+    "price": 5850000,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ March 1.6 bencinero · mecánico\n✅ Solo 61.000 km\n✅ Aire acondicionado · alzavidrios eléctricos\n✅ Frenos ABS · airbags\n✅ Muy bien cuidado · excelente kilometraje",
+    "abs": true,
+    "airbags": "Delanteros",
+    "airConditioning": true,
+    "images": [
+      {
+        "url": "/autos/Nissan March 2016/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Nissan March 2016/file_000000001ce4820eb924952a697a4d33.webp",
+        "alt": "file_000000001ce4820eb924952a697a4d33",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan March 2016/file_00000000374c820ebe27ed2bed983a19.webp",
+        "alt": "file_00000000374c820ebe27ed2bed983a19",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan March 2016/file_0000000075e8820e87680af54b2de316.webp",
+        "alt": "file_0000000075e8820e87680af54b2de316",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan March 2016/file_0000000083e8820ead91a2ab565ab593.webp",
+        "alt": "file_0000000083e8820ead91a2ab565ab593",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan March 2016/file_000000008700820e8f3e01f9abce608e.webp",
+        "alt": "file_000000008700820e8f3e01f9abce608e",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan March 2016/file_00000000dfa4820eb9acd3db124e12a6.webp",
+        "alt": "file_00000000dfa4820eb9acd3db124e12a6",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan March 2016/file_00000000e750820ea2fdf992aa33594e.webp",
+        "alt": "file_00000000e750820ea2fdf992aa33594e",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan March 2016/file_00000000ec14820eb2325bcdf57845fe.webp",
+        "alt": "file_00000000ec14820eb2325bcdf57845fe",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan March 2016/file_00000000ff6c820eb863d1483c7127a5.webp",
+        "alt": "file_00000000ff6c820eb863d1483c7127a5",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Nissan March 2016/01_lateral.webp",
+    "id": 43
+  },
+  {
     "slug": "mazda-2-gt-2015",
     "brand": "Mazda",
     "model": "2",
@@ -1911,7 +2040,7 @@
       }
     ],
     "image": "/autos/Mazda 2 GT 2015/01_lateral.webp",
-    "id": 42,
+    "id": 44,
     "soldAt": "2026-07-24"
   },
   {
@@ -1990,7 +2119,7 @@
       }
     ],
     "image": "/autos/Toyota Yaris 2022/01_lateral.webp",
-    "id": 43
+    "id": 45
   },
   {
     "slug": "kia-seltos-2023",
@@ -2018,7 +2147,7 @@
       }
     ],
     "image": "/autos/Kia Seltos 2023/01_lateral.webp",
-    "id": 44,
+    "id": 46,
     "soldAt": "2026-08-14"
   },
   {
@@ -2093,7 +2222,7 @@
       }
     ],
     "image": "/autos/Chevrolet Sail 2024/01_lateral.webp",
-    "id": 45
+    "id": 47
   },
   {
     "slug": "ford-fiesta-sedan-2017",
@@ -2123,7 +2252,7 @@
       }
     ],
     "image": "/autos/Ford Fiesta 2017/01_lateral.webp",
-    "id": 46,
+    "id": 48,
     "soldAt": "2026-07-23"
   },
   {
@@ -2208,7 +2337,7 @@
       }
     ],
     "image": "/autos/Ds7 2021/01_lateral.webp",
-    "id": 47
+    "id": 49
   },
   {
     "slug": "bmw-316i-2016",
@@ -2280,7 +2409,7 @@
       }
     ],
     "image": "/autos/BMW 316i 2016/01_lateral.webp",
-    "id": 48
+    "id": 50
   },
   {
     "slug": "suzuki-grand-nomade-glx-2014",
@@ -2352,7 +2481,7 @@
       }
     ],
     "image": "/autos/Suzuki GN 2014/01_lateral.webp",
-    "id": 49
+    "id": 51
   },
   {
     "slug": "chevrolet-colorado-ltz-2021",
@@ -2424,6 +2553,6 @@
       }
     ],
     "image": "/autos/Chevrolet LTZ 2021/01_lateral.webp",
-    "id": 50
+    "id": 52
   }
 ]

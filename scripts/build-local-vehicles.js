@@ -298,6 +298,8 @@ const slugToFolderMapping = {
   'toyota-rav4-2018': 'Toyota Rav4 2018',
   'citroen-c4-picasso-2017': 'Citroen C4 Picasso 2017',
   'bmw-320d-m-package-2018': 'BMW 320D M Sport 2018',
+  'mitsubishi-montero-sport-2023': 'Mitsubishi Montero Sport 2023',
+  'nissan-march-2016': 'Nissan March 2016',
   'mazda-2-gt-2015': 'Mazda 2 GT 2015',
   'toyota-yaris-sedan-2022': 'Toyota Yaris 2022',
   'kia-seltos-2023': 'Kia Seltos 2023',
@@ -498,6 +500,8 @@ const folderToSlugMapping = {
   'Toyota Rav4 2018': 'toyota-rav4-2018',
   'Citroen C4 Picasso 2017': 'citroen-c4-picasso-2017',
   'BMW 320D M Sport 2018': 'bmw-320d-m-package-2018',
+  'Mitsubishi Montero Sport 2023': 'mitsubishi-montero-sport-2023',
+  'Nissan March 2016': 'nissan-march-2016',
   'Toyota Yaris 2022': 'toyota-yaris-sedan-2022',
   'Kia Seltos 2023': 'kia-seltos-2023',
   'Chevrolet Sail 2024': 'chevrolet-sail-ltz-2024',
@@ -1136,6 +1140,17 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Paquete M original · fibra de carbono · sunroof
 ✅ Cuero eléctrico · iDrive con CarPlay · cámara + sensores
 ✅ Climatizador bi-zona · llantas M Sport · mantenciones al día`, airConditioning: true, airbags: 'Múltiples', audioSystem: true },
+      { slug: 'mitsubishi-montero-sport-2023', brand: 'Mitsubishi', model: 'Montero Sport', year: 2023, version: '4x2', transmission: 'Automática', fuel: 'Diésel', kilometers: 53000, price: 26990000, state: 'En venta', region: 'Las Condes', description: `✅ Montero Sport 2.4 Turbo Diésel · automática
+✅ Tracción 4x2 · solo 53.000 km
+✅ Mantenciones en concesionario
+✅ Pantalla multimedia · cámara de retroceso
+✅ Volante multifunción · climatizador automático
+✅ Control crucero · sensores · ABS · estabilidad · múltiples airbags`, abs: true, esp: true, airbags: 'Múltiples', airConditioning: true, cruiseControl: true, audioSystem: true },
+      { slug: 'nissan-march-2016', brand: 'Nissan', model: 'March', year: 2016, transmission: 'Manual', fuel: 'Bencina', kilometers: 61000, price: 5850000, state: 'En venta', region: 'Las Condes', description: `✅ March 1.6 bencinero · mecánico
+✅ Solo 61.000 km
+✅ Aire acondicionado · alzavidrios eléctricos
+✅ Frenos ABS · airbags
+✅ Muy bien cuidado · excelente kilometraje`, abs: true, airbags: 'Delanteros', airConditioning: true },
       {
         slug: 'mazda-2-gt-2015',
         brand: 'Mazda', model: '2', year: 2015, version: 'GT',
