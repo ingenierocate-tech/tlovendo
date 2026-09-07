@@ -1140,7 +1140,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Paquete M original · fibra de carbono · sunroof
 ✅ Cuero eléctrico · iDrive con CarPlay · cámara + sensores
 ✅ Climatizador bi-zona · llantas M Sport · mantenciones al día`, airConditioning: true, airbags: 'Múltiples', audioSystem: true },
-      { slug: 'mitsubishi-montero-sport-2023', brand: 'Mitsubishi', model: 'Montero Sport', year: 2023, version: '4x2', transmission: 'Automática', fuel: 'Diésel', kilometers: 53000, price: 26990000, state: 'En venta', region: 'Las Condes', description: `✅ Montero Sport 2.4 Turbo Diésel · automática
+      { slug: 'mitsubishi-montero-sport-2023', brand: 'Mitsubishi', model: 'Montero Sport', year: 2023, version: '4x2', transmission: 'Automática', fuel: 'Diésel', kilometers: 53000, price: 26990000, state: 'Vendido', region: 'Las Condes', description: `✅ Montero Sport 2.4 Turbo Diésel · automática
 ✅ Tracción 4x2 · solo 53.000 km
 ✅ Mantenciones en concesionario
 ✅ Pantalla multimedia · cámara de retroceso
@@ -1351,7 +1351,8 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'mazda-2-gt-2015',
       'bmw-320d-2018-sport',
       'chevrolet-silverado-zr2-2024-full',
-      'kia-seltos-2023'
+      'kia-seltos-2023',
+      'mitsubishi-montero-sport-2023'
     ];
     
     if (hiddenSlugs.length > 0) {

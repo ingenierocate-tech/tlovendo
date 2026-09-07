@@ -1893,7 +1893,7 @@
     "fuel": "Diésel",
     "kilometers": 53000,
     "price": 26990000,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Las Condes",
     "description": "✅ Montero Sport 2.4 Turbo Diésel · automática\n✅ Tracción 4x2 · solo 53.000 km\n✅ Mantenciones en concesionario\n✅ Pantalla multimedia · cámara de retroceso\n✅ Volante multifunción · climatizador automático\n✅ Control crucero · sensores · ABS · estabilidad · múltiples airbags",
     "abs": true,
@@ -1907,40 +1907,11 @@
         "url": "/autos/Mitsubishi Montero Sport 2023/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Mitsubishi Montero Sport 2023/IMG_20260901_120037.webp",
-        "alt": "IMG_20260901_120037",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mitsubishi Montero Sport 2023/IMG_20260901_120046.webp",
-        "alt": "IMG_20260901_120046",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mitsubishi Montero Sport 2023/IMG_20260901_120102.webp",
-        "alt": "IMG_20260901_120102",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mitsubishi Montero Sport 2023/IMG_20260901_120112.webp",
-        "alt": "IMG_20260901_120112",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mitsubishi Montero Sport 2023/IMG_20260901_120121.webp",
-        "alt": "IMG_20260901_120121",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Mitsubishi Montero Sport 2023/IMG_20260901_120135.webp",
-        "alt": "IMG_20260901_120135",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Mitsubishi Montero Sport 2023/01_lateral.webp",
-    "id": 42
+    "id": 42,
+    "soldAt": "2026-09-07"
   },
   {
     "slug": "nissan-march-2016",
