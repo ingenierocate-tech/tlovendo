@@ -1405,7 +1405,7 @@
     "transmission": "Automática",
     "fuel": "Bencina",
     "kilometers": 100000,
-    "price": 17500000,
+    "price": 17390000,
     "owners": 1,
     "state": "En venta",
     "region": "Las Condes",
@@ -1984,6 +1984,218 @@
     "id": 43
   },
   {
+    "slug": "volkswagen-saveiro-2019",
+    "brand": "Volkswagen",
+    "model": "Saveiro",
+    "year": 2019,
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 94000,
+    "price": 6390000,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Saveiro 1.6 bencinera · mecánica\n✅ Ideal para trabajo · excelente capacidad de carga\n✅ Dirección asistida · aire acondicionado\n✅ Alzavidrios eléctricos · cierre centralizado",
+    "airConditioning": true,
+    "powerSteering": true,
+    "electricWindows": true,
+    "images": [
+      {
+        "url": "/autos/Volkswagen Saveiro 2019/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Volkswagen Saveiro 2019/IMG_20260908_124707.webp",
+        "alt": "IMG_20260908_124707",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Volkswagen Saveiro 2019/IMG_20260908_124715.webp",
+        "alt": "IMG_20260908_124715",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Volkswagen Saveiro 2019/IMG_20260908_124731.webp",
+        "alt": "IMG_20260908_124731",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Volkswagen Saveiro 2019/IMG_20260908_124740.webp",
+        "alt": "IMG_20260908_124740",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Volkswagen Saveiro 2019/IMG_20260908_124750.webp",
+        "alt": "IMG_20260908_124750",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Volkswagen Saveiro 2019/IMG_20260908_124803.webp",
+        "alt": "IMG_20260908_124803",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Volkswagen Saveiro 2019/IMG_20260908_124808.webp",
+        "alt": "IMG_20260908_124808",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Volkswagen Saveiro 2019/01_lateral.webp",
+    "id": 44
+  },
+  {
+    "slug": "ford-focus-hatchback-2019",
+    "brand": "Ford",
+    "model": "Focus",
+    "year": 2019,
+    "version": "Hatchback",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 73300,
+    "price": 10490000,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Focus 2.0 automático · hatchback\n✅ Audio Sony premium + amplificador + subwoofer\n✅ Pantalla multimedia · CarPlay/Android Auto · cámara\n✅ Control crucero · volante multifunción · aire acondicionado",
+    "airConditioning": true,
+    "cruiseControl": true,
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/Ford_Titanium 2019/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Ford_Titanium 2019/IMG_20260910_105400.webp",
+        "alt": "IMG_20260910_105400",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Titanium 2019/IMG_20260910_105409.webp",
+        "alt": "IMG_20260910_105409",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Titanium 2019/IMG_20260910_105449.webp",
+        "alt": "IMG_20260910_105449",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Titanium 2019/IMG_20260910_105457.webp",
+        "alt": "IMG_20260910_105457",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Titanium 2019/IMG_20260910_105507.webp",
+        "alt": "IMG_20260910_105507",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Titanium 2019/IMG_20260910_105547.webp",
+        "alt": "IMG_20260910_105547",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Titanium 2019/IMG_20260910_105554.webp",
+        "alt": "IMG_20260910_105554",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Titanium 2019/IMG_20260910_105600.webp",
+        "alt": "IMG_20260910_105600",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ford_Titanium 2019/IMG_20260910_105611.webp",
+        "alt": "IMG_20260910_105611",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Ford_Titanium 2019/01_lateral.webp",
+    "id": 45
+  },
+  {
+    "slug": "nissan-x-trail-2016",
+    "brand": "Nissan",
+    "model": "X-Trail",
+    "year": 2016,
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 143000,
+    "price": 10890000,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ X-Trail automática · único dueño\n✅ 143.000 km · 2 llaves · mantenciones en concesionario\n✅ Aire acondicionado · pantalla multimedia · cámara\n✅ Volante multifunción · estabilidad · airbags",
+    "esp": true,
+    "airbags": "Múltiples",
+    "airConditioning": true,
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/Nissan X-Trail AT 2016/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194040.webp",
+        "alt": "IMG_20260914_194040",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194048.webp",
+        "alt": "IMG_20260914_194048",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194124.webp",
+        "alt": "IMG_20260914_194124",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194133.webp",
+        "alt": "IMG_20260914_194133",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194142.webp",
+        "alt": "IMG_20260914_194142",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194203.webp",
+        "alt": "IMG_20260914_194203",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194237.webp",
+        "alt": "IMG_20260914_194237",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194251.webp",
+        "alt": "IMG_20260914_194251",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194300.webp",
+        "alt": "IMG_20260914_194300",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194413.webp",
+        "alt": "IMG_20260914_194413",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194433.webp",
+        "alt": "IMG_20260914_194433",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Nissan X-Trail AT 2016/01_lateral.webp",
+    "id": 46
+  },
+  {
     "slug": "mazda-2-gt-2015",
     "brand": "Mazda",
     "model": "2",
@@ -2011,7 +2223,7 @@
       }
     ],
     "image": "/autos/Mazda 2 GT 2015/01_lateral.webp",
-    "id": 44,
+    "id": 47,
     "soldAt": "2026-07-24"
   },
   {
@@ -2090,7 +2302,7 @@
       }
     ],
     "image": "/autos/Toyota Yaris 2022/01_lateral.webp",
-    "id": 45
+    "id": 48
   },
   {
     "slug": "kia-seltos-2023",
@@ -2118,7 +2330,7 @@
       }
     ],
     "image": "/autos/Kia Seltos 2023/01_lateral.webp",
-    "id": 46,
+    "id": 49,
     "soldAt": "2026-08-14"
   },
   {
@@ -2193,7 +2405,7 @@
       }
     ],
     "image": "/autos/Chevrolet Sail 2024/01_lateral.webp",
-    "id": 47
+    "id": 50
   },
   {
     "slug": "ford-fiesta-sedan-2017",
@@ -2223,7 +2435,7 @@
       }
     ],
     "image": "/autos/Ford Fiesta 2017/01_lateral.webp",
-    "id": 48,
+    "id": 51,
     "soldAt": "2026-07-23"
   },
   {
@@ -2308,7 +2520,7 @@
       }
     ],
     "image": "/autos/Ds7 2021/01_lateral.webp",
-    "id": 49
+    "id": 52
   },
   {
     "slug": "bmw-316i-2016",
@@ -2380,7 +2592,7 @@
       }
     ],
     "image": "/autos/BMW 316i 2016/01_lateral.webp",
-    "id": 50
+    "id": 53
   },
   {
     "slug": "suzuki-grand-nomade-glx-2014",
@@ -2452,7 +2664,7 @@
       }
     ],
     "image": "/autos/Suzuki GN 2014/01_lateral.webp",
-    "id": 51
+    "id": 54
   },
   {
     "slug": "chevrolet-colorado-ltz-2021",
@@ -2524,6 +2736,6 @@
       }
     ],
     "image": "/autos/Chevrolet LTZ 2021/01_lateral.webp",
-    "id": 52
+    "id": 55
   }
 ]

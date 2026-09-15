@@ -300,6 +300,9 @@ const slugToFolderMapping = {
   'bmw-320d-m-package-2018': 'BMW 320D M Sport 2018',
   'mitsubishi-montero-sport-2023': 'Mitsubishi Montero Sport 2023',
   'nissan-march-2016': 'Nissan March 2016',
+  'volkswagen-saveiro-2019': 'Volkswagen Saveiro 2019',
+  'ford-focus-hatchback-2019': 'Ford_Titanium 2019',
+  'nissan-x-trail-2016': 'Nissan X-Trail AT 2016',
   'mazda-2-gt-2015': 'Mazda 2 GT 2015',
   'toyota-yaris-sedan-2022': 'Toyota Yaris 2022',
   'kia-seltos-2023': 'Kia Seltos 2023',
@@ -502,6 +505,11 @@ const folderToSlugMapping = {
   'BMW 320D M Sport 2018': 'bmw-320d-m-package-2018',
   'Mitsubishi Montero Sport 2023': 'mitsubishi-montero-sport-2023',
   'Nissan March 2016': 'nissan-march-2016',
+  'Volkswagen Saveiro 2019': 'volkswagen-saveiro-2019',
+  'Ford Focus Hatchback 2019': 'ford-focus-hatchback-2019',
+  'Ford_Titanium 2019': 'ford-focus-hatchback-2019',
+  'Nissan X-Trail 2016': 'nissan-x-trail-2016',
+  'Nissan X-Trail AT 2016': 'nissan-x-trail-2016',
   'Toyota Yaris 2022': 'toyota-yaris-sedan-2022',
   'Kia Seltos 2023': 'kia-seltos-2023',
   'Chevrolet Sail 2024': 'chevrolet-sail-ltz-2024',
@@ -1093,7 +1101,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'ford-explorer-limited-2018',
         brand: 'Ford', model: 'Explorer', year: 2018, version: 'Limited',
         transmission: 'Automática', fuel: 'Bencina', kilometers: 100000,
-        price: 17500000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 17390000, owners: 1, state: 'En venta', region: 'Las Condes',
         description: `✅ Limited full equipo · 7 pasajeros
 ✅ Cuero eléctrico calefaccionado · sunroof panorámico
 ✅ CarPlay/Android Auto · cámara + sensores
@@ -1151,6 +1159,18 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Aire acondicionado · alzavidrios eléctricos
 ✅ Frenos ABS · airbags
 ✅ Muy bien cuidado · excelente kilometraje`, abs: true, airbags: 'Delanteros', airConditioning: true },
+      { slug: 'volkswagen-saveiro-2019', brand: 'Volkswagen', model: 'Saveiro', year: 2019, transmission: 'Manual', fuel: 'Bencina', kilometers: 94000, price: 6390000, state: 'En venta', region: 'Las Condes', description: `✅ Saveiro 1.6 bencinera · mecánica
+✅ Ideal para trabajo · excelente capacidad de carga
+✅ Dirección asistida · aire acondicionado
+✅ Alzavidrios eléctricos · cierre centralizado`, airConditioning: true, powerSteering: true, electricWindows: true },
+      { slug: 'ford-focus-hatchback-2019', brand: 'Ford', model: 'Focus', year: 2019, version: 'Hatchback', transmission: 'Automática', fuel: 'Bencina', kilometers: 73300, price: 10490000, state: 'En venta', region: 'Las Condes', description: `✅ Focus 2.0 automático · hatchback
+✅ Audio Sony premium + amplificador + subwoofer
+✅ Pantalla multimedia · CarPlay/Android Auto · cámara
+✅ Control crucero · volante multifunción · aire acondicionado`, airConditioning: true, cruiseControl: true, audioSystem: true },
+      { slug: 'nissan-x-trail-2016', brand: 'Nissan', model: 'X-Trail', year: 2016, transmission: 'Automática', fuel: 'Bencina', kilometers: 143000, price: 10890000, state: 'En venta', region: 'Las Condes', description: `✅ X-Trail automática · único dueño
+✅ 143.000 km · 2 llaves · mantenciones en concesionario
+✅ Aire acondicionado · pantalla multimedia · cámara
+✅ Volante multifunción · estabilidad · airbags`, esp: true, airbags: 'Múltiples', airConditioning: true, audioSystem: true },
       {
         slug: 'mazda-2-gt-2015',
         brand: 'Mazda', model: '2', year: 2015, version: 'GT',
