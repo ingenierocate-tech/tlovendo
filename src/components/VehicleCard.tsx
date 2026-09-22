@@ -15,6 +15,7 @@ export default function VehicleCard({ vehicle }: Props) {
     model,
     year,
     price,
+    priceLabel,
     transmission,
     fuel,
     kilometers,
@@ -42,11 +43,11 @@ export default function VehicleCard({ vehicle }: Props) {
           {brand} {model} {year ?? ''}
         </div>
         <div className="font-bold text-lg">
-          {typeof price === 'number'
-            ? `$${price.toLocaleString('es-CL')}`
-            : 'Consultar'}
+          {priceLabel || (typeof price === 'number'
+            ? `${price.toLocaleString('es-CL')}`
+            : 'Consultar')}
         </div>
-        {typeof price === 'number' && (
+        {!priceLabel && typeof price === 'number' && (
           <div className="text-xs text-green-600 font-medium flex items-center gap-2">
             <span className="w-2 h-2 bg-green-500 rounded-full" />
             Precio final sin cargos ocultos

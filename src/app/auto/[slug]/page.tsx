@@ -63,6 +63,7 @@ export default async function Auto({ params }: { params: { slug: string } }) {
       title: `${v.brand || 'Marca'} ${v.model || 'Modelo'} ${v.year || 'Año'}`,
       image: v.image ?? '/placeholder-car.webp',
       price: v.price ?? null,
+      priceLabel: v.priceLabel ?? null,
     }));
   
   const formatPrice = (price: number) => {
@@ -129,15 +130,19 @@ export default async function Auto({ params }: { params: { slug: string } }) {
               <div className="text-center lg:text-left">
                 <div className="text-3xl font-bold text-gray-900 mb-2">
                   {isForSale(vehicle) ? (
-                    typeof vehicle.price === 'number'
-                      ? formatPrice(vehicle.price)
-                      : <span className="text-gray-700">Consultar precio</span>
+                    vehicle.priceLabel ? (
+                      <span className="text-gray-700">{vehicle.priceLabel}</span>
+                    ) : typeof vehicle.price === 'number' ? (
+                      formatPrice(vehicle.price)
+                    ) : (
+                      <span className="text-gray-700">Consultar precio</span>
+                    )
                   ) : (
                     <span className="text-red-600">Vendido</span>
                   )}
                 </div>
                 {/* Mostrar la leyenda verde siempre que esté "En venta" */}
-                {isForSale(vehicle) && (
+                {isForSale(vehicle) && !vehicle.priceLabel && (
                   <div className="text-sm text-green-600 font-medium flex items-center justify-center lg:justify-start">
                     <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
                     Precio final sin cargos ocultos

@@ -10,6 +10,7 @@ export type RelatedItem = {
   title: string;
   image?: string;
   price?: number | null;
+  priceLabel?: string | null;
 };
 
 interface RelatedVehiclesProps {
@@ -17,7 +18,8 @@ interface RelatedVehiclesProps {
   title?: string;
 }
 
-const fmtCLP = (n?: number | null) => {
+const fmtCLP = (n?: number | null, label?: string | null) => {
+  if (label) return label;
   if (n === null || n === undefined) return 'Consultar';
   try {
     return new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP', minimumFractionDigits: 0 }).format(n);
@@ -63,7 +65,7 @@ export default function RelatedVehicles({ items, title = 'Te puede interesar' }:
             </div>
             <div className="p-4">
               <h3 className="line-clamp-1 text-base font-medium">{item.title}</h3>
-              <p className="mt-1 text-sm text-gray-600">{fmtCLP(item.price)}</p>
+              <p className="mt-1 text-sm text-gray-600">{fmtCLP(item.price, item.priceLabel)}</p>
               <Link href={`/auto/${item.slug}`} className="mt-3 inline-flex items-center text-sm font-medium text-red-600 hover:text-red-800 transition-colors duration-200">
                 <span>Ver detalle</span>
                 <svg className="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

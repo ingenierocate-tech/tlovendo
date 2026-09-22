@@ -1127,7 +1127,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Volante multifunción · aire acondicionado
 ✅ ABS + control de estabilidad · múltiples airbags`
       },
-      { slug: 'chevrolet-prisma-ltz-2020', brand: 'Chevrolet', model: 'Prisma', year: 2020, version: 'LTZ', transmission: 'Manual', fuel: 'Bencina', kilometers: 85000, price: 6990000, state: 'En venta', region: 'Las Condes', description: `✅ Prisma LTZ 1.4 bencinero · mecánico
+      { slug: 'chevrolet-prisma-ltz-2020', brand: 'Chevrolet', model: 'Prisma', year: 2020, version: 'LTZ', transmission: 'Manual', fuel: 'Bencina', kilometers: 85000, price: 6990000, state: 'Vendido', region: 'Las Condes', description: `✅ Prisma LTZ 1.4 bencinero · mecánico
 ✅ MyLink con CarPlay/Android Auto · cámara de retroceso
 ✅ Volante multifunción · aire acondicionado · llantas
 ✅ ABS · estabilidad · múltiples airbags
@@ -1154,7 +1154,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Pantalla multimedia · cámara de retroceso
 ✅ Volante multifunción · climatizador automático
 ✅ Control crucero · sensores · ABS · estabilidad · múltiples airbags`, abs: true, esp: true, airbags: 'Múltiples', airConditioning: true, cruiseControl: true, audioSystem: true },
-      { slug: 'nissan-march-2016', brand: 'Nissan', model: 'March', year: 2016, transmission: 'Manual', fuel: 'Bencina', kilometers: 61000, price: 5850000, state: 'En venta', region: 'Las Condes', description: `✅ March 1.6 bencinero · mecánico
+      { slug: 'nissan-march-2016', brand: 'Nissan', model: 'March', year: 2016, transmission: 'Manual', fuel: 'Bencina', kilometers: 61000, price: 5850000, state: 'Vendido', region: 'Las Condes', description: `✅ March 1.6 bencinero · mecánico
 ✅ Solo 61.000 km
 ✅ Aire acondicionado · alzavidrios eléctricos
 ✅ Frenos ABS · airbags
@@ -1163,7 +1163,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Ideal para trabajo · excelente capacidad de carga
 ✅ Dirección asistida · aire acondicionado
 ✅ Alzavidrios eléctricos · cierre centralizado`, airConditioning: true, powerSteering: true, electricWindows: true },
-      { slug: 'ford-focus-hatchback-2019', brand: 'Ford', model: 'Focus', year: 2019, version: 'Hatchback', transmission: 'Automática', fuel: 'Bencina', kilometers: 73300, price: 10490000, state: 'En venta', region: 'Las Condes', description: `✅ Focus 2.0 automático · hatchback
+      { slug: 'ford-focus-hatchback-2019', brand: 'Ford', model: 'Focus', year: 2019, version: 'Hatchback', transmission: 'Automática', fuel: 'Bencina', kilometers: 73300, price: 10490000, priceLabel: 'Consultar por interno', state: 'En venta', region: 'Las Condes', description: `✅ Focus 2.0 automático · hatchback
 ✅ Audio Sony premium + amplificador + subwoofer
 ✅ Pantalla multimedia · CarPlay/Android Auto · cámara
 ✅ Control crucero · volante multifunción · aire acondicionado`, airConditioning: true, cruiseControl: true, audioSystem: true },

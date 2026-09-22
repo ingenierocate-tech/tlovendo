@@ -6,6 +6,7 @@ export type Vehicle = {
   version?: string;
   year: number | null;
   price?: number | null;
+  priceLabel?: string | null;
   kilometers?: number | null;
   transmission: 'Manual' | 'Automática' | string;
   fuel: 'Bencina' | 'Gasolina' | 'Diésel' | 'Híbrido' | 'Eléctrico' | string;
