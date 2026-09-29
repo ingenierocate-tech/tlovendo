@@ -2738,5 +2738,81 @@
     ],
     "image": "/autos/Chevrolet LTZ 2021/01_lateral.webp",
     "id": 55
+  },
+  {
+    "slug": "volkswagen-gol-2016",
+    "brand": "Volkswagen",
+    "model": "Gol",
+    "year": 2016,
+    "version": "Hatchback",
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 84000,
+    "price": 6350000,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "🚗 Volkswagen Gol 2016 – 1.6 Bencinero Mecánico\n\n📍 Las Condes\n⏱️ 84.000 km\n⛽ Bencinero\n\n✨ Versión tope de línea hatchback.\n\n✅ Motor 1.6 bencinero – 101 HP\n✅ Caja mecánica 5 velocidades\n✅ Llantas de aleación 16”\n✅ Neblineros delanteros\n✅ Espejos eléctricos con señalizador\n✅ Volante multifunción forrado en cuero\n✅ Radio touchscreen de 5” con MirrorLink\n✅ Bluetooth y USB\n✅ Alzavidrios eléctricos delanteros y traseros\n✅ Aire acondicionado\n✅ Computador a bordo\n✅ ABS y doble airbag\n\n🧾 Vehículo muy bien cuidado, con bajo kilometraje y en excelente estado general.\n\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ CON 50% DE PIE\n🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO",
+    "abs": true,
+    "airbags": "Doble airbag",
+    "airConditioning": true,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "bluetooth": true,
+    "usb": true,
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/Volkswagen Gol 2016/01_lateral.jpeg",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.09.jpeg",
+        "alt": "WhatsApp Image 2026-09-29 at 14.21.09",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.11.jpeg",
+        "alt": "WhatsApp Image 2026-09-29 at 14.21.11",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.15.jpeg",
+        "alt": "WhatsApp Image 2026-09-29 at 14.21.15",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.16.jpeg",
+        "alt": "WhatsApp Image 2026-09-29 at 14.21.16",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.17.jpeg",
+        "alt": "WhatsApp Image 2026-09-29 at 14.21.17",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.19.jpeg",
+        "alt": "WhatsApp Image 2026-09-29 at 14.21.19",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.21.jpeg",
+        "alt": "WhatsApp Image 2026-09-29 at 14.21.21",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.22.19.jpeg",
+        "alt": "WhatsApp Image 2026-09-29 at 14.22.19",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.22.33.jpeg",
+        "alt": "WhatsApp Image 2026-09-29 at 14.22.33",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Volkswagen Gol 2016/01_lateral.jpeg",
+    "id": 56
   }
 ]

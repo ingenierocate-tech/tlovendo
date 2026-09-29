@@ -301,6 +301,7 @@ const slugToFolderMapping = {
   'mitsubishi-montero-sport-2023': 'Mitsubishi Montero Sport 2023',
   'nissan-march-2016': 'Nissan March 2016',
   'volkswagen-saveiro-2019': 'Volkswagen Saveiro 2019',
+  'volkswagen-gol-2016': 'Volkswagen Gol 2016',
   'ford-focus-hatchback-2019': 'Ford_Titanium 2019',
   'nissan-x-trail-2016': 'Nissan X-Trail AT 2016',
   'mazda-2-gt-2015': 'Mazda 2 GT 2015',
@@ -506,6 +507,7 @@ const folderToSlugMapping = {
   'Mitsubishi Montero Sport 2023': 'mitsubishi-montero-sport-2023',
   'Nissan March 2016': 'nissan-march-2016',
   'Volkswagen Saveiro 2019': 'volkswagen-saveiro-2019',
+  'Volkswagen Gol 2016': 'volkswagen-gol-2016',
   'Ford Focus Hatchback 2019': 'ford-focus-hatchback-2019',
   'Ford_Titanium 2019': 'ford-focus-hatchback-2019',
   'Nissan X-Trail 2016': 'nissan-x-trail-2016',
@@ -1241,6 +1243,31 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Segundo dueño · CarPlay/Android Auto
 ✅ Cámara + sensores · cuero · climatizador
 ✅ Levante 2,5" · neumáticos anchos · coco de arrastre`, airConditioning: true, airbags: 'Múltiples', audioSystem: true },
+      { slug: 'volkswagen-gol-2016', brand: 'Volkswagen', model: 'Gol', year: 2016, version: 'Hatchback', transmission: 'Manual', fuel: 'Bencina', kilometers: 84000, price: 6350000, state: 'En venta', region: 'Las Condes', description: `🚗 Volkswagen Gol 2016 – 1.6 Bencinero Mecánico
+
+📍 Las Condes
+⏱️ 84.000 km
+⛽ Bencinero
+
+✨ Versión tope de línea hatchback.
+
+✅ Motor 1.6 bencinero – 101 HP
+✅ Caja mecánica 5 velocidades
+✅ Llantas de aleación 16”
+✅ Neblineros delanteros
+✅ Espejos eléctricos con señalizador
+✅ Volante multifunción forrado en cuero
+✅ Radio touchscreen de 5” con MirrorLink
+✅ Bluetooth y USB
+✅ Alzavidrios eléctricos delanteros y traseros
+✅ Aire acondicionado
+✅ Computador a bordo
+✅ ABS y doble airbag
+
+🧾 Vehículo muy bien cuidado, con bajo kilometraje y en excelente estado general.
+
+💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ CON 50% DE PIE
+🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO`, abs: true, airbags: 'Doble airbag', airConditioning: true, electricWindows: true, electricMirrors: true, bluetooth: true, usb: true, audioSystem: true },
     ];
 
     for (const cv of chatVehicles) {
