@@ -1161,15 +1161,11 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Aire acondicionado · alzavidrios eléctricos
 ✅ Frenos ABS · airbags
 ✅ Muy bien cuidado · excelente kilometraje`, abs: true, airbags: 'Delanteros', airConditioning: true },
-      { slug: 'volkswagen-saveiro-2019', brand: 'Volkswagen', model: 'Saveiro', year: 2019, transmission: 'Manual', fuel: 'Bencina', kilometers: 94000, price: 6390000, state: 'En venta', region: 'Las Condes', description: `✅ Saveiro 1.6 bencinera · mecánica
-✅ Ideal para trabajo · excelente capacidad de carga
-✅ Dirección asistida · aire acondicionado
-✅ Alzavidrios eléctricos · cierre centralizado`, airConditioning: true, powerSteering: true, electricWindows: true },
-      { slug: 'ford-focus-hatchback-2019', brand: 'Ford', model: 'Focus', year: 2019, version: 'Hatchback', transmission: 'Automática', fuel: 'Bencina', kilometers: 73300, price: 10490000, priceLabel: 'Consultar por interno', state: 'En venta', region: 'Las Condes', description: `✅ Focus 2.0 automático · hatchback
+      { slug: 'ford-focus-hatchback-2019', brand: 'Ford', model: 'Focus', year: 2019, version: 'Hatchback', transmission: 'Automática', fuel: 'Bencina', kilometers: 73300, price: 9990000, state: 'En venta', region: 'Las Condes', description: `✅ Focus 2.0 automático · hatchback
 ✅ Audio Sony premium + amplificador + subwoofer
 ✅ Pantalla multimedia · CarPlay/Android Auto · cámara
 ✅ Control crucero · volante multifunción · aire acondicionado`, airConditioning: true, cruiseControl: true, audioSystem: true },
-      { slug: 'nissan-x-trail-2016', brand: 'Nissan', model: 'X-Trail', year: 2016, transmission: 'Automática', fuel: 'Bencina', kilometers: 143000, price: 10890000, state: 'En venta', region: 'Las Condes', description: `✅ X-Trail automática · único dueño
+      { slug: 'nissan-x-trail-2016', brand: 'Nissan', model: 'X-Trail', year: 2016, transmission: 'Automática', fuel: 'Bencina', kilometers: 143000, price: 8790000, state: 'En venta', region: 'Las Condes', description: `✅ X-Trail automática · único dueño
 ✅ 143.000 km · 2 llaves · mantenciones en concesionario
 ✅ Aire acondicionado · pantalla multimedia · cámara
 ✅ Volante multifunción · estabilidad · airbags`, esp: true, airbags: 'Múltiples', airConditioning: true, audioSystem: true },
@@ -1330,7 +1326,9 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
     // Aplicar overrides manuales al final para asegurar consistencia
     applyManualOverrides(vehicles);
 
-    vehicles = vehicles.filter(v => v.slug !== 'bmw-2018-2018');
+    const hiddenSlugs = new Set(['volkswagen-saveiro-2019']);
+    vehicles = vehicles.filter(v => v.slug !== 'bmw-2018-2018' && !hiddenSlugs.has(v.slug));
+    slugs = slugs.filter(slug => !hiddenSlugs.has(slug));
 
     // Filtrar vehículos que no deben mostrarse (aquellos que no coinciden con la lista aprobada)
     const originalCount = vehicles.length;

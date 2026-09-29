@@ -1984,66 +1984,6 @@
     "id": 43
   },
   {
-    "slug": "volkswagen-saveiro-2019",
-    "brand": "Volkswagen",
-    "model": "Saveiro",
-    "year": 2019,
-    "transmission": "Manual",
-    "fuel": "Bencina",
-    "kilometers": 94000,
-    "price": 6390000,
-    "state": "En venta",
-    "region": "Las Condes",
-    "description": "✅ Saveiro 1.6 bencinera · mecánica\n✅ Ideal para trabajo · excelente capacidad de carga\n✅ Dirección asistida · aire acondicionado\n✅ Alzavidrios eléctricos · cierre centralizado",
-    "airConditioning": true,
-    "powerSteering": true,
-    "electricWindows": true,
-    "images": [
-      {
-        "url": "/autos/Volkswagen Saveiro 2019/01_lateral.webp",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/Volkswagen Saveiro 2019/IMG_20260908_124707.webp",
-        "alt": "IMG_20260908_124707",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Volkswagen Saveiro 2019/IMG_20260908_124715.webp",
-        "alt": "IMG_20260908_124715",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Volkswagen Saveiro 2019/IMG_20260908_124731.webp",
-        "alt": "IMG_20260908_124731",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Volkswagen Saveiro 2019/IMG_20260908_124740.webp",
-        "alt": "IMG_20260908_124740",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Volkswagen Saveiro 2019/IMG_20260908_124750.webp",
-        "alt": "IMG_20260908_124750",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Volkswagen Saveiro 2019/IMG_20260908_124803.webp",
-        "alt": "IMG_20260908_124803",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Volkswagen Saveiro 2019/IMG_20260908_124808.webp",
-        "alt": "IMG_20260908_124808",
-        "isPrimary": false
-      }
-    ],
-    "image": "/autos/Volkswagen Saveiro 2019/01_lateral.webp",
-    "id": 44
-  },
-  {
     "slug": "ford-focus-hatchback-2019",
     "brand": "Ford",
     "model": "Focus",
@@ -2052,8 +1992,7 @@
     "transmission": "Automática",
     "fuel": "Bencina",
     "kilometers": 73300,
-    "price": 10490000,
-    "priceLabel": "Consultar por interno",
+    "price": 9990000,
     "state": "En venta",
     "region": "Las Condes",
     "description": "✅ Focus 2.0 automático · hatchback\n✅ Audio Sony premium + amplificador + subwoofer\n✅ Pantalla multimedia · CarPlay/Android Auto · cámara\n✅ Control crucero · volante multifunción · aire acondicionado",
@@ -2123,7 +2062,7 @@
     "transmission": "Automática",
     "fuel": "Bencina",
     "kilometers": 143000,
-    "price": 10890000,
+    "price": 8790000,
     "state": "En venta",
     "region": "Las Condes",
     "description": "✅ X-Trail automática · único dueño\n✅ 143.000 km · 2 llaves · mantenciones en concesionario\n✅ Aire acondicionado · pantalla multimedia · cámara\n✅ Volante multifunción · estabilidad · airbags",
