@@ -1597,55 +1597,11 @@
         "url": "/autos/Chevrolet Prisma LTZ 2020/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_122914.webp",
-        "alt": "IMG_20260804_122914",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_122938.webp",
-        "alt": "IMG_20260804_122938",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_122951.webp",
-        "alt": "IMG_20260804_122951",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_122959.webp",
-        "alt": "IMG_20260804_122959",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_123008.webp",
-        "alt": "IMG_20260804_123008",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_123023.webp",
-        "alt": "IMG_20260804_123023",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_123036.webp",
-        "alt": "IMG_20260804_123036",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_123053.webp",
-        "alt": "IMG_20260804_123053",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Prisma LTZ 2020/IMG_20260804_123102.webp",
-        "alt": "IMG_20260804_123102",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Chevrolet Prisma LTZ 2020/01_lateral.webp",
-    "id": 38
+    "id": 38,
+    "soldAt": "2026-09-30"
   },
   {
     "slug": "toyota-rav4-2018",
@@ -1933,55 +1889,11 @@
         "url": "/autos/Nissan March 2016/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Nissan March 2016/file_000000001ce4820eb924952a697a4d33.webp",
-        "alt": "file_000000001ce4820eb924952a697a4d33",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan March 2016/file_00000000374c820ebe27ed2bed983a19.webp",
-        "alt": "file_00000000374c820ebe27ed2bed983a19",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan March 2016/file_0000000075e8820e87680af54b2de316.webp",
-        "alt": "file_0000000075e8820e87680af54b2de316",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan March 2016/file_0000000083e8820ead91a2ab565ab593.webp",
-        "alt": "file_0000000083e8820ead91a2ab565ab593",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan March 2016/file_000000008700820e8f3e01f9abce608e.webp",
-        "alt": "file_000000008700820e8f3e01f9abce608e",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan March 2016/file_00000000dfa4820eb9acd3db124e12a6.webp",
-        "alt": "file_00000000dfa4820eb9acd3db124e12a6",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan March 2016/file_00000000e750820ea2fdf992aa33594e.webp",
-        "alt": "file_00000000e750820ea2fdf992aa33594e",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan March 2016/file_00000000ec14820eb2325bcdf57845fe.webp",
-        "alt": "file_00000000ec14820eb2325bcdf57845fe",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan March 2016/file_00000000ff6c820eb863d1483c7127a5.webp",
-        "alt": "file_00000000ff6c820eb863d1483c7127a5",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Nissan March 2016/01_lateral.webp",
-    "id": 43
+    "id": 43,
+    "soldAt": "2026-09-30"
   },
   {
     "slug": "ford-focus-hatchback-2019",
@@ -2052,7 +1964,7 @@
       }
     ],
     "image": "/autos/Ford_Titanium 2019/01_lateral.webp",
-    "id": 45
+    "id": 44
   },
   {
     "slug": "nissan-x-trail-2016",
@@ -2133,7 +2045,7 @@
       }
     ],
     "image": "/autos/Nissan X-Trail AT 2016/01_lateral.webp",
-    "id": 46
+    "id": 45
   },
   {
     "slug": "mazda-2-gt-2015",
@@ -2163,7 +2075,7 @@
       }
     ],
     "image": "/autos/Mazda 2 GT 2015/01_lateral.webp",
-    "id": 47,
+    "id": 46,
     "soldAt": "2026-07-24"
   },
   {
@@ -2242,7 +2154,7 @@
       }
     ],
     "image": "/autos/Toyota Yaris 2022/01_lateral.webp",
-    "id": 48
+    "id": 47
   },
   {
     "slug": "kia-seltos-2023",
@@ -2270,7 +2182,7 @@
       }
     ],
     "image": "/autos/Kia Seltos 2023/01_lateral.webp",
-    "id": 49,
+    "id": 48,
     "soldAt": "2026-08-14"
   },
   {
@@ -2345,7 +2257,7 @@
       }
     ],
     "image": "/autos/Chevrolet Sail 2024/01_lateral.webp",
-    "id": 50
+    "id": 49
   },
   {
     "slug": "ford-fiesta-sedan-2017",
@@ -2375,7 +2287,7 @@
       }
     ],
     "image": "/autos/Ford Fiesta 2017/01_lateral.webp",
-    "id": 51,
+    "id": 50,
     "soldAt": "2026-07-23"
   },
   {
@@ -2460,7 +2372,7 @@
       }
     ],
     "image": "/autos/Ds7 2021/01_lateral.webp",
-    "id": 52
+    "id": 51
   },
   {
     "slug": "bmw-316i-2016",
@@ -2532,7 +2444,7 @@
       }
     ],
     "image": "/autos/BMW 316i 2016/01_lateral.webp",
-    "id": 53
+    "id": 52
   },
   {
     "slug": "suzuki-grand-nomade-glx-2014",
@@ -2604,7 +2516,7 @@
       }
     ],
     "image": "/autos/Suzuki GN 2014/01_lateral.webp",
-    "id": 54
+    "id": 53
   },
   {
     "slug": "chevrolet-colorado-ltz-2021",
@@ -2676,7 +2588,7 @@
       }
     ],
     "image": "/autos/Chevrolet LTZ 2021/01_lateral.webp",
-    "id": 55
+    "id": 54
   },
   {
     "slug": "volkswagen-gol-2016",
@@ -2701,57 +2613,57 @@
     "audioSystem": true,
     "images": [
       {
-        "url": "/autos/Volkswagen Gol 2016/01_lateral.jpeg",
+        "url": "/autos/Volkswagen Gol 2016/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.09.jpeg",
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.09.webp",
         "alt": "WhatsApp Image 2026-09-29 at 14.21.09",
         "isPrimary": false
       },
       {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.11.jpeg",
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.11.webp",
         "alt": "WhatsApp Image 2026-09-29 at 14.21.11",
         "isPrimary": false
       },
       {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.15.jpeg",
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.15.webp",
         "alt": "WhatsApp Image 2026-09-29 at 14.21.15",
         "isPrimary": false
       },
       {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.16.jpeg",
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.16.webp",
         "alt": "WhatsApp Image 2026-09-29 at 14.21.16",
         "isPrimary": false
       },
       {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.17.jpeg",
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.17.webp",
         "alt": "WhatsApp Image 2026-09-29 at 14.21.17",
         "isPrimary": false
       },
       {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.19.jpeg",
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.19.webp",
         "alt": "WhatsApp Image 2026-09-29 at 14.21.19",
         "isPrimary": false
       },
       {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.21.jpeg",
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.21.webp",
         "alt": "WhatsApp Image 2026-09-29 at 14.21.21",
         "isPrimary": false
       },
       {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.22.19.jpeg",
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.22.19.webp",
         "alt": "WhatsApp Image 2026-09-29 at 14.22.19",
         "isPrimary": false
       },
       {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.22.33.jpeg",
+        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.22.33.webp",
         "alt": "WhatsApp Image 2026-09-29 at 14.22.33",
         "isPrimary": false
       }
     ],
-    "image": "/autos/Volkswagen Gol 2016/01_lateral.jpeg",
-    "id": 56
+    "image": "/autos/Volkswagen Gol 2016/01_lateral.webp",
+    "id": 55
   }
 ]

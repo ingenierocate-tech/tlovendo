@@ -1326,9 +1326,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
     // Aplicar overrides manuales al final para asegurar consistencia
     applyManualOverrides(vehicles);
 
-    const hiddenSlugs = new Set(['volkswagen-saveiro-2019']);
-    vehicles = vehicles.filter(v => v.slug !== 'bmw-2018-2018' && !hiddenSlugs.has(v.slug));
-    slugs = slugs.filter(slug => !hiddenSlugs.has(slug));
+    vehicles = vehicles.filter(v => v.slug !== 'bmw-2018-2018');
 
     // Filtrar vehículos que no deben mostrarse (aquellos que no coinciden con la lista aprobada)
     const originalCount = vehicles.length;
@@ -1397,7 +1395,8 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'bmw-320d-2018-sport',
       'chevrolet-silverado-zr2-2024-full',
       'kia-seltos-2023',
-      'mitsubishi-montero-sport-2023'
+      'mitsubishi-monterero-sport-2023',
+      'volkswagen-saveiro-2019'
     ];
     
     if (hiddenSlugs.length > 0) {
