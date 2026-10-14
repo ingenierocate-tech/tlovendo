@@ -1134,7 +1134,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Volante multifunción · aire acondicionado · llantas
 ✅ ABS · estabilidad · múltiples airbags
 ✅ Amplio maletero · mantenciones al día`, abs: true, esp: true, airbags: 'Múltiples', airConditioning: true, audioSystem: true },
-      { slug: 'toyota-rav4-2018', brand: 'Toyota', model: 'RAV4', year: 2018, transmission: 'Automática', fuel: 'Bencina', kilometers: 61000, price: 13990000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ RAV4 2.0 Dual VVT-i · automática
+      { slug: 'toyota-rav4-2018', brand: 'Toyota', model: 'RAV4', year: 2018, transmission: 'Automática', fuel: 'Bencina', kilometers: 61000, price: 13990000, owners: 1, state: 'Vendido', region: 'Las Condes', description: `✅ RAV4 2.0 Dual VVT-i · automática
 ✅ Solo 61.000 km
 ✅ Pantalla multimedia · cámara de retroceso
 ✅ Volante multifunción · climatizador automático
@@ -1165,7 +1165,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Audio Sony premium + amplificador + subwoofer
 ✅ Pantalla multimedia · CarPlay/Android Auto · cámara
 ✅ Control crucero · volante multifunción · aire acondicionado`, airConditioning: true, cruiseControl: true, audioSystem: true },
-      { slug: 'nissan-x-trail-2016', brand: 'Nissan', model: 'X-Trail', year: 2016, transmission: 'Automática', fuel: 'Bencina', kilometers: 143000, price: 8790000, state: 'En venta', region: 'Las Condes', description: `✅ X-Trail automática · único dueño
+      { slug: 'nissan-x-trail-2016', brand: 'Nissan', model: 'X-Trail', year: 2016, transmission: 'Automática', fuel: 'Bencina', kilometers: 143000, price: 8790000, state: 'Vendido', region: 'Las Condes', description: `✅ X-Trail automática · único dueño
 ✅ 143.000 km · 2 llaves · mantenciones en concesionario
 ✅ Aire acondicionado · pantalla multimedia · cámara
 ✅ Volante multifunción · estabilidad · airbags`, esp: true, airbags: 'Múltiples', airConditioning: true, audioSystem: true },
