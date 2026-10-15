@@ -1123,7 +1123,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'chevrolet-tracker-lt-2018',
         brand: 'Chevrolet', model: 'Tracker', year: 2018, version: 'LT',
         transmission: 'Manual', fuel: 'Bencina', kilometers: 105000,
-        price: 7790000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 7790000, owners: 1, state: 'Vendido', region: 'Las Condes',
         description: `✅ LT 1.8 bencinero · mecánica
 ✅ MyLink + Bluetooth/USB · cámara
 ✅ Volante multifunción · aire acondicionado
@@ -1239,7 +1239,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Segundo dueño · CarPlay/Android Auto
 ✅ Cámara + sensores · cuero · climatizador
 ✅ Levante 2,5" · neumáticos anchos · coco de arrastre`, airConditioning: true, airbags: 'Múltiples', audioSystem: true },
-      { slug: 'volkswagen-gol-2016', brand: 'Volkswagen', model: 'Gol', year: 2016, version: 'Hatchback', transmission: 'Manual', fuel: 'Bencina', kilometers: 84000, price: 6350000, state: 'En venta', region: 'Las Condes', description: `🚗 Volkswagen Gol 2016 – 1.6 Bencinero Mecánico
+      { slug: 'volkswagen-gol-2016', brand: 'Volkswagen', model: 'Gol', year: 2016, version: 'Hatchback', transmission: 'Manual', fuel: 'Bencina', kilometers: 84000, price: 6350000, state: 'Vendido', region: 'Las Condes', description: `🚗 Volkswagen Gol 2016 – 1.6 Bencinero Mecánico
 
 📍 Las Condes
 ⏱️ 84.000 km
