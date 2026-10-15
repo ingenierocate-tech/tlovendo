@@ -2515,5 +2515,73 @@
     ],
     "image": "/autos/Volkswagen Gol 2016/01_lateral.webp",
     "id": 55
+  },
+  {
+    "slug": "suzuki-carry-2022",
+    "brand": "Suzuki",
+    "model": "Carry",
+    "year": 2022,
+    "version": "Carrozado",
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 40000,
+    "price": 8790000,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "🚚 Suzuki Carry 2022 – Carrozado\n\n📍 Las Condes\n⏱️ 40.000 km\n📄 Papeles al día\n\n✨ Ideal para trabajo y emprendimientos\n\n✅ Carrozado, ideal para transporte de mercadería\n✅ Solo 40.000 km\n✅ Muy económico en consumo\n✅ Compacto y práctico para trabajar\n✅ Ideal para reparto y uso comercial\n✅ Documentación al día, listo para transferir\n\n🧾 Vehículo muy económico, ideal para quienes buscan una excelente herramienta de trabajo con bajo kilometraje.\n\n🚚 ¡Empieza a trabajar con tu propio vehículo!\n\n📲 Escríbeme por mensaje o WhatsApp para coordinar visita o solicitar más fotos.\n\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ\n🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO.",
+    "images": [
+      {
+        "url": "/autos/Suzuki Carry 2022/01_lateral.png",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Suzuki Carry 2022/file_0000000044b4820eb471ab5e2d51c3f0.png",
+        "alt": "file_0000000044b4820eb471ab5e2d51c3f0",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Carry 2022/file_00000000696c820e882eceec1b5ea77d.png",
+        "alt": "file_00000000696c820e882eceec1b5ea77d",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Carry 2022/file_0000000097cc820ea5186c028f6ae7b5.png",
+        "alt": "file_0000000097cc820ea5186c028f6ae7b5",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Carry 2022/file_00000000a6f4820e8f20b79e1d930b30.png",
+        "alt": "file_00000000a6f4820e8f20b79e1d930b30",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Carry 2022/file_00000000b280820ea755126390a19db8.png",
+        "alt": "file_00000000b280820ea755126390a19db8",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Carry 2022/file_00000000bcbc820e97b493452d4eefbc.png",
+        "alt": "file_00000000bcbc820e97b493452d4eefbc",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Carry 2022/file_00000000bf2c820e996ad521c7f68946.png",
+        "alt": "file_00000000bf2c820e996ad521c7f68946",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Carry 2022/file_00000000e4ec820ea76246f4d8ecee80.png",
+        "alt": "file_00000000e4ec820ea76246f4d8ecee80",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Carry 2022/file_00000000fae4820e987ebf41b24cca08.png",
+        "alt": "file_00000000fae4820e987ebf41b24cca08",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Suzuki Carry 2022/01_lateral.png",
+    "id": 56
   }
 ]

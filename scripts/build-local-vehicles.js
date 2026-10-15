@@ -313,6 +313,7 @@ const slugToFolderMapping = {
   'bmw-316i-2016': 'BMW 316i 2016',
   'suzuki-grand-nomade-glx-2014': 'Suzuki GN 2014',
   'chevrolet-colorado-ltz-2021': 'Chevrolet LTZ 2021',
+  'suzuki-carry-2022': 'Suzuki Carry 2022',
 };
 
 // Override manual de precios y estados para asegurar consistencia con la visual del cliente
@@ -520,6 +521,7 @@ const folderToSlugMapping = {
   'BMW 316i 2016': 'bmw-316i-2016',
   'Suzuki GN 2014': 'suzuki-grand-nomade-glx-2014',
   'Chevrolet LTZ 2021': 'chevrolet-colorado-ltz-2021',
+  'Suzuki Carry 2022': 'suzuki-carry-2022',
 };
 
 async function getVehicleImages(slug) {
@@ -1264,6 +1266,29 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 
 💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ CON 50% DE PIE
 🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO`, abs: true, airbags: 'Doble airbag', airConditioning: true, electricWindows: true, electricMirrors: true, bluetooth: true, usb: true, audioSystem: true },
+      { slug: 'suzuki-carry-2022', brand: 'Suzuki', model: 'Carry', year: 2022, version: 'Carrozado', transmission: 'Manual', fuel: 'Bencina', kilometers: 40000, price: 8790000, state: 'En venta', region: 'Las Condes', description: `🚚 Suzuki Carry 2022 – Carrozado
+
+📍 Las Condes
+⏱️ 40.000 km
+📄 Papeles al día
+
+✨ Ideal para trabajo y emprendimientos
+
+✅ Carrozado, ideal para transporte de mercadería
+✅ Solo 40.000 km
+✅ Muy económico en consumo
+✅ Compacto y práctico para trabajar
+✅ Ideal para reparto y uso comercial
+✅ Documentación al día, listo para transferir
+
+🧾 Vehículo muy económico, ideal para quienes buscan una excelente herramienta de trabajo con bajo kilometraje.
+
+🚚 ¡Empieza a trabajar con tu propio vehículo!
+
+📲 Escríbeme por mensaje o WhatsApp para coordinar visita o solicitar más fotos.
+
+💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ
+🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO.` },
     ];
 
     for (const cv of chatVehicles) {

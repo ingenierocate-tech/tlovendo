@@ -29,6 +29,7 @@ const SLUG_CATEGORY_OVERRIDES: Record<string, string> = {
   'bmw-316i-2016': 'sedan',
   'suzuki-grand-nomade-glx-2014': 'suv',
   'chevrolet-colorado-ltz-2021': 'camioneta',
+  'suzuki-carry-2022': 'camioneta',
 };
 
 const MODEL_KEYWORDS: Record<string, string> = {
