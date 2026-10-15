@@ -1103,7 +1103,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         slug: 'ford-explorer-limited-2018',
         brand: 'Ford', model: 'Explorer', year: 2018, version: 'Limited',
         transmission: 'Automática', fuel: 'Bencina', kilometers: 100000,
-        price: 17390000, owners: 1, state: 'En venta', region: 'Las Condes',
+        price: 16290000, owners: 1, state: 'En venta', region: 'Las Condes',
         description: `✅ Limited full equipo · 7 pasajeros
 ✅ Cuero eléctrico calefaccionado · sunroof panorámico
 ✅ CarPlay/Android Auto · cámara + sensores
@@ -1231,7 +1231,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Segundo dueño · iDrive · volante multifunción
 ✅ Climatizador bi-zona · sensores
 ✅ Estabilidad · airbags · mantenciones al día`, airConditioning: true, esp: true, airbags: 'Múltiples', audioSystem: true },
-      { slug: 'suzuki-grand-nomade-glx-2014', brand: 'Suzuki', model: 'Grand Nomade', year: 2014, version: 'GLX 4x2', transmission: 'Manual', fuel: 'Bencina', kilometers: 160000, price: 6990000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ GLX 2.4 bencinero · mecánica · 4x2
+      { slug: 'suzuki-grand-nomade-glx-2014', brand: 'Suzuki', model: 'Grand Nomade', year: 2014, version: 'GLX 4x2', transmission: 'Manual', fuel: 'Bencina', kilometers: 160000, price: 7190000, owners: 1, state: 'En venta', region: 'Las Condes', description: `✅ GLX 2.4 bencinero · mecánica · 4x2
 ✅ Única dueña · dos llaves
 ✅ Climatizador · volante multifunción
 ✅ ABS · airbags · mantenciones al día`, abs: true, airbags: 'Múltiples', airConditioning: true },
@@ -1396,7 +1396,9 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'chevrolet-silverado-zr2-2024-full',
       'kia-seltos-2023',
       'mitsubishi-monterero-sport-2023',
-      'volkswagen-saveiro-2019'
+      'volkswagen-saveiro-2019',
+      'toyota-yaris-sedan-2022',
+      'bmw-316i-2016'
     ];
     
     if (hiddenSlugs.length > 0) {
