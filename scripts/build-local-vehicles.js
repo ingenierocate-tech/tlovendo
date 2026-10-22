@@ -314,6 +314,8 @@ const slugToFolderMapping = {
   'suzuki-grand-nomade-glx-2014': 'Suzuki GN 2014',
   'chevrolet-colorado-ltz-2021': 'Chevrolet LTZ 2021',
   'suzuki-carry-2022': 'Suzuki Carry 2022',
+  'honda-hr-v-lx-2019': 'Honda HR-V LX 2019',
+  'peugeot-3008-diesel-2021': 'Peugeot 3008 Diesel 2021',
 };
 
 // Override manual de precios y estados para asegurar consistencia con la visual del cliente
@@ -522,6 +524,8 @@ const folderToSlugMapping = {
   'Suzuki GN 2014': 'suzuki-grand-nomade-glx-2014',
   'Chevrolet LTZ 2021': 'chevrolet-colorado-ltz-2021',
   'Suzuki Carry 2022': 'suzuki-carry-2022',
+  'Honda HR-V LX 2019': 'honda-hr-v-lx-2019',
+  'Peugeot 3008 Diesel 2021': 'peugeot-3008-diesel-2021',
 };
 
 async function getVehicleImages(slug) {
@@ -1289,6 +1293,57 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 
 💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ
 🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO.` },
+      { slug: 'honda-hr-v-lx-2019', brand: 'Honda', model: 'HR-V', year: 2019, version: 'LX', transmission: 'Automática', fuel: 'Bencina', kilometers: 84000, price: 13290000, owners: 1, state: 'En venta', region: 'Las Condes', description: `🚗 Honda HR-V LX 2019 – 1.8 Bencinera Automática, 84.000 kms.
+
+📍 Las Condes
+⛽ Bencinera
+👤 Único dueño
+
+✨ SUV cómoda, espaciosa y confiable.
+
+✅ Motor 1.8 bencinero
+✅ Transmisión automática
+✅ Único dueño
+✅ Diseño moderno y versátil
+✅ Aire acondicionado
+✅ Alzavidrios eléctricos
+✅ Espejos eléctricos
+✅ Volante multifunción
+✅ Sistema de frenos ABS y airbags
+✅ Excelente espacio interior y maletero
+
+🧾 SUV muy práctica y versátil, ideal para la ciudad y viajes en familia.
+
+🚗 Honda HR-V, reconocida por su comodidad, funcionalidad y buen aprovechamiento del espacio.`, abs: true, airbags: 'Múltiples', airConditioning: true, electricWindows: true, electricMirrors: true },
+      { slug: 'peugeot-3008-diesel-2021', brand: 'Peugeot', model: '3008', year: 2021, version: '1.6 Diésel', transmission: 'No disponible', fuel: 'Diésel', kilometers: 67000, price: 13890000, state: 'En venta', region: 'Las Condes', description: `🚗 Peugeot 3008 2021 – 1.6 Diésel
+
+📍 Las Condes
+⏱️ 67.000 km
+⛽ Diésel
+
+✨ SUV moderna, elegante y muy equipada
+
+✅ Motor 1.6 turbodiésel
+✅ Excelente rendimiento de combustible
+✅ Diseño moderno y sofisticado
+✅ Pantalla multimedia
+✅ Apple CarPlay / Android Auto
+✅ Cámara de retroceso
+✅ Sensores de estacionamiento
+✅ Volante multifunción
+✅ Climatizador
+✅ Amplio espacio interior y maletero
+✅ Sistemas de seguridad y asistencia a la conducción
+
+🧾 SUV con solo 67.000 km, ideal para quienes buscan comodidad, tecnología y eficiencia en un vehículo moderno.
+
+🚗 Peugeot 3008: estilo, confort y economía para cada viaje.
+
+📲 Escríbeme por mensaje o WhatsApp para coordinar visita o solicitar más fotos.
+
+💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ
+
+🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO`, airConditioning: true, audioSystem: true },
     ];
 
     for (const cv of chatVehicles) {

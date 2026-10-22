@@ -30,6 +30,8 @@ const SLUG_CATEGORY_OVERRIDES: Record<string, string> = {
   'suzuki-grand-nomade-glx-2014': 'suv',
   'chevrolet-colorado-ltz-2021': 'camioneta',
   'suzuki-carry-2022': 'camioneta',
+  'honda-hr-v-lx-2019': 'suv',
+  'peugeot-3008-diesel-2021': 'suv',
 };
 
 const MODEL_KEYWORDS: Record<string, string> = {

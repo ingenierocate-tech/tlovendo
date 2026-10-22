@@ -2583,5 +2583,144 @@
     ],
     "image": "/autos/Suzuki Carry 2022/01_lateral.png",
     "id": 56
+  },
+  {
+    "slug": "honda-hr-v-lx-2019",
+    "brand": "Honda",
+    "model": "HR-V",
+    "year": 2019,
+    "version": "LX",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 84000,
+    "price": 13290000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "🚗 Honda HR-V LX 2019 – 1.8 Bencinera Automática, 84.000 kms.\n\n📍 Las Condes\n⛽ Bencinera\n👤 Único dueño\n\n✨ SUV cómoda, espaciosa y confiable.\n\n✅ Motor 1.8 bencinero\n✅ Transmisión automática\n✅ Único dueño\n✅ Diseño moderno y versátil\n✅ Aire acondicionado\n✅ Alzavidrios eléctricos\n✅ Espejos eléctricos\n✅ Volante multifunción\n✅ Sistema de frenos ABS y airbags\n✅ Excelente espacio interior y maletero\n\n🧾 SUV muy práctica y versátil, ideal para la ciudad y viajes en familia.\n\n🚗 Honda HR-V, reconocida por su comodidad, funcionalidad y buen aprovechamiento del espacio.",
+    "abs": true,
+    "airbags": "Múltiples",
+    "airConditioning": true,
+    "electricWindows": true,
+    "electricMirrors": true,
+    "images": [
+      {
+        "url": "/autos/Honda HR-V LX 2019/01_lateral.png",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Honda HR-V LX 2019/file_000000003adc820e9602804121a26214.png",
+        "alt": "file_000000003adc820e9602804121a26214",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Honda HR-V LX 2019/file_000000004320820ebe1324984cd488e9.png",
+        "alt": "file_000000004320820ebe1324984cd488e9",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Honda HR-V LX 2019/file_000000007c50820eb9b100a4040d5e92.png",
+        "alt": "file_000000007c50820eb9b100a4040d5e92",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Honda HR-V LX 2019/file_0000000084fc820ea0d2281fb1a8adbb.png",
+        "alt": "file_0000000084fc820ea0d2281fb1a8adbb",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Honda HR-V LX 2019/file_00000000aa50820ea5d817aea89de0bf.png",
+        "alt": "file_00000000aa50820ea5d817aea89de0bf",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Honda HR-V LX 2019/file_00000000cd94820e843891893cc12a26.png",
+        "alt": "file_00000000cd94820e843891893cc12a26",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Honda HR-V LX 2019/file_00000000d298820e92c8c26355fcb4cc.png",
+        "alt": "file_00000000d298820e92c8c26355fcb4cc",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Honda HR-V LX 2019/file_00000000e6cc820e921a52caced4419e.png",
+        "alt": "file_00000000e6cc820e921a52caced4419e",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Honda HR-V LX 2019/01_lateral.png",
+    "id": 57
+  },
+  {
+    "slug": "peugeot-3008-diesel-2021",
+    "brand": "Peugeot",
+    "model": "3008",
+    "year": 2021,
+    "version": "1.6 Diésel",
+    "transmission": "No disponible",
+    "fuel": "Diésel",
+    "kilometers": 67000,
+    "price": 13890000,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "🚗 Peugeot 3008 2021 – 1.6 Diésel\n\n📍 Las Condes\n⏱️ 67.000 km\n⛽ Diésel\n\n✨ SUV moderna, elegante y muy equipada\n\n✅ Motor 1.6 turbodiésel\n✅ Excelente rendimiento de combustible\n✅ Diseño moderno y sofisticado\n✅ Pantalla multimedia\n✅ Apple CarPlay / Android Auto\n✅ Cámara de retroceso\n✅ Sensores de estacionamiento\n✅ Volante multifunción\n✅ Climatizador\n✅ Amplio espacio interior y maletero\n✅ Sistemas de seguridad y asistencia a la conducción\n\n🧾 SUV con solo 67.000 km, ideal para quienes buscan comodidad, tecnología y eficiencia en un vehículo moderno.\n\n🚗 Peugeot 3008: estilo, confort y economía para cada viaje.\n\n📲 Escríbeme por mensaje o WhatsApp para coordinar visita o solicitar más fotos.\n\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ\n\n🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO",
+    "airConditioning": true,
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/Peugeot 3008 Diesel 2021/01_lateral.png",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_000000000654820ea290546fa2ae45af.png",
+        "alt": "file_000000000654820ea290546fa2ae45af",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_000000000f34820ea7c720a3d5c40a73.png",
+        "alt": "file_000000000f34820ea7c720a3d5c40a73",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_0000000027fc820eb26f565fd72aaeb9.png",
+        "alt": "file_0000000027fc820eb26f565fd72aaeb9",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_000000002db8820ea548455a4033821b.png",
+        "alt": "file_000000002db8820ea548455a4033821b",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_000000009c00820ead97978213c41882.png",
+        "alt": "file_000000009c00820ead97978213c41882",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_00000000a5ec820eab1b510e50ea5183.png",
+        "alt": "file_00000000a5ec820eab1b510e50ea5183",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_00000000badc820e8edef7d44fe9cca1.png",
+        "alt": "file_00000000badc820e8edef7d44fe9cca1",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_00000000c2c4820eb6211de78c7486c5.png",
+        "alt": "file_00000000c2c4820eb6211de78c7486c5",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_00000000d930820eb0e22f6cce86dc28.png",
+        "alt": "file_00000000d930820eb0e22f6cce86dc28",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Peugeot 3008 Diesel 2021/01_lateral.png",
+    "id": 58
   }
 ]
