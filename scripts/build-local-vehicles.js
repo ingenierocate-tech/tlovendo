@@ -1241,7 +1241,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Única dueña · dos llaves
 ✅ Climatizador · volante multifunción
 ✅ ABS · airbags · mantenciones al día`, abs: true, airbags: 'Múltiples', airConditioning: true },
-      { slug: 'chevrolet-colorado-ltz-2021', brand: 'Chevrolet', model: 'Colorado', year: 2021, version: 'LTZ', transmission: 'Automática', fuel: 'Diésel', kilometers: 200000, price: 16850000, owners: 2, state: 'En venta', region: 'Las Condes', description: `✅ LTZ 2.8 Turbo Diésel Duramax · automática
+      { slug: 'chevrolet-colorado-ltz-2021', brand: 'Chevrolet', model: 'Colorado', year: 2021, version: 'LTZ', transmission: 'Automática', fuel: 'Diésel', kilometers: 200000, price: 24990000, owners: 2, state: 'En venta', region: 'Las Condes', description: `✅ LTZ 2.8 Turbo Diésel Duramax · automática
 ✅ Segundo dueño · CarPlay/Android Auto
 ✅ Cámara + sensores · cuero · climatizador
 ✅ Levante 2,5" · neumáticos anchos · coco de arrastre`, airConditioning: true, airbags: 'Múltiples', audioSystem: true },
@@ -1293,7 +1293,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 
 💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ
 🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO.` },
-      { slug: 'honda-hr-v-lx-2019', brand: 'Honda', model: 'HR-V', year: 2019, version: 'LX', transmission: 'Automática', fuel: 'Bencina', kilometers: 84000, price: 13290000, owners: 1, state: 'En venta', region: 'Las Condes', description: `🚗 Honda HR-V LX 2019 – 1.8 Bencinera Automática, 84.000 kms.
+      { slug: 'honda-hr-v-lx-2019', brand: 'Honda', model: 'HR-V', year: 2019, version: 'LX', transmission: 'Automática', fuel: 'Bencina', kilometers: 84000, price: 12790000, owners: 1, state: 'En venta', region: 'Las Condes', description: `🚗 Honda HR-V LX 2019 – 1.8 Bencinera Automática, 84.000 kms.
 
 📍 Las Condes
 ⛽ Bencinera
