@@ -2584,75 +2584,7 @@
     "image": "/autos/Suzuki Carry 2022/01_lateral.png",
     "id": 56
   },
-  {
-    "slug": "honda-hr-v-lx-2019",
-    "brand": "Honda",
-    "model": "HR-V",
-    "year": 2019,
-    "version": "LX",
-    "transmission": "Automática",
-    "fuel": "Bencina",
-    "kilometers": 84000,
-    "price": 12790000,
-    "owners": 1,
-    "state": "En venta",
-    "region": "Las Condes",
-    "description": "🚗 Honda HR-V LX 2019 – 1.8 Bencinera Automática, 84.000 kms.\n\n📍 Las Condes\n⛽ Bencinera\n👤 Único dueño\n\n✨ SUV cómoda, espaciosa y confiable.\n\n✅ Motor 1.8 bencinero\n✅ Transmisión automática\n✅ Único dueño\n✅ Diseño moderno y versátil\n✅ Aire acondicionado\n✅ Alzavidrios eléctricos\n✅ Espejos eléctricos\n✅ Volante multifunción\n✅ Sistema de frenos ABS y airbags\n✅ Excelente espacio interior y maletero\n\n🧾 SUV muy práctica y versátil, ideal para la ciudad y viajes en familia.\n\n🚗 Honda HR-V, reconocida por su comodidad, funcionalidad y buen aprovechamiento del espacio.",
-    "abs": true,
-    "airbags": "Múltiples",
-    "airConditioning": true,
-    "electricWindows": true,
-    "electricMirrors": true,
-    "images": [
-      {
-        "url": "/autos/Honda HR-V LX 2019/01_lateral.png",
-        "alt": "lateral",
-        "isPrimary": true
-      },
-      {
-        "url": "/autos/Honda HR-V LX 2019/file_000000003adc820e9602804121a26214.png",
-        "alt": "file_000000003adc820e9602804121a26214",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Honda HR-V LX 2019/file_000000004320820ebe1324984cd488e9.png",
-        "alt": "file_000000004320820ebe1324984cd488e9",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Honda HR-V LX 2019/file_000000007c50820eb9b100a4040d5e92.png",
-        "alt": "file_000000007c50820eb9b100a4040d5e92",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Honda HR-V LX 2019/file_0000000084fc820ea0d2281fb1a8adbb.png",
-        "alt": "file_0000000084fc820ea0d2281fb1a8adbb",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Honda HR-V LX 2019/file_00000000aa50820ea5d817aea89de0bf.png",
-        "alt": "file_00000000aa50820ea5d817aea89de0bf",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Honda HR-V LX 2019/file_00000000cd94820e843891893cc12a26.png",
-        "alt": "file_00000000cd94820e843891893cc12a26",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Honda HR-V LX 2019/file_00000000d298820e92c8c26355fcb4cc.png",
-        "alt": "file_00000000d298820e92c8c26355fcb4cc",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Honda HR-V LX 2019/file_00000000e6cc820e921a52caced4419e.png",
-        "alt": "file_00000000e6cc820e921a52caced4419e",
-        "isPrimary": false
-      }
-    ],
-    "image": "/autos/Honda HR-V LX 2019/01_lateral.png",
-    "id": 57
-  },
+
   {
     "slug": "peugeot-3008-diesel-2021",
     "brand": "Peugeot",

@@ -1478,7 +1478,8 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
       'mitsubishi-monterero-sport-2023',
       'volkswagen-saveiro-2019',
       'toyota-yaris-sedan-2022',
-      'bmw-316i-2016'
+      'bmw-316i-2016',
+      'honda-hr-v-lx-2019'
     ];
     
     if (hiddenSlugs.length > 0) {
