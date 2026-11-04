@@ -316,6 +316,8 @@ const slugToFolderMapping = {
   'suzuki-carry-2022': 'Suzuki Carry 2022',
   'honda-hr-v-lx-2019': 'Honda HR-V LX 2019',
   'peugeot-3008-diesel-2021': 'Peugeot 3008 Diesel 2021',
+  'ssangyong-actyon-sport-2016': 'Ssangyong Actyon sport 2016',
+  'nissan-navara-se-2023': 'Nissan Navara SE 2023',
 };
 
 // Override manual de precios y estados para asegurar consistencia con la visual del cliente
@@ -526,6 +528,8 @@ const folderToSlugMapping = {
   'Suzuki Carry 2022': 'suzuki-carry-2022',
   'Honda HR-V LX 2019': 'honda-hr-v-lx-2019',
   'Peugeot 3008 Diesel 2021': 'peugeot-3008-diesel-2021',
+  'Ssangyong Actyon sport 2016': 'ssangyong-actyon-sport-2016',
+  'Nissan Navara SE 2023': 'nissan-navara-se-2023',
 };
 
 async function getVehicleImages(slug) {
@@ -1344,6 +1348,16 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ
 
 🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO`, airConditioning: true, audioSystem: true },
+      { slug: 'ssangyong-actyon-sport-2016', brand: 'SsangYong', model: 'Actyon Sport', year: 2016, transmission: 'No disponible', fuel: 'Diésel', kilometers: 237000, price: 7290000, state: 'En venta', region: 'Las Condes', description: `✅ Diésel · ideal para trabajo y uso diario
+✅ 237.000 km · excelente capacidad de carga
+✅ Neumáticos seminuevos · cubre pickup instalado
+✅ Funcionando perfecto · detalles estéticos de uso
+✅ Pérdida asimilada informada con transparencia` },
+      { slug: 'nissan-navara-se-2023', brand: 'Nissan', model: 'Navara', year: 2023, version: 'SE 4x4', transmission: 'Manual', fuel: 'Diésel', kilometers: 62000, price: 24990000, state: 'En venta', region: 'Las Condes', description: `✅ SE 4x4 diésel · mecánica · tope de línea
+✅ 62.000 km · impecable estado
+✅ Nunca chocada · nunca cargada
+✅ Lona retráctil y cubre pickup
+✅ Ideal para trabajo y uso personal` },
     ];
 
     for (const cv of chatVehicles) {

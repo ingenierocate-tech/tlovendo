@@ -32,6 +32,8 @@ const SLUG_CATEGORY_OVERRIDES: Record<string, string> = {
   'suzuki-carry-2022': 'camioneta',
   'honda-hr-v-lx-2019': 'suv',
   'peugeot-3008-diesel-2021': 'suv',
+  'ssangyong-actyon-sport-2016': 'camioneta',
+  'nissan-navara-se-2023': 'camioneta',
 };
 
 const MODEL_KEYWORDS: Record<string, string> = {
