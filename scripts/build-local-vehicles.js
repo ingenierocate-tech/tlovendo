@@ -264,6 +264,8 @@ const slugToFolderMapping = {
   'nissan-pathfinder-1999': 'Nissan Pathfinder 3.3 1999',
   'bmw-320i-m-sport-2024': 'Bmw_320iM_sport_2024',
   'porsche-panamera-gts-2017': 'Porsche_Panamera_GTS_2017',
+  'porsche-boxster-2013': 'Porsche Boxter 2013',
+  'porsche-cayman-s-981-2016': 'Porsche Cayman S 981 2016',
   
   // Mapeos adicionales para unificar Excel (slugs cortos) con Carpetas
   'subaru-forester-2019': 'Subaru_Forester_Limited_2019',
@@ -318,6 +320,8 @@ const slugToFolderMapping = {
   'peugeot-3008-diesel-2021': 'Peugeot 3008 Diesel 2021',
   'ssangyong-actyon-sport-2016': 'Ssangyong Actyon sport 2016',
   'nissan-navara-se-2023': 'Nissan Navara SE 2023',
+  'porsche-boxster-2013': 'Porsche Boxter 2013',
+  'porsche-cayman-s-981-2016': 'Porsche Cayman S 981 2016',
 };
 
 // Override manual de precios y estados para asegurar consistencia con la visual del cliente
@@ -333,7 +337,7 @@ const manualOverrides = [
   { keywords: ['kia', 'rio', '2018'], state: 'Vendido' },
   { keywords: ['citroen', 'picasso', '2011'], state: 'Vendido' },
   { keywords: ['bmw', '320i', '2024'], state: 'Vendido' },
-  { keywords: ['bmw', '320d', '2018', 'sport'], price: 18350000, state: 'En venta' },
+  { keywords: ['bmw', '320d', '2018', 'sport'], price: 18350000, state: 'Vendido' },
   { keywords: ['porsche', 'panamera', '2017'], state: 'Vendido' },
   { keywords: ['chevrolet', 'silverado', '2024'], price: 37790000, state: 'Vendido' },
   { keywords: ['nissan', 'sentra', '2021'], price: 13750000, state: 'Vendido' },
@@ -530,6 +534,8 @@ const folderToSlugMapping = {
   'Peugeot 3008 Diesel 2021': 'peugeot-3008-diesel-2021',
   'Ssangyong Actyon sport 2016': 'ssangyong-actyon-sport-2016',
   'Nissan Navara SE 2023': 'nissan-navara-se-2023',
+  'Porsche Boxter 2013': 'porsche-boxster-2013',
+  'Porsche Cayman S 981 2016': 'porsche-cayman-s-981-2016',
 };
 
 async function getVehicleImages(slug) {
@@ -1358,6 +1364,59 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Nunca chocada · nunca cargada
 ✅ Lona retráctil y cubre pickup
 ✅ Ideal para trabajo y uso personal` },
+      { slug: 'porsche-boxster-2013', brand: 'Porsche', model: 'Boxster', year: 2013, version: 'Cabriolet', transmission: 'Automática', fuel: 'Bencina', kilometers: 65000, price: 37890000, owners: 2, state: 'En venta', region: 'Las Condes', description: `🚗 Porsche Boxster 2013 – Deportivo Cabriolet
+
+📍 Las Condes
+⏱️ 65.000 km
+👤 Segundo dueño
+
+✨ DEPORTIVO EN ESTADO IMPECABLE
+
+✅ Como nuevo, completamente impecable
+✅ Motor bóxer de 6 cilindros
+✅ Deportivo descapotable biplaza
+✅ Techo de lona eléctrico
+✅ Todas las mantenciones al día
+✅ Solo 63.000 km
+✅ Diseño deportivo y elegante
+✅ Excelente estado de conservación
+
+🧾 Una verdadera joya, completamente impecable y muy bien cuidado. Con solo 63.000 km y todas sus mantenciones al día, es una oportunidad excepcional para disfrutar de un auténtico deportivo Porsche.
+
+Porsche Boxster: elegancia, deportividad y emoción al volante. Un auto que destaca por su diseño, exclusividad y experiencia de conducción.
+
+📲 Escríbeme por mensaje o WhatsApp para coordinar visita o solicitar más fotos.
+
+💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ
+
+🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO`, airConditioning: true, airbags: 'Múltiples', audioSystem: true },
+      { slug: 'porsche-cayman-s-981-2016', brand: 'Porsche', model: 'Cayman', year: 2016, version: 'S 981 3.4', transmission: 'Automática', fuel: 'Bencina', kilometers: 52000, price: 45000000, state: 'En venta', region: 'Las Condes', description: `🚗 Porsche Cayman S 981 2016 – 3.4 Bencinero
+
+📍 Las Condes
+⏱️ 52.000 km
+⛽ Bencinero
+
+✨ Versión S – Deportivo de alta gama
+✨ Excelente estado de conservación
+
+✅ Motor 3.4 bóxer de 6 cilindros
+✅ Potencia de 325 HP
+✅ Motor atmosférico
+✅ Tracción trasera
+✅ Diseño deportivo coupé de dos plazas
+✅ Todas las mantenciones realizadas en DITEC
+✅ Solo 52.000 km
+✅ Deportividad y exclusividad Porsche
+
+🧾 Deportivo en excelente estado, muy bien cuidado y con todas sus mantenciones realizadas en DITEC.
+
+Una verdadera oportunidad para los amantes de Porsche que buscan potencia, exclusividad y una experiencia de conducción excepcional.
+
+📲 Escríbeme por mensaje o WhatsApp para coordinar visita o solicitar más fotos.
+
+💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ
+
+🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO`, airConditioning: true, airbags: 'Múltiples', audioSystem: true },
     ];
 
     for (const cv of chatVehicles) {

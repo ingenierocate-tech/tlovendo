@@ -1758,7 +1758,7 @@
     "fuel": "Diésel",
     "kilometers": 146000,
     "price": 18350000,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Las Condes",
     "description": "✅ 320d M Sport 2.0 TwinPower Turbo diésel\n✅ Automática deportiva de 8 velocidades\n✅ Paquete M original · fibra de carbono · sunroof\n✅ Cuero eléctrico · iDrive con CarPlay · cámara + sensores\n✅ Climatizador bi-zona · llantas M Sport · mantenciones al día",
     "airConditioning": true,
@@ -2654,5 +2654,213 @@
     ],
     "image": "/autos/Peugeot 3008 Diesel 2021/01_lateral.png",
     "id": 58
+  },
+  {
+    "slug": "porsche-boxster-2013",
+    "brand": "Porsche",
+    "model": "Boxster",
+    "year": 2013,
+    "version": "Cabriolet",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 65000,
+    "price": 37890000,
+    "owners": 2,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "🚗 Porsche Boxster 2013 – Deportivo Cabriolet\n\n📍 Las Condes\n⏱️ 65.000 km\n👤 Segundo dueño\n\n✨ DEPORTIVO EN ESTADO IMPECABLE\n\n✅ Como nuevo, completamente impecable\n✅ Motor bóxer de 6 cilindros\n✅ Deportivo descapotable biplaza\n✅ Techo de lona eléctrico\n✅ Todas las mantenciones al día\n✅ Solo 63.000 km\n✅ Diseño deportivo y elegante\n✅ Excelente estado de conservación\n\n🧾 Una verdadera joya, completamente impecable y muy bien cuidado. Con solo 63.000 km y todas sus mantenciones al día, es una oportunidad excepcional para disfrutar de un auténtico deportivo Porsche.\n\nPorsche Boxster: elegancia, deportividad y emoción al volante. Un auto que destaca por su diseño, exclusividad y experiencia de conducción.\n\n📲 Escríbeme por mensaje o WhatsApp para coordinar visita o solicitar más fotos.\n\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ\n\n🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO",
+    "airConditioning": true,
+    "airbags": "Múltiples",
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/Porsche Boxter 2013/01_lateral.png",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_000000000ac8820e902d1ccd95ac2370.png",
+        "alt": "file_000000000ac8820e902d1ccd95ac2370",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_000000002978820e9b978e0c2e46988c.png",
+        "alt": "file_000000002978820e9b978e0c2e46988c",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_000000003cbc820e8e17147fee2884a5.png",
+        "alt": "file_000000003cbc820e8e17147fee2884a5",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_000000003eec820eac1d77cfd494b7e2.png",
+        "alt": "file_000000003eec820eac1d77cfd494b7e2",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_000000004058820eaa493d74767a2c70.png",
+        "alt": "file_000000004058820eaa493d74767a2c70",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_000000004d9c820ebec0d2ececb87b2e.png",
+        "alt": "file_000000004d9c820ebec0d2ececb87b2e",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_000000004f7c820e9fc9a1207a68dd38.png",
+        "alt": "file_000000004f7c820e9fc9a1207a68dd38",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_000000005b28820e915ed673dbcd74ca.png",
+        "alt": "file_000000005b28820e915ed673dbcd74ca",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_000000006440820e8d07c637a3ae71e8.png",
+        "alt": "file_000000006440820e8d07c637a3ae71e8",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_000000006930820e84e8902af15b892e.png",
+        "alt": "file_000000006930820e84e8902af15b892e",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_000000009210820eaee3c6358afee7c6.png",
+        "alt": "file_000000009210820eaee3c6358afee7c6",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_000000009240820ea030bc571e0241f8.png",
+        "alt": "file_000000009240820ea030bc571e0241f8",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_00000000a6b0820e9bf50d460cd5840a.png",
+        "alt": "file_00000000a6b0820e9bf50d460cd5840a",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_00000000c860820e8a4ff1326397d127.png",
+        "alt": "file_00000000c860820e8a4ff1326397d127",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_00000000c974820ea7b1e71a21a77c1f.png",
+        "alt": "file_00000000c974820ea7b1e71a21a77c1f",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Boxter 2013/file_00000000ea30820eb400223710eb97b7.png",
+        "alt": "file_00000000ea30820eb400223710eb97b7",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Porsche Boxter 2013/01_lateral.png",
+    "id": 59
+  },
+  {
+    "slug": "porsche-cayman-s-981-2016",
+    "brand": "Porsche",
+    "model": "Cayman",
+    "year": 2016,
+    "version": "S 981 3.4",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 52000,
+    "price": 45000000,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "🚗 Porsche Cayman S 981 2016 – 3.4 Bencinero\n\n📍 Las Condes\n⏱️ 52.000 km\n⛽ Bencinero\n\n✨ Versión S – Deportivo de alta gama\n✨ Excelente estado de conservación\n\n✅ Motor 3.4 bóxer de 6 cilindros\n✅ Potencia de 325 HP\n✅ Motor atmosférico\n✅ Tracción trasera\n✅ Diseño deportivo coupé de dos plazas\n✅ Todas las mantenciones realizadas en DITEC\n✅ Solo 52.000 km\n✅ Deportividad y exclusividad Porsche\n\n🧾 Deportivo en excelente estado, muy bien cuidado y con todas sus mantenciones realizadas en DITEC.\n\nUna verdadera oportunidad para los amantes de Porsche que buscan potencia, exclusividad y una experiencia de conducción excepcional.\n\n📲 Escríbeme por mensaje o WhatsApp para coordinar visita o solicitar más fotos.\n\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ\n\n🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO",
+    "airConditioning": true,
+    "airbags": "Múltiples",
+    "audioSystem": true,
+    "images": [
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/01_lateral.png",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/file_000000003e50820e92d505531e5a8161.png",
+        "alt": "file_000000003e50820e92d505531e5a8161",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/file_000000006200820ea9a5cbfde3217df8.png",
+        "alt": "file_000000006200820ea9a5cbfde3217df8",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/file_000000007320820e8764f26ce0f0428d.png",
+        "alt": "file_000000007320820e8764f26ce0f0428d",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/file_000000007c54820e9e599d6b456e5e29.png",
+        "alt": "file_000000007c54820e9e599d6b456e5e29",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/file_0000000081ec820ebda8be453c0d51d3.png",
+        "alt": "file_0000000081ec820ebda8be453c0d51d3",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/file_0000000082ec820ebbbab38f32140118.png",
+        "alt": "file_0000000082ec820ebbbab38f32140118",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000ad54820ea77f2085c33e6955.png",
+        "alt": "file_00000000ad54820ea77f2085c33e6955",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000ba90820e9cfa7a2235959524.png",
+        "alt": "file_00000000ba90820e9cfa7a2235959524",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000bd50820e8e15a4f45882493f.png",
+        "alt": "file_00000000bd50820e8e15a4f45882493f",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000c378820eb2fcc312df9957d5.png",
+        "alt": "file_00000000c378820eb2fcc312df9957d5",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000cdd4820ebd84f6018b3dcad0.png",
+        "alt": "file_00000000cdd4820ebd84f6018b3dcad0",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000cff8820ea71439ebacd2cd72.png",
+        "alt": "file_00000000cff8820ea71439ebacd2cd72",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000e220820e91aac6adb0f9b544.png",
+        "alt": "file_00000000e220820e91aac6adb0f9b544",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000fd60820ea4a4230d586b4ee1.png",
+        "alt": "file_00000000fd60820ea4a4230d586b4ee1",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000fe4c820e9f31a565d2d1ef87.png",
+        "alt": "file_00000000fe4c820e9f31a565d2d1ef87",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Porsche Cayman S 981 2016/01_lateral.png",
+    "id": 60
   }
 ]

@@ -10,6 +10,7 @@ export const CATEGORIES: Category[] = [
   { slug: 'suv', name: 'SUV', icon: '/suv.png' },
   { slug: 'sedan', name: 'Sedán', icon: '/sedan.png' },
   { slug: 'hatchback', name: 'Hatchback', icon: '/hatchback.png' },
+  { slug: 'coupe', name: 'Coupé', icon: '/sedan.png' },
   { slug: 'camioneta', name: 'Camionetas', icon: '/camioneta.png' },
   { slug: 'citycar', name: 'Citycar', icon: '/citycar.png' },
   { slug: 'utilitario', name: 'Utilitarios', icon: '/utilitario.png' },
@@ -34,6 +35,8 @@ const SLUG_CATEGORY_OVERRIDES: Record<string, string> = {
   'peugeot-3008-diesel-2021': 'suv',
   'ssangyong-actyon-sport-2016': 'camioneta',
   'nissan-navara-se-2023': 'camioneta',
+  'porsche-boxster-2013': 'coupe',
+  'porsche-cayman-s-981-2016': 'coupe',
 };
 
 const MODEL_KEYWORDS: Record<string, string> = {
