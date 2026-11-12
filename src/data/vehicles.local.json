@@ -1091,6 +1091,33 @@
     "soldAt": "2026-03-26"
   },
   {
+    "slug": "bmw-320d-2018-sport",
+    "brand": "BMW",
+    "model": "320d",
+    "year": 2018,
+    "version": "Sport",
+    "transmission": "Automática",
+    "fuel": "Diésel",
+    "kilometers": 142000,
+    "price": 18350000,
+    "owners": 1,
+    "state": "Vendido",
+    "region": "Santiago",
+    "description": "🔧 Diésel · Automático\n📍 142.000 km · 2 llaves\n✔️ Todas las mantenciones hechas rigurosamente.\n🔥 Motor diésel eficiente y potente: equilibrio entre potencia y economía típico de esta versión del Serie 3.\n🔥 Prestaciones de sedán premium: ágil y sólido en autopista y ciudad.\n🔥 Buen espacio interior y maletero: práctico para el día a día y viajes.\n🔥 Estilo y presencia BMW: diseño deportivo, interior cuidado y conducción dinámica.\n📄 Documentación al día y lista para transferir\n🔁 Se recibe vehículo menor como parte de pago\n💳 Financiamiento disponible",
+    "abs": true,
+    "images": [
+      {
+        "url": "/autos/Bmw_320iM_sport_2018/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      }
+    ],
+    "image": "/autos/Bmw_320iM_sport_2018/01_lateral.webp",
+    "keep": true,
+    "id": 26,
+    "soldAt": "2026-11-12"
+  },
+  {
     "slug": "jeep-compass-2011",
     "brand": "Jeep",
     "model": "Compass",
@@ -1115,7 +1142,7 @@
     ],
     "image": "/autos/Jeep-Compass-2011/01_lateral.webp",
     "keep": true,
-    "id": 26,
+    "id": 27,
     "soldAt": "2026-03-26"
   },
   {
@@ -1143,7 +1170,7 @@
     ],
     "image": "/autos/Marcedes Benz-A200-sedan/01_lateral.webp",
     "keep": true,
-    "id": 27,
+    "id": 28,
     "soldAt": "2026-04-02"
   },
   {
@@ -1173,7 +1200,7 @@
     ],
     "image": "/autos/Fiat-Uno-2020/01_lateral.webp",
     "keep": true,
-    "id": 28,
+    "id": 29,
     "soldAt": "2026-05-11"
   },
   {
@@ -1198,7 +1225,7 @@
     ],
     "image": "/autos/Toyora_Raize_2025/01_lateral.webp",
     "keep": true,
-    "id": 29,
+    "id": 30,
     "soldAt": "2026-06-15"
   },
   {
@@ -1292,7 +1319,7 @@
       }
     ],
     "image": "/autos/Hyundai_Porter_2023/01_lateral.webp",
-    "id": 30
+    "id": 31
   },
   {
     "slug": "toyota-land-cruiser-2010",
@@ -1316,7 +1343,7 @@
     ],
     "image": "/autos/Toyota_ Landcruiser_2010/01_lateral.webp",
     "keep": true,
-    "id": 31,
+    "id": 32,
     "soldAt": "2026-06-15"
   },
   {
@@ -1342,7 +1369,7 @@
     ],
     "image": "/autos/Mitsubishi_L200Katana_2013/01_lateral.webp",
     "keep": true,
-    "id": 32,
+    "id": 33,
     "soldAt": "2026-06-15"
   },
   {
@@ -1368,7 +1395,7 @@
     ],
     "image": "/autos/Chevrolet_ Silverado_2024/01_lateral.webp",
     "keep": true,
-    "id": 33,
+    "id": 34,
     "soldAt": "2026-08-14"
   },
   {
@@ -1393,7 +1420,7 @@
     ],
     "image": "/autos/Suzuki alto 800 2018/01_lateral.webp",
     "keep": true,
-    "id": 34,
+    "id": 35,
     "soldAt": "2026-06-15"
   },
   {
@@ -1478,7 +1505,7 @@
       }
     ],
     "image": "/autos/Ford Explorer Límites 2018/01_lateral.webp",
-    "id": 35
+    "id": 36
   },
   {
     "slug": "chery-iq-2014",
@@ -1502,7 +1529,7 @@
     ],
     "image": "/autos/Chery IQ 2014/01_lateral.webp",
     "keep": true,
-    "id": 36,
+    "id": 37,
     "soldAt": "2026-06-26"
   },
   {
@@ -1524,55 +1551,11 @@
         "url": "/autos/Chevrolet Tracker 2018/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161833.webp",
-        "alt": "IMG_20260613_161833",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161840.webp",
-        "alt": "IMG_20260613_161840",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161904.webp",
-        "alt": "IMG_20260613_161904",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161910.webp",
-        "alt": "IMG_20260613_161910",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161917.webp",
-        "alt": "IMG_20260613_161917",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161927.webp",
-        "alt": "IMG_20260613_161927",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161932.webp",
-        "alt": "IMG_20260613_161932",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161937.webp",
-        "alt": "IMG_20260613_161937",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Chevrolet Tracker 2018/IMG_20260613_161946.webp",
-        "alt": "IMG_20260613_161946",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Chevrolet Tracker 2018/01_lateral.webp",
-    "id": 37
+    "id": 38,
+    "soldAt": "2026-11-12"
   },
   {
     "slug": "chevrolet-prisma-ltz-2020",
@@ -1600,7 +1583,7 @@
       }
     ],
     "image": "/autos/Chevrolet Prisma LTZ 2020/01_lateral.webp",
-    "id": 38,
+    "id": 39,
     "soldAt": "2026-09-30"
   },
   {
@@ -1627,55 +1610,11 @@
         "url": "/autos/Toyota Rav4 2018/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085011.webp",
-        "alt": "IMG_20260803_085011",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085019.webp",
-        "alt": "IMG_20260803_085019",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085039.webp",
-        "alt": "IMG_20260803_085039",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085047.webp",
-        "alt": "IMG_20260803_085047",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085055.webp",
-        "alt": "IMG_20260803_085055",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085204.webp",
-        "alt": "IMG_20260803_085204",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085210.webp",
-        "alt": "IMG_20260803_085210",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085220.webp",
-        "alt": "IMG_20260803_085220",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Toyota Rav4 2018/IMG_20260803_085234.webp",
-        "alt": "IMG_20260803_085234",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Toyota Rav4 2018/01_lateral.webp",
-    "id": 39
+    "id": 40,
+    "soldAt": "2026-11-12"
   },
   {
     "slug": "citroen-c4-picasso-2017",
@@ -1746,7 +1685,7 @@
       }
     ],
     "image": "/autos/Citroen C4 Picasso 2017/01_lateral.webp",
-    "id": 40
+    "id": 41
   },
   {
     "slug": "bmw-320d-m-package-2018",
@@ -1769,75 +1708,11 @@
         "url": "/autos/BMW 320D M Sport 2018/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110724.webp",
-        "alt": "IMG_20260804_110724",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110734.webp",
-        "alt": "IMG_20260804_110734",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110759.webp",
-        "alt": "IMG_20260804_110759",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110813.webp",
-        "alt": "IMG_20260804_110813",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110826.webp",
-        "alt": "IMG_20260804_110826",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110836.webp",
-        "alt": "IMG_20260804_110836",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110851.webp",
-        "alt": "IMG_20260804_110851",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110901.webp",
-        "alt": "IMG_20260804_110901",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110906.webp",
-        "alt": "IMG_20260804_110906",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110917.webp",
-        "alt": "IMG_20260804_110917",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110923.webp",
-        "alt": "IMG_20260804_110923",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110934.webp",
-        "alt": "IMG_20260804_110934",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/BMW 320D M Sport 2018/IMG_20260804_110946.webp",
-        "alt": "IMG_20260804_110946",
-        "isPrimary": false
       }
     ],
     "image": "/autos/BMW 320D M Sport 2018/01_lateral.webp",
-    "id": 41
+    "id": 42,
+    "soldAt": "2026-11-12"
   },
   {
     "slug": "mitsubishi-montero-sport-2023",
@@ -1866,7 +1741,7 @@
       }
     ],
     "image": "/autos/Mitsubishi Montero Sport 2023/01_lateral.webp",
-    "id": 42,
+    "id": 43,
     "soldAt": "2026-09-07"
   },
   {
@@ -1892,7 +1767,7 @@
       }
     ],
     "image": "/autos/Nissan March 2016/01_lateral.webp",
-    "id": 43,
+    "id": 44,
     "soldAt": "2026-09-30"
   },
   {
@@ -1964,7 +1839,7 @@
       }
     ],
     "image": "/autos/Ford_Titanium 2019/01_lateral.webp",
-    "id": 44
+    "id": 45
   },
   {
     "slug": "nissan-x-trail-2016",
@@ -1987,65 +1862,11 @@
         "url": "/autos/Nissan X-Trail AT 2016/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194040.webp",
-        "alt": "IMG_20260914_194040",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194048.webp",
-        "alt": "IMG_20260914_194048",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194124.webp",
-        "alt": "IMG_20260914_194124",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194133.webp",
-        "alt": "IMG_20260914_194133",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194142.webp",
-        "alt": "IMG_20260914_194142",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194203.webp",
-        "alt": "IMG_20260914_194203",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194237.webp",
-        "alt": "IMG_20260914_194237",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194251.webp",
-        "alt": "IMG_20260914_194251",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194300.webp",
-        "alt": "IMG_20260914_194300",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194413.webp",
-        "alt": "IMG_20260914_194413",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Nissan X-Trail AT 2016/IMG_20260914_194433.webp",
-        "alt": "IMG_20260914_194433",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Nissan X-Trail AT 2016/01_lateral.webp",
-    "id": 45
+    "id": 46,
+    "soldAt": "2026-11-12"
   },
   {
     "slug": "mazda-2-gt-2015",
@@ -2075,7 +1896,7 @@
       }
     ],
     "image": "/autos/Mazda 2 GT 2015/01_lateral.webp",
-    "id": 46,
+    "id": 47,
     "soldAt": "2026-07-24"
   },
   {
@@ -2366,7 +2187,7 @@
       }
     ],
     "image": "/autos/Suzuki GN 2014/01_lateral.webp",
-    "id": 53
+    "id": 52
   },
   {
     "slug": "chevrolet-colorado-ltz-2021",
@@ -2438,7 +2259,7 @@
       }
     ],
     "image": "/autos/Chevrolet LTZ 2021/01_lateral.webp",
-    "id": 54
+    "id": 53
   },
   {
     "slug": "volkswagen-gol-2016",
@@ -2466,55 +2287,11 @@
         "url": "/autos/Volkswagen Gol 2016/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.09.webp",
-        "alt": "WhatsApp Image 2026-09-29 at 14.21.09",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.11.webp",
-        "alt": "WhatsApp Image 2026-09-29 at 14.21.11",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.15.webp",
-        "alt": "WhatsApp Image 2026-09-29 at 14.21.15",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.16.webp",
-        "alt": "WhatsApp Image 2026-09-29 at 14.21.16",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.17.webp",
-        "alt": "WhatsApp Image 2026-09-29 at 14.21.17",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.19.webp",
-        "alt": "WhatsApp Image 2026-09-29 at 14.21.19",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.21.21.webp",
-        "alt": "WhatsApp Image 2026-09-29 at 14.21.21",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.22.19.webp",
-        "alt": "WhatsApp Image 2026-09-29 at 14.22.19",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Volkswagen Gol 2016/WhatsApp Image 2026-09-29 at 14.22.33.webp",
-        "alt": "WhatsApp Image 2026-09-29 at 14.22.33",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Volkswagen Gol 2016/01_lateral.webp",
-    "id": 55
+    "id": 54,
+    "soldAt": "2026-11-12"
   },
   {
     "slug": "suzuki-carry-2022",
@@ -2531,60 +2308,59 @@
     "description": "🚚 Suzuki Carry 2022 – Carrozado\n\n📍 Las Condes\n⏱️ 40.000 km\n📄 Papeles al día\n\n✨ Ideal para trabajo y emprendimientos\n\n✅ Carrozado, ideal para transporte de mercadería\n✅ Solo 40.000 km\n✅ Muy económico en consumo\n✅ Compacto y práctico para trabajar\n✅ Ideal para reparto y uso comercial\n✅ Documentación al día, listo para transferir\n\n🧾 Vehículo muy económico, ideal para quienes buscan una excelente herramienta de trabajo con bajo kilometraje.\n\n🚚 ¡Empieza a trabajar con tu propio vehículo!\n\n📲 Escríbeme por mensaje o WhatsApp para coordinar visita o solicitar más fotos.\n\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ\n🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO.",
     "images": [
       {
-        "url": "/autos/Suzuki Carry 2022/01_lateral.png",
+        "url": "/autos/Suzuki Carry 2022/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/Suzuki Carry 2022/file_0000000044b4820eb471ab5e2d51c3f0.png",
+        "url": "/autos/Suzuki Carry 2022/file_0000000044b4820eb471ab5e2d51c3f0.webp",
         "alt": "file_0000000044b4820eb471ab5e2d51c3f0",
         "isPrimary": false
       },
       {
-        "url": "/autos/Suzuki Carry 2022/file_00000000696c820e882eceec1b5ea77d.png",
+        "url": "/autos/Suzuki Carry 2022/file_00000000696c820e882eceec1b5ea77d.webp",
         "alt": "file_00000000696c820e882eceec1b5ea77d",
         "isPrimary": false
       },
       {
-        "url": "/autos/Suzuki Carry 2022/file_0000000097cc820ea5186c028f6ae7b5.png",
+        "url": "/autos/Suzuki Carry 2022/file_0000000097cc820ea5186c028f6ae7b5.webp",
         "alt": "file_0000000097cc820ea5186c028f6ae7b5",
         "isPrimary": false
       },
       {
-        "url": "/autos/Suzuki Carry 2022/file_00000000a6f4820e8f20b79e1d930b30.png",
+        "url": "/autos/Suzuki Carry 2022/file_00000000a6f4820e8f20b79e1d930b30.webp",
         "alt": "file_00000000a6f4820e8f20b79e1d930b30",
         "isPrimary": false
       },
       {
-        "url": "/autos/Suzuki Carry 2022/file_00000000b280820ea755126390a19db8.png",
+        "url": "/autos/Suzuki Carry 2022/file_00000000b280820ea755126390a19db8.webp",
         "alt": "file_00000000b280820ea755126390a19db8",
         "isPrimary": false
       },
       {
-        "url": "/autos/Suzuki Carry 2022/file_00000000bcbc820e97b493452d4eefbc.png",
+        "url": "/autos/Suzuki Carry 2022/file_00000000bcbc820e97b493452d4eefbc.webp",
         "alt": "file_00000000bcbc820e97b493452d4eefbc",
         "isPrimary": false
       },
       {
-        "url": "/autos/Suzuki Carry 2022/file_00000000bf2c820e996ad521c7f68946.png",
+        "url": "/autos/Suzuki Carry 2022/file_00000000bf2c820e996ad521c7f68946.webp",
         "alt": "file_00000000bf2c820e996ad521c7f68946",
         "isPrimary": false
       },
       {
-        "url": "/autos/Suzuki Carry 2022/file_00000000e4ec820ea76246f4d8ecee80.png",
+        "url": "/autos/Suzuki Carry 2022/file_00000000e4ec820ea76246f4d8ecee80.webp",
         "alt": "file_00000000e4ec820ea76246f4d8ecee80",
         "isPrimary": false
       },
       {
-        "url": "/autos/Suzuki Carry 2022/file_00000000fae4820e987ebf41b24cca08.png",
+        "url": "/autos/Suzuki Carry 2022/file_00000000fae4820e987ebf41b24cca08.webp",
         "alt": "file_00000000fae4820e987ebf41b24cca08",
         "isPrimary": false
       }
     ],
-    "image": "/autos/Suzuki Carry 2022/01_lateral.png",
-    "id": 56
+    "image": "/autos/Suzuki Carry 2022/01_lateral.webp",
+    "id": 55
   },
-
   {
     "slug": "peugeot-3008-diesel-2021",
     "brand": "Peugeot",
@@ -2602,57 +2378,197 @@
     "audioSystem": true,
     "images": [
       {
-        "url": "/autos/Peugeot 3008 Diesel 2021/01_lateral.png",
+        "url": "/autos/Peugeot 3008 Diesel 2021/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/Peugeot 3008 Diesel 2021/file_000000000654820ea290546fa2ae45af.png",
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_000000000654820ea290546fa2ae45af.webp",
         "alt": "file_000000000654820ea290546fa2ae45af",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot 3008 Diesel 2021/file_000000000f34820ea7c720a3d5c40a73.png",
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_000000000f34820ea7c720a3d5c40a73.webp",
         "alt": "file_000000000f34820ea7c720a3d5c40a73",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot 3008 Diesel 2021/file_0000000027fc820eb26f565fd72aaeb9.png",
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_0000000027fc820eb26f565fd72aaeb9.webp",
         "alt": "file_0000000027fc820eb26f565fd72aaeb9",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot 3008 Diesel 2021/file_000000002db8820ea548455a4033821b.png",
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_000000002db8820ea548455a4033821b.webp",
         "alt": "file_000000002db8820ea548455a4033821b",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot 3008 Diesel 2021/file_000000009c00820ead97978213c41882.png",
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_000000009c00820ead97978213c41882.webp",
         "alt": "file_000000009c00820ead97978213c41882",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot 3008 Diesel 2021/file_00000000a5ec820eab1b510e50ea5183.png",
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_00000000a5ec820eab1b510e50ea5183.webp",
         "alt": "file_00000000a5ec820eab1b510e50ea5183",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot 3008 Diesel 2021/file_00000000badc820e8edef7d44fe9cca1.png",
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_00000000badc820e8edef7d44fe9cca1.webp",
         "alt": "file_00000000badc820e8edef7d44fe9cca1",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot 3008 Diesel 2021/file_00000000c2c4820eb6211de78c7486c5.png",
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_00000000c2c4820eb6211de78c7486c5.webp",
         "alt": "file_00000000c2c4820eb6211de78c7486c5",
         "isPrimary": false
       },
       {
-        "url": "/autos/Peugeot 3008 Diesel 2021/file_00000000d930820eb0e22f6cce86dc28.png",
+        "url": "/autos/Peugeot 3008 Diesel 2021/file_00000000d930820eb0e22f6cce86dc28.webp",
         "alt": "file_00000000d930820eb0e22f6cce86dc28",
         "isPrimary": false
       }
     ],
-    "image": "/autos/Peugeot 3008 Diesel 2021/01_lateral.png",
+    "image": "/autos/Peugeot 3008 Diesel 2021/01_lateral.webp",
+    "id": 56
+  },
+  {
+    "slug": "ssangyong-actyon-sport-2016",
+    "brand": "SsangYong",
+    "model": "Actyon Sport",
+    "year": 2016,
+    "transmission": "No disponible",
+    "fuel": "Diésel",
+    "kilometers": 237000,
+    "price": 7290000,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ Diésel · ideal para trabajo y uso diario\n✅ 237.000 km · excelente capacidad de carga\n✅ Neumáticos seminuevos · cubre pickup instalado\n✅ Funcionando perfecto · detalles estéticos de uso\n✅ Pérdida asimilada informada con transparencia",
+    "images": [
+      {
+        "url": "/autos/Ssangyong Actyon sport 2016/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Ssangyong Actyon sport 2016/file_000000000354820eb70cd5501cc2a290.webp",
+        "alt": "file_000000000354820eb70cd5501cc2a290",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ssangyong Actyon sport 2016/file_0000000042ac820ea55b0855af6edabf.webp",
+        "alt": "file_0000000042ac820ea55b0855af6edabf",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ssangyong Actyon sport 2016/file_0000000057f0820eba61dff25d5fb4b5.webp",
+        "alt": "file_0000000057f0820eba61dff25d5fb4b5",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ssangyong Actyon sport 2016/file_000000007024820ea72de8c71fbfbe77.webp",
+        "alt": "file_000000007024820ea72de8c71fbfbe77",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ssangyong Actyon sport 2016/file_000000007260820eb3b5216bec6eb201.webp",
+        "alt": "file_000000007260820eb3b5216bec6eb201",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ssangyong Actyon sport 2016/file_000000008d38820ea7fb8a30e479dcfd.webp",
+        "alt": "file_000000008d38820ea7fb8a30e479dcfd",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ssangyong Actyon sport 2016/file_00000000945c820e914861969020b11b.webp",
+        "alt": "file_00000000945c820e914861969020b11b",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ssangyong Actyon sport 2016/file_00000000c780820e849be8743a3fdfd1.webp",
+        "alt": "file_00000000c780820e849be8743a3fdfd1",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Ssangyong Actyon sport 2016/file_00000000e020820e913f1c10c67374cf.webp",
+        "alt": "file_00000000e020820e913f1c10c67374cf",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Ssangyong Actyon sport 2016/01_lateral.webp",
+    "id": 57
+  },
+  {
+    "slug": "nissan-navara-se-2023",
+    "brand": "Nissan",
+    "model": "Navara",
+    "year": 2023,
+    "version": "SE 4x4",
+    "transmission": "Manual",
+    "fuel": "Diésel",
+    "kilometers": 62000,
+    "price": 24990000,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "✅ SE 4x4 diésel · mecánica · tope de línea\n✅ 62.000 km · impecable estado\n✅ Nunca chocada · nunca cargada\n✅ Lona retráctil y cubre pickup\n✅ Ideal para trabajo y uso personal",
+    "images": [
+      {
+        "url": "/autos/Nissan Navara SE 2023/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Nissan Navara SE 2023/file_0000000005c0820ea8e94b7027059499.webp",
+        "alt": "file_0000000005c0820ea8e94b7027059499",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Navara SE 2023/file_000000002df0820ebfd78e4c7ce6dcbe.webp",
+        "alt": "file_000000002df0820ebfd78e4c7ce6dcbe",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Navara SE 2023/file_000000003e50820e97e7211351447381.webp",
+        "alt": "file_000000003e50820e97e7211351447381",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Navara SE 2023/file_0000000065b0820e94f7a5896ba49591.webp",
+        "alt": "file_0000000065b0820e94f7a5896ba49591",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Navara SE 2023/file_000000006ca0820e9f39523225a30a02.webp",
+        "alt": "file_000000006ca0820e9f39523225a30a02",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Navara SE 2023/file_000000007e40820e9af4852d5bb33feb.webp",
+        "alt": "file_000000007e40820e9af4852d5bb33feb",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Navara SE 2023/file_00000000a40c820eac48733bceadf8f0.webp",
+        "alt": "file_00000000a40c820eac48733bceadf8f0",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Navara SE 2023/file_00000000b240820e8d6c022cb2b45a7d.webp",
+        "alt": "file_00000000b240820e8d6c022cb2b45a7d",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Navara SE 2023/file_00000000b5f0820ea6632a1065ad8977.webp",
+        "alt": "file_00000000b5f0820ea6632a1065ad8977",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Nissan Navara SE 2023/file_00000000b7b4820e89e2cf789611fe53.webp",
+        "alt": "file_00000000b7b4820e89e2cf789611fe53",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Nissan Navara SE 2023/01_lateral.webp",
     "id": 58
   },
   {
@@ -2674,92 +2590,92 @@
     "audioSystem": true,
     "images": [
       {
-        "url": "/autos/Porsche Boxter 2013/01_lateral.png",
+        "url": "/autos/Porsche Boxter 2013/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_000000000ac8820e902d1ccd95ac2370.png",
+        "url": "/autos/Porsche Boxter 2013/file_000000000ac8820e902d1ccd95ac2370.webp",
         "alt": "file_000000000ac8820e902d1ccd95ac2370",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_000000002978820e9b978e0c2e46988c.png",
+        "url": "/autos/Porsche Boxter 2013/file_000000002978820e9b978e0c2e46988c.webp",
         "alt": "file_000000002978820e9b978e0c2e46988c",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_000000003cbc820e8e17147fee2884a5.png",
+        "url": "/autos/Porsche Boxter 2013/file_000000003cbc820e8e17147fee2884a5.webp",
         "alt": "file_000000003cbc820e8e17147fee2884a5",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_000000003eec820eac1d77cfd494b7e2.png",
+        "url": "/autos/Porsche Boxter 2013/file_000000003eec820eac1d77cfd494b7e2.webp",
         "alt": "file_000000003eec820eac1d77cfd494b7e2",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_000000004058820eaa493d74767a2c70.png",
+        "url": "/autos/Porsche Boxter 2013/file_000000004058820eaa493d74767a2c70.webp",
         "alt": "file_000000004058820eaa493d74767a2c70",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_000000004d9c820ebec0d2ececb87b2e.png",
+        "url": "/autos/Porsche Boxter 2013/file_000000004d9c820ebec0d2ececb87b2e.webp",
         "alt": "file_000000004d9c820ebec0d2ececb87b2e",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_000000004f7c820e9fc9a1207a68dd38.png",
+        "url": "/autos/Porsche Boxter 2013/file_000000004f7c820e9fc9a1207a68dd38.webp",
         "alt": "file_000000004f7c820e9fc9a1207a68dd38",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_000000005b28820e915ed673dbcd74ca.png",
+        "url": "/autos/Porsche Boxter 2013/file_000000005b28820e915ed673dbcd74ca.webp",
         "alt": "file_000000005b28820e915ed673dbcd74ca",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_000000006440820e8d07c637a3ae71e8.png",
+        "url": "/autos/Porsche Boxter 2013/file_000000006440820e8d07c637a3ae71e8.webp",
         "alt": "file_000000006440820e8d07c637a3ae71e8",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_000000006930820e84e8902af15b892e.png",
+        "url": "/autos/Porsche Boxter 2013/file_000000006930820e84e8902af15b892e.webp",
         "alt": "file_000000006930820e84e8902af15b892e",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_000000009210820eaee3c6358afee7c6.png",
+        "url": "/autos/Porsche Boxter 2013/file_000000009210820eaee3c6358afee7c6.webp",
         "alt": "file_000000009210820eaee3c6358afee7c6",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_000000009240820ea030bc571e0241f8.png",
+        "url": "/autos/Porsche Boxter 2013/file_000000009240820ea030bc571e0241f8.webp",
         "alt": "file_000000009240820ea030bc571e0241f8",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_00000000a6b0820e9bf50d460cd5840a.png",
+        "url": "/autos/Porsche Boxter 2013/file_00000000a6b0820e9bf50d460cd5840a.webp",
         "alt": "file_00000000a6b0820e9bf50d460cd5840a",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_00000000c860820e8a4ff1326397d127.png",
+        "url": "/autos/Porsche Boxter 2013/file_00000000c860820e8a4ff1326397d127.webp",
         "alt": "file_00000000c860820e8a4ff1326397d127",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_00000000c974820ea7b1e71a21a77c1f.png",
+        "url": "/autos/Porsche Boxter 2013/file_00000000c974820ea7b1e71a21a77c1f.webp",
         "alt": "file_00000000c974820ea7b1e71a21a77c1f",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Boxter 2013/file_00000000ea30820eb400223710eb97b7.png",
+        "url": "/autos/Porsche Boxter 2013/file_00000000ea30820eb400223710eb97b7.webp",
         "alt": "file_00000000ea30820eb400223710eb97b7",
         "isPrimary": false
       }
     ],
-    "image": "/autos/Porsche Boxter 2013/01_lateral.png",
+    "image": "/autos/Porsche Boxter 2013/01_lateral.webp",
     "id": 59
   },
   {
@@ -2780,87 +2696,87 @@
     "audioSystem": true,
     "images": [
       {
-        "url": "/autos/Porsche Cayman S 981 2016/01_lateral.png",
+        "url": "/autos/Porsche Cayman S 981 2016/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
       },
       {
-        "url": "/autos/Porsche Cayman S 981 2016/file_000000003e50820e92d505531e5a8161.png",
+        "url": "/autos/Porsche Cayman S 981 2016/file_000000003e50820e92d505531e5a8161.webp",
         "alt": "file_000000003e50820e92d505531e5a8161",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Cayman S 981 2016/file_000000006200820ea9a5cbfde3217df8.png",
+        "url": "/autos/Porsche Cayman S 981 2016/file_000000006200820ea9a5cbfde3217df8.webp",
         "alt": "file_000000006200820ea9a5cbfde3217df8",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Cayman S 981 2016/file_000000007320820e8764f26ce0f0428d.png",
+        "url": "/autos/Porsche Cayman S 981 2016/file_000000007320820e8764f26ce0f0428d.webp",
         "alt": "file_000000007320820e8764f26ce0f0428d",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Cayman S 981 2016/file_000000007c54820e9e599d6b456e5e29.png",
+        "url": "/autos/Porsche Cayman S 981 2016/file_000000007c54820e9e599d6b456e5e29.webp",
         "alt": "file_000000007c54820e9e599d6b456e5e29",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Cayman S 981 2016/file_0000000081ec820ebda8be453c0d51d3.png",
+        "url": "/autos/Porsche Cayman S 981 2016/file_0000000081ec820ebda8be453c0d51d3.webp",
         "alt": "file_0000000081ec820ebda8be453c0d51d3",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Cayman S 981 2016/file_0000000082ec820ebbbab38f32140118.png",
+        "url": "/autos/Porsche Cayman S 981 2016/file_0000000082ec820ebbbab38f32140118.webp",
         "alt": "file_0000000082ec820ebbbab38f32140118",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Cayman S 981 2016/file_00000000ad54820ea77f2085c33e6955.png",
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000ad54820ea77f2085c33e6955.webp",
         "alt": "file_00000000ad54820ea77f2085c33e6955",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Cayman S 981 2016/file_00000000ba90820e9cfa7a2235959524.png",
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000ba90820e9cfa7a2235959524.webp",
         "alt": "file_00000000ba90820e9cfa7a2235959524",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Cayman S 981 2016/file_00000000bd50820e8e15a4f45882493f.png",
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000bd50820e8e15a4f45882493f.webp",
         "alt": "file_00000000bd50820e8e15a4f45882493f",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Cayman S 981 2016/file_00000000c378820eb2fcc312df9957d5.png",
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000c378820eb2fcc312df9957d5.webp",
         "alt": "file_00000000c378820eb2fcc312df9957d5",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Cayman S 981 2016/file_00000000cdd4820ebd84f6018b3dcad0.png",
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000cdd4820ebd84f6018b3dcad0.webp",
         "alt": "file_00000000cdd4820ebd84f6018b3dcad0",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Cayman S 981 2016/file_00000000cff8820ea71439ebacd2cd72.png",
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000cff8820ea71439ebacd2cd72.webp",
         "alt": "file_00000000cff8820ea71439ebacd2cd72",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Cayman S 981 2016/file_00000000e220820e91aac6adb0f9b544.png",
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000e220820e91aac6adb0f9b544.webp",
         "alt": "file_00000000e220820e91aac6adb0f9b544",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Cayman S 981 2016/file_00000000fd60820ea4a4230d586b4ee1.png",
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000fd60820ea4a4230d586b4ee1.webp",
         "alt": "file_00000000fd60820ea4a4230d586b4ee1",
         "isPrimary": false
       },
       {
-        "url": "/autos/Porsche Cayman S 981 2016/file_00000000fe4c820e9f31a565d2d1ef87.png",
+        "url": "/autos/Porsche Cayman S 981 2016/file_00000000fe4c820e9f31a565d2d1ef87.webp",
         "alt": "file_00000000fe4c820e9f31a565d2d1ef87",
         "isPrimary": false
       }
     ],
-    "image": "/autos/Porsche Cayman S 981 2016/01_lateral.png",
+    "image": "/autos/Porsche Cayman S 981 2016/01_lateral.webp",
     "id": 60
   }
 ]

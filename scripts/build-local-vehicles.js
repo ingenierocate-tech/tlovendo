@@ -1161,7 +1161,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Techo panorámico · cuero · climatizador bi-zona
 ✅ Pantalla multimedia + tablero digital · cámara y sensores
 ✅ Gran maletero · mantenciones al día`, abs: true, airbags: 'Múltiples', airConditioning: true, audioSystem: true },
-      { slug: 'bmw-320d-m-package-2018', brand: 'BMW', model: '320d', year: 2018, version: 'M Sport', transmission: 'Automática', fuel: 'Diésel', kilometers: 146000, price: 18350000, state: 'En venta', region: 'Las Condes', description: `✅ 320d M Sport 2.0 TwinPower Turbo diésel
+      { slug: 'bmw-320d-m-package-2018', brand: 'BMW', model: '320d', year: 2018, version: 'M Sport', transmission: 'Automática', fuel: 'Diésel', kilometers: 146000, price: 18350000, state: 'Vendido', region: 'Las Condes', description: `✅ 320d M Sport 2.0 TwinPower Turbo diésel
 ✅ Automática deportiva de 8 velocidades
 ✅ Paquete M original · fibra de carbono · sunroof
 ✅ Cuero eléctrico · iDrive con CarPlay · cámara + sensores
