@@ -2294,6 +2294,191 @@
     "soldAt": "2026-11-12"
   },
   {
+    "slug": "audi-a6-2018-luxury",
+    "brand": "Audi",
+    "model": "A6",
+    "year": 2018,
+    "version": "Luxury",
+    "transmission": "Automática",
+    "fuel": "Bencina",
+    "kilometers": 123000,
+    "price": 17790000,
+    "owners": 1,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "🚘 Audi A6 2018 – 1.8 TFSI Luxury Automático\n\n📍 Las Condes\n⏱️ 123.000 km\n⛽ Bencinero\n👤 Único dueño\n🔑 2 copias de llaves\n🔧 Todas sus mantenciones realizadas\n\n✨ Versión Luxury – Premium\n✨ Excelente equipamiento y confort\n\n✅ Motor 1.8 Turbo TFSI – 190 HP\n✅ Transmisión automática S tronic\n✅ Asientos de cuero eléctricos y calefaccionados\n✅ Sunroof eléctrico\n✅ Cámara de retroceso\n✅ Sensores de estacionamiento\n✅ Pantalla multimedia Audi MMI\n✅ Sistema de audio Audi\n✅ Climatizador automático\n✅ Volante multifunción con levas de cambio\n✅ Control crucero\n✅ Luces Xenón y focos traseros LED\n✅ Llantas de aleación\n✅ Espejos eléctricos abatibles\n\n🧾 Vehículo único dueño, con todas sus mantenciones realizadas y dos copias de llaves. Un sedán premium que destaca por su elegancia, comodidad, tecnología y excelente experiencia de conducción.\n\n🚘 Audi A6: lujo, potencia y sofisticación alemana.\n\n📲 Escríbeme por mensaje o WhatsApp para coordinar visita o solicitar más fotos.\n\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ\n🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO",
+    "airbags": "Múltiples",
+    "airConditioning": true,
+    "cruiseControl": true,
+    "audioSystem": true,
+    "electricMirrors": true,
+    "rearCamera": true,
+    "parkingSensors": true,
+    "alloyWheels": true,
+    "images": [
+      {
+        "url": "/autos/Audi A6 2018/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Audi A6 2018/file_000000000370820eab183a5479fbae96.webp",
+        "alt": "file_000000000370820eab183a5479fbae96",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Audi A6 2018/file_000000001b00820eba89ba783139a8c2.webp",
+        "alt": "file_000000001b00820eba89ba783139a8c2",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Audi A6 2018/file_000000001bc0820e9069141cb08c4d10.webp",
+        "alt": "file_000000001bc0820e9069141cb08c4d10",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Audi A6 2018/file_000000004820820eaedc050204f4dbf1.webp",
+        "alt": "file_000000004820820eaedc050204f4dbf1",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Audi A6 2018/file_000000004838820eb40b1da666cf7100.webp",
+        "alt": "file_000000004838820eb40b1da666cf7100",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Audi A6 2018/file_0000000051ac820e984164be48c9ab9e.webp",
+        "alt": "file_0000000051ac820e984164be48c9ab9e",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Audi A6 2018/file_0000000060f8820eaca3c0f061498f1b.webp",
+        "alt": "file_0000000060f8820eaca3c0f061498f1b",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Audi A6 2018/file_0000000071f8820ea7c04a9f7e7ff9ed.webp",
+        "alt": "file_0000000071f8820ea7c04a9f7e7ff9ed",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Audi A6 2018/file_0000000083a4820e8f50944335aa0612.webp",
+        "alt": "file_0000000083a4820e8f50944335aa0612",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Audi A6 2018/file_000000008d64820e87e901e50317a07f.webp",
+        "alt": "file_000000008d64820e87e901e50317a07f",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Audi A6 2018/file_000000009638820ea01e40f61c9fe660.webp",
+        "alt": "file_000000009638820ea01e40f61c9fe660",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Audi A6 2018/file_000000009e14820ea71d6388227537eb.webp",
+        "alt": "file_000000009e14820ea71d6388227537eb",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Audi A6 2018/file_00000000bfac820ebe7da5dba0aa2c3a.webp",
+        "alt": "file_00000000bfac820ebe7da5dba0aa2c3a",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Audi A6 2018/01_lateral.webp",
+    "id": 55
+  },
+  {
+    "slug": "suzuki-swift-glx-2022",
+    "brand": "Suzuki",
+    "model": "Swift",
+    "year": 2022,
+    "version": "GLX",
+    "transmission": "Manual",
+    "fuel": "Bencina",
+    "kilometers": 77000,
+    "price": 10550000,
+    "state": "En venta",
+    "region": "Las Condes",
+    "description": "🚘 Suzuki Swift GLX –2022- Bencinero Mecánico\n\n📍 Las Condes\n⏱️ 77.000 km\n⛽ Bencinero\n🇯🇵 Fabricación japonesa\n\n✨ Versión GLX – Muy equipada\n✨ Excelente estado de conservación\n\n✅ Motor bencinero\n✅ Transmisión mecánica\n✅ Fabricación japonesa\n✅ Versión GLX\n✅ Diseño deportivo y moderno\n✅ Excelente rendimiento de combustible\n✅ Cómodo y práctico para la ciudad\n✅ Bajo costo de mantenimiento\n\n🧾 Vehículo muy bien cuidado, de fabricación japonesa y con 77.000 km. Una excelente alternativa para quienes buscan economía, calidad y confiabilidad.\n\n🚗 Suzuki Swift, reconocido por su eficiencia, agilidad y excelente desempeño en ciudad.\n\n📲 Escríbeme por mensaje o WhatsApp para coordinar visita o solicitar más fotos.\n\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ\n🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO.",
+    "images": [
+      {
+        "url": "/autos/Suzuki Swift 2022/01_lateral.webp",
+        "alt": "lateral",
+        "isPrimary": true
+      },
+      {
+        "url": "/autos/Suzuki Swift 2022/file_000000001730820e82c6df1caa469bd1.webp",
+        "alt": "file_000000001730820e82c6df1caa469bd1",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Swift 2022/file_000000001ff4820ebe11820e75eada8b.webp",
+        "alt": "file_000000001ff4820ebe11820e75eada8b",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Swift 2022/file_000000002444820ebbc84d45449e54bb.webp",
+        "alt": "file_000000002444820ebbc84d45449e54bb",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Swift 2022/file_000000002f28820e8c2ca99eda8aa968.webp",
+        "alt": "file_000000002f28820e8c2ca99eda8aa968",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Swift 2022/file_000000003494820e9b7f469715f3e16f.webp",
+        "alt": "file_000000003494820e9b7f469715f3e16f",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Swift 2022/file_000000003a30820eb4d2923076b3f015.webp",
+        "alt": "file_000000003a30820eb4d2923076b3f015",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Swift 2022/file_00000000432c820e8acb9a32c89bcbe4.webp",
+        "alt": "file_00000000432c820e8acb9a32c89bcbe4",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Swift 2022/file_0000000054d0820e90e59d5d10934469.webp",
+        "alt": "file_0000000054d0820e90e59d5d10934469",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Swift 2022/file_000000007524820e81da2a9fe800a00a.webp",
+        "alt": "file_000000007524820e81da2a9fe800a00a",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Swift 2022/file_000000009b14820e82bc54968f21aee2.webp",
+        "alt": "file_000000009b14820e82bc54968f21aee2",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Swift 2022/file_00000000a11c820eb93ade9f8b49435c.webp",
+        "alt": "file_00000000a11c820eb93ade9f8b49435c",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Swift 2022/file_00000000aa80820e88d27cc88b7e44f4.webp",
+        "alt": "file_00000000aa80820e88d27cc88b7e44f4",
+        "isPrimary": false
+      },
+      {
+        "url": "/autos/Suzuki Swift 2022/file_00000000bda0820e968ee62273990281.webp",
+        "alt": "file_00000000bda0820e968ee62273990281",
+        "isPrimary": false
+      }
+    ],
+    "image": "/autos/Suzuki Swift 2022/01_lateral.webp",
+    "id": 56
+  },
+  {
     "slug": "suzuki-carry-2022",
     "brand": "Suzuki",
     "model": "Carry",
@@ -2359,7 +2544,7 @@
       }
     ],
     "image": "/autos/Suzuki Carry 2022/01_lateral.webp",
-    "id": 55
+    "id": 57
   },
   {
     "slug": "peugeot-3008-diesel-2021",
@@ -2429,7 +2614,7 @@
       }
     ],
     "image": "/autos/Peugeot 3008 Diesel 2021/01_lateral.webp",
-    "id": 56
+    "id": 58
   },
   {
     "slug": "ssangyong-actyon-sport-2016",
@@ -2496,7 +2681,7 @@
       }
     ],
     "image": "/autos/Ssangyong Actyon sport 2016/01_lateral.webp",
-    "id": 57
+    "id": 59
   },
   {
     "slug": "nissan-navara-se-2023",
@@ -2569,7 +2754,7 @@
       }
     ],
     "image": "/autos/Nissan Navara SE 2023/01_lateral.webp",
-    "id": 58
+    "id": 60
   },
   {
     "slug": "porsche-boxster-2013",
@@ -2676,7 +2861,7 @@
       }
     ],
     "image": "/autos/Porsche Boxter 2013/01_lateral.webp",
-    "id": 59
+    "id": 61
   },
   {
     "slug": "porsche-cayman-s-981-2016",
@@ -2777,6 +2962,6 @@
       }
     ],
     "image": "/autos/Porsche Cayman S 981 2016/01_lateral.webp",
-    "id": 60
+    "id": 62
   }
 ]

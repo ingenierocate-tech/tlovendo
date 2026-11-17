@@ -322,6 +322,8 @@ const slugToFolderMapping = {
   'nissan-navara-se-2023': 'Nissan Navara SE 2023',
   'porsche-boxster-2013': 'Porsche Boxter 2013',
   'porsche-cayman-s-981-2016': 'Porsche Cayman S 981 2016',
+  'audi-a6-2018-luxury': 'Audi A6 2018',
+  'suzuki-swift-glx-2022': 'Suzuki Swift 2022',
 };
 
 // Override manual de precios y estados para asegurar consistencia con la visual del cliente
@@ -536,6 +538,8 @@ const folderToSlugMapping = {
   'Nissan Navara SE 2023': 'nissan-navara-se-2023',
   'Porsche Boxter 2013': 'porsche-boxster-2013',
   'Porsche Cayman S 981 2016': 'porsche-cayman-s-981-2016',
+  'Audi A6 2018': 'audi-a6-2018-luxury',
+  'Suzuki Swift 2022': 'suzuki-swift-glx-2022',
 };
 
 async function getVehicleImages(slug) {
@@ -1280,6 +1284,68 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 
 💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ CON 50% DE PIE
 🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO`, abs: true, airbags: 'Doble airbag', airConditioning: true, electricWindows: true, electricMirrors: true, bluetooth: true, usb: true, audioSystem: true },
+      { slug: 'audi-a6-2018-luxury', brand: 'Audi', model: 'A6', year: 2018, version: 'Luxury', transmission: 'Automática', fuel: 'Bencina', kilometers: 123000, price: 17790000, owners: 1, state: 'En venta', region: 'Las Condes', description: `🚘 Audi A6 2018 – 1.8 TFSI Luxury Automático
+
+📍 Las Condes
+⏱️ 123.000 km
+⛽ Bencinero
+👤 Único dueño
+🔑 2 copias de llaves
+🔧 Todas sus mantenciones realizadas
+
+✨ Versión Luxury – Premium
+✨ Excelente equipamiento y confort
+
+✅ Motor 1.8 Turbo TFSI – 190 HP
+✅ Transmisión automática S tronic
+✅ Asientos de cuero eléctricos y calefaccionados
+✅ Sunroof eléctrico
+✅ Cámara de retroceso
+✅ Sensores de estacionamiento
+✅ Pantalla multimedia Audi MMI
+✅ Sistema de audio Audi
+✅ Climatizador automático
+✅ Volante multifunción con levas de cambio
+✅ Control crucero
+✅ Luces Xenón y focos traseros LED
+✅ Llantas de aleación
+✅ Espejos eléctricos abatibles
+
+🧾 Vehículo único dueño, con todas sus mantenciones realizadas y dos copias de llaves. Un sedán premium que destaca por su elegancia, comodidad, tecnología y excelente experiencia de conducción.
+
+🚘 Audi A6: lujo, potencia y sofisticación alemana.
+
+📲 Escríbeme por mensaje o WhatsApp para coordinar visita o solicitar más fotos.
+
+💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ
+🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO`, airbags: 'Múltiples', airConditioning: true, cruiseControl: true, audioSystem: true, electricMirrors: true, rearCamera: true, parkingSensors: true, alloyWheels: true },
+      { slug: 'suzuki-swift-glx-2022', brand: 'Suzuki', model: 'Swift', year: 2022, version: 'GLX', transmission: 'Manual', fuel: 'Bencina', kilometers: 77000, price: 10550000, state: 'En venta', region: 'Las Condes', description: `🚘 Suzuki Swift GLX –2022- Bencinero Mecánico
+
+📍 Las Condes
+⏱️ 77.000 km
+⛽ Bencinero
+🇯🇵 Fabricación japonesa
+
+✨ Versión GLX – Muy equipada
+✨ Excelente estado de conservación
+
+✅ Motor bencinero
+✅ Transmisión mecánica
+✅ Fabricación japonesa
+✅ Versión GLX
+✅ Diseño deportivo y moderno
+✅ Excelente rendimiento de combustible
+✅ Cómodo y práctico para la ciudad
+✅ Bajo costo de mantenimiento
+
+🧾 Vehículo muy bien cuidado, de fabricación japonesa y con 77.000 km. Una excelente alternativa para quienes buscan economía, calidad y confiabilidad.
+
+🚗 Suzuki Swift, reconocido por su eficiencia, agilidad y excelente desempeño en ciudad.
+
+📲 Escríbeme por mensaje o WhatsApp para coordinar visita o solicitar más fotos.
+
+💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ
+🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO.` },
       { slug: 'suzuki-carry-2022', brand: 'Suzuki', model: 'Carry', year: 2022, version: 'Carrozado', transmission: 'Manual', fuel: 'Bencina', kilometers: 40000, price: 8790000, state: 'En venta', region: 'Las Condes', description: `🚚 Suzuki Carry 2022 – Carrozado
 
 📍 Las Condes
