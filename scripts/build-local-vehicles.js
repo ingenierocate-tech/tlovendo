@@ -339,7 +339,6 @@ const manualOverrides = [
   { keywords: ['kia', 'rio', '2018'], state: 'Vendido' },
   { keywords: ['citroen', 'picasso', '2011'], state: 'Vendido' },
   { keywords: ['bmw', '320i', '2024'], state: 'Vendido' },
-  { keywords: ['bmw', '320d', '2018', 'sport'], price: 18350000, state: 'Vendido' },
   { keywords: ['porsche', 'panamera', '2017'], state: 'Vendido' },
   { keywords: ['chevrolet', 'silverado', '2024'], price: 37790000, state: 'Vendido' },
   { keywords: ['nissan', 'sentra', '2021'], price: 13750000, state: 'Vendido' },
@@ -950,23 +949,6 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
         parkingSensors: true, rearCamera: true, ledLights: true, alloyWheels: true
       },
       {
-        slug: 'bmw-320d-2018-sport',
-        brand: 'BMW', model: '320d', year: 2018, version: 'Sport',
-        transmission: 'Automática', fuel: 'Diésel', kilometers: 142000,
-        price: 18990000, owners: 1, state: 'En venta', region: 'Santiago',
-        description: `🔧 Diésel · Automático
-📍 142.000 km · 2 llaves
-✔️ Todas las mantenciones hechas rigurosamente.
-🔥 Motor diésel eficiente y potente: equilibrio entre potencia y economía típico de esta versión del Serie 3.
-🔥 Prestaciones de sedán premium: ágil y sólido en autopista y ciudad.
-🔥 Buen espacio interior y maletero: práctico para el día a día y viajes.
-🔥 Estilo y presencia BMW: diseño deportivo, interior cuidado y conducción dinámica.
-📄 Documentación al día y lista para transferir
-🔁 Se recibe vehículo menor como parte de pago
-💳 Financiamiento disponible`,
-        abs: true
-      },
-      {
         slug: 'jeep-compass-2011',
         brand: 'Jeep', model: 'Compass', year: 2011,
         transmission: 'Automática', fuel: 'Bencina', kilometers: 166000,
@@ -1430,7 +1412,7 @@ Consulte por financiamiento automotriz, recibimos vehículo de menor valor.`,
 ✅ Nunca chocada · nunca cargada
 ✅ Lona retráctil y cubre pickup
 ✅ Ideal para trabajo y uso personal` },
-      { slug: 'porsche-boxster-2013', brand: 'Porsche', model: 'Boxster', year: 2013, version: 'Cabriolet', transmission: 'Automática', fuel: 'Bencina', kilometers: 65000, price: 37890000, owners: 2, state: 'En venta', region: 'Las Condes', description: `🚗 Porsche Boxster 2013 – Deportivo Cabriolet
+      { slug: 'porsche-boxster-2013', brand: 'Porsche', model: 'Boxster', year: 2013, version: 'Cabriolet', transmission: 'Automática', fuel: 'Bencina', kilometers: 65000, price: 37890000, owners: 2, state: 'Vendido', region: 'Las Condes', description: `🚗 Porsche Boxster 2013 – Deportivo Cabriolet
 
 📍 Las Condes
 ⏱️ 65.000 km

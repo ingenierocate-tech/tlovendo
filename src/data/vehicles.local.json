@@ -1091,33 +1091,6 @@
     "soldAt": "2026-03-26"
   },
   {
-    "slug": "bmw-320d-2018-sport",
-    "brand": "BMW",
-    "model": "320d",
-    "year": 2018,
-    "version": "Sport",
-    "transmission": "Automática",
-    "fuel": "Diésel",
-    "kilometers": 142000,
-    "price": 18350000,
-    "owners": 1,
-    "state": "Vendido",
-    "region": "Santiago",
-    "description": "🔧 Diésel · Automático\n📍 142.000 km · 2 llaves\n✔️ Todas las mantenciones hechas rigurosamente.\n🔥 Motor diésel eficiente y potente: equilibrio entre potencia y economía típico de esta versión del Serie 3.\n🔥 Prestaciones de sedán premium: ágil y sólido en autopista y ciudad.\n🔥 Buen espacio interior y maletero: práctico para el día a día y viajes.\n🔥 Estilo y presencia BMW: diseño deportivo, interior cuidado y conducción dinámica.\n📄 Documentación al día y lista para transferir\n🔁 Se recibe vehículo menor como parte de pago\n💳 Financiamiento disponible",
-    "abs": true,
-    "images": [
-      {
-        "url": "/autos/Bmw_320iM_sport_2018/01_lateral.webp",
-        "alt": "lateral",
-        "isPrimary": true
-      }
-    ],
-    "image": "/autos/Bmw_320iM_sport_2018/01_lateral.webp",
-    "keep": true,
-    "id": 26,
-    "soldAt": "2026-11-12"
-  },
-  {
     "slug": "jeep-compass-2011",
     "brand": "Jeep",
     "model": "Compass",
@@ -1142,7 +1115,7 @@
     ],
     "image": "/autos/Jeep-Compass-2011/01_lateral.webp",
     "keep": true,
-    "id": 27,
+    "id": 26,
     "soldAt": "2026-03-26"
   },
   {
@@ -1170,7 +1143,7 @@
     ],
     "image": "/autos/Marcedes Benz-A200-sedan/01_lateral.webp",
     "keep": true,
-    "id": 28,
+    "id": 27,
     "soldAt": "2026-04-02"
   },
   {
@@ -1200,7 +1173,7 @@
     ],
     "image": "/autos/Fiat-Uno-2020/01_lateral.webp",
     "keep": true,
-    "id": 29,
+    "id": 28,
     "soldAt": "2026-05-11"
   },
   {
@@ -1225,7 +1198,7 @@
     ],
     "image": "/autos/Toyora_Raize_2025/01_lateral.webp",
     "keep": true,
-    "id": 30,
+    "id": 29,
     "soldAt": "2026-06-15"
   },
   {
@@ -1319,7 +1292,7 @@
       }
     ],
     "image": "/autos/Hyundai_Porter_2023/01_lateral.webp",
-    "id": 31
+    "id": 30
   },
   {
     "slug": "toyota-land-cruiser-2010",
@@ -1343,7 +1316,7 @@
     ],
     "image": "/autos/Toyota_ Landcruiser_2010/01_lateral.webp",
     "keep": true,
-    "id": 32,
+    "id": 31,
     "soldAt": "2026-06-15"
   },
   {
@@ -1369,7 +1342,7 @@
     ],
     "image": "/autos/Mitsubishi_L200Katana_2013/01_lateral.webp",
     "keep": true,
-    "id": 33,
+    "id": 32,
     "soldAt": "2026-06-15"
   },
   {
@@ -1395,7 +1368,7 @@
     ],
     "image": "/autos/Chevrolet_ Silverado_2024/01_lateral.webp",
     "keep": true,
-    "id": 34,
+    "id": 33,
     "soldAt": "2026-08-14"
   },
   {
@@ -1420,7 +1393,7 @@
     ],
     "image": "/autos/Suzuki alto 800 2018/01_lateral.webp",
     "keep": true,
-    "id": 35,
+    "id": 34,
     "soldAt": "2026-06-15"
   },
   {
@@ -1505,7 +1478,7 @@
       }
     ],
     "image": "/autos/Ford Explorer Límites 2018/01_lateral.webp",
-    "id": 36
+    "id": 35
   },
   {
     "slug": "chery-iq-2014",
@@ -1529,7 +1502,7 @@
     ],
     "image": "/autos/Chery IQ 2014/01_lateral.webp",
     "keep": true,
-    "id": 37,
+    "id": 36,
     "soldAt": "2026-06-26"
   },
   {
@@ -1554,7 +1527,7 @@
       }
     ],
     "image": "/autos/Chevrolet Tracker 2018/01_lateral.webp",
-    "id": 38,
+    "id": 37,
     "soldAt": "2026-11-12"
   },
   {
@@ -1583,7 +1556,7 @@
       }
     ],
     "image": "/autos/Chevrolet Prisma LTZ 2020/01_lateral.webp",
-    "id": 39,
+    "id": 38,
     "soldAt": "2026-09-30"
   },
   {
@@ -1613,7 +1586,7 @@
       }
     ],
     "image": "/autos/Toyota Rav4 2018/01_lateral.webp",
-    "id": 40,
+    "id": 39,
     "soldAt": "2026-11-12"
   },
   {
@@ -1685,7 +1658,7 @@
       }
     ],
     "image": "/autos/Citroen C4 Picasso 2017/01_lateral.webp",
-    "id": 41
+    "id": 40
   },
   {
     "slug": "bmw-320d-m-package-2018",
@@ -1711,7 +1684,7 @@
       }
     ],
     "image": "/autos/BMW 320D M Sport 2018/01_lateral.webp",
-    "id": 42,
+    "id": 41,
     "soldAt": "2026-11-12"
   },
   {
@@ -1741,7 +1714,7 @@
       }
     ],
     "image": "/autos/Mitsubishi Montero Sport 2023/01_lateral.webp",
-    "id": 43,
+    "id": 42,
     "soldAt": "2026-09-07"
   },
   {
@@ -1767,7 +1740,7 @@
       }
     ],
     "image": "/autos/Nissan March 2016/01_lateral.webp",
-    "id": 44,
+    "id": 43,
     "soldAt": "2026-09-30"
   },
   {
@@ -1839,7 +1812,7 @@
       }
     ],
     "image": "/autos/Ford_Titanium 2019/01_lateral.webp",
-    "id": 45
+    "id": 44
   },
   {
     "slug": "nissan-x-trail-2016",
@@ -1865,7 +1838,7 @@
       }
     ],
     "image": "/autos/Nissan X-Trail AT 2016/01_lateral.webp",
-    "id": 46,
+    "id": 45,
     "soldAt": "2026-11-12"
   },
   {
@@ -1896,7 +1869,7 @@
       }
     ],
     "image": "/autos/Mazda 2 GT 2015/01_lateral.webp",
-    "id": 47,
+    "id": 46,
     "soldAt": "2026-07-24"
   },
   {
@@ -1925,7 +1898,7 @@
       }
     ],
     "image": "/autos/Kia Seltos 2023/01_lateral.webp",
-    "id": 48,
+    "id": 47,
     "soldAt": "2026-08-14"
   },
   {
@@ -2000,7 +1973,7 @@
       }
     ],
     "image": "/autos/Chevrolet Sail 2024/01_lateral.webp",
-    "id": 49
+    "id": 48
   },
   {
     "slug": "ford-fiesta-sedan-2017",
@@ -2030,7 +2003,7 @@
       }
     ],
     "image": "/autos/Ford Fiesta 2017/01_lateral.webp",
-    "id": 50,
+    "id": 49,
     "soldAt": "2026-07-23"
   },
   {
@@ -2115,7 +2088,7 @@
       }
     ],
     "image": "/autos/Ds7 2021/01_lateral.webp",
-    "id": 51
+    "id": 50
   },
   {
     "slug": "suzuki-grand-nomade-glx-2014",
@@ -2187,7 +2160,7 @@
       }
     ],
     "image": "/autos/Suzuki GN 2014/01_lateral.webp",
-    "id": 52
+    "id": 51
   },
   {
     "slug": "chevrolet-colorado-ltz-2021",
@@ -2259,7 +2232,7 @@
       }
     ],
     "image": "/autos/Chevrolet LTZ 2021/01_lateral.webp",
-    "id": 53
+    "id": 52
   },
   {
     "slug": "volkswagen-gol-2016",
@@ -2290,7 +2263,7 @@
       }
     ],
     "image": "/autos/Volkswagen Gol 2016/01_lateral.webp",
-    "id": 54,
+    "id": 53,
     "soldAt": "2026-11-12"
   },
   {
@@ -2388,7 +2361,7 @@
       }
     ],
     "image": "/autos/Audi A6 2018/01_lateral.webp",
-    "id": 55
+    "id": 54
   },
   {
     "slug": "suzuki-swift-glx-2022",
@@ -2476,7 +2449,7 @@
       }
     ],
     "image": "/autos/Suzuki Swift 2022/01_lateral.webp",
-    "id": 56
+    "id": 55
   },
   {
     "slug": "suzuki-carry-2022",
@@ -2544,7 +2517,7 @@
       }
     ],
     "image": "/autos/Suzuki Carry 2022/01_lateral.webp",
-    "id": 57
+    "id": 56
   },
   {
     "slug": "peugeot-3008-diesel-2021",
@@ -2614,7 +2587,7 @@
       }
     ],
     "image": "/autos/Peugeot 3008 Diesel 2021/01_lateral.webp",
-    "id": 58
+    "id": 57
   },
   {
     "slug": "ssangyong-actyon-sport-2016",
@@ -2681,7 +2654,7 @@
       }
     ],
     "image": "/autos/Ssangyong Actyon sport 2016/01_lateral.webp",
-    "id": 59
+    "id": 58
   },
   {
     "slug": "nissan-navara-se-2023",
@@ -2754,7 +2727,7 @@
       }
     ],
     "image": "/autos/Nissan Navara SE 2023/01_lateral.webp",
-    "id": 60
+    "id": 59
   },
   {
     "slug": "porsche-boxster-2013",
@@ -2767,7 +2740,7 @@
     "kilometers": 65000,
     "price": 37890000,
     "owners": 2,
-    "state": "En venta",
+    "state": "Vendido",
     "region": "Las Condes",
     "description": "🚗 Porsche Boxster 2013 – Deportivo Cabriolet\n\n📍 Las Condes\n⏱️ 65.000 km\n👤 Segundo dueño\n\n✨ DEPORTIVO EN ESTADO IMPECABLE\n\n✅ Como nuevo, completamente impecable\n✅ Motor bóxer de 6 cilindros\n✅ Deportivo descapotable biplaza\n✅ Techo de lona eléctrico\n✅ Todas las mantenciones al día\n✅ Solo 63.000 km\n✅ Diseño deportivo y elegante\n✅ Excelente estado de conservación\n\n🧾 Una verdadera joya, completamente impecable y muy bien cuidado. Con solo 63.000 km y todas sus mantenciones al día, es una oportunidad excepcional para disfrutar de un auténtico deportivo Porsche.\n\nPorsche Boxster: elegancia, deportividad y emoción al volante. Un auto que destaca por su diseño, exclusividad y experiencia de conducción.\n\n📲 Escríbeme por mensaje o WhatsApp para coordinar visita o solicitar más fotos.\n\n💰 CONSULTE POR FINANCIAMIENTO AUTOMOTRIZ\n\n🚗 RECIBO VEHÍCULO DE MENOR VALOR EN PARTE DE PAGO",
     "airConditioning": true,
@@ -2778,90 +2751,11 @@
         "url": "/autos/Porsche Boxter 2013/01_lateral.webp",
         "alt": "lateral",
         "isPrimary": true
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_000000000ac8820e902d1ccd95ac2370.webp",
-        "alt": "file_000000000ac8820e902d1ccd95ac2370",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_000000002978820e9b978e0c2e46988c.webp",
-        "alt": "file_000000002978820e9b978e0c2e46988c",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_000000003cbc820e8e17147fee2884a5.webp",
-        "alt": "file_000000003cbc820e8e17147fee2884a5",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_000000003eec820eac1d77cfd494b7e2.webp",
-        "alt": "file_000000003eec820eac1d77cfd494b7e2",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_000000004058820eaa493d74767a2c70.webp",
-        "alt": "file_000000004058820eaa493d74767a2c70",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_000000004d9c820ebec0d2ececb87b2e.webp",
-        "alt": "file_000000004d9c820ebec0d2ececb87b2e",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_000000004f7c820e9fc9a1207a68dd38.webp",
-        "alt": "file_000000004f7c820e9fc9a1207a68dd38",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_000000005b28820e915ed673dbcd74ca.webp",
-        "alt": "file_000000005b28820e915ed673dbcd74ca",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_000000006440820e8d07c637a3ae71e8.webp",
-        "alt": "file_000000006440820e8d07c637a3ae71e8",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_000000006930820e84e8902af15b892e.webp",
-        "alt": "file_000000006930820e84e8902af15b892e",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_000000009210820eaee3c6358afee7c6.webp",
-        "alt": "file_000000009210820eaee3c6358afee7c6",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_000000009240820ea030bc571e0241f8.webp",
-        "alt": "file_000000009240820ea030bc571e0241f8",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_00000000a6b0820e9bf50d460cd5840a.webp",
-        "alt": "file_00000000a6b0820e9bf50d460cd5840a",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_00000000c860820e8a4ff1326397d127.webp",
-        "alt": "file_00000000c860820e8a4ff1326397d127",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_00000000c974820ea7b1e71a21a77c1f.webp",
-        "alt": "file_00000000c974820ea7b1e71a21a77c1f",
-        "isPrimary": false
-      },
-      {
-        "url": "/autos/Porsche Boxter 2013/file_00000000ea30820eb400223710eb97b7.webp",
-        "alt": "file_00000000ea30820eb400223710eb97b7",
-        "isPrimary": false
       }
     ],
     "image": "/autos/Porsche Boxter 2013/01_lateral.webp",
-    "id": 61
+    "id": 60,
+    "soldAt": "2026-11-17"
   },
   {
     "slug": "porsche-cayman-s-981-2016",
@@ -2962,6 +2856,6 @@
       }
     ],
     "image": "/autos/Porsche Cayman S 981 2016/01_lateral.webp",
-    "id": 62
+    "id": 61
   }
 ]
